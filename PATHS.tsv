@@ -3,6 +3,8 @@ eval/armbench/cmp_q8k.py	out/armbench/cmp_q8k.py
 eval/armbench/run_armbench.sh	out/armbench/run_armbench.sh
 eval/armbench/summarize.py	out/armbench/summarize.py
 eval/qwen3_toolhead/run_trackA.sh	out/qwen3_toolhead/run_trackA.sh
+eval/aconf/prep_and_run.sh	out/replace_audit/aconf/prep_and_run.sh
+eval/aconf/score.py	out/replace_audit/aconf/score.py
 eval/arm/run_arm_gemma.sh	out/replace_audit/arm/run_arm_gemma.sh
 eval/cap3/eval_cap3.py	out/replace_audit/cap3/eval_cap3.py
 datagen/cap3/gen.py	out/replace_audit/cap3/gen.py
@@ -28,6 +30,7 @@ eval/r4A/diag_norule.py	out/replace_audit/r4A/diag_norule.py
 train/r4A/dump_folds.py	out/replace_audit/r4A/dump_folds.py
 train/r4A/dump_hard.sh	out/replace_audit/r4A/dump_hard.sh
 train/r4A/dump_probs.py	out/replace_audit/r4A/dump_probs.py
+eval/r4A/eval_seeds.py	out/replace_audit/r4A/eval_seeds.py
 export/r4A/export7.py	out/replace_audit/r4A/export7.py
 export/r4A/export_anc.py	out/replace_audit/r4A/export_anc.py
 export/r4A/export_cap.py	out/replace_audit/r4A/export_cap.py
@@ -43,17 +46,22 @@ train/r4A/levers_a.py	out/replace_audit/r4A/levers_a.py
 eval/r4A/levers_eval.py	out/replace_audit/r4A/levers_eval.py
 eval/r4A/levers_eval2.py	out/replace_audit/r4A/levers_eval2.py
 eval/r4A/levers_eval7.py	out/replace_audit/r4A/levers_eval7.py
+eval/r4A/miss_analysis.py	out/replace_audit/r4A/miss_analysis.py
+eval/r4A/plt_eval.py	out/replace_audit/r4A/plt_eval.py
 train/r4A/run7.sh	out/replace_audit/r4A/run7.sh
 train/r4A/run7s.sh	out/replace_audit/r4A/run7s.sh
 train/r4A/run_2emb.sh	out/replace_audit/r4A/run_2emb.sh
 train/r4A/run_cap.sh	out/replace_audit/r4A/run_cap.sh
 train/r4A/run_fe.sh	out/replace_audit/r4A/run_fe.sh
+eval/r4A/run_opt4.sh	out/replace_audit/r4A/run_opt4.sh
+eval/r4A/th_sim.py	out/replace_audit/r4A/th_sim.py
 train/r4A/torch_2emb.py	out/replace_audit/r4A/torch_2emb.py
 train/r4A/torch_anc.py	out/replace_audit/r4A/torch_anc.py
 train/r4A/torch_cap.py	out/replace_audit/r4A/torch_cap.py
 train/r4A/torch_fe.py	out/replace_audit/r4A/torch_fe.py
 train/r4A/torch_ls.py	out/replace_audit/r4A/torch_ls.py
 train/r4A/torch_ls2.py	out/replace_audit/r4A/torch_ls2.py
+train/r4A/torch_mat.py	out/replace_audit/r4A/torch_mat.py
 train/r4A/train_r4.py	out/replace_audit/r4A/train_r4.py
 eval/r4A/ts_eval.py	out/replace_audit/r4A/ts_eval.py
 datagen/r4A/xf3/aug_prepare.py	out/replace_audit/r4A/xf3/aug_prepare.py
@@ -88,6 +96,7 @@ eval/rag/eval_rag.py	out/replace_audit/rag/eval_rag.py
 datagen/rag/gen_queries.py	out/replace_audit/rag/gen_queries.py
 eval/run_head_pipeline.sh	out/replace_audit/run_head_pipeline.sh
 eval/run_hintfix.sh	out/replace_audit/run_hintfix.sh
+eval/run_hintfix_bin.sh	out/replace_audit/run_hintfix_bin.sh
 eval/run_old339_xf.sh	out/replace_audit/run_old339_xf.sh
 eval/run_old339_xf_final.sh	out/replace_audit/run_old339_xf_final.sh
 eval/run_old339_xf_r2a.sh	out/replace_audit/run_old339_xf_r2a.sh

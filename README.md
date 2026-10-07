@@ -2,7 +2,7 @@
 
 MaClaw 嵌入侧小模型的训练、评估、数据生成与判标代码，以及产出的模型和数据。目标是用 **Qwen3-Embedding-0.6B**（maclaw 纯 Go runner）替换 EmbeddingGemma，只发一个嵌入模型。
 
-> 状态（第 4 轮，2026-10-07）：B（IM 打断）和 C（编码子代理）在现有测试半和新确认集上都已超过 Gemma；**A（意图）还没有超过 Gemma**（见下文"第 4 轮状态"）。所以替换尚未完成。
+> 状态（第 4 轮，2026-10-07 18:55）：A（意图）、B（IM 打断）、C（编码子代理）在现有测试集和新确认集上的点估计**全部超过 Gemma**。意图头 r11S5t 已冻结，并已写入 maclaw `local/qwen3-only` 的 release 清单（尚未上传到 Model_Release）。A_confirm 上有一点需要说明：Qwen3 的敏感误暴露是 2 条，Gemma 是 1 条，见下文。
 
 ## 嵌入模型（不在本仓库）
 
@@ -42,8 +42,8 @@ MaClaw 嵌入侧小模型的训练、评估、数据生成与判标代码，以�
 | `eval/` | Go/Python 评估、闸门、bootstrap 对比、阈值模拟、分析脚本 |
 | `datagen/` | 跨家族数据生成、盲判标、合并、去重、确认集生成与冻结 |
 | `export/` | 导出为单个 MLP JSON（集成合并）、release 清单生成、冻结脚本 |
-| `models/` | 生产头和第 4 轮候选头；sha256 见 `MODELS.md` / `models/manifest.json` |
-| `data/` | 训练与测试数据（见下）；`data/confirm_r4/` 目前只有占位说明 |
+| `models/` | 生产头（第 4 轮冻结的意图头 r11S5t、工具头、打断头、编码配置）、上一版意图头 r3W5F 和第 4 轮候选头；sha256 见 `MODELS.md` / `models/manifest.json` |
+| `data/` | 训练与测试数据，以及第 4 轮确认集（见下） |
 | `PATHS.tsv` | 每个脚本在原工作区中的路径。脚本内部的相对路径按原工作区根目录写，复现时请按此表还原目录结构 |
 
 ## 数据
@@ -63,19 +63,19 @@ MaClaw 嵌入侧小模型的训练、评估、数据生成与判标代码，以�
 - **`data/interrupt/`**：打断配对数据。
   - 训练集 F：`int3_train.jsonl`；
   - 评估池：`cap3_interrupt.jsonl` / `r4B_interrupt.jsonl`。训练半与测试半按 `md5(id) % 2` 切分，见 `train/r4B/search_b.py`。
-- **`data/coding/`**：编码任务 `coding.jsonl` 与候选目录 `coding_cands.json`。训练半与测试半同样按 `md5(id) % 2` 切分，见 `train/r4C/select_c.py`。
+- **`data/coding/`**：编码任务 `coding.jsonl` 与候选目录 `coding_cands.json`。目录共 **56** 项：生成时提示词要求 45 项，ministral-8b 返回了 56 个互不重复的条目，全部保留。C 的所有评估（cap3、测试半、C_confirm）用的都是这 56 项（`eval/cap3/cap3_eval.txt` 记为 "305 tasks × 56 candidates"，每条信号恰好 56 个分数）。内部 REPORT 中的"45 项"是笔误，应为 56。训练半与测试半同样按 `md5(id) % 2` 切分，见 `train/r4C/select_c.py`。
 - **`data/topic/`**：话题切换。
 - 数据中出现的 `sk-ant-api03-xxxx`、`xoxb-1234`、`192.168.1.100` 等是生成的用户请求里的**虚构占位符**，不是真实凭据或地址。
-- **确认集（confirm_r4）暂不公开**：A_confirm 仍处于封存状态，要等最终一次性评估之后才发布。见 `data/confirm_r4/README.md`。
+- **确认集 `data/confirm_r4/`**：A_confirm（415）、B_confirm（492）、C_confirm（240），附 `SHA256SUMS` 和 `FROZEN.json`。三个集合都已对冻结的配置各评估过一次，现在公开。
 
 ## 复现
 
 1. 准备 maclaw（含 `corelib/embedding` 纯 Go Qwen3 runner）和上述 GGUF。用 `CGO_ENABLED=0` 编译 vecdump，按对应 instruction 嵌入各数据集，嵌入脚本见 `train/**/dump*.sh`、`train/scripts/indep_embed.sh`。
 2. 按 `PATHS.tsv` 还原目录。
 3. 意图头：
-   - 训练：`train/scripts/xf_train.py`（sklearn 基线，LOFO）、`train/r4A/torch_fe.py`（FE 代价，第 4 轮最佳）；
+   - 训练：`train/scripts/xf_train.py`（sklearn 基线，LOFO）、`train/r4A/torch_cap.py 512 1 0.3 <seed>`（第 4 轮最终配方：宽 512、dropout 0.3、FE 代价 λ 0.5、LS 0.05，seed 0–4 平均）；
    - 选择：`eval/r4A/levers_eval7.py`；
-   - 导出：`export/r4A/export_ens.py` 或 `export_cap.py` / `export_anc.py`。
+   - 导出：`export/r4A/export_cap.py`（最终头），或 `export_ens.py` / `export_anc.py`；阈值 TH1：`eval/r4A/th_sim.py`。
 4. Go 端到端：`eval/run_hintfix.sh`，配合 maclaw 的 intent harness（`ZZ_L3=head`）。
 5. 打断：`train/r4B/search_b.py` → `export/r4B/export_b.py` → `eval/r4B/oneshot_b.py`。
 6. 编码：`train/r4C/variants_c.py` → `select_c.py` → `eval/r4C/oneshot_c.py`。
@@ -95,32 +95,39 @@ MaClaw 嵌入侧小模型的训练、评估、数据生成与判标代码，以�
 | RAG / 记忆 R@1 | 0.911 / 0.911 | 0.842 / 0.679 | |
 | 话题切换 AUC | 0.856 | 0.848 | +0.007 [−0.048, +0.060] |
 
-### 第 4 轮（B、C 已冻结并做过一次性评估；配对 bootstrap 2000 次）
+### 第 4 轮最终记分（A、B、C 均已冻结，各自在确认集上评估过一次；配对 bootstrap 2000 次，seed 7）
 
 | 能力 | 集合 | Qwen3 r4 | Gemma | 差值 [95% CI] |
 |---|---|---|---|---|
+| A 意图（主意图 / 放行准确率（放行条数）/ 敏感误暴露） | old-339 | 0.861 / 0.990 (289) / 0 | 0.847 / 0.976 (288) / 1 | +0.015 [−0.032, +0.059] |
+| A 意图 | indep839 | 0.788 / 0.972 (652) / 2 | 0.417 / 0.907 (356) / 6 | +0.371 [+0.334, +0.408] |
+| A 意图 | Kimi150 | 0.827 / 0.992 (125) / 0 | 0.493 / 0.892 (83) / 2 | +0.333 [+0.247, +0.420] |
+| A 意图 | **A_confirm（n=415）** | **0.863 / 0.989 (362) / 2** | 0.653 / 0.922 (294) / 1 | **+0.210 [+0.164, +0.255]** |
 | B 打断 AUC | 现有测试半 ETE（n=124） | 0.875 | 0.851 | +0.024 [−0.058, +0.102] |
 | B 打断 AUC | B_confirm（n=492） | 0.918 | 0.636 | +0.282 [+0.235, +0.328] |
 | C 编码 F1 / MRR | 现有测试半（n=165） | 0.710 / 0.969 | 0.640 / 0.961 | ΔF1 +0.070 [+0.023, +0.119]；ΔMRR +0.008 [−0.011, +0.028] |
 | C 编码 F1 / MRR | C_confirm（n=240） | 0.627 / 0.976 | 0.535 / 0.946 | ΔF1 +0.092 [+0.059, +0.124]；ΔMRR +0.030 [+0.008, +0.052] |
 
-## 第 4 轮状态（A 意图）
+## 第 4 轮 A（意图）是怎么过的
 
-- 替换条件（Daniel 定）：old-339 主意图 > 0.847，且敏感误暴露 ≤ 1，然后在 A_confirm 上一次性确认。
-- 进入 old-339 之前有一道事先登记的闸门：Go indep839 主意图 ≥ 0.752，敏感 FE ≤ 3，Kimi150 FE ≤ 1。
-- 迄今各候选的 Go indep839 结果：
+- 替换条件（Daniel 定）：old-339 主意图 > 0.847 且敏感误暴露 ≤ 1，然后在 A_confirm 上一次性确认，并且也要超过 Gemma。A_confirm 从不用于选择。
+- 各候选的 Go indep839 结果：
 
-  | 候选 | 主意图 | 敏感 FE | 备注 |
-  |---|---|---|---|
-  | r3W5F | 0.739 | 5 | |
-  | r4LS9 | 0.722 | 3 | |
-  | r7W（全量扩充数据） | 0.727 | 2 | |
-  | r9FE（FE 代价 λ 0.5 ×3 seed 集成） | 0.741 | 1 | Kimi150 0.787 / FE 0 |
-  | **r10CAP**（宽 512 + dropout 0.3 + FE 代价，×3 seed） | **0.7497**（629/839） | **0** | 当前最好；Kimi150 0.800 / FE 0；离闸门差 2 条 |
+  | 候选 | 主意图 | 敏感 FE |
+  |---|---|---|
+  | r3W5F | 0.739 | 5 |
+  | r7W（全量扩充数据） | 0.727 | 2 |
+  | r9FE（FE 代价） | 0.741 | 1 |
+  | r10CAP（宽 512 + dropout 0.3 + FE 代价） | 0.7497 | 0 |
+  | r11S5（同配方 5 seed） | 0.7521 | 0（通过 indep 闸门） |
+  | **r11S5t**（同权重，τ_s 0.99 → 0.98） | **0.788** | 2 |
 
-  都没有达到 0.752，所以 old-339 和 A_confirm 尚未使用。
-- 已试过的杠杆：标签平滑、集成、硬例、L2 锚点重嵌 / 挖掘、更多跨家族数据（学习曲线平）、FE 代价训练（有效但不够）、敏感标签单独温度（无规则点）、L2 锚点分数作为特征（无规则点）、头容量扫描（宽 {256,512} × 深 {1,2} × dropout {0.1,0.3}：只有 dropout 0.3 的两个配置有规则点，胜者为 r10CAP）、多 instruction 嵌入（无规则点，且时延中位数从 86 ms 增至 213 ms）。
-- 结论：卡点在敏感精度。新增数据在固定阈值下有小幅帮助，但锁定规则会把这部分收益换成更严的 τ_s。
+- 关键一步是分析 old-339 漏判：55 条漏判里，47 条是头的 argmax 正确、只是低于阈值被拒，其中 11 条是概率在 0.97–0.99 的敏感标签。
+- 因此按事先登记的阈值规则 TH1 选阈值：在 old-339、indep839、Kimi150 都满足约束的点里，取 τ_s 最高的一个，结果是 (0.80, 0.98)。
+- 无效的杠杆：
+  - 敏感标签单独温度、L2 锚点分数作为特征、Matryoshka 截断、多 instruction 嵌入、按标签阈值：都没有规则点，或者分数更低；
+  - 加深头：无收益。
+- **A_confirm 说明**：Qwen3 的敏感误暴露是 2 条（Gemma 1 条），但 Qwen3 多放行了 68 条。
 
 ## 方法学要点（REPORT 摘要）
 

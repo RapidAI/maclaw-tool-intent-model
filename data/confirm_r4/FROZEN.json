@@ -1,0 +1,61 @@
+{
+ "C": {
+  "file": "C_confirm.jsonl",
+  "sha256": "a7c97d26c4547219d579f7630119b28560237a3278f05746d4dbee5c28a62fd5",
+  "n": 240,
+  "gen": [
+   "nvidia:nvidia/nemotron-3-super-120b-a12b"
+  ],
+  "judge": [
+   "nvidia:openai/gpt-oss-20b"
+  ],
+  "langs": {
+   "en": 56,
+   "mix": 56,
+   "zh": 128
+  },
+  "labels": {
+   "coding": 240
+  },
+  "frozen": "2026-10-07T12:03:45+08:00"
+ },
+ "A": {
+  "file": "A_confirm.jsonl",
+  "sha256": "8f48de2a81edd82b960922751e592ba9472292995006182d6b6e801cbff61197",
+  "n": 415,
+  "gen": [
+   "nvidia:nvidia/nemotron-3-super-120b-a12b"
+  ],
+  "judge": [
+   "nvidia:openai/gpt-oss-20b"
+  ],
+  "langs": {
+   "zh": 157,
+   "mix": 150,
+   "en": 108
+  },
+  "labels": 47,
+  "frozen": "2026-10-07T12:25:31+08:00"
+ },
+ "B": {
+  "file": "B_confirm.jsonl",
+  "sha256": "d0e126437e761faaeb443f563284036283e8e72e6fe2bfe46749b689869417c0",
+  "n": 492,
+  "gen": [
+   "nvidia:nvidia/nemotron-3-super-120b-a12b"
+  ],
+  "judge": [
+   "nvidia:openai/gpt-oss-20b"
+  ],
+  "langs": {
+   "zh": 255,
+   "mix": 113,
+   "en": 124
+  },
+  "labels": {
+   "unrelated": 233,
+   "related": 259
+  },
+  "frozen": "2026-10-07T13:00:04+08:00"
+ }
+}

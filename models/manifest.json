@@ -1,9 +1,15 @@
 [
  {
+  "path": "models/intent/head_mlp_qwen3go_xf.json",
+  "sha256": "c0256107d90dbf9f381cc1d1c46872984714234d2d024ff3fe0a0f0e6f640c69",
+  "size": 33787963,
+  "desc": "intent head — PRODUCTION r4 (frozen r11S5t: 5-seed r10CAP-recipe MLP, hidden 2560, T 0.668, tau 0.80 / tau_s 0.98, calibration.source oof_rule; identical weights/thresholds to frozen file sha 2b15f3e4…)"
+ },
+ {
   "path": "models/intent/head_mlp_qwen3go_xf_r3W5F.json",
   "sha256": "873385d4544fa0b153ff0ac63833eb8e76d22c55c26cc8c6b80ddfa5226ffb10",
   "size": 6011299,
-  "desc": "intent head (production, r3W5F)"
+  "desc": "intent head (previous production, r3W5F)"
  },
  {
   "path": "models/intent/head_r9FE.json",
@@ -15,7 +21,7 @@
   "path": "models/intent/head_r10CAP.json",
   "sha256": "66843a2a62250655e832f26cf5e630695facb3805c1f9e9cd8a8d149b645dcb1",
   "size": 20258783,
-  "desc": "intent head r4 candidate r10CAP (width 512, dropout 0.3, FE-cost λ0.5 ×3 seeds; best r4 Go indep 0.7497 / FE 0; gate 0.752 missed; not frozen)"
+  "desc": "intent head r4 candidate r10CAP (width 512, dropout 0.3, FE-cost λ0.5 ×3 seeds; Go indep 0.7497 / FE 0; gate missed by 2)"
  },
  {
   "path": "models/intent/head_r7W.json",
@@ -61,8 +67,8 @@
  },
  {
   "path": "models/release_assets.json",
-  "sha256": "61319fdca894b260f2940734621c427d488e550309df04217a8a9369d26d5d0c",
-  "size": 972,
+  "sha256": "d601432a50f489333f5b4637f5b01500600be9254ce6ad676af58732c3b67f94",
+  "size": 973,
   "desc": "maclaw release manifest (local/qwen3-only)"
  }
 ]
