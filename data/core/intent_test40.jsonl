@@ -1,0 +1,40 @@
+{"id": "test-0541", "text": "帮我写一个 Rust 版的 markdown 转 html 小工具"}
+{"id": "test-0542", "text": "给后端新增一个导出 CSV 的接口"}
+{"id": "test-0543", "text": "做一个俄罗斯方块游戏，用 pygame"}
+{"id": "test-0544", "text": "implement a websocket chat server in Node.js"}
+{"id": "test-0545", "text": "用 Flutter 开发一个天气 App 的界面"}
+{"id": "test-0546", "text": "写个 shell 脚本每天自动备份数据库到 S3"}
+{"id": "test-0547", "text": "新建一个 Spring Boot 项目，实现商品管理 CRUD"}
+{"id": "test-0556", "text": "App 闪退了，日志里是 IndexOutOfBoundsException，帮我修"}
+{"id": "test-0557", "text": "这个 SQL 查询结果重复了，代码哪里有问题"}
+{"id": "test-0558", "text": "debug why the CI pipeline fails on go test"}
+{"id": "test-0559", "text": "上传大文件时报 413，帮我解决"}
+{"id": "test-0560", "text": "goroutine 死锁了，帮忙找出来修掉"}
+{"id": "test-0561", "text": "Python 脚本报 UnicodeDecodeError，修一下"}
+{"id": "test-0562", "text": "the login button crashes the app on Android, please fix"}
+{"id": "test-0571", "text": "把这堆 if-else 重构成策略模式"}
+{"id": "test-0572", "text": "给代码做一次性能优化，减少内存分配"}
+{"id": "test-0573", "text": "migrate the codebase from Python 3.8 to 3.12 idioms"}
+{"id": "test-0574", "text": "把重复的工具函数抽到公共包里"}
+{"id": "test-0575", "text": "清理一下过期的依赖和废弃 API"}
+{"id": "test-0576", "text": "rename variables to be more descriptive across the module"}
+{"id": "test-0585", "text": "去服务器 172.16.3.5 上重启 tomcat"}
+{"id": "test-0586", "text": "ssh root@my-vps 看下内存使用情况"}
+{"id": "test-0587", "text": "remote host db-02 的 mysql 慢查询日志帮我看看"}
+{"id": "test-0588", "text": "把线上那台机器的 nginx 配置 reload 一下"}
+{"id": "test-0589", "text": "check uptime and load average on the build server"}
+{"id": "test-0590", "text": "登录测试服务器看看 kubelet 的状态"}
+{"id": "test-0591", "text": "上那台服务器把 /tmp 下的大文件清一清"}
+{"id": "test-0600", "text": "打开浏览器进入公司 OA 帮我点审批通过"}
+{"id": "test-0601", "text": "在 Chrome 里打开 B 站搜索 Go 教程"}
+{"id": "test-0602", "text": "fill out the signup form on that site using the browser"}
+{"id": "test-0603", "text": "用浏览器模拟登录然后下载对账单页面"}
+{"id": "test-0604", "text": "在网页上自动点击下一页直到最后一页"}
+{"id": "test-0605", "text": "回放上次录制的浏览器操作"}
+{"id": "test-0614", "text": "打开电脑上的网易云音乐播放日推"}
+{"id": "test-0615", "text": "在 Word 软件界面里点一下保存按钮"}
+{"id": "test-0616", "text": "use the mouse to drag that window to the second monitor"}
+{"id": "test-0617", "text": "帮我在本机的钉钉客户端里点开最新消息"}
+{"id": "test-0618", "text": "打开计算器算一下 123*456，用界面操作"}
+{"id": "test-0619", "text": "在桌面应用里滚动到底部看看"}
+{"id": "test-0628", "text": "截一下屏幕"}

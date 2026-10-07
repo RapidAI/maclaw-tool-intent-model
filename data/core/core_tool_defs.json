@@ -1,0 +1,2533 @@
+[
+ {
+  "function": {
+   "description": "Run a shell command. Use the built-in ssh tool instead of invoking ssh/scp/rsync through bash.",
+   "name": "bash",
+   "parameters": {
+    "properties": {
+     "command": {
+      "description": "Shell command to execute",
+      "type": "string"
+     },
+     "timeout": {
+      "description": "Timeout seconds, default 600, range 240-600",
+      "maximum": 600,
+      "minimum": 240,
+      "type": "integer"
+     },
+     "working_dir": {
+      "description": "Working directory (optional)",
+      "type": "string"
+     }
+    },
+    "required": [
+     "command"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Read file content. Small files returned in full; large files return a structure outline + preview. Use start_line to read specific sections.",
+   "name": "read_file",
+   "parameters": {
+    "properties": {
+     "lines": {
+      "description": "Max lines to read (optional, default 200). Specifying this bypasses adaptive mode.",
+      "type": "integer"
+     },
+     "offset": {
+      "description": "Read the last N lines from the end (like tail -n). Mutually exclusive with start_line/lines.",
+      "type": "integer"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "start_line": {
+      "description": "Starting line number, 1-based (optional). Specifying this bypasses adaptive mode.",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Re-read a spilled tool_result handle by id from a prior [tool_result_handle] footer. Use when a tool preview was truncated and you need a specific byte range of the full output. Prefer small limit windows and raise offset to page through large results.",
+   "name": "read_tool_result",
+   "parameters": {
+    "properties": {
+     "id": {
+      "description": "Handle id from [tool_result_handle]",
+      "type": "string"
+     },
+     "limit": {
+      "description": "Max bytes to return (default 16384, max 32768)",
+      "type": "integer"
+     },
+     "offset": {
+      "description": "0-based byte offset into the full result (default 0)",
+      "type": "integer"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "按行读取 UTF-8 文本文件。适合在 ripgrep/Glob 找到文件或行号后精确查看代码片段；用 start_line+end_line 读取闭区间，或 start_line+lines 读取指定行数。返回内容默认带行号，便于后续 edit_file 精准修改。",
+   "name": "FileRead",
+   "parameters": {
+    "properties": {
+     "end_line": {
+      "description": "结束行号，1-based 且包含该行。提供 end_line 时优先使用 start_line..end_line。",
+      "type": "integer"
+     },
+     "lines": {
+      "description": "未提供 end_line 时读取的行数，默认 200，最大 1000。例如 start_line=50, lines=80 表示读 50-129 行。",
+      "type": "integer"
+     },
+     "path": {
+      "description": "要读取的文件路径。可用绝对路径，或相对当前项目目录的路径。",
+      "type": "string"
+     },
+     "show_line_numbers": {
+      "description": "是否在每行前显示行号，默认 true。修改代码前建议保持 true。",
+      "type": "boolean"
+     },
+     "start_line": {
+      "description": "起始行号，1-based，默认 1。例如从第 120 行开始读就传 120。",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "在项目文件中递归搜索文本/正则表达式，返回 file:line:content。适合查找函数、变量、配置项、错误信息或 TODO。先用 ripgrep 定位候选行，再用 FileRead 查看上下文；需要限制文件类型时传 glob，如 **/*.go。",
+   "name": "ripgrep",
+   "parameters": {
+    "properties": {
+     "after_context": {
+      "description": "Lines after each match when output_mode=content.",
+      "type": "integer"
+     },
+     "before_context": {
+      "description": "Lines before each match when output_mode=content.",
+      "type": "integer"
+     },
+     "case_sensitive": {
+      "description": "是否区分大小写，默认 false。查 Go 导出符号、精确常量名时可设 true。",
+      "type": "boolean"
+     },
+     "context": {
+      "description": "Lines of context before and after each match when output_mode=content.",
+      "type": "integer"
+     },
+     "exclude": {
+      "description": "Optional exclude glob, supports comma/space separated patterns such as vendor/**,dist/**,**/*_generated.go.",
+      "type": "string"
+     },
+     "exclude_glob": {
+      "description": "Backward-compatible alias for exclude.",
+      "type": "string"
+     },
+     "fixed_string": {
+      "description": "Treat pattern as literal text instead of a regular expression.",
+      "type": "boolean"
+     },
+     "glob": {
+      "description": "可选文件过滤 glob，例如 **/*.go、**/*.tsx、config/*.yaml。",
+      "type": "string"
+     },
+     "include_hidden": {
+      "description": "When true, include hidden dotfiles and dot-directories such as .github or .env. .git internals and large generated dependency dirs are still skipped.",
+      "type": "boolean"
+     },
+     "line_regexp": {
+      "description": "Require the pattern to match the entire line.",
+      "type": "boolean"
+     },
+     "max_results": {
+      "description": "最多返回匹配数，默认 100，最大 1000。结果太多时缩小 path/glob 或加更具体 pattern。",
+      "type": "integer"
+     },
+     "no_ignore": {
+      "description": "When true, do not apply supported root .gitignore ignore rules.",
+      "type": "boolean"
+     },
+     "offset": {
+      "description": "Skip the first N output rows before applying max_results.",
+      "type": "integer"
+     },
+     "output_mode": {
+      "description": "Output mode: content (default), files_with_matches, or count.",
+      "type": "string"
+     },
+     "path": {
+      "description": "搜索范围：目录或单个文件。为空时使用当前项目目录。",
+      "type": "string"
+     },
+     "pattern": {
+      "description": "要搜索的正则表达式。普通字符串也可直接填写；默认不区分大小写。",
+      "type": "string"
+     },
+     "stats": {
+      "description": "When true, append local search/index statistics to the result.",
+      "type": "boolean"
+     },
+     "type": {
+      "description": "Optional file type filter such as go, ts, js, py, rust, md, json, yaml, or an extension like .vue.",
+      "type": "string"
+     },
+     "whole_word": {
+      "description": "Match only whole words/identifiers.",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "按 glob 通配符查找文件路径，支持 ** 递归。适合先发现项目里有哪些相关文件，如 **/*.go、**/package.json、cmd/**/main.go；找到文件后用 FileRead/read_file 查看内容，用 ripgrep 搜索文件内文本。",
+   "name": "Glob",
+   "parameters": {
+    "properties": {
+     "exclude": {
+      "description": "Optional exclude glob, supports comma/space separated patterns such as vendor/**,dist/**,**/*_generated.go.",
+      "type": "string"
+     },
+     "exclude_glob": {
+      "description": "Backward-compatible alias for exclude.",
+      "type": "string"
+     },
+     "glob_pattern": {
+      "description": "pattern 的别名",
+      "type": "string"
+     },
+     "include_dirs": {
+      "description": "是否返回目录，默认 false。只有需要找目录结构时设 true。",
+      "type": "boolean"
+     },
+     "include_hidden": {
+      "description": "When true, include hidden dotfiles and dot-directories such as .github or .env. .git internals and large generated dependency dirs are still skipped.",
+      "type": "boolean"
+     },
+     "max_results": {
+      "description": "最多返回路径数，默认 200，最大 2000。结果太多时收窄 path 或 pattern。",
+      "type": "integer"
+     },
+     "no_ignore": {
+      "description": "When true, do not apply supported root .gitignore ignore rules.",
+      "type": "boolean"
+     },
+     "path": {
+      "description": "基准目录，默认当前项目目录。pattern 相对该目录匹配。",
+      "type": "string"
+     },
+     "pattern": {
+      "description": "文件匹配模式。常用：**/*.go 递归找 Go 文件；**/main.go 找所有 main.go；*.md 按文件名匹配各层 Markdown。",
+      "type": "string"
+     },
+     "type": {
+      "description": "Optional file type filter such as go, ts, js, py, rust, md, json, yaml, or an extension like .vue.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Write a UTF-8 text file. No content length limit; system handles large content automatically. For very large files (\u003e6000 chars), consider splitting into overwrite + append chunks to avoid model output truncation.",
+   "name": "write_file",
+   "parameters": {
+    "properties": {
+     "content": {
+      "description": "File content. No length limit; you can write complete scripts or documents in a single call.",
+      "type": "string"
+     },
+     "doc_type": {
+      "description": "Workflow document type alias for stable filenames: requirements, design, or task_plan. Prefer phase_id when available.",
+      "type": "string"
+     },
+     "mode": {
+      "description": "Write mode: overwrite or append",
+      "type": "string"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "phase_id": {
+      "description": "Workflow document phase ID for stable filenames. Use requirements, design/tech_design, or tasks/task_breakdown/task_plan. When set, generated workflow document filenames are stable ASCII; display titles may be localized.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path",
+     "content"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Edit a file by replacing old_string with new_string. Keep old_string and new_string under 1800 characters; split large edits into smaller exact replacements to avoid truncated tool-call JSON.",
+   "name": "edit_file",
+   "parameters": {
+    "properties": {
+     "new_string": {
+      "description": "Replacement text. Keep under 1800 characters; split large edits into smaller exact replacements.",
+      "maxLength": 1800,
+      "type": "string"
+     },
+     "old_string": {
+      "description": "Text to search for. Keep under 1800 characters; split large edits into smaller exact replacements.",
+      "maxLength": 1800,
+      "type": "string"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "replace_all": {
+      "description": "Whether to replace all matches, default false",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "path",
+     "old_string",
+     "new_string"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Edit a file by line number (replace, insert, or delete). Prefer this over edit_file when you already have line numbers from read_file.",
+   "name": "edit_lines",
+   "parameters": {
+    "properties": {
+     "content": {
+      "description": "New text for replace/insert; ignored for delete",
+      "type": "string"
+     },
+     "end_line": {
+      "description": "Inclusive end line (required for replace/delete)",
+      "type": "integer"
+     },
+     "operation": {
+      "description": "replace, insert, or delete",
+      "type": "string"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "start_line": {
+      "description": "1-based start line. insert uses 0 to insert at the beginning",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "path",
+     "operation",
+     "start_line"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "List directory contents.",
+   "name": "list_directory",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Directory path",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Read a local file and show it in the current chat (desktop). Does not forward to IM unless destination/forward_to_im is set. For a named group or user, first resolve it with im_message(action=list_targets), then pass channel plus exactly one of group_id or user_id; an exact target is never broadcast or rerouted.",
+   "name": "send_file",
+   "parameters": {
+    "properties": {
+     "caption": {
+      "description": "Alias for message",
+      "type": "string"
+     },
+     "channel": {
+      "description": "Exact IM channel (for example weixin, feishu, qq, telegram, lansenger)",
+      "type": "string"
+     },
+     "destination": {
+      "description": "chat/desktop or im/wechat/feishu/qq/dingtalk",
+      "type": "string"
+     },
+     "doc_type": {
+      "description": "Workflow document type alias for stable filenames: requirements, design, or task_plan. Prefer phase_id when available.",
+      "type": "string"
+     },
+     "file_name": {
+      "description": "Display file name (optional)",
+      "type": "string"
+     },
+     "forward_to_im": {
+      "description": "Whether to forward through IM",
+      "type": "boolean"
+     },
+     "group_id": {
+      "description": "Exact destination group/conversation ID",
+      "type": "string"
+     },
+     "group_name": {
+      "description": "Destination group name; resolve with im_message action=list_targets when ambiguous",
+      "type": "string"
+     },
+     "message": {
+      "description": "Optional file caption/message",
+      "type": "string"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "phase_id": {
+      "description": "Workflow document phase ID for stable filenames. Use requirements, design/tech_design, or tasks/task_breakdown/task_plan. When set, generated workflow document filenames are stable ASCII; display titles may be localized.",
+      "type": "string"
+     },
+     "user_id": {
+      "description": "Exact private recipient ID or self",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Send a local file to IM. With no exact target it uses the user's bound/active IM route. For a named group or user, first resolve it with im_message(action=list_targets), then pass channel plus exactly one of group_id or user_id; exact-target failure must be reported and never falls back to broadcast.",
+   "name": "send_to_im",
+   "parameters": {
+    "properties": {
+     "caption": {
+      "description": "Alias for message",
+      "type": "string"
+     },
+     "channel": {
+      "description": "Exact IM channel (weixin, feishu, qq, telegram, lansenger)",
+      "type": "string"
+     },
+     "destination": {
+      "description": "Optional: wechat/feishu/qq/dingtalk/im (default im)",
+      "type": "string"
+     },
+     "doc_type": {
+      "description": "Workflow document type alias for stable filenames: requirements, design, or task_plan. Prefer phase_id when available.",
+      "type": "string"
+     },
+     "file_name": {
+      "description": "Display file name (optional)",
+      "type": "string"
+     },
+     "group_id": {
+      "description": "Exact destination group/conversation ID",
+      "type": "string"
+     },
+     "group_name": {
+      "description": "Destination group name; use im_message action=list_targets first when needed",
+      "type": "string"
+     },
+     "message": {
+      "description": "Optional file caption/message",
+      "type": "string"
+     },
+     "path": {
+      "description": "File path",
+      "type": "string"
+     },
+     "phase_id": {
+      "description": "Workflow document phase ID for stable filenames. Use requirements, design/tech_design, or tasks/task_breakdown/task_plan. When set, generated workflow document filenames are stable ASCII; display titles may be localized.",
+      "type": "string"
+     },
+     "user_id": {
+      "description": "Exact private recipient ID or self",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Open a file or URL with the system default application.",
+   "name": "open",
+   "parameters": {
+    "properties": {
+     "target": {
+      "description": "File path or URL",
+      "type": "string"
+     }
+    },
+    "required": [
+     "target"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Manage long-term memory with actions save, recall, candidates, derived, derived_surgery, themes, scenes, trace, list, and delete. Saves are governed; recall defaults to auto and also supports dynamic, hybrid, lightmem, and adaptive modes.\n\nPagination: If initial recall returns has_more=true, use the cursor to retrieve additional pages. Exhaustive: If the user asks to 'list all' or 'summarize everything about X', use mode=exhaustive. Scroll session: If working through a multi-step task and need progressive context, use session=true.",
+   "name": "memory",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "Action: save, recall, candidates, derived, derived_surgery, themes, scenes, trace, list, delete",
+      "type": "string"
+     },
+     "action_limit": {
+      "description": "Maximum maintenance actions for action=themes",
+      "type": "integer"
+     },
+     "apply": {
+      "description": "For action=themes, apply safe maintenance actions",
+      "type": "boolean"
+     },
+     "category": {
+      "description": "Category: user_fact, project_knowledge, preference, instruction",
+      "type": "string"
+     },
+     "content": {
+      "description": "Memory content for save",
+      "type": "string"
+     },
+     "cursor": {
+      "description": "Opaque pagination cursor from a previous recall response. Pass this to retrieve the next page of results. Mutually exclusive with mode=exhaustive and session=true.",
+      "type": "string"
+     },
+     "debug": {
+      "description": "Include recall trace and adaptive/lightmem plan when available",
+      "type": "boolean"
+     },
+     "diagnose": {
+      "description": "For action=themes, include actionable theme diagnostics",
+      "type": "boolean"
+     },
+     "evidence": {
+      "description": "For action=themes, include representative source memories",
+      "type": "boolean"
+     },
+     "evidence_limit": {
+      "description": "Representative evidence entries per theme",
+      "type": "integer"
+     },
+     "id": {
+      "description": "Memory ID for delete or derived_surgery",
+      "type": "string"
+     },
+     "issue_limit": {
+      "description": "Maximum diagnostic issues for action=themes",
+      "type": "integer"
+     },
+     "keyword": {
+      "description": "Keyword filter for list/candidates",
+      "type": "string"
+     },
+     "limit": {
+      "description": "Optional result limit",
+      "type": "integer"
+     },
+     "mode": {
+      "description": "Recall mode: auto (default), dynamic, hybrid, lightmem, adaptive, exhaustive. Use mode=exhaustive to retrieve all matching entries (up to 100 entries / 15000 tokens) when the user asks to 'list all' or 'summarize everything about X'.",
+      "type": "string"
+     },
+     "plan": {
+      "description": "For action=themes, include a non-destructive maintenance plan",
+      "type": "boolean"
+     },
+     "project_path": {
+      "description": "Optional project path for scoped recall",
+      "type": "string"
+     },
+     "query": {
+      "description": "Search query for recall",
+      "type": "string"
+     },
+     "session": {
+      "description": "Set to true to enable scroll-through recall within the current agent loop. Each subsequent recall with session=true returns the next slice of results from a cached candidate list. Use this for iterative deepening during multi-step tasks. Mutually exclusive with cursor.",
+      "type": "boolean"
+     },
+     "stats": {
+      "description": "Include theme health diagnostics for action=themes",
+      "type": "boolean"
+     },
+     "surgery": {
+      "description": "For action=derived_surgery: supersede (default)",
+      "type": "string"
+     },
+     "tags": {
+      "description": "Specific entity names for save/search anchors",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Manage SSH connections and remote operations such as connect, exec, background exec, upload, download, list, and close.",
+   "name": "ssh",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "Action such as connect, exec, exec_background, check_task, wait_task, list_tasks, kill_task, sudo_prepare, upload, download, list, close",
+      "type": "string"
+     },
+     "auth_method": {
+      "description": "Authentication method: password, key, or agent",
+      "type": "string"
+     },
+     "command": {
+      "description": "Remote command",
+      "type": "string"
+     },
+     "host": {
+      "description": "Remote host for connect",
+      "type": "string"
+     },
+     "initial_command": {
+      "description": "Command to run immediately after connect",
+      "type": "string"
+     },
+     "key_path": {
+      "description": "Private key path",
+      "type": "string"
+     },
+     "label": {
+      "description": "Optional host label",
+      "type": "string"
+     },
+     "local_path": {
+      "description": "Local file path",
+      "type": "string"
+     },
+     "password": {
+      "description": "SSH password",
+      "type": "string"
+     },
+     "port": {
+      "description": "SSH port, default 22",
+      "type": "integer"
+     },
+     "remote_path": {
+      "description": "Remote file path",
+      "type": "string"
+     },
+     "session_id": {
+      "description": "SSH session ID",
+      "type": "string"
+     },
+     "tail_lines": {
+      "description": "Tail lines for task output",
+      "type": "integer"
+     },
+     "task_id": {
+      "description": "Background task ID for check_task, wait_task, kill_task",
+      "type": "string"
+     },
+     "timeout": {
+      "description": "wait_task timeout seconds",
+      "type": "integer"
+     },
+     "user": {
+      "description": "Login username for connect",
+      "type": "string"
+     },
+     "wait_seconds": {
+      "description": "Wait time for output, default 5",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Ask the user a structured follow-up question and wait for an answer.",
+   "name": "ask_user",
+   "parameters": {
+    "properties": {
+     "context": {
+      "description": "Optional background context",
+      "type": "string"
+     },
+     "input_type": {
+      "description": "Input type: text, choice, or confirm",
+      "type": "string"
+     },
+     "options": {
+      "description": "Optional choices",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "question": {
+      "description": "Question to ask",
+      "type": "string"
+     }
+    },
+    "required": [
+     "question"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Desktop only: open an interactive long-form audio recording session (waveform + pause/stop) and wait until the user stops. Not available on IM channels — if the user asks to record a meeting on IM, tell them to use the desktop app; do not improvise with short voice notes. When the user's current message already asks to start meeting/long-form recording, call this immediately — do not re-confirm and do not search disks for existing audio. After the user stops successfully, the host injects localized choice buttons (minutes / transcribe only / keep audio only) — do not re-ask with plain numbered text. When the user selects minutes: produce BOTH markdown (write_file .md) and PDF (generate_pdf) minutes with the same body; minutes MUST include a full-transcript section with the complete ASR text of the original audio; deliver MP3 archive (prefer pre-built mp3_path from the completion report, else bash+ffmpeg), and send_file mp3+md (PDF may auto-deliver). Long transcripts: asr may return [ASR long transcript] with transcript_file — map-reduce for summary/decisions; assemble the full-transcript section from the file on disk without retyping; never paste the entire transcript into chat. When the user selects transcribe-only: still produce BOTH markdown and PDF of the full ASR transcript (title/meta + transcript body only — not meeting minutes); short audio also needs md+pdf on disk; long transcripts assemble from transcript_file; deliver MP3 archive (prefer mp3_path) and send_file md+mp3 (ensure PDF is delivered). For keep-only: deliver MP3 archive (prefer mp3_path). Match user-facing document language to the UI language when provided.",
+   "name": "record_audio",
+   "parameters": {
+    "properties": {
+     "hint": {
+      "description": "Optional extra guidance for the user",
+      "type": "string"
+     },
+     "purpose": {
+      "description": "Optional purpose shown in the recording UI",
+      "type": "string"
+     },
+     "title": {
+      "description": "Short label for the recording session (e.g. meeting name)",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Manage the internal task checklist with actions such as create, update, complete, fail, list, and delete.",
+   "name": "task",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "Action: create, update, complete, fail, list, delegate, delete",
+      "type": "string"
+     },
+     "delegate_to": {
+      "description": "Optional delegation target",
+      "type": "string"
+     },
+     "depends_on": {
+      "description": "Dependency task IDs",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "description": {
+      "description": "Task description",
+      "type": "string"
+     },
+     "status": {
+      "description": "New status for update: pending, in_progress, completed, failed, blocked",
+      "type": "string"
+     },
+     "status_note": {
+      "description": "Optional status note",
+      "type": "string"
+     },
+     "task_id": {
+      "description": "Task ID",
+      "type": "string"
+     },
+     "title": {
+      "description": "Task title for create",
+      "type": "string"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Delegate a task to a bound child agent and wait for the finished result. coding_workflow runs the shared coding runtime; help answers product questions. Omit agent to list available sub-agents.",
+   "name": "delegate_task",
+   "parameters": {
+    "properties": {
+     "agent": {
+      "description": "Sub-agent name: coding_workflow or help",
+      "type": "string"
+     },
+     "project_path": {
+      "description": "Optional project path for coding_workflow",
+      "type": "string"
+     },
+     "request": {
+      "description": "Task description to delegate",
+      "type": "string"
+     },
+     "task": {
+      "description": "Alias for request",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Manage a persistent long-running goal (action: create/complete/fail/get). Create a goal only when explicitly requested by the user; do not infer goals from ordinary tasks. The system auto-continues until the goal is complete or budget is exhausted.",
+   "name": "goal",
+   "parameters": {
+    "properties": {
+     "acceptance_criteria": {
+      "description": "Verifiable completion conditions (optional)",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "action": {
+      "description": "Action: create, complete, fail, get",
+      "type": "string"
+     },
+     "max_turns": {
+      "description": "Max iteration rounds (optional, default 50)",
+      "type": "integer"
+     },
+     "objective": {
+      "description": "Goal description (required for create)",
+      "type": "string"
+     },
+     "reason": {
+      "description": "Failure reason (for fail action)",
+      "type": "string"
+     },
+     "summary": {
+      "description": "Completion summary (for complete action)",
+      "type": "string"
+     },
+     "token_budget": {
+      "description": "Token budget limit (optional, 0=unlimited)",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Read text from documents and text-based data using native readers (no Python/Word required). Supports PDF (.pdf), Word (.docx/.doc), Excel (.xlsx/.xls/.csv), PowerPoint (.ppt/.pptx), and text-based files (.txt/.md/.json/.xml/.yaml/.yml/.log). Prefer this over read_file/bash for documents. For long content, use offset+max_chars to page through (# next_offset in the result).",
+   "name": "read_document",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Document file path (alias: path)",
+      "type": "string"
+     },
+     "line_numbers": {
+      "description": "If true, prefix each line with L1:/L2: markers (stable across offset pages)",
+      "type": "boolean"
+     },
+     "max_chars": {
+      "description": "Max characters for this chunk (default 30000)",
+      "type": "integer"
+     },
+     "offset": {
+      "description": "Rune offset into the full document (default 0). Use next_offset from a truncated result to continue.",
+      "type": "integer"
+     },
+     "path": {
+      "description": "Alias for file_path",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Read an Excel file (.xlsx/.csv modern, .xls legacy). Returns bounded cell data as JSON. Supports optional sheet selection, A1-notation range filtering, and max_rows (default 1000, max 5000). truncated=true means more rows remain.",
+   "name": "read_excel",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Excel file path (alias: path)",
+      "type": "string"
+     },
+     "max_rows": {
+      "description": "Maximum returned rows (default 1000, max 5000); response sets truncated=true when additional rows remain.",
+      "type": "integer"
+     },
+     "path": {
+      "description": "Alias for file_path",
+      "type": "string"
+     },
+     "range": {
+      "description": "Optional A1-notation cell range, e.g. A1:D10",
+      "type": "string"
+     },
+     "sheet": {
+      "description": "Optional sheet name (defaults to first sheet)",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Write an XLSX file. Supports formulas (strings starting with =) and cell styles (bold, font_size, background_color, number_format).",
+   "name": "write_excel",
+   "parameters": {
+    "properties": {
+     "data": {
+      "description": "Write data, format: {\"sheets\": [{\"name\": \"Sheet1\", \"rows\": [[...]]}]}",
+      "type": "object"
+     },
+     "file_path": {
+      "description": "Excel file path",
+      "type": "string"
+     },
+     "sheet": {
+      "description": "Optional sheet name",
+      "type": "string"
+     }
+    },
+    "required": [
+     "file_path",
+     "data"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Read a PowerPoint PPTX file. Returns bounded structured JSON with slides, shapes, text (with formatting), tables, charts, and speaker notes. max_slides defaults to 100 (max 500); use slide_offset=next_offset when truncated=true. This structured reader is PPTX-only; use read_document for six-format text extraction, including legacy .ppt.",
+   "name": "read_pptx",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "PPTX file path (alias: path)",
+      "type": "string"
+     },
+     "max_slides": {
+      "description": "Maximum returned slides (default 100, max 500); response sets truncated=true when additional slides remain.",
+      "type": "integer"
+     },
+     "path": {
+      "description": "Alias for file_path",
+      "type": "string"
+     },
+     "slide_offset": {
+      "description": "Zero-based slide offset for a follow-up structured page; use next_offset from a truncated response.",
+      "type": "integer"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Office/PDF/text document tool. action: read_document (auto-detect .pdf/.doc/.docx/.xls/.xlsx/.csv/.ppt/.pptx and text files), read_excel, write_excel, read_pptx, write_pptx, preview_pptx, generate_pdf. Prefer read_document for mixed formats; read_excel is spreadsheet-only and read_pptx is PPTX-only. write_pptx renders a designed deck (cover, accent rail, cards, page footer; theme auto or business/academic/warm/launch/tech/education/ceremony/minimal, with purpose selecting a style when theme is auto; slide layout auto/bullets/cards/section/agenda/kpi/quote/closing) and automatically renders per-slide preview images next to the deck (\u003cname\u003e_preview/) so the visual result can be checked and fixed by rewriting; preview_pptx renders a .pptx deck to per-slide PNG/JPEG images on demand.",
+   "name": "office",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "read_document/read_doc/read_docx/read_pdf/read_excel/write_excel/read_pptx/write_pptx/preview_pptx/generate_pdf",
+      "type": "string"
+     },
+     "content": {
+      "description": "Markdown body for generate_pdf",
+      "type": "string"
+     },
+     "data": {
+      "description": "Write payload for write_excel/write_pptx",
+      "type": "object"
+     },
+     "doc_type": {
+      "description": "Workflow document type alias for stable filenames: requirements, design, or task_plan. Prefer phase_id when available.",
+      "type": "string"
+     },
+     "draft": {
+      "description": "preview_pptx: draft mode, faster with lower fidelity (default false)",
+      "type": "boolean"
+     },
+     "file_path": {
+      "description": "File path for read_*/write_excel/write_pptx/preview_pptx (alias: path)",
+      "type": "string"
+     },
+     "format": {
+      "description": "preview_pptx image format: png (default) or jpeg",
+      "type": "string"
+     },
+     "line_numbers": {
+      "description": "read_document: prefix lines with L1:/L2: markers",
+      "type": "boolean"
+     },
+     "max_chars": {
+      "description": "read_document max characters for this chunk",
+      "type": "integer"
+     },
+     "max_rows": {
+      "description": "read_excel max rows (default 1000, max 5000)",
+      "type": "integer"
+     },
+     "max_slides": {
+      "description": "read_pptx max slides (default 100, max 500, 仅 .pptx); preview_pptx max slides to render (default all, max 200)",
+      "type": "integer"
+     },
+     "offset": {
+      "description": "read_document character offset; use next_offset to continue",
+      "type": "integer"
+     },
+     "output_dir": {
+      "description": "preview_pptx image output directory (default: \u003cname\u003e_preview next to the deck)",
+      "type": "string"
+     },
+     "path": {
+      "description": "Alias for file_path",
+      "type": "string"
+     },
+     "phase_id": {
+      "description": "Workflow document phase ID for stable filenames. Use requirements, design/tech_design, or tasks/task_breakdown/task_plan. When set, generated workflow document filenames are stable ASCII; display titles may be localized.",
+      "type": "string"
+     },
+     "preview": {
+      "description": "write_pptx: set false to skip the automatic per-slide preview render (default true)",
+      "type": "boolean"
+     },
+     "range": {
+      "description": "read_excel A1 range such as A1:D10",
+      "type": "string"
+     },
+     "sheet": {
+      "description": "read_excel sheet name",
+      "type": "string"
+     },
+     "slide_offset": {
+      "description": "read_pptx/preview_pptx zero-based slide offset",
+      "type": "integer"
+     },
+     "title": {
+      "description": "PDF cover title for generate_pdf",
+      "type": "string"
+     },
+     "width": {
+      "description": "preview_pptx image width in pixels (default 1280, max 4096)",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Render current facts as a PDF. title is the cover heading; phase_id/doc_type optionally select a stable ASCII filename prefix.",
+   "name": "generate_pdf",
+   "parameters": {
+    "properties": {
+     "content": {
+      "description": "Markdown document body",
+      "type": "string"
+     },
+     "doc_type": {
+      "description": "Workflow document type alias for stable filenames: requirements, design, or task_plan. Prefer phase_id when available.",
+      "type": "string"
+     },
+     "phase_id": {
+      "description": "Workflow document phase ID for stable filenames. Use requirements, design/tech_design, or tasks/task_breakdown/task_plan. When set, generated workflow document filenames are stable ASCII; display titles may be localized.",
+      "type": "string"
+     },
+     "title": {
+      "description": "PDF cover title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "content"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Search the internet. Returns a list of results with title, URL, and snippet. If HTML/API engines time out, are blocked, or miss a named site (e.g. OpenReview), search continues with a real-browser Google/Bing fallback.",
+   "name": "web_search",
+   "parameters": {
+    "properties": {
+     "max_results": {
+      "description": "Max results, default 8, max 20",
+      "type": "integer"
+     },
+     "query": {
+      "description": "Search query",
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Fetch and extract text content from a URL. Supports encoding detection and HTML extraction. For binary/PDF downloads set save_path (relative paths use the session working directory). Prefer download_file for simple HTTP downloads instead of Hub wget/curl skills.",
+   "name": "web_fetch",
+   "parameters": {
+    "properties": {
+     "max_chars": {
+      "description": "Max characters to return (optional)",
+      "type": "integer"
+     },
+     "offset": {
+      "description": "Character offset for pagination (default 0)",
+      "type": "integer"
+     },
+     "render_js": {
+      "description": "Use Chrome to render JS (optional, default false)",
+      "type": "boolean"
+     },
+     "save_path": {
+      "description": "Save file path (optional, downloads file instead of returning text; relative to working directory)",
+      "type": "string"
+     },
+     "timeout": {
+      "description": "Timeout seconds, default 600, range 240-600",
+      "type": "integer"
+     },
+     "url": {
+      "description": "URL to fetch",
+      "type": "string"
+     }
+    },
+    "required": [
+     "url"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Download an HTTP/HTTPS URL into the session working directory and return the absolute saved path. Preferred for PDFs and generic file downloads; do not install ClawHub wget/curl skills for this. Has a built-in anti-bot escalation chain (browser-like headers, then a simulated Chrome TLS fingerprint, then browser-session cookies) and automatic retries; via_browser=true makes the browser itself download (strongest anti-bot bypass, also forces inline PDFs to disk); progress log at ~/.maclaw/logs/download.log.",
+   "name": "download_file",
+   "parameters": {
+    "properties": {
+     "cookie": {
+      "description": "Cookie request header shortcut (optional)",
+      "type": "string"
+     },
+     "headers": {
+      "description": "Extra request headers (optional, e.g. {\"Referer\": \"...\"})",
+      "type": "object"
+     },
+     "output": {
+      "description": "Alias for save_path",
+      "type": "string"
+     },
+     "save_path": {
+      "description": "Destination path (optional; relative to working directory; defaults to URL basename)",
+      "type": "string"
+     },
+     "timeout": {
+      "description": "Timeout seconds (optional)",
+      "type": "integer"
+     },
+     "url": {
+      "description": "URL to download",
+      "type": "string"
+     },
+     "use_browser_cookies": {
+      "description": "Reuse the live browser session's cookies/UA for this download (optional; open the site with the browser tool first for Cloudflare-protected sites)",
+      "type": "boolean"
+     },
+     "via_browser": {
+      "description": "Let the browser itself download the URL (optional; browser cookies/fingerprint, inline PDFs are forced to disk; last resort when HTTP-level downloads are blocked)",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "url"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "查看库、查看数据库、列出库/schema/表、查看表结构，以及连接并操作 MySQL、PostgreSQL、SQL Server、Access 和 Excel 数据源。必须调用本工具，禁止用 bash/mysql/psql/sqlcmd 或把密码写进命令，也不要当成 Git 仓库或改用 ssh。多个数据源时先 list_connections，按用户提到的主机/库名/id 选 profile_id。没有匹配时调用 propose_profile（只传 host/username/database，不要传密码），由宿主弹出表单写入密钥环。connect 认证失败时宿主会再次弹出密码表单，等待用户保存后再 connect，不要自己写授权文案，不要用 ssh。先 inspect，再使用参数化 query。写入需 write_enabled、dry-run 和宿主审批。",
+   "name": "database",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "操作类型；不同 action 的必填字段由 handler 再次校验",
+      "enum": [
+       "list_connections",
+       "connect",
+       "disconnect",
+       "inspect",
+       "query",
+       "execute",
+       "batch_execute",
+       "read_table",
+       "write_table",
+       "export_excel",
+       "job_status",
+       "explain",
+       "list_favorites",
+       "save_favorite",
+       "delete_favorite",
+       "propose_profile"
+      ],
+      "type": "string"
+     },
+     "allow_external_host": {
+      "description": "propose_profile：允许公网主机；内网地址通常不需要",
+      "type": "boolean"
+     },
+     "async": {
+      "description": "query 在后台执行，立即返回 job_id；用 job_status 轮询，完成后通过 result_handle 分页",
+      "type": "boolean"
+     },
+     "connection_id": {
+      "description": "当前 session 的短期连接 ID",
+      "type": "string"
+     },
+     "cursor": {
+      "description": "query 返回的短期分页游标",
+      "type": "string"
+     },
+     "dry_run": {
+      "description": "写操作预检；提交必须为 false 且带审批上下文",
+      "type": "boolean"
+     },
+     "expected_affected_rows": {
+      "description": "审批时的影响行数预期，仅用于偏差告警，不作为安全边界",
+      "type": "integer"
+     },
+     "favorite_id": {
+      "description": "查询收藏 ID；query/explain 可用来代替 sql",
+      "type": "string"
+     },
+     "favorite_name": {
+      "description": "save_favorite 的名称",
+      "type": "string"
+     },
+     "file_path": {
+      "description": "Excel/Access 文件路径或导出目标路径",
+      "type": "string"
+     },
+     "host": {
+      "description": "仅 list_connections 过滤、connect 匹配或 propose_profile 草稿；不能代替 profile 去直连",
+      "type": "string"
+     },
+     "job_id": {
+      "description": "job_status 的异步查询作业 ID",
+      "type": "string"
+     },
+     "limit": {
+      "description": "最大返回行数，默认 100，最大 5000",
+      "maximum": 5000,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "max_affected_rows": {
+      "description": "写操作影响行数上限",
+      "type": "integer"
+     },
+     "name": {
+      "description": "propose_profile 的显示名",
+      "type": "string"
+     },
+     "parameter_mode": {
+      "description": "参数模式；positional 仅 MySQL/SQLite/Excel facade，须显式声明",
+      "enum": [
+       "named",
+       "positional"
+      ],
+      "type": "string"
+     },
+     "params": {
+      "description": "命名参数对象，或 parameter_mode=positional 时的数组"
+     },
+     "port": {
+      "description": "propose_profile 的端口；query/execute 不得传端口来绕过 profile",
+      "maximum": 65535,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "profile_id": {
+      "description": "已授权数据源 profile ID；不得传密码或完整 DSN。多个数据源时用 list_connections 按 host/database 选择",
+      "type": "string"
+     },
+     "prompt": {
+      "description": "自然语言查询意图；explain 在无 sql 时返回 schema 预览，不执行 SQL",
+      "type": "string"
+     },
+     "range": {
+      "description": "Excel A1 范围，例如 A1:D100",
+      "type": "string"
+     },
+     "result_handle": {
+      "description": "query 返回的加密结果句柄；export_excel 可用来代替 rows，由后端按 owner/session 解析",
+      "type": "string"
+     },
+     "rows": {
+      "description": "表格行数据",
+      "type": "array"
+     },
+     "sheet": {
+      "description": "Excel 工作表名称",
+      "type": "string"
+     },
+     "source_sha256": {
+      "description": "预览阶段返回的源文件哈希；提交时用于检测并发修改",
+      "type": "string"
+     },
+     "sql": {
+      "description": "参数化 SQL，使用 :name 占位符；positional 模式使用 ?",
+      "type": "string"
+     },
+     "statements": {
+      "description": "batch_execute 的有序参数化语句列表",
+      "items": {
+       "properties": {
+        "params": {
+         "type": "object"
+        },
+        "sql": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "sql"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "table": {
+      "description": "表名或 Excel sheet 表名",
+      "type": "string"
+     },
+     "timeout_seconds": {
+      "description": "查询超时秒数",
+      "maximum": 600,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "type": {
+      "description": "propose_profile 的数据源类型，默认 mysql",
+      "enum": [
+       "mysql",
+       "postgres",
+       "sqlserver",
+       "access",
+       "excel"
+      ],
+      "type": "string"
+     },
+     "username": {
+      "description": "propose_profile 的用户名，或 list_connections/connect 匹配；不得传密码",
+      "type": "string"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "只读查看库、查看数据库、列出库/schema/表、查看表结构：list_connections、connect、disconnect、inspect、query、read_table、job_status、explain、list_favorites、save_favorite、delete_favorite。必须调用本工具，禁止用 bash/mysql/psql 传密码，也不要当成 Git 仓库。写入、批处理和导出请使用 database 工具。",
+   "name": "database_query",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "操作类型；不同 action 的必填字段由 handler 再次校验",
+      "enum": [
+       "list_connections",
+       "connect",
+       "disconnect",
+       "inspect",
+       "query",
+       "execute",
+       "batch_execute",
+       "read_table",
+       "write_table",
+       "export_excel",
+       "job_status",
+       "explain",
+       "list_favorites",
+       "save_favorite",
+       "delete_favorite",
+       "propose_profile"
+      ],
+      "type": "string"
+     },
+     "allow_external_host": {
+      "description": "propose_profile：允许公网主机；内网地址通常不需要",
+      "type": "boolean"
+     },
+     "async": {
+      "description": "query 在后台执行，立即返回 job_id；用 job_status 轮询，完成后通过 result_handle 分页",
+      "type": "boolean"
+     },
+     "connection_id": {
+      "description": "当前 session 的短期连接 ID",
+      "type": "string"
+     },
+     "cursor": {
+      "description": "query 返回的短期分页游标",
+      "type": "string"
+     },
+     "dry_run": {
+      "description": "写操作预检；提交必须为 false 且带审批上下文",
+      "type": "boolean"
+     },
+     "expected_affected_rows": {
+      "description": "审批时的影响行数预期，仅用于偏差告警，不作为安全边界",
+      "type": "integer"
+     },
+     "favorite_id": {
+      "description": "查询收藏 ID；query/explain 可用来代替 sql",
+      "type": "string"
+     },
+     "favorite_name": {
+      "description": "save_favorite 的名称",
+      "type": "string"
+     },
+     "file_path": {
+      "description": "Excel/Access 文件路径或导出目标路径",
+      "type": "string"
+     },
+     "host": {
+      "description": "仅 list_connections 过滤、connect 匹配或 propose_profile 草稿；不能代替 profile 去直连",
+      "type": "string"
+     },
+     "job_id": {
+      "description": "job_status 的异步查询作业 ID",
+      "type": "string"
+     },
+     "limit": {
+      "description": "最大返回行数，默认 100，最大 5000",
+      "maximum": 5000,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "max_affected_rows": {
+      "description": "写操作影响行数上限",
+      "type": "integer"
+     },
+     "name": {
+      "description": "propose_profile 的显示名",
+      "type": "string"
+     },
+     "parameter_mode": {
+      "description": "参数模式；positional 仅 MySQL/SQLite/Excel facade，须显式声明",
+      "enum": [
+       "named",
+       "positional"
+      ],
+      "type": "string"
+     },
+     "params": {
+      "description": "命名参数对象，或 parameter_mode=positional 时的数组"
+     },
+     "port": {
+      "description": "propose_profile 的端口；query/execute 不得传端口来绕过 profile",
+      "maximum": 65535,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "profile_id": {
+      "description": "已授权数据源 profile ID；不得传密码或完整 DSN。多个数据源时用 list_connections 按 host/database 选择",
+      "type": "string"
+     },
+     "prompt": {
+      "description": "自然语言查询意图；explain 在无 sql 时返回 schema 预览，不执行 SQL",
+      "type": "string"
+     },
+     "range": {
+      "description": "Excel A1 范围，例如 A1:D100",
+      "type": "string"
+     },
+     "result_handle": {
+      "description": "query 返回的加密结果句柄；export_excel 可用来代替 rows，由后端按 owner/session 解析",
+      "type": "string"
+     },
+     "rows": {
+      "description": "表格行数据",
+      "type": "array"
+     },
+     "sheet": {
+      "description": "Excel 工作表名称",
+      "type": "string"
+     },
+     "source_sha256": {
+      "description": "预览阶段返回的源文件哈希；提交时用于检测并发修改",
+      "type": "string"
+     },
+     "sql": {
+      "description": "参数化 SQL，使用 :name 占位符；positional 模式使用 ?",
+      "type": "string"
+     },
+     "statements": {
+      "description": "batch_execute 的有序参数化语句列表",
+      "items": {
+       "properties": {
+        "params": {
+         "type": "object"
+        },
+        "sql": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "sql"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "table": {
+      "description": "表名或 Excel sheet 表名",
+      "type": "string"
+     },
+     "timeout_seconds": {
+      "description": "查询超时秒数",
+      "maximum": 600,
+      "minimum": 1,
+      "type": "integer"
+     },
+     "type": {
+      "description": "propose_profile 的数据源类型，默认 mysql",
+      "enum": [
+       "mysql",
+       "postgres",
+       "sqlserver",
+       "access",
+       "excel"
+      ],
+      "type": "string"
+     },
+     "username": {
+      "description": "propose_profile 的用户名，或 list_connections/connect 匹配；不得传密码",
+      "type": "string"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Skill 管理（action: list/info/search/install/uninstall/run/status/upload/upload_suite/validate/patch/history/maintenance_plan/maintenance_drafts/execute_maintenance_plan/evolution_status/evolution_compensations/evolution_audit/set_evolution_enabled/trigger_repair/trigger_optimize/list_repair_drafts/apply_repair_draft/reject_repair_draft）。list 列出本地已注册 Skill（无 Skill 时展示 Hub 推荐；行内附带 params 摘要）；info 查看指定 Skill 的参数契约（完整 params + JSON Schema；run 前建议先 inspect）；search 在 SkillHub 搜索可用 Skill；install 从 Hub 安装 Skill 到本地；uninstall 卸载/移除本地已安装的 Skill（删除目录和配置）；run 执行指定 Skill；status 查询运行状态（run 返回 run_id 后继续观察进度）；upload 上传/发布本地 Skill 到 SkillMarket/HubCenter/能力市场（publish/pub/submit/发布/上架 都使用 action=\"upload\"；上传前自动检查并修正绝对路径、补全缺失文件等可移植性问题）；upload_suite 将多个本地 Skill 打包成 Suite 并上传到 SkillMarket/HubCenter（names 必填；可选 suite_name）；validate 检查 Skill 的跨平台可移植性并可选自动修复；patch 对 Skill 定义执行修补（mode=text: find-and-replace；mode=step: 结构化修改步骤字段）；history 查看 Skill 的修补历史记录；maintenance_plan 生成只读 Skill 维护计划（不修改、不归档、不合并、不执行 Skill）；maintenance_drafts 收集需人审的 patch_draft / merge_draft 与排队自修复项（只读 dry-run；不修改 Skill）；execute_maintenance_plan 执行已批准的 Skill 维护动作，默认 dry_run 预演；evolution_status 查询 Skill 自进化管道状态（自修复/优化/自动发现是否启用、排队数、冷却时间等；只读）；evolution_compensations 查询待恢复补偿队列的安全摘要（只读；不暴露快照内容、不触发恢复）；evolution_audit 查询 Skill 自进化持久审计日志（只读；limit 默认 50 最大 200；可选 name 过滤技能；路径 ~/.maclaw/skill_evolution/audit.jsonl）；set_evolution_enabled 开关自动自进化（enabled=true/false 必填；写入 skill_evolution_enabled 配置；true 时同时清除 session 禁用；不影响手动 trigger_repair/trigger_optimize；环境变量 MACLAW_DISABLE_SKILL_EVOLUTION 仍优先强制关闭）；trigger_repair 立即对指定 Skill 尝试 LLM 自修复（name 必填；force=true 时跳过成功率门槛但仍受安全与次数限制；wait=true 时同步等待结果）；trigger_optimize 立即对指定 Skill 尝试 LLM 优化（name 必填；force=true 时跳过自动优化门槛与 24h 节流；默认同步执行）；list_repair_drafts 列出 file-backed Skill 待人审的修复草稿（可选 name 过滤；只读；草稿位于 \u003cskill_dir\u003e/.evolution-drafts/）；apply_repair_draft 应用指定的待审修复草稿（name + draft 文件名必填；写回 skill.yaml 与配置后删除草稿）；reject_repair_draft 拒绝并删除指定的待审修复草稿（name + draft 文件名必填；不修改 Skill）。 maintenance_plan is read-only and returns local skill health recommendations without modifying, archiving, merging, installing, or executing skills.",
+   "name": "manage_skill",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "操作: list/info/search/install/uninstall/run/status/upload/upload_suite/validate/patch/history/maintenance_plan/maintenance_drafts/execute_maintenance_plan/evolution_status/evolution_compensations/evolution_audit/set_evolution_enabled/trigger_repair/trigger_optimize/list_repair_drafts/apply_repair_draft/reject_repair_draft",
+      "type": "string"
+     },
+     "allow_duplicate_retire": {
+      "description": "allow execute_maintenance_plan to disable the recommended duplicate skill after merge draft review",
+      "type": "boolean"
+     },
+     "approved_actions": {
+      "description": "approved maintenance action names for execute_maintenance_plan",
+      "type": "array"
+     },
+     "args": {
+      "description": "Skill 运行参数（run 时按需传入）",
+      "type": "object"
+     },
+     "auto_fix": {
+      "description": "Validate auto fix flag",
+      "type": "boolean"
+     },
+     "confirm": {
+      "description": "required true when execute_maintenance_plan uses dry_run=false",
+      "type": "boolean"
+     },
+     "dry_run": {
+      "description": "execute_maintenance_plan preview mode; defaults true",
+      "type": "boolean"
+     },
+     "duplicate_similarity": {
+      "description": "maintenance_plan duplicate skill similarity threshold",
+      "type": "number"
+     },
+     "find": {
+      "description": "要查找的原始文本（patch 时必填，必须精确匹配唯一一处）",
+      "type": "string"
+     },
+     "hub_url": {
+      "description": "来源 Hub URL（install 时可选）",
+      "type": "string"
+     },
+     "input": {
+      "description": "兼容旧调用的输入参数（run 时可选）",
+      "type": "string"
+     },
+     "max_actions": {
+      "description": "maintenance_plan max action count",
+      "type": "integer"
+     },
+     "min_failure_runs": {
+      "description": "maintenance_plan minimum failed runs before review/repair",
+      "type": "integer"
+     },
+     "name": {
+      "description": "Skill 名称（run/upload/validate 时必填）",
+      "type": "string"
+     },
+     "operation": {
+      "description": "执行指定的 operation（run 时可选）",
+      "type": "string"
+     },
+     "output": {
+      "description": "兼容旧调用的输出参数（run 时可选）",
+      "type": "string"
+     },
+     "query": {
+      "description": "搜索关键词（search 时必填）",
+      "type": "string"
+     },
+     "reason": {
+      "description": "修补原因说明（patch 时可选）",
+      "type": "string"
+     },
+     "replace": {
+      "description": "替换后的新文本（patch 时必填）",
+      "type": "string"
+     },
+     "run_id": {
+      "description": "运行 ID（status 时必填）",
+      "type": "string"
+     },
+     "skill_id": {
+      "description": "Skill ID（install 时必填，从 search 结果中获取）",
+      "type": "string"
+     },
+     "skill_name": {
+      "description": "Skill 名称（patch/history 时必填）",
+      "type": "string"
+     },
+     "stale_after_days": {
+      "description": "maintenance_plan stale learned/crafted skill threshold in days",
+      "type": "integer"
+     },
+     "user_prompt": {
+      "description": "用户的原始请求文本（run 时可选）",
+      "type": "string"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "截取屏幕截图并发送给用户。",
+   "name": "screenshot",
+   "parameters": {
+    "properties": {
+     "display": {
+      "description": "显示器编号（可选，0=主屏，1=第二屏，不传则截取所有屏幕）",
+      "type": "integer"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "将文本转换为语音消息发送给用户。IM 通道以语音气泡形式发送，桌面面板播放语音。适用于状态通知、简短回复摘要、任务完成汇报等场景。",
+   "name": "tts",
+   "parameters": {
+    "properties": {
+     "text": {
+      "description": "要转换为语音的文本内容（中文，最长 300 字，超出自动截断）",
+      "type": "string"
+     }
+    },
+    "required": [
+     "text"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Render text as a workspace speech artifact. Does not play or send, and cannot choose a channel or destination.",
+   "name": "tts_render",
+   "parameters": {
+    "properties": {
+     "text": {
+      "description": "Text to synthesize",
+      "type": "string"
+     }
+    },
+    "required": [
+     "text"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "本地语音识别（ASR）。将音频文件转写为文本。直接支持: wav, mp3, ogg/opus, silk。推荐 16kHz mono WAV。m4a/aac/其它格式请先用 bash+ffmpeg 转为 16kHz mono 16-bit WAV 再调用；不要安装 Whisper。启用说话人分离后，多人音频自动按说话人分段标注（[mm:ss-mm:ss] Speaker N: 文本），单人或分离不可用时输出纯文本。若用户已确认说话人数，传 known_speakers=N（1-15）可显著提高分离准确度；0/省略=自动估计。长转写会写入与音频同目录的 *_transcript.txt，并返回 transcript_file + 预览（避免撑爆上下文）。生成会议纪要时传 for_minutes=true 以启用引擎 LLM map-reduce 草稿；默认仅快速 extractive。完整转写专节从 transcript_file 组装。",
+   "name": "asr",
+   "parameters": {
+    "properties": {
+     "for_minutes": {
+      "description": "true=长转写后运行引擎 LLM map-reduce 生成会议纪要草稿；默认 false（仅快速 extractive）",
+      "type": "boolean"
+     },
+     "format": {
+      "description": "可选格式提示: wav/mp3/ogg/opus/silk（默认自动检测）",
+      "type": "string"
+     },
+     "minutes": {
+      "description": "for_minutes 的别名",
+      "type": "boolean"
+     },
+     "path": {
+      "description": "本地音频文件路径",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "定时任务管理。action: create/list/delete/update/list_targets。list_targets 的 channel：lansenger（群）、weixin/telegram/qq（self）。create/update 可配 delivery 推送；蓝信 group_name 可解析为 group_id。day_of_week: -1=每天, 0=周日…6=周六。一次性任务将 start_date 与 end_date 都设为目标日期。即时发消息请用 im_message，不要用定时任务绕路。",
+   "name": "manage_schedule",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "create/list/delete/update/list_targets",
+      "type": "string"
+     },
+     "channel": {
+      "description": "list_targets 或 delivery 通道",
+      "type": "string"
+     },
+     "day_of_month": {
+      "description": "每月几号（-1=不限, 1-31，默认-1）",
+      "type": "integer"
+     },
+     "day_of_week": {
+      "description": "星期几（-1=每天, 0=周日...6=周六，默认-1）",
+      "type": "integer"
+     },
+     "delivery": {
+      "description": "结果推送 {enabled,channel,fail_on_error,targets:[{kind,group_id|group_name|user_id}]}",
+      "type": "object"
+     },
+     "end_date": {
+      "description": "生效结束日期（格式 2006-01-02）",
+      "type": "string"
+     },
+     "fail_on_error": {
+      "description": "投递失败是否让任务失败（默认 false）",
+      "type": "boolean"
+     },
+     "group_id": {
+      "description": "delivery 简写：群 ID",
+      "type": "string"
+     },
+     "group_name": {
+      "description": "delivery 简写：群名",
+      "type": "string"
+     },
+     "hour": {
+      "description": "执行时间-小时（0-23）",
+      "type": "integer"
+     },
+     "id": {
+      "description": "任务 ID（delete/update 时必填）",
+      "type": "string"
+     },
+     "interval_minutes": {
+      "description": "重复间隔分钟数（\u003e0 启用间隔模式）",
+      "type": "integer"
+     },
+     "minute": {
+      "description": "执行时间-分钟（0-59，默认0）",
+      "type": "integer"
+     },
+     "name": {
+      "description": "任务名称（create 时必填，delete 时可选）",
+      "type": "string"
+     },
+     "query": {
+      "description": "list_targets 名称/ID 过滤",
+      "type": "string"
+     },
+     "start_date": {
+      "description": "生效开始日期（格式 2006-01-02）",
+      "type": "string"
+     },
+     "task_action": {
+      "description": "到时要执行的操作（自然语言描述，create/update 时使用）",
+      "type": "string"
+     },
+     "user_id": {
+      "description": "delivery 简写：私聊 ID 或 self",
+      "type": "string"
+     }
+    },
+    "required": [
+     "action"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "即时向 IM 发文本或文件（蓝信群/人、微信/Telegram/QQ）。action: list_targets|send|send_file（可省略：有 text 则 send，有 path 则 send_file）。用户要求现在发到蓝信某群/微信时用本工具；周期播报才用 manage_schedule+delivery。list_targets 的 channel：lansenger|weixin|telegram|qq；send 需 text + group_name/group_id/user_id。send_file 上传本机文件（目前仅蓝信 lansenger 支持），需 path + group_name/group_id/user_id，可带 text 作为说明文字。",
+   "name": "im_message",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "list_targets、send 或 send_file；可省略并自动推断",
+      "type": "string"
+     },
+     "channel": {
+      "description": "lansenger|weixin|telegram|qq（默认 lansenger）",
+      "type": "string"
+     },
+     "delivery": {
+      "description": "可选完整投递配置",
+      "type": "object"
+     },
+     "file_name": {
+      "description": "send_file：发送时显示的文件名（可选）",
+      "type": "string"
+     },
+     "group_id": {
+      "description": "send/send_file：群 ID",
+      "type": "string"
+     },
+     "group_name": {
+      "description": "send/send_file：群名（自动解析）",
+      "type": "string"
+     },
+     "mention_all": {
+      "description": "是否 @所有人",
+      "type": "boolean"
+     },
+     "mention_user_ids": {
+      "description": "群 @ 用户 ID，逗号分隔",
+      "type": "string"
+     },
+     "message": {
+      "description": "text 别名",
+      "type": "string"
+     },
+     "path": {
+      "description": "send_file：要发送的本机文件路径",
+      "type": "string"
+     },
+     "query": {
+      "description": "list_targets 名称/ID 过滤",
+      "type": "string"
+     },
+     "text": {
+      "description": "send 时消息正文；send_file 时作为文件说明文字",
+      "type": "string"
+     },
+     "user_id": {
+      "description": "send/send_file：私聊 ID 或 self",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "List registered MCP servers and their tools, including parameter details. Filter by keyword or server.",
+   "name": "list_mcp_tools",
+   "parameters": {
+    "properties": {
+     "query": {
+      "description": "Search keyword matching tool name, description, or server name (case-insensitive)",
+      "type": "string"
+     },
+     "server_id": {
+      "description": "Filter by MCP server ID or name",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Import MCP servers from JSON. Accepts {\"mcpServers\":{\"name\":{...}}} or a bare mcpServers/mcp_servers fragment. Local stdio uses command/args/env; remote HTTP uses url or endpoint_url/headers.",
+   "name": "import_mcp_servers",
+   "parameters": {
+    "properties": {
+     "json_config": {
+      "description": "MCP JSON config text",
+      "type": "string"
+     },
+     "target": {
+      "description": "Import target: auto/local/remote. Default auto.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "json_config"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Search the local knowledge base (SQLite FTS). Returns ranked results with score, source, and snippet. Use when the user asks about saved documents, imported files, or stored knowledge. Also use proactively BEFORE asking the user for task parameters that may already be stored — such as server addresses, login credentials/usernames, environment config, or project paths.",
+   "name": "knowledge_search",
+   "parameters": {
+    "properties": {
+     "context_terms": {
+      "description": "Extra terms used only for ranking, not as hard filters",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "domain": {
+      "description": "Restrict results to a source domain",
+      "type": "string"
+     },
+     "id": {
+      "description": "Alias for a single source_ids item.",
+      "type": "string"
+     },
+     "include_disabled": {
+      "description": "Include disabled/summarized sources. Default false.",
+      "type": "boolean"
+     },
+     "labels": {
+      "description": "Restrict results to sources carrying these labels",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "limit": {
+      "description": "Max results, default 8, max 50",
+      "type": "integer"
+     },
+     "project_path": {
+      "description": "Restrict results to sources imported under this project path",
+      "type": "string"
+     },
+     "query": {
+      "description": "Search query",
+      "type": "string"
+     },
+     "result_types": {
+      "description": "Result kinds to return, e.g. card | fact | source",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "search_scope": {
+      "description": "all | project | personal. Default all.",
+      "type": "string"
+     },
+     "source_id": {
+      "description": "Alias for a single source_ids item.",
+      "type": "string"
+     },
+     "source_ids": {
+      "description": "Restrict results to these source IDs",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "source_kinds": {
+      "description": "Source kinds to restrict the search to",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint to narrow ranking",
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Build a compact, citation-backed context bundle from the local knowledge base under a character budget. Use when you need a prompt-ready bundle of ranked cards, facts, and source nodes for answering from stored knowledge.",
+   "name": "knowledge_context_pack",
+   "parameters": {
+    "properties": {
+     "context_terms": {
+      "description": "Extra terms used only for ranking, not as hard filters",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "domain": {
+      "description": "Restrict the pack to a source domain",
+      "type": "string"
+     },
+     "id": {
+      "description": "Alias for a single source_ids item.",
+      "type": "string"
+     },
+     "include_disabled": {
+      "description": "Include disabled/summarized sources. Default false.",
+      "type": "boolean"
+     },
+     "labels": {
+      "description": "Restrict the pack to sources carrying these labels",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "max_chars": {
+      "description": "Max total context characters, default 6000, max 20000",
+      "type": "integer"
+     },
+     "max_items": {
+      "description": "Max context items, default 8, max 30",
+      "type": "integer"
+     },
+     "project_path": {
+      "description": "Restrict the pack to sources imported under this project path",
+      "type": "string"
+     },
+     "query": {
+      "description": "Search query for the context pack",
+      "type": "string"
+     },
+     "result_types": {
+      "description": "Result kinds to include, e.g. card | fact | source",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "search_scope": {
+      "description": "all | project | personal. Default all.",
+      "type": "string"
+     },
+     "source_id": {
+      "description": "Alias for a single source_ids item.",
+      "type": "string"
+     },
+     "source_ids": {
+      "description": "Restrict the pack to these source IDs",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "source_kinds": {
+      "description": "Source kinds to restrict the pack to",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint to narrow ranking",
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Export all or selected current-user knowledge into an editable MaClaw knowledge JSON package for moving data between machines or sharing through Hub. A description is required.",
+   "name": "knowledge_export",
+   "parameters": {
+    "properties": {
+     "description": {
+      "description": "Required description for this knowledge export",
+      "type": "string"
+     },
+     "include_disabled": {
+      "description": "Include disabled own sources",
+      "type": "boolean"
+     },
+     "output_path": {
+      "description": "Optional destination path when supported by the host",
+      "type": "string"
+     },
+     "source_ids": {
+      "description": "Optional source IDs for partial export",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "title": {
+      "description": "Optional export title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Import a MaClaw editable knowledge JSON package into the current user's knowledge base. URL entries may be rebuilt; text entries require package content.",
+   "name": "knowledge_import_package",
+   "parameters": {
+    "properties": {
+     "package_json": {
+      "description": "Inline package JSON when supplied by the host",
+      "type": "object"
+     },
+     "package_path": {
+      "description": "Path to a MaClaw knowledge JSON package",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Import shared knowledge by knowledge ID or by a human-readable, agent-importable share link. The host resolves the Hub and enforces permissions.",
+   "name": "knowledge_import_share",
+   "parameters": {
+    "properties": {
+     "hub_url": {
+      "description": "Optional Hub URL hint",
+      "type": "string"
+     },
+     "knowledge_id": {
+      "description": "Unique shared knowledge ID",
+      "type": "string"
+     },
+     "share_link": {
+      "description": "Human-readable share link that also carries import data",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Scan or import a local directory/folder of documents into the local knowledge base. Supports DOC/DOCX, PPT/PPTX, XLS/XLSX, PDF, CSV, Markdown, and TXT; PPT rich knowledge content requires the OfficeRead Knowledge opt-in. Only use after the user explicitly provides or approves the directory path.",
+   "name": "knowledge_import_directory",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "scan | import. Default import.",
+      "type": "string"
+     },
+     "auto_labels": {
+      "description": "Derive labels automatically instead of using labels. Default false.",
+      "type": "boolean"
+     },
+     "dir": {
+      "description": "Alias for root_path.",
+      "type": "string"
+     },
+     "directory": {
+      "description": "Alias for root_path.",
+      "type": "string"
+     },
+     "distill_mode": {
+      "description": "Distillation mode override for this import",
+      "type": "string"
+     },
+     "exclude_globs": {
+      "description": "Glob patterns to exclude from the scan",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "folder": {
+      "description": "Alias for root_path.",
+      "type": "string"
+     },
+     "include_exts": {
+      "description": "Extensions to include, e.g. .doc,.docx,.ppt,.pptx,.xls,.xlsx,.pdf,.md",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "labels": {
+      "description": "Labels to attach to imported sources",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "max_file_mb": {
+      "description": "Max file size in MB, default 100",
+      "type": "integer"
+     },
+     "path": {
+      "description": "Alias for root_path.",
+      "type": "string"
+     },
+     "recursive": {
+      "description": "Include subdirectories, default true",
+      "type": "boolean"
+     },
+     "root": {
+      "description": "Alias for root_path.",
+      "type": "string"
+     },
+     "root_path": {
+      "description": "Directory containing documents",
+      "type": "string"
+     },
+     "save_scope": {
+      "description": "project | personal | local_only. Default project.",
+      "type": "string"
+     },
+     "start_async": {
+      "description": "For import action, start async job. Default true.",
+      "type": "boolean"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Scan or import explicitly provided local document file paths into the local knowledge base. Supports DOC/DOCX, PPT/PPTX, XLS/XLSX, PDF, CSV, Markdown, and TXT; PPT rich knowledge content requires the OfficeRead Knowledge opt-in. Only use after the user explicitly provides or approves the file paths.",
+   "name": "knowledge_import_files",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "scan | import. Default import.",
+      "type": "string"
+     },
+     "auto_labels": {
+      "description": "Derive labels automatically instead of using labels. Default false.",
+      "type": "boolean"
+     },
+     "distill_mode": {
+      "description": "Distillation mode override for this import",
+      "type": "string"
+     },
+     "exclude_globs": {
+      "description": "Glob patterns to exclude from the scan",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "file_path": {
+      "description": "Alias for a single file_paths item.",
+      "type": "string"
+     },
+     "file_paths": {
+      "description": "Explicit local document file paths to scan or import",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "files": {
+      "description": "Alias for file_paths.",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "include_exts": {
+      "description": "Extensions to include, e.g. .doc,.docx,.ppt,.pptx,.xls,.xlsx,.pdf,.md",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "labels": {
+      "description": "Labels to attach to imported sources",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "max_file_mb": {
+      "description": "Max file size in MB, default 100",
+      "type": "integer"
+     },
+     "path": {
+      "description": "Alias for a single file_paths item.",
+      "type": "string"
+     },
+     "paths": {
+      "description": "Alias for file_paths.",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "root_path": {
+      "description": "Optional scan root the provided paths are resolved against",
+      "type": "string"
+     },
+     "save_scope": {
+      "description": "project | personal | local_only. Default project.",
+      "type": "string"
+     },
+     "start_async": {
+      "description": "For import action, start async job when the host handler supports it. Default true.",
+      "type": "boolean"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Save text into the local knowledge base. Only use when the user explicitly asks to save, remember, or persist a specific piece of text to the knowledge base.",
+   "name": "knowledge_save_text",
+   "parameters": {
+    "properties": {
+     "text": {
+      "description": "Text content to save",
+      "type": "string"
+     },
+     "title": {
+      "description": "Optional source title",
+      "type": "string"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint to improve write-time structure",
+      "type": "string"
+     }
+    },
+    "required": [
+     "text"
+    ],
+    "type": "object"
+   }
+  },
+  "type": "function"
+ },
+ {
+  "function": {
+   "description": "Fetch a public URL and save its content into the local knowledge base. Only use when the user explicitly asks to save, archive, or add a web page to the knowledge base.",
+   "name": "knowledge_save_url",
+   "parameters": {
+    "properties": {
+     "href": {
+      "description": "Alias for url.",
+      "type": "string"
+     },
+     "link": {
+      "description": "Alias for url.",
+      "type": "string"
+     },
+     "target": {
+      "description": "Alias for url.",
+      "type": "string"
+     },
+     "topic_hint": {
+      "description": "Optional topic hint to improve write-time structure",
+      "type": "string"
+     },
+     "uri": {
+      "description": "Alias for url.",
+      "type": "string"
+     },
+     "url": {
+      "description": "Public HTTP(S) URL to save",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  "type": "function"
+ }
+]

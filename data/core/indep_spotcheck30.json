@@ -1,0 +1,272 @@
+[
+ {
+  "id": "indep-gemini-0380",
+  "text": "早啊，今天又是元气满满的一天",
+  "intent": "unknown",
+  "judge": "unknown",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0178",
+  "text": "小爪，帮我下栽一下这个图片，http://img.photoshare.cn/raw/202311/wallpaper_09.png，保存在“我的图片”里，谢拉！",
+  "intent": "file_download",
+  "judge": "file_download",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-gemini-0471",
+  "text": "我刚传的那个 report.docx，能不能帮我搞一下转发？直接send给微信上的那个“甲方对接人”即可，不用回传到这儿。",
+  "intent": "document_delivery",
+  "judge": "document_delivery",
+  "gen": "gemini",
+  "kind": "hard",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-kimi-0292",
+  "text": "哎呀那个明天凌晨2点的清理脚本先给我停一下，服务器要维护，后天我在恢复了",
+  "intent": "schedule_manage",
+  "judge": "schedule_manage",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0058",
+  "text": "ma claw，我下周二要请个年假，去医院看下牙齿， bang wo ti jiao yi xia nian jia sheng qing。",
+  "intent": "business_data",
+  "judge": "business_data",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-gemini-0090",
+  "text": "jx搞。",
+  "intent": "continuation",
+  "judge": "continuation",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-kimi-0167",
+  "text": "There's a file called q3_board_deck_notes.pdf attached — from it, pull every mention of churn rate, then give me a two-sentence summary of the overall revenue outlook, and finally list any open questions the author flagged",
+  "intent": "document_read",
+  "judge": "document_read",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "en"
+ },
+ {
+  "id": "indep-gemini-0116",
+  "text": "把 desktop 上的 report.xlsx 当成数据源，read 一下 'Sales' sheet 的前 50 行。",
+  "intent": "database",
+  "judge": "database",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-gemini-0440",
+  "text": "Check sub-agents audit logs & system health history pls",
+  "intent": "audit_read",
+  "judge": "audit_read",
+  "gen": "gemini",
+  "kind": "hard",
+  "lang": "en"
+ },
+ {
+  "id": "indep-kimi-0218",
+  "text": "把下面这段话存进知识库哈，以后我可能会查：咱们的灰度发布策略是周二周四上午10点，先放5%流量观察两小时，无异常再全量。回滚标准：错误率超过0.5%或P99延迟涨20%。",
+  "intent": "knowledge_write",
+  "judge": "knowledge_write",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0071",
+  "text": "I've been trying to deploy the microservice to the staging env, but the container keeps restarting with an OOMKilled error. Can you analyze the memory usage in main.go and optimize the heap allocation to prevent this crash?",
+  "intent": "bug_fix",
+  "judge": "bug_fix",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "en"
+ },
+ {
+  "id": "indep-kimi-0137",
+  "text": "并行开三个，跑完叫我。",
+  "intent": "delegate_task",
+  "judge": "delegate_task",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0248",
+  "text": "帮我看看现在美股英伟达（NVDA）的股价是多少，顺便查一下今天纳指的实时涨跌幅，我得决定要不要加仓。",
+  "intent": "live_data",
+  "judge": "live_data",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0044",
+  "text": "我想录一下这段 piano 旋律，帮我把 mic 打开开始录制。",
+  "intent": "audio_record",
+  "judge": "audio_record",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-gemini-0106",
+  "text": "写代码写得昏天黑地的，MaClaw 你看下现在过下班点了吗？",
+  "intent": "current_time",
+  "judge": "current_time",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-kimi-0040",
+  "text": "帮我看下上周有没有人动过我账号，会话记录里有没有可疑的操作？",
+  "intent": "audit_read",
+  "judge": "audit_read",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-kimi-0024",
+  "text": "你好，我眼睛有点累不想看屏幕了，帮我把桌面上那份「季度总结_v3.md」读出来给我听一下吧，语速正常就好",
+  "intent": "audio_synthesize",
+  "judge": "audio_synthesize",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0087",
+  "text": "Create a simple Tic-Tac-Toe game in Python using the pygame module. Add a 'Reset' button and a scoreboard. When finished, run it on the desktop so I can test the gameplay logic.",
+  "intent": "coding",
+  "judge": "coding",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "en"
+ },
+ {
+  "id": "indep-gemini-0282",
+  "text": "帮我做个关于 AIGC 技术落地场景的 PPT，受众是没有任何技术背景的投资人，要求言简意赅，多用类比，别整太复杂的词。",
+  "intent": "office",
+  "judge": "office",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0112",
+  "text": "MaClaw，帮我看看我那个本地 MySQL 里现在都有哪些表，找找有没有个叫 order_info 的。",
+  "intent": "database",
+  "judge": "database",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-kimi-0184",
+  "text": "帮我在桌面建一个 notes.md，把刚才咱们聊的周报要点都写进去，保存好了告诉我一声",
+  "intent": "file_write",
+  "judge": "file_write",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-kimi-0030",
+  "text": "Hey, I've been staring at this changelog for an hour. Can you just read RELEASE_NOTES.md out loud on my machine so I can listen while I make coffee?",
+  "intent": "audio_synthesize",
+  "judge": "audio_synthesize",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "en"
+ },
+ {
+  "id": "indep-gemini-0072",
+  "text": "帮我把桌面上那个一直弹出来的提示框关了，每次开机都有，烦死了。",
+  "intent": "computer_use",
+  "judge": "computer_use",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-kimi-0200",
+  "text": "帮我把现在工作区这些改动提交一下吧，commit message 写「修复登录页样式问题」就行",
+  "intent": "git_mutate",
+  "judge": "git_mutate",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0148",
+  "text": "帮我把 C:\\Projects\\demo_code 这个文件夹打包成 demo_code.zip，然后用 weixin 发送给李总（WeChat ID: li_manager）。",
+  "intent": "document_delivery",
+  "judge": "document_delivery",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-gemini-0259",
+  "text": "MaClaw，帮我pull一下最新的BTC price，然后render成一个美观的趋势chart放在这。",
+  "intent": "live_data_visual",
+  "judge": "live_data_visual",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-kimi-0270",
+  "text": "基于我们那份 PRD_final.docx 出一版给 upper management 汇报用的 slides，10 页以内，突出 timeline 和 ROI，technical细节放 appendix",
+  "intent": "office",
+  "judge": "office",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-kimi-0267",
+  "text": "帮我做个新品发布的幻灯片，受众是渠道商，语气要煽动一点但别夸张，做完放桌面 发布会/ 文件夹里",
+  "intent": "office",
+  "judge": "office",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ },
+ {
+  "id": "indep-gemini-0075",
+  "text": "我这边要准备录制一个 tutorial 视频。MaClaw，帮我把桌面清理一下，隐藏掉 taskbar，然后打开 OBS Studio 确认一下 preview 画面是不是已经选好我的主屏幕了。",
+  "intent": "computer_use",
+  "judge": "computer_use",
+  "gen": "gemini",
+  "kind": "label",
+  "lang": "mix"
+ },
+ {
+  "id": "indep-kimi-0212",
+  "text": "查一下我之前设的那些长期目标现在啥进度了？有没有快超预算的？",
+  "intent": "goal_manage",
+  "judge": "goal_manage",
+  "gen": "kimi",
+  "kind": "label",
+  "lang": "zh"
+ }
+]

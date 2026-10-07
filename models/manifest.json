@@ -1,0 +1,68 @@
+[
+ {
+  "path": "models/intent/head_mlp_qwen3go_xf_r3W5F.json",
+  "sha256": "873385d4544fa0b153ff0ac63833eb8e76d22c55c26cc8c6b80ddfa5226ffb10",
+  "size": 6011299,
+  "desc": "intent head (production, r3W5F)"
+ },
+ {
+  "path": "models/intent/head_r9FE.json",
+  "sha256": "bb894e362697038810c8c227280c7af814b34deaeea170cdb4324e9861f482d8",
+  "size": 10038066,
+  "desc": "intent head r4 candidate r9FE (FE-cost λ0.5 ×3; r4 2b winner, not frozen)"
+ },
+ {
+  "path": "models/intent/head_r10CAP.json",
+  "sha256": "66843a2a62250655e832f26cf5e630695facb3805c1f9e9cd8a8d149b645dcb1",
+  "size": 20258783,
+  "desc": "intent head r4 candidate r10CAP (width 512, dropout 0.3, FE-cost λ0.5 ×3 seeds; best r4 Go indep 0.7497 / FE 0; gate 0.752 missed; not frozen)"
+ },
+ {
+  "path": "models/intent/head_r7W.json",
+  "sha256": "49a3aa94d24b10e7ea0c47a88b92a66d02cd059f86e95b92d66be762f5afe333",
+  "size": 3380917,
+  "desc": "intent head r4 candidate r7W (full aug data, base seed 0; not frozen)"
+ },
+ {
+  "path": "models/tool/tool_head_ovr_qwen3go.json",
+  "sha256": "e52352851da9fdaa69d5ad33ceb33352a090b3f1961b15e5dd6684b050454a50",
+  "size": 935594,
+  "desc": "tool head (production, OvR)"
+ },
+ {
+  "path": "models/interrupt/interrupt_relevance_qwen3go.json",
+  "sha256": "7d5494785311997d46ea80a65425f7625ad4e86fe6a2fb2745759474e96eb4ed",
+  "size": 2662440,
+  "desc": "interrupt relevance scorer (production, r4)"
+ },
+ {
+  "path": "models/coding/select_c.json",
+  "sha256": "d5eb4248eaa22df32c0320a3d1b3552bb56c53693c0b4971bd71322a4d73e0ee",
+  "size": 5732,
+  "desc": "coding fusion config selection (train half)"
+ },
+ {
+  "path": "models/coding/ens_c.json",
+  "sha256": "f4aa002852ad324ecb19b9bd5972507752c0059a592d50f98d35e392384e6542",
+  "size": 50105,
+  "desc": "coding fusion ensemble config"
+ },
+ {
+  "path": "models/coding/oneshot_c.json",
+  "sha256": "6b9bc73fddd270dd9284aebf945a8ec93c2a1fe59b0a248242a01e092bb08c8e",
+  "size": 729,
+  "desc": "coding one-shot confirm result"
+ },
+ {
+  "path": "models/interrupt/oneshot_b.json",
+  "sha256": "d1db234ad63bf7835d4063041cd59728ca0dc8161d1f04b50f70a5958df5f5b7",
+  "size": 1015,
+  "desc": "interrupt one-shot confirm result"
+ },
+ {
+  "path": "models/release_assets.json",
+  "sha256": "61319fdca894b260f2940734621c427d488e550309df04217a8a9369d26d5d0c",
+  "size": 972,
+  "desc": "maclaw release manifest (local/qwen3-only)"
+ }
+]

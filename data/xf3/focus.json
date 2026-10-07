@@ -1,0 +1,197 @@
+{
+ "focus": [
+  "non_coding",
+  "computer_use",
+  "knowledge_admin",
+  "memory_manage",
+  "schedule_dispatch",
+  "document_read",
+  "business_data",
+  "app_launch",
+  "delegate_task",
+  "continuation",
+  "audio_deliver",
+  "shell_command",
+  "unknown",
+  "knowledge_read",
+  "ssh",
+  "knowledge_write",
+  "task_track",
+  "git_mutate",
+  "file_read",
+  "document_delivery"
+ ],
+ "pairs": [
+  [
+   "schedule_dispatch",
+   "document_delivery"
+  ],
+  [
+   "computer_use",
+   "screenshot"
+  ],
+  [
+   "office",
+   "document_delivery"
+  ],
+  [
+   "task_track",
+   "file_delete"
+  ],
+  [
+   "ssh",
+   "shell_command"
+  ],
+  [
+   "file_read",
+   "shell_command"
+  ],
+  [
+   "app_launch",
+   "computer_use"
+  ],
+  [
+   "attachment_delivery",
+   "document_delivery"
+  ],
+  [
+   "knowledge_admin",
+   "knowledge_write"
+  ],
+  [
+   "unknown",
+   "config_manage"
+  ],
+  [
+   "computer_use",
+   "app_launch"
+  ],
+  [
+   "audio_deliver",
+   "audio_synthesize"
+  ],
+  [
+   "shell_command",
+   "file_read"
+  ],
+  [
+   "app_launch",
+   "document_open"
+  ],
+  [
+   "task_track",
+   "schedule_manage"
+  ],
+  [
+   "git_mutate",
+   "git_inspect"
+  ],
+  [
+   "screenshot",
+   "computer_use"
+  ],
+  [
+   "non_coding",
+   "document_read"
+  ],
+  [
+   "schedule_manage",
+   "schedule_dispatch"
+  ],
+  [
+   "document_generate",
+   "non_coding"
+  ],
+  [
+   "non_coding",
+   "document_generate"
+  ],
+  [
+   "document_delivery",
+   "attachment_delivery"
+  ],
+  [
+   "document_open",
+   "app_launch"
+  ],
+  [
+   "non_coding",
+   "file_write"
+  ],
+  [
+   "schedule_manage",
+   "task_track"
+  ],
+  [
+   "knowledge_read",
+   "search"
+  ],
+  [
+   "search",
+   "knowledge_read"
+  ],
+  [
+   "schedule_dispatch",
+   "schedule_manage"
+  ],
+  [
+   "document_open",
+   "document_read"
+  ],
+  [
+   "non_coding",
+   "knowledge_write"
+  ]
+ ],
+ "score": {
+  "document_read": 0.45555555555555555,
+  "goal_manage": 0.1870967741935484,
+  "business_data": 0.45454545454545453,
+  "live_data": 0.14583333333333334,
+  "document_delivery": 0.33987915407854985,
+  "audio_transcribe": 0.02922077922077922,
+  "git_mutate": 0.34523809523809523,
+  "maintenance": 0.245,
+  "template_manage": 0.11290322580645161,
+  "workflow_task": 0.19832402234636873,
+  "schedule_manage": 0.27469135802469136,
+  "knowledge_admin": 0.5360824742268041,
+  "task_track": 0.3602941176470588,
+  "non_coding": 0.9157894736842105,
+  "current_time": 0.08793969849246232,
+  "live_data_visual": 0.057971014492753624,
+  "office": 0.19281045751633988,
+  "config_manage": 0.2733333333333333,
+  "unknown": 0.4322916666666667,
+  "continuation": 0.44298245614035087,
+  "audio_synthesize": 0.16176470588235295,
+  "memory_manage": 0.5194174757281553,
+  "search": 0.2632978723404255,
+  "document_open": 0.21800947867298578,
+  "audit_read": 0.13031914893617022,
+  "file_download": 0.11616161616161616,
+  "schedule_dispatch": 0.46265560165975106,
+  "computer_use": 0.8188073394495413,
+  "audio_record": 0.20689655172413793,
+  "git_inspect": 0.11363636363636363,
+  "audio_deliver": 0.4375,
+  "database": 0.15734265734265734,
+  "browser": 0.2921875,
+  "document_generate": 0.22727272727272727,
+  "ssh": 0.40606060606060607,
+  "bug_fix": 0.16216216216216217,
+  "web_fetch": 0.1656441717791411,
+  "delegate_task": 0.4502923976608187,
+  "coding": 0.3333333333333333,
+  "file_read": 0.34153005464480873,
+  "screenshot": 0.2964071856287425,
+  "file_delete": 0.17155425219941348,
+  "session_manage": 0.21241830065359477,
+  "shell_command": 0.4375,
+  "knowledge_read": 0.4307692307692308,
+  "file_write": 0.2288135593220339,
+  "knowledge_write": 0.362876254180602,
+  "attachment_delivery": 0.20108695652173914,
+  "app_launch": 0.45111111111111113
+ }
+}

@@ -1,0 +1,1 @@
+{"sensitive": ["audio_deliver", "audio_record", "browser", "business_data", "computer_use", "config_manage", "database", "delegate_task", "document_delivery", "file_delete", "git_mutate", "knowledge_admin", "knowledge_write", "memory_manage", "schedule_dispatch", "screenshot", "shell_command", "ssh"], "safe_unknown": ["ambiguous", "continuation", "non_coding", "unknown"]}

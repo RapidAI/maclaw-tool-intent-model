@@ -1,0 +1,1264 @@
+{"id": "train-0000", "text": "launch the calculator app"}
+{"id": "train-0001", "text": "open this URL in the default browser"}
+{"id": "train-0002", "text": "open this folder in the file explorer"}
+{"id": "train-0003", "text": "start the application with the system handler"}
+{"id": "train-0004", "text": "在资源管理器里打开这个文件夹"}
+{"id": "train-0005", "text": "帮我启动本地开发工具"}
+{"id": "train-0006", "text": "打开计算器应用"}
+{"id": "train-0007", "text": "用默认浏览器打开这个网址"}
+{"id": "train-0008", "text": "deliver this uploaded attachment in this chat"}
+{"id": "train-0009", "text": "return the attached report to this conversation"}
+{"id": "train-0010", "text": "send back the file I attached"}
+{"id": "train-0011", "text": "把我刚发的附件回传给我"}
+{"id": "train-0012", "text": "把这个附件发回当前聊天"}
+{"id": "train-0013", "text": "把这份上传的报告发给我"}
+{"id": "train-0014", "text": "deliver this text as speech to the group"}
+{"id": "train-0015", "text": "send a voice bubble with this text"}
+{"id": "train-0016", "text": "send this as a voice message"}
+{"id": "train-0017", "text": "speak this and send it to the chat"}
+{"id": "train-0018", "text": "capture a voice memo"}
+{"id": "train-0019", "text": "open the microphone recorder"}
+{"id": "train-0020", "text": "record this meeting"}
+{"id": "train-0021", "text": "start recording audio"}
+{"id": "train-0022", "text": "帮我录一下这个会议"}
+{"id": "train-0023", "text": "开始录音"}
+{"id": "train-0024", "text": "录制一段语音"}
+{"id": "train-0025", "text": "打开录音功能"}
+{"id": "train-0026", "text": "play this message as speech locally"}
+{"id": "train-0027", "text": "read the summary out loud"}
+{"id": "train-0028", "text": "read this paragraph aloud"}
+{"id": "train-0029", "text": "speak this text on the desktop"}
+{"id": "train-0030", "text": "在桌面上读出这段说明"}
+{"id": "train-0031", "text": "把这段话念给我听"}
+{"id": "train-0032", "text": "朗读这段文字"}
+{"id": "train-0033", "text": "用语音把这段话播放出来"}
+{"id": "train-0034", "text": "convert the recording to text"}
+{"id": "train-0035", "text": "generate a transcript of the meeting audio"}
+{"id": "train-0036", "text": "run speech recognition on this wav file"}
+{"id": "train-0037", "text": "transcribe this audio file"}
+{"id": "train-0038", "text": "把这个音频文件转成文字"}
+{"id": "train-0039", "text": "给这个会议录音生成文字稿"}
+{"id": "train-0040", "text": "识别这个语音文件里说了什么"}
+{"id": "train-0041", "text": "转写一下这段录音"}
+{"id": "train-0042", "text": "check the project health status"}
+{"id": "train-0043", "text": "find when this tool was called before"}
+{"id": "train-0044", "text": "search my past conversation history"}
+{"id": "train-0045", "text": "show the audit log for today"}
+{"id": "train-0046", "text": "搜索我们之前的对话记录"}
+{"id": "train-0047", "text": "查一下最近的安全审计日志"}
+{"id": "train-0048", "text": "检查这个项目能否正常编译"}
+{"id": "train-0049", "text": "看看有没有高风险的工具调用记录"}
+{"id": "train-0050", "text": "automate the browser to fill in the form"}
+{"id": "train-0051", "text": "automate web testing with browser tools"}
+{"id": "train-0052", "text": "click the submit button on the web page"}
+{"id": "train-0053", "text": "log into a website and publish a post"}
+{"id": "train-0054", "text": "open Chrome and click Buy"}
+{"id": "train-0055", "text": "open Zhihu in a browser and publish a pin"}
+{"id": "train-0056", "text": "open the browser and navigate to this URL"}
+{"id": "train-0057", "text": "record browser actions for this workflow"}
+{"id": "train-0058", "text": "sign in to a social website and submit content"}
+{"id": "train-0059", "text": "take a screenshot of this page in Chrome"}
+{"id": "train-0060", "text": "use playwright to test the login flow"}
+{"id": "train-0061", "text": "在Chrome中打开这个页面并截图"}
+{"id": "train-0062", "text": "在网页上发帖并验证发布结果"}
+{"id": "train-0063", "text": "帮我在网页上点击购买按钮"}
+{"id": "train-0064", "text": "录制浏览器操作步骤"}
+{"id": "train-0065", "text": "打开 Chrome 点购买"}
+{"id": "train-0066", "text": "打开浏览器访问这个网站"}
+{"id": "train-0067", "text": "打开网页登录账号然后发布内容"}
+{"id": "train-0068", "text": "用playwright测试登录流程"}
+{"id": "train-0069", "text": "用浏览器自动化填写表单"}
+{"id": "train-0070", "text": "登录知乎并发表一条想法"}
+{"id": "train-0071", "text": "自动化浏览器测试这个功能"}
+{"id": "train-0072", "text": "debug this crash"}
+{"id": "train-0073", "text": "fix the authentication error"}
+{"id": "train-0074", "text": "fix the loading issue"}
+{"id": "train-0075", "text": "resolve the null pointer exception"}
+{"id": "train-0076", "text": "the app keeps crashing on startup"}
+{"id": "train-0077", "text": "there's a bug in the payment flow"}
+{"id": "train-0078", "text": "troubleshoot the memory leak"}
+{"id": "train-0079", "text": "修复崩溃问题"}
+{"id": "train-0080", "text": "修复登录失败的bug"}
+{"id": "train-0081", "text": "排查报错原因"}
+{"id": "train-0082", "text": "有bug，一直显示加载中"}
+{"id": "train-0083", "text": "程序闪退"}
+{"id": "train-0084", "text": "调试一下这个问题"}
+{"id": "train-0085", "text": "页面白屏了"}
+{"id": "train-0086", "text": "collect required fields for an enterprise business object"}
+{"id": "train-0087", "text": "continue the unfinished expense reimbursement entry"}
+{"id": "train-0088", "text": "create a purchase request and send it for approval"}
+{"id": "train-0089", "text": "fill in a leave request form"}
+{"id": "train-0090", "text": "open my pending business transaction form"}
+{"id": "train-0091", "text": "query the local transaction workspace"}
+{"id": "train-0092", "text": "record structured business data for an invoice"}
+{"id": "train-0093", "text": "resume the saved approval transaction"}
+{"id": "train-0094", "text": "store this contract record in the business system"}
+{"id": "train-0095", "text": "submit a travel reimbursement with invoices"}
+{"id": "train-0096", "text": "validate this business form before committing it"}
+{"id": "train-0097", "text": "write structured MIS data from an agent-generated form"}
+{"id": "train-0098", "text": "build a game in JavaScript"}
+{"id": "train-0099", "text": "build a web application"}
+{"id": "train-0100", "text": "create a CLI tool"}
+{"id": "train-0101", "text": "create a file upload service"}
+{"id": "train-0102", "text": "develop a REST API"}
+{"id": "train-0103", "text": "implement a chat server"}
+{"id": "train-0104", "text": "write a Python script for data processing"}
+{"id": "train-0105", "text": "写一个爬虫程序"}
+{"id": "train-0106", "text": "写一个自动化脚本"}
+{"id": "train-0107", "text": "创建一个命令行工具"}
+{"id": "train-0108", "text": "实现一个REST API服务"}
+{"id": "train-0109", "text": "帮我开发一个聊天应用"}
+{"id": "train-0110", "text": "开发一个数据可视化面板"}
+{"id": "train-0111", "text": "开发一个贪吃蛇游戏"}
+{"id": "train-0112", "text": "click the OK button on the dialog"}
+{"id": "train-0113", "text": "control the mouse and keyboard in a desktop app"}
+{"id": "train-0114", "text": "drag a file into a folder on the desktop"}
+{"id": "train-0115", "text": "look at what is on the screen"}
+{"id": "train-0116", "text": "open the Word app and type a document"}
+{"id": "train-0117", "text": "open the calculator app and click buttons"}
+{"id": "train-0118", "text": "operate the desktop GUI application"}
+{"id": "train-0119", "text": "type into the notepad window"}
+{"id": "train-0120", "text": "在应用窗口里输入文字"}
+{"id": "train-0121", "text": "在桌面上把文件拖进文件夹"}
+{"id": "train-0122", "text": "帮我在电脑上打开Excel程序"}
+{"id": "train-0123", "text": "打开word程序写一份简历"}
+{"id": "train-0124", "text": "打开电脑上的软件并操作界面"}
+{"id": "train-0125", "text": "打开记事本程序输入一段文字"}
+{"id": "train-0126", "text": "把当前窗口最小化"}
+{"id": "train-0127", "text": "控制鼠标点击屏幕上的图标"}
+{"id": "train-0128", "text": "操作桌面软件完成设置"}
+{"id": "train-0129", "text": "点击窗口上的确定按钮"}
+{"id": "train-0130", "text": "用键盘在桌面应用里按快捷键"}
+{"id": "train-0131", "text": "看看屏幕上现在显示了什么"}
+{"id": "train-0132", "text": "correct my user profile preferences"}
+{"id": "train-0133", "text": "raise the max iteration limit"}
+{"id": "train-0134", "text": "show the current configuration"}
+{"id": "train-0135", "text": "switch to a different LLM provider"}
+{"id": "train-0136", "text": "你现在用的什么模型"}
+{"id": "train-0137", "text": "修改一下配置里的主题设置"}
+{"id": "train-0138", "text": "修正一下你的用户画像里我的偏好"}
+{"id": "train-0139", "text": "把当前的 LLM 服务商切换成智谱"}
+{"id": "train-0140", "text": "把最大推理轮数调到 50"}
+{"id": "train-0141", "text": "continue"}
+{"id": "train-0142", "text": "go ahead"}
+{"id": "train-0143", "text": "let's go"}
+{"id": "train-0144", "text": "start working"}
+{"id": "train-0145", "text": "switch to full agent"}
+{"id": "train-0146", "text": "switch to full agent mode"}
+{"id": "train-0147", "text": "切换到完整agent模式"}
+{"id": "train-0148", "text": "切换到完整模式"}
+{"id": "train-0149", "text": "动手"}
+{"id": "train-0150", "text": "开始吧"}
+{"id": "train-0151", "text": "开工"}
+{"id": "train-0152", "text": "开干"}
+{"id": "train-0153", "text": "搞起来"}
+{"id": "train-0154", "text": "用完整能力再做一次"}
+{"id": "train-0155", "text": "继续"}
+{"id": "train-0156", "text": "Show current date and time."}
+{"id": "train-0157", "text": "Tell me the current local time."}
+{"id": "train-0158", "text": "What day of the week is today?"}
+{"id": "train-0159", "text": "What is today's date?"}
+{"id": "train-0160", "text": "What time is it now?"}
+{"id": "train-0161", "text": "current time and date"}
+{"id": "train-0162", "text": "今天周几"}
+{"id": "train-0163", "text": "今天是几号"}
+{"id": "train-0164", "text": "当前日期时间"}
+{"id": "train-0165", "text": "现在几点"}
+{"id": "train-0166", "text": "connect to the mysql data source and inspect schema"}
+{"id": "train-0167", "text": "inspect the mysql schema"}
+{"id": "train-0168", "text": "list tables in the database"}
+{"id": "train-0169", "text": "query the sql server catalog"}
+{"id": "train-0170", "text": "show tables in this postgres database"}
+{"id": "train-0171", "text": "列出这个库里的表"}
+{"id": "train-0172", "text": "查看 192.168.1.242 上的 mysql 数据库"}
+{"id": "train-0173", "text": "查看 mysql 库"}
+{"id": "train-0174", "text": "查看 rapidbi 库"}
+{"id": "train-0175", "text": "查看库"}
+{"id": "train-0176", "text": "查看数据库"}
+{"id": "train-0177", "text": "查看表结构"}
+{"id": "train-0178", "text": "delegate this subtask to a specialized agent"}
+{"id": "train-0179", "text": "hand this piece off to a coding sub-agent"}
+{"id": "train-0180", "text": "run these three tasks in parallel"}
+{"id": "train-0181", "text": "start a group discussion among experts about this design"}
+{"id": "train-0182", "text": "并行执行这三个独立的任务"}
+{"id": "train-0183", "text": "把这个任务委派给编码子 agent"}
+{"id": "train-0184", "text": "派一个子 agent 去处理这个子任务"}
+{"id": "train-0185", "text": "组织一次专家讨论评估这个方案"}
+{"id": "train-0186", "text": "deliver the report to me"}
+{"id": "train-0187", "text": "export the results and send the file"}
+{"id": "train-0188", "text": "send me this file"}
+{"id": "train-0189", "text": "帮我发送这份报告"}
+{"id": "train-0190", "text": "把结果导出为文件发送"}
+{"id": "train-0191", "text": "把这个文件发送给我"}
+{"id": "train-0192", "text": "export current retrieved information as a formatted PDF report"}
+{"id": "train-0193", "text": "export live lookup results as a formatted PDF report"}
+{"id": "train-0194", "text": "export pdf"}
+{"id": "train-0195", "text": "generate a PDF and send it over"}
+{"id": "train-0196", "text": "generate a PDF document"}
+{"id": "train-0197", "text": "make a PDF from these facts"}
+{"id": "train-0198", "text": "render this as a PDF file"}
+{"id": "train-0199", "text": "save fetched public data as a PDF file"}
+{"id": "train-0200", "text": "以PDF格式导出当前已获取的信息"}
+{"id": "train-0201", "text": "将实时查询结果导出为格式化PDF报告"}
+{"id": "train-0202", "text": "将已查到的公开数据保存为PDF文件"}
+{"id": "train-0203", "text": "将已查得的实时信息输出为格式化PDF报告"}
+{"id": "train-0204", "text": "把获取到的公开信息整理成PDF文件"}
+{"id": "train-0205", "text": "把这些内容生成PDF"}
+{"id": "train-0206", "text": "生成pdf报告"}
+{"id": "train-0207", "text": "生成一份PDF文档并发给我"}
+{"id": "train-0208", "text": "open the PDF document on my desktop"}
+{"id": "train-0209", "text": "open the spreadsheet with the system handler"}
+{"id": "train-0210", "text": "open this document with the default app"}
+{"id": "train-0211", "text": "打开桌面上的PDF文件"}
+{"id": "train-0212", "text": "用系统看图软件打开这个PPT"}
+{"id": "train-0213", "text": "用默认程序打开这个文档"}
+{"id": "train-0214", "text": "extract the text from this Word file"}
+{"id": "train-0215", "text": "inspect the spreadsheet I uploaded"}
+{"id": "train-0216", "text": "read the attached document"}
+{"id": "train-0217", "text": "review the contents of the attached presentation"}
+{"id": "train-0218", "text": "summarize this PDF attachment"}
+{"id": "train-0219", "text": "分析附件中的 Excel 表格"}
+{"id": "train-0220", "text": "总结这份 PPT 的内容"}
+{"id": "train-0221", "text": "打开这个Excel文件看看内容"}
+{"id": "train-0222", "text": "提取这份 Word 文档的要点"}
+{"id": "train-0223", "text": "看看这个附件里写了什么"}
+{"id": "train-0224", "text": "读取我刚发的 PDF"}
+{"id": "train-0225", "text": "delete notes.txt"}
+{"id": "train-0226", "text": "delete the markdown file I just created"}
+{"id": "train-0227", "text": "remove this local file"}
+{"id": "train-0228", "text": "删掉这个本地文件"}
+{"id": "train-0229", "text": "删除 notes.md"}
+{"id": "train-0230", "text": "删除刚才的markdown文件"}
+{"id": "train-0231", "text": "把刚才保存的 md 文件删掉"}
+{"id": "train-0232", "text": "download the attachment from this link"}
+{"id": "train-0233", "text": "download this file to my machine"}
+{"id": "train-0234", "text": "fetch this installer and store it locally"}
+{"id": "train-0235", "text": "save the PDF from this URL to disk"}
+{"id": "train-0236", "text": "下载这个 PDF 到工作目录"}
+{"id": "train-0237", "text": "将这个网址的附件保存到磁盘"}
+{"id": "train-0238", "text": "帮我把这个安装包下载下来"}
+{"id": "train-0239", "text": "把这个链接的文件下载到本地"}
+{"id": "train-0240", "text": "list the files in this directory"}
+{"id": "train-0241", "text": "print the last lines of the local log file"}
+{"id": "train-0242", "text": "read the contents of this file"}
+{"id": "train-0243", "text": "search the project files for this error message"}
+{"id": "train-0244", "text": "show me what is in the README file"}
+{"id": "train-0245", "text": "列出当前目录下的文件"}
+{"id": "train-0246", "text": "在项目里搜索这个函数名出现在哪些文件"}
+{"id": "train-0247", "text": "帮我看一下日志文件的最后几行"}
+{"id": "train-0248", "text": "看看 config.yaml 里写了什么"}
+{"id": "train-0249", "text": "读取一下这个文件的内容"}
+{"id": "train-0250", "text": "append this line to the end of the file"}
+{"id": "train-0251", "text": "create a file called todo.md with this content"}
+{"id": "train-0252", "text": "edit the config file and change the port"}
+{"id": "train-0253", "text": "export this as a markdown file"}
+{"id": "train-0254", "text": "overwrite the old notes file with this"}
+{"id": "train-0255", "text": "save this text to a local file"}
+{"id": "train-0256", "text": "修改 hosts 文件添加一条记录"}
+{"id": "train-0257", "text": "写成 md 文件"}
+{"id": "train-0258", "text": "在这个文件末尾追加一行"}
+{"id": "train-0259", "text": "帮我在桌面创建一个文本文件"}
+{"id": "train-0260", "text": "把刚才的内容保存为 markdown"}
+{"id": "train-0261", "text": "把这串配置写进 .env 文件"}
+{"id": "train-0262", "text": "把这段内容保存到 notes.txt"}
+{"id": "train-0263", "text": "生成markdown"}
+{"id": "train-0264", "text": "check the git status of this repo"}
+{"id": "train-0265", "text": "review the staged changes"}
+{"id": "train-0266", "text": "show me the current diff"}
+{"id": "train-0267", "text": "what files have uncommitted changes"}
+{"id": "train-0268", "text": "帮我看下现在的 diff"}
+{"id": "train-0269", "text": "查看暂存区有什么变更"}
+{"id": "train-0270", "text": "看看当前 git 状态"}
+{"id": "train-0271", "text": "这个仓库有哪些未提交的改动"}
+{"id": "train-0272", "text": "commit the current changes"}
+{"id": "train-0273", "text": "commit these edits with a message"}
+{"id": "train-0274", "text": "git push this branch"}
+{"id": "train-0275", "text": "push my commits to the remote"}
+{"id": "train-0276", "text": "帮我 commit 一下当前的修改"}
+{"id": "train-0277", "text": "把本地提交推送到远程"}
+{"id": "train-0278", "text": "把这些改动提交一下"}
+{"id": "train-0279", "text": "提交代码，说明写修复登录问题"}
+{"id": "train-0280", "text": "create a long-running goal to keep this documentation up to date"}
+{"id": "train-0281", "text": "mark this long-running goal as complete"}
+{"id": "train-0282", "text": "set up an autonomous goal with a token budget"}
+{"id": "train-0283", "text": "show the status of my persistent goal"}
+{"id": "train-0284", "text": "创建一个长期目标：持续监控这个服务的可用性"}
+{"id": "train-0285", "text": "查看当前长期目标的进展"}
+{"id": "train-0286", "text": "终止那个长期目标"}
+{"id": "train-0287", "text": "设一个目标，每天自动整理我的收藏直到整理完"}
+{"id": "train-0288", "text": "disable a stale knowledge base source"}
+{"id": "train-0289", "text": "refresh this knowledge source"}
+{"id": "train-0290", "text": "run the knowledge quality maintenance plan"}
+{"id": "train-0291", "text": "show knowledge base stats and health"}
+{"id": "train-0292", "text": "删除知识库里的这个来源"}
+{"id": "train-0293", "text": "刷新一下知识库里的这个来源"}
+{"id": "train-0294", "text": "检查知识库的健康状况和统计"}
+{"id": "train-0295", "text": "禁用这个知识库数据源"}
+{"id": "train-0296", "text": "跑一下知识库质量维护计划"}
+{"id": "train-0297", "text": "find relevant entries in my external brain"}
+{"id": "train-0298", "text": "look up the stored notes about this concept"}
+{"id": "train-0299", "text": "recall what the knowledge base says about this"}
+{"id": "train-0300", "text": "search my knowledge base for this topic"}
+{"id": "train-0301", "text": "从我的本地知识库找相关内容"}
+{"id": "train-0302", "text": "在知识库里查一下这个概念的笔记"}
+{"id": "train-0303", "text": "检索我的外脑中关于这个项目的资料"}
+{"id": "train-0304", "text": "知识库里有没有相关的引用出处"}
+{"id": "train-0305", "text": "archive this URL into my external brain"}
+{"id": "train-0306", "text": "ingest the selected local document files into the saved corpus"}
+{"id": "train-0307", "text": "save this note into the knowledge base for future retrieval"}
+{"id": "train-0308", "text": "store these documents in the local knowledge base"}
+{"id": "train-0309", "text": "将这段材料录入知识库，后面可以检索引用"}
+{"id": "train-0310", "text": "归档这个网页到知识库供以后查找"}
+{"id": "train-0311", "text": "把用户选择的本地 PDF 导入外脑，作为知识库资料"}
+{"id": "train-0312", "text": "把这个目录里的文档收录到本地知识库"}
+{"id": "train-0313", "text": "Check the latest stock price for Apple."}
+{"id": "train-0314", "text": "Find the latest news about this company."}
+{"id": "train-0315", "text": "Retrieve live weather information for an arbitrary location."}
+{"id": "train-0316", "text": "Show me the current weather forecast for a location."}
+{"id": "train-0317", "text": "Track this flight status."}
+{"id": "train-0318", "text": "What's the USD to CNY exchange rate now?"}
+{"id": "train-0319", "text": "What's the weather for a given location today?"}
+{"id": "train-0320", "text": "Who won the game today?"}
+{"id": "train-0321", "text": "查最新股价"}
+{"id": "train-0322", "text": "查航班状态"}
+{"id": "train-0323", "text": "查询今日新闻热点"}
+{"id": "train-0324", "text": "查询任意城市今日天气"}
+{"id": "train-0325", "text": "查询某个城市当前天气"}
+{"id": "train-0326", "text": "查询某城市天气并输出格式化PDF报告"}
+{"id": "train-0327", "text": "查询比特币价格并输出格式化PDF报告"}
+{"id": "train-0328", "text": "美元对人民币汇率"}
+{"id": "train-0329", "text": "获取某地实时天气信息"}
+{"id": "train-0330", "text": "create an infographic from the current stock price"}
+{"id": "train-0331", "text": "draw a stock price trend chart"}
+{"id": "train-0332", "text": "plot the last month of closing prices"}
+{"id": "train-0333", "text": "render a live weather graphic"}
+{"id": "train-0334", "text": "把当前汇率制作成信息图"}
+{"id": "train-0335", "text": "把近期股价画成走势图"}
+{"id": "train-0336", "text": "生成一张实时天气实况图"}
+{"id": "train-0337", "text": "画一张股价折线图"}
+{"id": "train-0338", "text": "画出近一月股价趋势图"}
+{"id": "train-0339", "text": "clean up dead code"}
+{"id": "train-0340", "text": "improve code readability"}
+{"id": "train-0341", "text": "optimize the database queries"}
+{"id": "train-0342", "text": "reduce technical debt in the codebase"}
+{"id": "train-0343", "text": "refactor the auth module"}
+{"id": "train-0344", "text": "upgrade the dependencies"}
+{"id": "train-0345", "text": "优化性能"}
+{"id": "train-0346", "text": "优化数据库查询速度"}
+{"id": "train-0347", "text": "升级依赖版本"}
+{"id": "train-0348", "text": "改善代码结构"}
+{"id": "train-0349", "text": "清理无用代码"}
+{"id": "train-0350", "text": "重构这个函数"}
+{"id": "train-0351", "text": "forget the note about my old address"}
+{"id": "train-0352", "text": "remember that I prefer dark mode"}
+{"id": "train-0353", "text": "update your memory about this project"}
+{"id": "train-0354", "text": "what do you remember about me"}
+{"id": "train-0355", "text": "你都记住了我的哪些偏好"}
+{"id": "train-0356", "text": "删掉那条关于我地址的记忆"}
+{"id": "train-0357", "text": "把刚才这个决定记到长期记忆里"}
+{"id": "train-0358", "text": "记住我偏好用中文交流"}
+{"id": "train-0359", "text": "draft a project proposal document"}
+{"id": "train-0360", "text": "extract weights from the DLC model and convert to ONNX"}
+{"id": "train-0361", "text": "help me write a report"}
+{"id": "train-0362", "text": "organize meeting notes into a concise summary"}
+{"id": "train-0363", "text": "organize these notes"}
+{"id": "train-0364", "text": "summarize this article"}
+{"id": "train-0365", "text": "translate this document"}
+{"id": "train-0366", "text": "帮我把数据从MySQL迁移到PostgreSQL"}
+{"id": "train-0367", "text": "帮我整理资料"}
+{"id": "train-0368", "text": "总结这篇文章"}
+{"id": "train-0369", "text": "把这段话翻译成英文"}
+{"id": "train-0370", "text": "提取模型权重并转换为ONNX格式"}
+{"id": "train-0371", "text": "整理会议纪要"}
+{"id": "train-0372", "text": "翻译文档"}
+{"id": "train-0373", "text": "build a slide deck for the meeting"}
+{"id": "train-0374", "text": "create a PowerPoint presentation"}
+{"id": "train-0375", "text": "create a spreadsheet with the analysis results"}
+{"id": "train-0376", "text": "edit the existing slide deck visual style"}
+{"id": "train-0377", "text": "generate an Excel spreadsheet report"}
+{"id": "train-0378", "text": "make a Word document for the proposal"}
+{"id": "train-0379", "text": "make a birthday party slide deck with photos"}
+{"id": "train-0380", "text": "organize the data into an Excel file"}
+{"id": "train-0381", "text": "restyle the current PowerPoint professionally"}
+{"id": "train-0382", "text": "为我家宠物做一个生日纪念PPT"}
+{"id": "train-0383", "text": "创建一个Word文档"}
+{"id": "train-0384", "text": "制作孩子生日派对的演示文稿"}
+{"id": "train-0385", "text": "制作项目汇报PPT"}
+{"id": "train-0386", "text": "对当前编辑的ppt进行风格改进"}
+{"id": "train-0387", "text": "帮我制作一个PPT演示文稿"}
+{"id": "train-0388", "text": "找几张图片生成一个演示文稿"}
+{"id": "train-0389", "text": "把数据整理成Excel表格"}
+{"id": "train-0390", "text": "把这份演示文稿改成大型技术交流会议的专业风格"}
+{"id": "train-0391", "text": "生成一份Excel报表"}
+{"id": "train-0392", "text": "生成一份数据分析的电子表格"}
+{"id": "train-0393", "text": "生成庆祝生日的PPT"}
+{"id": "train-0394", "text": "网上找些照片做成PPT相册"}
+{"id": "train-0395", "text": "create a reminder that messages the team at 9am"}
+{"id": "train-0396", "text": "deliver this report to the group on a schedule"}
+{"id": "train-0397", "text": "schedule a daily push to the lansenger group"}
+{"id": "train-0398", "text": "send the standup to the group every morning"}
+{"id": "train-0399", "text": "创建一个定时任务到点发给张三"}
+{"id": "train-0400", "text": "每周一提醒并发送到微信"}
+{"id": "train-0401", "text": "每天九点把日报推送到蓝信群"}
+{"id": "train-0402", "text": "每天早上发给群里"}
+{"id": "train-0403", "text": "create a scheduled job that runs every morning"}
+{"id": "train-0404", "text": "delete the weekly backup schedule"}
+{"id": "train-0405", "text": "list all scheduled tasks"}
+{"id": "train-0406", "text": "pause my daily reminder task"}
+{"id": "train-0407", "text": "列出所有定时任务"}
+{"id": "train-0408", "text": "创建一个每小时执行一次的定时任务"}
+{"id": "train-0409", "text": "暂停昨天的那个定时任务"}
+{"id": "train-0410", "text": "每天早上九点提醒我站会"}
+{"id": "train-0411", "text": "capture the current screen"}
+{"id": "train-0412", "text": "grab the primary monitor"}
+{"id": "train-0413", "text": "screenshot display one"}
+{"id": "train-0414", "text": "take a screen capture and send it to me"}
+{"id": "train-0415", "text": "take a screenshot of my desktop"}
+{"id": "train-0416", "text": "截主屏"}
+{"id": "train-0417", "text": "截主屏幕"}
+{"id": "train-0418", "text": "截取主屏"}
+{"id": "train-0419", "text": "截取当前显示器画面"}
+{"id": "train-0420", "text": "截图"}
+{"id": "train-0421", "text": "截屏"}
+{"id": "train-0422", "text": "给我截一下当前桌面"}
+{"id": "train-0423", "text": "find information about this API online"}
+{"id": "train-0424", "text": "google this error and find a fix"}
+{"id": "train-0425", "text": "look up best practices for Go concurrency"}
+{"id": "train-0426", "text": "look up the latest documentation for React"}
+{"id": "train-0427", "text": "search for solutions to this problem"}
+{"id": "train-0428", "text": "search the web for this error message"}
+{"id": "train-0429", "text": "上网查一下这个API的文档"}
+{"id": "train-0430", "text": "全网搜索这个人的资料"}
+{"id": "train-0431", "text": "帮我在网上查找这个问题的解决方案"}
+{"id": "train-0432", "text": "帮我搜索这个错误信息"}
+{"id": "train-0433", "text": "搜索一下最新的AI论文"}
+{"id": "train-0434", "text": "搜索关于机器学习的资料"}
+{"id": "train-0435", "text": "网上找一下这个库的用法"}
+{"id": "train-0436", "text": "interrupt the stuck coding session"}
+{"id": "train-0437", "text": "list my running coding sessions"}
+{"id": "train-0438", "text": "show the recent output of that session"}
+{"id": "train-0439", "text": "which providers does this coding tool have"}
+{"id": "train-0440", "text": "中断正在运行的会话"}
+{"id": "train-0441", "text": "切换当前项目"}
+{"id": "train-0442", "text": "列出当前所有编码会话"}
+{"id": "train-0443", "text": "看看那个会话最近的输出"}
+{"id": "train-0444", "text": "给会话发一条输入让它继续"}
+{"id": "train-0445", "text": "check the local disk usage with df"}
+{"id": "train-0446", "text": "create a folder using the command line"}
+{"id": "train-0447", "text": "execute the script locally"}
+{"id": "train-0448", "text": "run the build command on this computer"}
+{"id": "train-0449", "text": "run this shell command on my machine"}
+{"id": "train-0450", "text": "在本机执行一下这个命令"}
+{"id": "train-0451", "text": "在本机跑一下 npm install"}
+{"id": "train-0452", "text": "帮我运行这个脚本"}
+{"id": "train-0453", "text": "执行 ping 测试看网络通不通"}
+{"id": "train-0454", "text": "用命令行创建一个目录"}
+{"id": "train-0455", "text": "SSH into the GPU server and check usage"}
+{"id": "train-0456", "text": "SSH到生产环境检查状态"}
+{"id": "train-0457", "text": "check the server logs remotely"}
+{"id": "train-0458", "text": "connect to the server via SSH"}
+{"id": "train-0459", "text": "here are the host credentials, upgrade the remote service and keep the running image for rollback"}
+{"id": "train-0460", "text": "log into the production server"}
+{"id": "train-0461", "text": "restart the service on the remote machine"}
+{"id": "train-0462", "text": "run a command on the remote host"}
+{"id": "train-0463", "text": "update the service on that machine using the account I just gave you"}
+{"id": "train-0464", "text": "帮我登录服务器重启服务"}
+{"id": "train-0465", "text": "查看服务器上的GPU占用率"}
+{"id": "train-0466", "text": "用ssh登录查看服务器状态"}
+{"id": "train-0467", "text": "用ssh访问"}
+{"id": "train-0468", "text": "用这台机器的账号密码更新远端服务版本"}
+{"id": "train-0469", "text": "登录服务器查看日志"}
+{"id": "train-0470", "text": "这是服务器地址和账号，升级线上服务并保留当前镜像方便回退"}
+{"id": "train-0471", "text": "远程执行命令查看磁盘空间"}
+{"id": "train-0472", "text": "连接远程服务器"}
+{"id": "train-0473", "text": "add this item to the task list"}
+{"id": "train-0474", "text": "create a task to track the migration work"}
+{"id": "train-0475", "text": "mark this task as completed"}
+{"id": "train-0476", "text": "show my current todo list"}
+{"id": "train-0477", "text": "列出当前所有待办任务"}
+{"id": "train-0478", "text": "帮我建一个待办清单"}
+{"id": "train-0479", "text": "把修复登录问题加到任务列表里"}
+{"id": "train-0480", "text": "把这个任务标记为已完成"}
+{"id": "train-0481", "text": "create a session template for code review"}
+{"id": "train-0482", "text": "launch a session from the template"}
+{"id": "train-0483", "text": "list my session templates"}
+{"id": "train-0484", "text": "save this setup as a reusable template"}
+{"id": "train-0485", "text": "列出所有会话模板"}
+{"id": "train-0486", "text": "创建一个用 codex 的会话模板"}
+{"id": "train-0487", "text": "把这套配置保存成模板"}
+{"id": "train-0488", "text": "用之前那个模板启动一个新会话"}
+{"id": "train-0489", "text": "extract the main content of this page"}
+{"id": "train-0490", "text": "fetch the content of this URL"}
+{"id": "train-0491", "text": "grab the article text from this link"}
+{"id": "train-0492", "text": "read this web page for me"}
+{"id": "train-0493", "text": "帮我看看这个网页写了什么"}
+{"id": "train-0494", "text": "把这个网址的内容提取出来"}
+{"id": "train-0495", "text": "抓取这个链接的内容"}
+{"id": "train-0496", "text": "读取这个 URL 的正文"}
+{"id": "train-0497", "text": "conduct due diligence on this company"}
+{"id": "train-0498", "text": "design a testing strategy"}
+{"id": "train-0499", "text": "do a competitive analysis"}
+{"id": "train-0500", "text": "draft USPTO patent claims based on this disclosure"}
+{"id": "train-0501", "text": "draft a patent application from disclosure"}
+{"id": "train-0502", "text": "file a US patent application"}
+{"id": "train-0503", "text": "plan an event for product launch"}
+{"id": "train-0504", "text": "review this contract for risks"}
+{"id": "train-0505", "text": "write a business plan"}
+{"id": "train-0506", "text": "write a literature review paper"}
+{"id": "train-0507", "text": "做一个创新方案"}
+{"id": "train-0508", "text": "做一份竞品分析"}
+{"id": "train-0509", "text": "写一份商业计划书"}
+{"id": "train-0510", "text": "写一份基金申请书"}
+{"id": "train-0511", "text": "写一份测试方案"}
+{"id": "train-0512", "text": "分析一下这个专利的侵权风险"}
+{"id": "train-0513", "text": "审查一下这个合同"}
+{"id": "train-0514", "text": "对照招标文件审查投标文件并给出修改建议"}
+{"id": "train-0515", "text": "对这家公司做个尽职调查"}
+{"id": "train-0516", "text": "帮我做一个项目立项方案"}
+{"id": "train-0517", "text": "帮我做一份产品设计文档"}
+{"id": "train-0518", "text": "帮我写一份专利申请书"}
+{"id": "train-0519", "text": "帮我写一份研究报告"}
+{"id": "train-0520", "text": "帮我写一篇文献综述"}
+{"id": "train-0521", "text": "帮我写一篇论文"}
+{"id": "train-0522", "text": "帮我准备一份实用新型专利申请文件"}
+{"id": "train-0523", "text": "帮我分析这个招标文件准备投标"}
+{"id": "train-0524", "text": "帮我整理外观设计专利申请图片和简要说明"}
+{"id": "train-0525", "text": "帮我申请美国专利"}
+{"id": "train-0526", "text": "根据交底书撰写发明专利"}
+{"id": "train-0527", "text": "检查一下我们的数据合规情况"}
+{"id": "train-0528", "text": "检查一下我们的标书是否符合招标要求"}
+{"id": "train-0529", "text": "策划一个发布会活动"}
+{"id": "train-0530", "text": "设计一个实验方案"}
+{"id": "train-0531", "text": "帮我用 Go 写一个命令行记账工具"}
+{"id": "train-0532", "text": "做一个贪吃蛇小游戏，网页版就行"}
+{"id": "train-0533", "text": "用 Python 实现一个爬虫抓取豆瓣电影 Top250"}
+{"id": "train-0534", "text": "给这个项目加一个用户登录注册功能"}
+{"id": "train-0535", "text": "write a REST API in FastAPI for a todo app"}
+{"id": "train-0536", "text": "从零搭一个 Vue3 + Vite 的后台管理前端"}
+{"id": "train-0537", "text": "实现一个 LRU 缓存，要有单元测试"}
+{"id": "train-0538", "text": "帮我开发一个微信小程序的点餐页面"}
+{"id": "train-0539", "text": "build me a small chrome extension that blocks ads"}
+{"id": "train-0540", "text": "写个脚本批量把 heic 转成 jpg"}
+{"id": "test-0541", "text": "帮我写一个 Rust 版的 markdown 转 html 小工具"}
+{"id": "test-0542", "text": "给后端新增一个导出 CSV 的接口"}
+{"id": "test-0543", "text": "做一个俄罗斯方块游戏，用 pygame"}
+{"id": "test-0544", "text": "implement a websocket chat server in Node.js"}
+{"id": "test-0545", "text": "用 Flutter 开发一个天气 App 的界面"}
+{"id": "test-0546", "text": "写个 shell 脚本每天自动备份数据库到 S3"}
+{"id": "test-0547", "text": "新建一个 Spring Boot 项目，实现商品管理 CRUD"}
+{"id": "train-0548", "text": "程序一启动就 panic: nil pointer dereference，帮我看看"}
+{"id": "train-0549", "text": "登录接口返回 500，帮我排查一下"}
+{"id": "train-0550", "text": "这个函数在并发下数据错乱，修一下"}
+{"id": "train-0551", "text": "npm run build 报错 Module not found，怎么修"}
+{"id": "train-0552", "text": "fix the segfault when parsing empty input"}
+{"id": "train-0553", "text": "页面点击提交没反应，控制台报 undefined"}
+{"id": "train-0554", "text": "单元测试 TestParse 一直失败，帮我修好"}
+{"id": "train-0555", "text": "内存泄漏越跑越大，定位一下原因"}
+{"id": "test-0556", "text": "App 闪退了，日志里是 IndexOutOfBoundsException，帮我修"}
+{"id": "test-0557", "text": "这个 SQL 查询结果重复了，代码哪里有问题"}
+{"id": "test-0558", "text": "debug why the CI pipeline fails on go test"}
+{"id": "test-0559", "text": "上传大文件时报 413，帮我解决"}
+{"id": "test-0560", "text": "goroutine 死锁了，帮忙找出来修掉"}
+{"id": "test-0561", "text": "Python 脚本报 UnicodeDecodeError，修一下"}
+{"id": "test-0562", "text": "the login button crashes the app on Android, please fix"}
+{"id": "train-0563", "text": "把这个 2000 行的文件拆分成几个模块"}
+{"id": "train-0564", "text": "重构一下 router.go，消除重复代码"}
+{"id": "train-0565", "text": "把项目依赖升级到最新版本"}
+{"id": "train-0566", "text": "优化这个接口的性能，现在太慢了"}
+{"id": "train-0567", "text": "refactor this class to use dependency injection"}
+{"id": "train-0568", "text": "清理掉项目里没用的代码和注释"}
+{"id": "train-0569", "text": "把回调风格改成 async/await"}
+{"id": "train-0570", "text": "升级 Go 版本到 1.25 并修好兼容问题"}
+{"id": "test-0571", "text": "把这堆 if-else 重构成策略模式"}
+{"id": "test-0572", "text": "给代码做一次性能优化，减少内存分配"}
+{"id": "test-0573", "text": "migrate the codebase from Python 3.8 to 3.12 idioms"}
+{"id": "test-0574", "text": "把重复的工具函数抽到公共包里"}
+{"id": "test-0575", "text": "清理一下过期的依赖和废弃 API"}
+{"id": "test-0576", "text": "rename variables to be more descriptive across the module"}
+{"id": "train-0577", "text": "登录 10.0.0.12 看一下 nginx 日志"}
+{"id": "train-0578", "text": "ssh 到生产服务器重启一下 redis"}
+{"id": "train-0579", "text": "去 192.168.1.20 上看看磁盘还剩多少"}
+{"id": "train-0580", "text": "check the docker containers running on prod-web-01"}
+{"id": "train-0581", "text": "远程服务器上的 java 进程占用 CPU 太高，看看"}
+{"id": "train-0582", "text": "到跳板机上把 /var/log/app.log 最后 100 行拉出来"}
+{"id": "train-0583", "text": "在 staging 机器上执行 systemctl status mysql"}
+{"id": "train-0584", "text": "连一下那台阿里云 ECS 看看端口 8080 有没有监听"}
+{"id": "test-0585", "text": "去服务器 172.16.3.5 上重启 tomcat"}
+{"id": "test-0586", "text": "ssh root@my-vps 看下内存使用情况"}
+{"id": "test-0587", "text": "remote host db-02 的 mysql 慢查询日志帮我看看"}
+{"id": "test-0588", "text": "把线上那台机器的 nginx 配置 reload 一下"}
+{"id": "test-0589", "text": "check uptime and load average on the build server"}
+{"id": "test-0590", "text": "登录测试服务器看看 kubelet 的状态"}
+{"id": "test-0591", "text": "上那台服务器把 /tmp 下的大文件清一清"}
+{"id": "train-0592", "text": "打开浏览器登录我的 GitHub 然后点 star"}
+{"id": "train-0593", "text": "用浏览器帮我填写这个报名表单"}
+{"id": "train-0594", "text": "自动化点一下京东的签到按钮"}
+{"id": "train-0595", "text": "录制一下我在网页上的操作流程以后回放"}
+{"id": "train-0596", "text": "open the website in a browser and click the login button"}
+{"id": "train-0597", "text": "在浏览器里打开淘宝搜索机械键盘并截图"}
+{"id": "train-0598", "text": "帮我在网页上一页页翻，把每页的标题记下来"}
+{"id": "train-0599", "text": "用浏览器自动提交这个工单表单"}
+{"id": "test-0600", "text": "打开浏览器进入公司 OA 帮我点审批通过"}
+{"id": "test-0601", "text": "在 Chrome 里打开 B 站搜索 Go 教程"}
+{"id": "test-0602", "text": "fill out the signup form on that site using the browser"}
+{"id": "test-0603", "text": "用浏览器模拟登录然后下载对账单页面"}
+{"id": "test-0604", "text": "在网页上自动点击下一页直到最后一页"}
+{"id": "test-0605", "text": "回放上次录制的浏览器操作"}
+{"id": "train-0606", "text": "打开本机的微信，给文件传输助手发个消息"}
+{"id": "train-0607", "text": "帮我在桌面上点开 Excel 软件"}
+{"id": "train-0608", "text": "操作一下电脑上的 Photoshop 新建一个画布"}
+{"id": "train-0609", "text": "click the Start menu and open Settings"}
+{"id": "train-0610", "text": "在记事本里输入一段文字"}
+{"id": "train-0611", "text": "帮我把桌面上那个窗口最大化"}
+{"id": "train-0612", "text": "用键盘快捷键关掉当前这个应用窗口"}
+{"id": "train-0613", "text": "打开系统设置把屏幕亮度调高"}
+{"id": "test-0614", "text": "打开电脑上的网易云音乐播放日推"}
+{"id": "test-0615", "text": "在 Word 软件界面里点一下保存按钮"}
+{"id": "test-0616", "text": "use the mouse to drag that window to the second monitor"}
+{"id": "test-0617", "text": "帮我在本机的钉钉客户端里点开最新消息"}
+{"id": "test-0618", "text": "打开计算器算一下 123*456，用界面操作"}
+{"id": "test-0619", "text": "在桌面应用里滚动到底部看看"}
+{"id": "train-0620", "text": "截个屏给我看看"}
+{"id": "train-0621", "text": "把当前桌面截图发我"}
+{"id": "train-0622", "text": "截一下第二块显示器的画面"}
+{"id": "train-0623", "text": "take a screenshot of my screen"}
+{"id": "train-0624", "text": "看看我电脑屏幕上现在显示的是什么，截个图"}
+{"id": "train-0625", "text": "截全屏"}
+{"id": "train-0626", "text": "帮我截一张当前屏幕的图片"}
+{"id": "train-0627", "text": "capture the main display"}
+{"id": "test-0628", "text": "截一下屏幕"}
+{"id": "test-0629", "text": "拍一张当前桌面的截图"}
+{"id": "test-0630", "text": "screenshot the desktop please"}
+{"id": "test-0631", "text": "把主显示器截个图发过来"}
+{"id": "test-0632", "text": "截个图看下现在电脑上开了什么"}
+{"id": "test-0633", "text": "grab an image of my monitor"}
+{"id": "train-0634", "text": "搜一下 Rust 的异步运行时有哪些"}
+{"id": "train-0635", "text": "帮我查一下 transformer 论文原文"}
+{"id": "train-0636", "text": "网上找找 Go 泛型的最佳实践文章"}
+{"id": "train-0637", "text": "search for papers on retrieval augmented generation"}
+{"id": "train-0638", "text": "查一下 PostgreSQL 分区表怎么用"}
+{"id": "train-0639", "text": "找一些关于 RAG 评测方法的资料"}
+{"id": "train-0640", "text": "上网搜索一下 llama.cpp 的量化格式说明"}
+{"id": "train-0641", "text": "look up how to configure nginx rate limiting"}
+{"id": "test-0642", "text": "帮我搜搜 Kubernetes HPA 的原理"}
+{"id": "test-0643", "text": "网上查一下 BERT 和 GPT 的区别"}
+{"id": "test-0644", "text": "search for best practices of OCR post-processing"}
+{"id": "test-0645", "text": "找几篇关于向量数据库选型的博客"}
+{"id": "test-0646", "text": "查一下 Python asyncio 的官方文档"}
+{"id": "test-0647", "text": "搜索一下 PDF 表格抽取有哪些开源方案"}
+{"id": "train-0648", "text": "把这段中文翻译成日语"}
+{"id": "train-0649", "text": "帮我总结一下这篇文章的要点"}
+{"id": "train-0650", "text": "把会议记录整理成要点列表"}
+{"id": "train-0651", "text": "写一封请假邮件"}
+{"id": "train-0652", "text": "translate this paragraph into Chinese"}
+{"id": "train-0653", "text": "帮我润色一下这段自我介绍"}
+{"id": "train-0654", "text": "把模型转换成 GGUF 格式"}
+{"id": "train-0655", "text": "写一段产品宣传文案"}
+{"id": "test-0656", "text": "帮我把这段英文翻成中文"}
+{"id": "test-0657", "text": "总结一下上面这段对话"}
+{"id": "test-0658", "text": "给这份需求写个摘要"}
+{"id": "test-0659", "text": "polish my cover letter"}
+{"id": "test-0660", "text": "帮我写一首关于秋天的诗"}
+{"id": "test-0661", "text": "把这个 PyTorch 模型导出成 ONNX"}
+{"id": "test-0662", "text": "整理一下这些笔记，按主题分类"}
+{"id": "train-0663", "text": "今天北京天气怎么样"}
+{"id": "train-0664", "text": "现在美元兑人民币汇率多少"}
+{"id": "train-0665", "text": "茅台今天股价多少"}
+{"id": "train-0666", "text": "what's the bitcoin price right now"}
+{"id": "train-0667", "text": "查一下今天的油价"}
+{"id": "train-0668", "text": "最新的 NBA 比分"}
+{"id": "train-0669", "text": "上海明天会下雨吗"}
+{"id": "train-0670", "text": "今天有什么科技新闻"}
+{"id": "test-0671", "text": "深圳现在气温多少度"}
+{"id": "test-0672", "text": "查下今天黄金价格"}
+{"id": "test-0673", "text": "what's the weather in Tokyo today"}
+{"id": "test-0674", "text": "苹果公司最新股价是多少"}
+{"id": "test-0675", "text": "今天欧元汇率多少"}
+{"id": "test-0676", "text": "最近有什么 AI 大新闻"}
+{"id": "test-0677", "text": "杭州这周末天气预报"}
+{"id": "train-0678", "text": "把今天的天气做成一张图"}
+{"id": "train-0679", "text": "画一下特斯拉最近一个月的股价走势图"}
+{"id": "train-0680", "text": "把最新汇率做成信息图"}
+{"id": "train-0681", "text": "plot bitcoin price trend for the past week"}
+{"id": "train-0682", "text": "给我一张实时空气质量信息图"}
+{"id": "train-0683", "text": "画出茅台近三个月的 K 线图"}
+{"id": "train-0684", "text": "把本周气温变化画成折线图"}
+{"id": "train-0685", "text": "create a chart of today's gold price"}
+{"id": "test-0686", "text": "画一张英伟达近半年股价走势图"}
+{"id": "test-0687", "text": "把北京今天的天气生成一张卡片图片"}
+{"id": "test-0688", "text": "make an infographic of current exchange rates"}
+{"id": "test-0689", "text": "把比特币最近价格画成折线图"}
+{"id": "test-0690", "text": "生成一张上证指数今日行情图"}
+{"id": "test-0691", "text": "plot the 30-day trend of Apple stock"}
+{"id": "train-0692", "text": "现在几点了"}
+{"id": "train-0693", "text": "今天几号"}
+{"id": "train-0694", "text": "今天星期几"}
+{"id": "train-0695", "text": "what time is it now"}
+{"id": "train-0696", "text": "今天是农历几月几号"}
+{"id": "train-0697", "text": "现在是几月份"}
+{"id": "train-0698", "text": "距离今天是第几周"}
+{"id": "train-0699", "text": "what's today's date"}
+{"id": "test-0700", "text": "今天是周几"}
+{"id": "test-0701", "text": "what day is it today"}
+{"id": "test-0702", "text": "今天日期是多少"}
+{"id": "test-0703", "text": "现在北京时间几点了"}
+{"id": "test-0704", "text": "今年是哪一年"}
+{"id": "train-0705", "text": "把 report.pdf 发到 zhang@example.com"}
+{"id": "train-0706", "text": "把这个文件发给王经理"}
+{"id": "train-0707", "text": "把刚才生成的表格发到项目群里"}
+{"id": "train-0708", "text": "send the slides to bob@corp.com"}
+{"id": "train-0709", "text": "把这个文件拷贝到 D:\\backup 目录"}
+{"id": "train-0710", "text": "把合同发到法务那个会话"}
+{"id": "train-0711", "text": "把总结文档发送给张三的微信"}
+{"id": "train-0712", "text": "forward this file to the design channel"}
+{"id": "test-0713", "text": "把 data.xlsx 发给李四"}
+{"id": "test-0714", "text": "把周报发到 team@company.com 邮箱"}
+{"id": "test-0715", "text": "send the generated pdf to alice"}
+{"id": "test-0716", "text": "把这份文件转发到另一个群"}
+{"id": "test-0717", "text": "把这个压缩包传到共享目录 /mnt/share"}
+{"id": "test-0718", "text": "把截图发给运维群"}
+{"id": "train-0719", "text": "把上面的内容导出成 PDF"}
+{"id": "train-0720", "text": "生成一份 PDF 报告"}
+{"id": "train-0721", "text": "把查到的数据做成 PDF"}
+{"id": "train-0722", "text": "export this as a pdf"}
+{"id": "train-0723", "text": "把这段内容排版成 PDF 文件"}
+{"id": "train-0724", "text": "把今天的天气信息生成 PDF"}
+{"id": "train-0725", "text": "生成个 pdf 给我"}
+{"id": "train-0726", "text": "把会议纪要输出为 PDF"}
+{"id": "test-0727", "text": "把这些结果整理成 PDF 发我"}
+{"id": "test-0728", "text": "导出 PDF"}
+{"id": "test-0729", "text": "render the summary above into a PDF file"}
+{"id": "test-0730", "text": "把搜到的资料生成一份 pdf"}
+{"id": "test-0731", "text": "把这份清单转成 PDF 文档"}
+{"id": "test-0732", "text": "make a pdf of these notes"}
+{"id": "train-0733", "text": "帮我看看这份合同里有哪些风险条款"}
+{"id": "train-0734", "text": "读一下这个 PDF 讲了什么"}
+{"id": "train-0735", "text": "这个 Excel 里销售额最高的是哪个月"}
+{"id": "train-0736", "text": "summarize the attached document"}
+{"id": "train-0737", "text": "这份 PPT 的主要内容是什么"}
+{"id": "train-0738", "text": "提取一下这份发票里的金额"}
+{"id": "train-0739", "text": "这个 Word 文档里提到了哪些人"}
+{"id": "train-0740", "text": "what does this pdf say about pricing"}
+{"id": "test-0741", "text": "看一下我发的这个 PDF 的结论"}
+{"id": "test-0742", "text": "这份表格里有多少行数据"}
+{"id": "test-0743", "text": "read the attached contract and list obligations"}
+{"id": "test-0744", "text": "帮我提取这份简历里的工作经历"}
+{"id": "test-0745", "text": "这个 pptx 一共几页，讲了什么"}
+{"id": "test-0746", "text": "附件里的报表利润是多少"}
+{"id": "train-0747", "text": "打开桌面上的 report.pdf"}
+{"id": "train-0748", "text": "用 Word 打开 合同.docx"}
+{"id": "train-0749", "text": "打开 D 盘那个 Excel 文件"}
+{"id": "train-0750", "text": "open the quarterly.pptx on my desktop"}
+{"id": "train-0751", "text": "把下载目录里的说明书 PDF 打开"}
+{"id": "train-0752", "text": "打开刚才生成的 PDF"}
+{"id": "train-0753", "text": "用默认程序打开这个 xlsx"}
+{"id": "train-0754", "text": "open 简历.docx"}
+{"id": "test-0755", "text": "打开桌面上的方案.pptx"}
+{"id": "test-0756", "text": "帮我打开 Downloads 里的 invoice.pdf"}
+{"id": "test-0757", "text": "open the budget spreadsheet with excel"}
+{"id": "test-0758", "text": "用系统默认程序打开 readme.pdf"}
+{"id": "test-0759", "text": "打开刚导出的那个 Word 文档"}
+{"id": "test-0760", "text": "把 ~/Documents/plan.xlsx 打开"}
+{"id": "train-0761", "text": "把我刚上传的文件再发给我"}
+{"id": "train-0762", "text": "把这个附件回传到当前聊天"}
+{"id": "train-0763", "text": "把我发你的那个 PDF 原样发回来"}
+{"id": "train-0764", "text": "send me back the attachment"}
+{"id": "train-0765", "text": "把这份附件在这里再发一次"}
+{"id": "train-0766", "text": "return the uploaded spreadsheet to me"}
+{"id": "train-0767", "text": "把刚才那个附件发回给我"}
+{"id": "train-0768", "text": "re-send the file I uploaded"}
+{"id": "test-0769", "text": "把我上传的那份合同发回来"}
+{"id": "test-0770", "text": "把刚才的附件再传给我一下"}
+{"id": "test-0771", "text": "send the attached image back here"}
+{"id": "test-0772", "text": "把这个上传的 Excel 回传给我"}
+{"id": "test-0773", "text": "把我给你的文件原样发我"}
+{"id": "test-0774", "text": "give me back the attached pdf in this chat"}
+{"id": "train-0775", "text": "我要报销上周出差的费用"}
+{"id": "train-0776", "text": "提交一个采购申请"}
+{"id": "train-0777", "text": "继续填写我没完成的报销单"}
+{"id": "train-0778", "text": "create a leave request for next Monday"}
+{"id": "train-0779", "text": "录入一张发票到系统里"}
+{"id": "train-0780", "text": "帮我发起一个合同审批"}
+{"id": "train-0781", "text": "查一下我待审批的单据"}
+{"id": "train-0782", "text": "submit a travel reimbursement"}
+{"id": "test-0783", "text": "帮我填一张差旅报销单"}
+{"id": "test-0784", "text": "提交请假申请，周五请一天"}
+{"id": "test-0785", "text": "record this invoice in the business system"}
+{"id": "test-0786", "text": "继续我上次保存的采购单"}
+{"id": "test-0787", "text": "查询客户 ABC 的合同记录"}
+{"id": "test-0788", "text": "审批一下这个费用单"}
+{"id": "train-0789", "text": "查一下 MySQL 里 orders 表有多少行"}
+{"id": "train-0790", "text": "连接 PostgreSQL 看看有哪些 schema"}
+{"id": "train-0791", "text": "列出数据库里所有的表"}
+{"id": "train-0792", "text": "show tables in the sales database"}
+{"id": "train-0793", "text": "查询 users 表最近注册的 10 个用户"}
+{"id": "train-0794", "text": "看看 SQL Server 里 customer 表的结构"}
+{"id": "train-0795", "text": "统计一下订单表每个月的销售额"}
+{"id": "train-0796", "text": "run select count(*) from logs"}
+{"id": "test-0797", "text": "看看 pg 里 public schema 下有哪些表"}
+{"id": "test-0798", "text": "查下数据库 orders 表昨天的订单数"}
+{"id": "test-0799", "text": "describe the products table in mysql"}
+{"id": "test-0800", "text": "连接 Access 数据库看看有哪些表"}
+{"id": "test-0801", "text": "从 sales 库里查出销售额前十的商品"}
+{"id": "test-0802", "text": "query the inventory table for items out of stock"}
+{"id": "train-0803", "text": "帮我做一份年终总结 PPT"}
+{"id": "train-0804", "text": "基于这份文档做个演示文稿"}
+{"id": "train-0805", "text": "设计一套产品发布会的幻灯片"}
+{"id": "train-0806", "text": "make a slide deck about our Q3 results"}
+{"id": "train-0807", "text": "把这个 PPT 的风格改得更高级一点"}
+{"id": "train-0808", "text": "做一个 10 页的公司介绍 PPT"}
+{"id": "train-0809", "text": "生成培训课件 PPT"}
+{"id": "train-0810", "text": "create a presentation on AI trends"}
+{"id": "test-0811", "text": "做一份项目汇报的 PPT"}
+{"id": "test-0812", "text": "帮我把这份报告做成幻灯片"}
+{"id": "test-0813", "text": "design a pitch deck for my startup"}
+{"id": "test-0814", "text": "把当前这个 PPT 配色优化一下"}
+{"id": "test-0815", "text": "制作一个关于碳中和的演示文稿"}
+{"id": "test-0816", "text": "生成一套新员工入职培训的 slides"}
+{"id": "train-0817", "text": "帮我写一份商业计划书"}
+{"id": "train-0818", "text": "做一份产品需求文档 PRD"}
+{"id": "train-0819", "text": "写一篇关于大模型的研究报告"}
+{"id": "train-0820", "text": "帮我写一份投标书"}
+{"id": "train-0821", "text": "策划一场公司年会活动"}
+{"id": "train-0822", "text": "帮我写个专利申请"}
+{"id": "train-0823", "text": "write a business plan for a coffee shop"}
+{"id": "train-0824", "text": "做一份竞品分析报告"}
+{"id": "test-0825", "text": "帮我出一份新产品的 PRD"}
+{"id": "test-0826", "text": "写一份市场调研报告"}
+{"id": "test-0827", "text": "帮我准备一份项目投标文件"}
+{"id": "test-0828", "text": "draft a research paper on OCR methods"}
+{"id": "test-0829", "text": "策划一个线下技术沙龙活动方案"}
+{"id": "test-0830", "text": "写一份融资商业计划"}
+{"id": "train-0831", "text": "继续"}
+{"id": "train-0832", "text": "接着来"}
+{"id": "train-0833", "text": "开始吧"}
+{"id": "train-0834", "text": "go on"}
+{"id": "train-0835", "text": "好的开始"}
+{"id": "train-0836", "text": "接着干"}
+{"id": "train-0837", "text": "go ahead"}
+{"id": "train-0838", "text": "继续执行"}
+{"id": "test-0839", "text": "继续吧"}
+{"id": "test-0840", "text": "开搞"}
+{"id": "test-0841", "text": "proceed"}
+{"id": "test-0842", "text": "接着做"}
+{"id": "test-0843", "text": "好，开始"}
+{"id": "train-0844", "text": "把这段内容存进知识库"}
+{"id": "train-0845", "text": "把这个网址收录到知识库"}
+{"id": "train-0846", "text": "把 docs 目录导入知识库"}
+{"id": "train-0847", "text": "save this article to the knowledge base"}
+{"id": "train-0848", "text": "把这几个 PDF 导入知识库"}
+{"id": "train-0849", "text": "把这篇文章加到知识库里以后查"}
+{"id": "train-0850", "text": "导入这个知识包"}
+{"id": "train-0851", "text": "add this url to my knowledge base"}
+{"id": "test-0852", "text": "把这份说明文档录入知识库"}
+{"id": "test-0853", "text": "把这个链接保存到知识库"}
+{"id": "test-0854", "text": "import the folder ~/notes into the knowledge base"}
+{"id": "test-0855", "text": "把刚才那段总结存到知识库"}
+{"id": "test-0856", "text": "把这些文件加入知识库"}
+{"id": "test-0857", "text": "收录这个网页到知识库"}
+{"id": "train-0858", "text": "看一下 config.yaml 的内容"}
+{"id": "train-0859", "text": "列出当前目录下的文件"}
+{"id": "train-0860", "text": "搜一下项目里哪里用了 TODO"}
+{"id": "train-0861", "text": "show me the contents of main.go"}
+{"id": "train-0862", "text": "读一下 ~/notes/todo.txt"}
+{"id": "train-0863", "text": "找出所有 .log 文件"}
+{"id": "train-0864", "text": "看看 src 目录下有哪些文件"}
+{"id": "train-0865", "text": "grep for 'password' in the repo"}
+{"id": "test-0866", "text": "打印一下 README.md 内容"}
+{"id": "test-0867", "text": "看下 logs 目录里都有什么"}
+{"id": "test-0868", "text": "find all files named *.proto in this project"}
+{"id": "test-0869", "text": "读取 /etc/hosts 文件"}
+{"id": "test-0870", "text": "在代码里搜索 InitRouter 的定义"}
+{"id": "test-0871", "text": "看看 package.json 里有哪些依赖"}
+{"id": "train-0872", "text": "把这段内容保存到 notes.md"}
+{"id": "train-0873", "text": "新建一个 todo.txt 写入今天的任务"}
+{"id": "train-0874", "text": "在 config.yaml 里把端口改成 9090"}
+{"id": "train-0875", "text": "append this line to log.txt"}
+{"id": "train-0876", "text": "把刚才的总结写进 summary.md"}
+{"id": "train-0877", "text": "修改 README 第一段"}
+{"id": "train-0878", "text": "把这些数据保存成 data.csv"}
+{"id": "train-0879", "text": "write this json to output.json"}
+{"id": "test-0880", "text": "把上面的回答保存到 answer.md"}
+{"id": "test-0881", "text": "在 .env 里加一行 DEBUG=true"}
+{"id": "test-0882", "text": "create a file hello.txt with 'hi'"}
+{"id": "test-0883", "text": "把这段代码写到 utils.py"}
+{"id": "test-0884", "text": "把会议要点追加到 meeting.md 末尾"}
+{"id": "test-0885", "text": "把 config.json 里的 timeout 改成 30"}
+{"id": "train-0886", "text": "删掉 temp.txt"}
+{"id": "train-0887", "text": "把刚才生成的 md 文件删除"}
+{"id": "train-0888", "text": "删除 output.json"}
+{"id": "train-0889", "text": "delete the file draft.md"}
+{"id": "train-0890", "text": "把 notes.txt 删了"}
+{"id": "train-0891", "text": "remove old_report.pdf from the workspace"}
+{"id": "train-0892", "text": "删除那个临时文件"}
+{"id": "train-0893", "text": "把 build.log 删掉"}
+{"id": "test-0894", "text": "把 summary.md 删了"}
+{"id": "test-0895", "text": "删除刚刚保存的那个文件"}
+{"id": "test-0896", "text": "delete test_output.csv"}
+{"id": "test-0897", "text": "把桌面上的 a.txt 删掉"}
+{"id": "test-0898", "text": "remove the file I just wrote"}
+{"id": "test-0899", "text": "删除 backup.json"}
+{"id": "train-0900", "text": "执行一下 ls -la"}
+{"id": "train-0901", "text": "运行 npm install"}
+{"id": "train-0902", "text": "跑一下 make build"}
+{"id": "train-0903", "text": "run python main.py"}
+{"id": "train-0904", "text": "执行 docker ps"}
+{"id": "train-0905", "text": "在本机运行 go test ./..."}
+{"id": "train-0906", "text": "帮我执行 pip install requests"}
+{"id": "train-0907", "text": "run the script deploy.sh"}
+{"id": "test-0908", "text": "执行 df -h 看看"}
+{"id": "test-0909", "text": "运行一下 npm run dev"}
+{"id": "test-0910", "text": "run `cargo build --release`"}
+{"id": "test-0911", "text": "本机执行 brew update"}
+{"id": "test-0912", "text": "跑一下 ./start.sh"}
+{"id": "test-0913", "text": "执行 ping baidu.com"}
+{"id": "train-0914", "text": "看看 git status"}
+{"id": "train-0915", "text": "有哪些未提交的修改"}
+{"id": "train-0916", "text": "看一下最近改动的 diff"}
+{"id": "train-0917", "text": "show me the git diff"}
+{"id": "train-0918", "text": "当前分支是什么，有啥改动"}
+{"id": "train-0919", "text": "列出改过的文件"}
+{"id": "train-0920", "text": "看下工作区状态"}
+{"id": "train-0921", "text": "what changed since last commit"}
+{"id": "test-0922", "text": "git diff 看一下"}
+{"id": "test-0923", "text": "看看我改了哪些文件还没提交"}
+{"id": "test-0924", "text": "show uncommitted changes"}
+{"id": "test-0925", "text": "当前仓库状态怎么样"}
+{"id": "test-0926", "text": "看下暂存区有什么"}
+{"id": "test-0927", "text": "diff of main.go please"}
+{"id": "train-0928", "text": "提交一下代码"}
+{"id": "train-0929", "text": "把改动 commit 了"}
+{"id": "train-0930", "text": "push 到远程"}
+{"id": "train-0931", "text": "commit these changes with message 'fix bug'"}
+{"id": "train-0932", "text": "提交并推送"}
+{"id": "train-0933", "text": "git push origin main"}
+{"id": "train-0934", "text": "把这些修改提交到仓库"}
+{"id": "train-0935", "text": "commit and push"}
+{"id": "test-0936", "text": "帮我 commit 一下"}
+{"id": "test-0937", "text": "推送到 GitHub"}
+{"id": "test-0938", "text": "commit with message 'update docs'"}
+{"id": "test-0939", "text": "把代码提交上去"}
+{"id": "test-0940", "text": "把当前改动推到远程分支"}
+{"id": "test-0941", "text": "git commit 一下然后 push"}
+{"id": "train-0942", "text": "开始录音"}
+{"id": "train-0943", "text": "帮我录一下这次会议"}
+{"id": "train-0944", "text": "打开麦克风录音"}
+{"id": "train-0945", "text": "start recording audio"}
+{"id": "train-0946", "text": "录制接下来的讨论"}
+{"id": "train-0947", "text": "开个录音"}
+{"id": "train-0948", "text": "record the meeting"}
+{"id": "train-0949", "text": "用麦克风录一段音频"}
+{"id": "test-0950", "text": "录音"}
+{"id": "test-0951", "text": "帮我把接下来的会议录下来"}
+{"id": "test-0952", "text": "start a voice recording"}
+{"id": "test-0953", "text": "录一段我说的话"}
+{"id": "test-0954", "text": "begin recording the discussion"}
+{"id": "train-0955", "text": "把这个录音转成文字"}
+{"id": "train-0956", "text": "识别一下 meeting.mp3 里说了什么"}
+{"id": "train-0957", "text": "把会议录音整理成纪要"}
+{"id": "train-0958", "text": "transcribe this audio file"}
+{"id": "train-0959", "text": "把这段语音转写出来"}
+{"id": "train-0960", "text": "这个 wav 文件说了啥"}
+{"id": "train-0961", "text": "语音识别一下这个文件"}
+{"id": "train-0962", "text": "transcribe interview.m4a"}
+{"id": "test-0963", "text": "把这个音频转写成文字稿"}
+{"id": "test-0964", "text": "识别 voice.ogg 的内容"}
+{"id": "test-0965", "text": "transcribe the recording I uploaded"}
+{"id": "test-0966", "text": "把会议录音转成文字"}
+{"id": "test-0967", "text": "这段语音说的什么"}
+{"id": "test-0968", "text": "speech to text for call.mp3"}
+{"id": "train-0969", "text": "把这段话读出来"}
+{"id": "train-0970", "text": "用语音朗读这篇文章"}
+{"id": "train-0971", "text": "把这段文字合成语音播放"}
+{"id": "train-0972", "text": "read this text aloud"}
+{"id": "train-0973", "text": "朗读一下上面的回复"}
+{"id": "train-0974", "text": "TTS 播放这句话"}
+{"id": "train-0975", "text": "用中文念一下这段"}
+{"id": "train-0976", "text": "speak this paragraph"}
+{"id": "test-0977", "text": "把这段念给我听"}
+{"id": "test-0978", "text": "朗读一下这首诗"}
+{"id": "test-0979", "text": "用语音播放一下这段话"}
+{"id": "test-0980", "text": "把回复读出来"}
+{"id": "test-0981", "text": "text to speech this sentence"}
+{"id": "train-0982", "text": "把这段话转成语音发到群里"}
+{"id": "train-0983", "text": "发一条语音消息给他"}
+{"id": "train-0984", "text": "用语音把这个通知发出去"}
+{"id": "train-0985", "text": "send this as a voice note"}
+{"id": "train-0986", "text": "把这段文字合成语音发到当前群"}
+{"id": "train-0987", "text": "send a voice message saying hello"}
+{"id": "train-0988", "text": "发个语音给大家"}
+{"id": "train-0989", "text": "speak this and send it to the group"}
+{"id": "test-0990", "text": "把这句话用语音发到群里"}
+{"id": "test-0991", "text": "发一条语音说我晚点到"}
+{"id": "test-0992", "text": "send this text as voice to the chat"}
+{"id": "test-0993", "text": "用语音消息把结果发给我"}
+{"id": "test-0994", "text": "发个语音通知"}
+{"id": "test-0995", "text": "deliver this as a voice bubble"}
+{"id": "train-0996", "text": "读一下 https://example.com/article 这篇文章"}
+{"id": "train-0997", "text": "抓取 https://news.ycombinator.com 首页内容"}
+{"id": "train-0998", "text": "看看这个链接讲了什么 https://go.dev/blog"}
+{"id": "train-0999", "text": "fetch https://arxiv.org/abs/2401.00001"}
+{"id": "train-1000", "text": "总结一下 https://zhuanlan.zhihu.com/p/12345"}
+{"id": "train-1001", "text": "打开这个网址读正文 https://www.ruanyifeng.com/blog/"}
+{"id": "train-1002", "text": "get the content of https://docs.python.org/3/"}
+{"id": "train-1003", "text": "这个页面写了啥 http://blog.example.cn/post/1"}
+{"id": "test-1004", "text": "帮我读一下 https://github.com/cactus-compute/needle 的内容"}
+{"id": "test-1005", "text": "抓取 https://www.qq.com 页面正文"}
+{"id": "test-1006", "text": "fetch and summarize https://openai.com/blog"}
+{"id": "test-1007", "text": "看看 https://pkg.go.dev/net/http 写了什么"}
+{"id": "test-1008", "text": "总结 https://mp.weixin.qq.com/s/abcdef 这篇"}
+{"id": "test-1009", "text": "read https://example.org/changelog"}
+{"id": "train-1010", "text": "查一下今天的审计日志"}
+{"id": "train-1011", "text": "搜一下我们之前聊过的关于 OCR 的对话"}
+{"id": "train-1012", "text": "看看最近有没有危险的工具调用"}
+{"id": "train-1013", "text": "show the security audit log"}
+{"id": "train-1014", "text": "检查一下项目健康状态"}
+{"id": "train-1015", "text": "查历史会话里提到 redis 的记录"}
+{"id": "train-1016", "text": "看看昨天执行过哪些命令的审计记录"}
+{"id": "train-1017", "text": "search my chat history for 'invoice'"}
+{"id": "test-1018", "text": "看下最近一周的安全审计记录"}
+{"id": "test-1019", "text": "我们以前讨论过部署方案吗，查一下历史"}
+{"id": "test-1020", "text": "show recent risky tool calls"}
+{"id": "test-1021", "text": "检查系统健康状况"}
+{"id": "test-1022", "text": "搜历史对话里关于报销的内容"}
+{"id": "test-1023", "text": "audit log for yesterday"}
+{"id": "train-1024", "text": "在知识库里查一下报销流程"}
+{"id": "train-1025", "text": "知识库里有没有关于 OCR 的资料"}
+{"id": "train-1026", "text": "从知识库检索部署文档"}
+{"id": "train-1027", "text": "search the knowledge base for onboarding"}
+{"id": "train-1028", "text": "知识库里怎么说的 API 限流"}
+{"id": "train-1029", "text": "查一下我存的笔记里关于 Go 泛型的内容"}
+{"id": "train-1030", "text": "根据知识库回答：年假怎么算"}
+{"id": "train-1031", "text": "find docs about SSO in my knowledge base"}
+{"id": "test-1032", "text": "知识库里关于发票的规定是什么"}
+{"id": "test-1033", "text": "从知识库找一下产品价格表"}
+{"id": "test-1034", "text": "what does my knowledge base say about vpn setup"}
+{"id": "test-1035", "text": "检索知识库里的会议纪要"}
+{"id": "test-1036", "text": "知识库里有没有 PDF 翻译相关文档"}
+{"id": "test-1037", "text": "根据我保存的资料回答这个问题"}
+{"id": "train-1038", "text": "打开 VS Code"}
+{"id": "train-1039", "text": "启动微信"}
+{"id": "train-1040", "text": "打开 https://www.baidu.com"}
+{"id": "train-1041", "text": "open Spotify"}
+{"id": "train-1042", "text": "打开下载文件夹"}
+{"id": "train-1043", "text": "启动终端"}
+{"id": "train-1044", "text": "帮我打开网易云音乐"}
+{"id": "train-1045", "text": "open the folder ~/projects"}
+{"id": "test-1046", "text": "打开 Chrome"}
+{"id": "test-1047", "text": "启动钉钉"}
+{"id": "test-1048", "text": "open https://github.com in my browser"}
+{"id": "test-1049", "text": "打开桌面文件夹"}
+{"id": "test-1050", "text": "运行一下计算器"}
+{"id": "test-1051", "text": "open Finder"}
+{"id": "train-1052", "text": "把 https://example.com/a.pdf 下载下来"}
+{"id": "train-1053", "text": "下载这个安装包 https://dl.google.com/go1.25.linux-amd64.tar.gz"}
+{"id": "train-1054", "text": "download https://arxiv.org/pdf/2401.00001.pdf"}
+{"id": "train-1055", "text": "把这个链接的图片保存到本地"}
+{"id": "train-1056", "text": "下载 https://x.com/data.csv 到桌面"}
+{"id": "train-1057", "text": "把这个文件下载到 Downloads"}
+{"id": "train-1058", "text": "save https://site.com/report.xlsx locally"}
+{"id": "train-1059", "text": "下载这个模型文件到本地"}
+{"id": "test-1060", "text": "下载 https://example.org/manual.pdf"}
+{"id": "test-1061", "text": "把这个压缩包下载到本机 https://a.com/b.zip"}
+{"id": "test-1062", "text": "download the dataset from https://data.gov/x.csv"}
+{"id": "test-1063", "text": "保存这个链接里的视频到本地"}
+{"id": "test-1064", "text": "把 https://cdn.x.com/logo.png 下载下来"}
+{"id": "test-1065", "text": "fetch this installer to disk: https://get.app/setup.exe"}
+{"id": "train-1066", "text": "每天早上 9 点提醒我喝水"}
+{"id": "train-1067", "text": "创建一个每周一的定时任务"}
+{"id": "train-1068", "text": "列出所有定时任务"}
+{"id": "train-1069", "text": "pause the daily backup schedule"}
+{"id": "train-1070", "text": "删除那个每天备份的定时任务"}
+{"id": "train-1071", "text": "把提醒改到下午三点"}
+{"id": "train-1072", "text": "每小时检查一次磁盘空间"}
+{"id": "train-1073", "text": "set a reminder for 6pm"}
+{"id": "test-1074", "text": "明天早上八点提醒我开会"}
+{"id": "test-1075", "text": "看看我有哪些定时任务"}
+{"id": "test-1076", "text": "delete the weekly report schedule"}
+{"id": "test-1077", "text": "暂停每晚的同步任务"}
+{"id": "test-1078", "text": "每天凌晨两点自动跑一次清理脚本"}
+{"id": "test-1079", "text": "恢复之前暂停的定时任务"}
+{"id": "train-1080", "text": "每天早上 9 点把天气发到群里"}
+{"id": "train-1081", "text": "每周五下午把周报发给团队群"}
+{"id": "train-1082", "text": "每天定时把销售数据推送到微信"}
+{"id": "train-1083", "text": "every morning send the news summary to the team chat"}
+{"id": "train-1084", "text": "每小时把服务器状态发到运维群"}
+{"id": "train-1085", "text": "定时把日报发给张三"}
+{"id": "train-1086", "text": "每天晚上 8 点把汇率推送到蓝信"}
+{"id": "train-1087", "text": "schedule a daily message to the group at 10am"}
+{"id": "test-1088", "text": "每天早上把今日新闻推送到群里"}
+{"id": "test-1089", "text": "每周一把上周数据汇总发给老板"}
+{"id": "test-1090", "text": "send the build status to the dev channel every hour"}
+{"id": "test-1091", "text": "每天下班前把待办提醒发到群"}
+{"id": "test-1092", "text": "定时每晚把监控截图发给我微信"}
+{"id": "test-1093", "text": "每月 1 号把账单汇总发到财务群"}
+{"id": "train-1094", "text": "把模型切换成 deepseek"}
+{"id": "train-1095", "text": "看看你现在用的是哪个 LLM"}
+{"id": "train-1096", "text": "把最大推理轮数改成 50"}
+{"id": "train-1097", "text": "switch your model to gpt-4o"}
+{"id": "train-1098", "text": "修改一下你的配置"}
+{"id": "train-1099", "text": "换一个模型服务商"}
+{"id": "train-1100", "text": "更新一下我的用户画像，我是后端工程师"}
+{"id": "train-1101", "text": "show your current configuration"}
+{"id": "test-1102", "text": "切换到 qwen 模型"}
+{"id": "test-1103", "text": "你现在用的哪个模型提供商"}
+{"id": "test-1104", "text": "set max iterations to 30"}
+{"id": "test-1105", "text": "把你的配置改一下，温度调低"}
+{"id": "test-1106", "text": "修正一下我的画像，我不写前端"}
+{"id": "test-1107", "text": "change your llm provider to openrouter"}
+{"id": "train-1108", "text": "记住我喜欢用 Go"}
+{"id": "train-1109", "text": "以后都用中文回复我，记下来"}
+{"id": "train-1110", "text": "忘掉我之前说的那个偏好"}
+{"id": "train-1111", "text": "remember that my project uses PostgreSQL"}
+{"id": "train-1112", "text": "看看你记得关于我的哪些事"}
+{"id": "train-1113", "text": "更新记忆：我换到上海工作了"}
+{"id": "train-1114", "text": "删除关于旧项目的记忆"}
+{"id": "train-1115", "text": "list what you remember about me"}
+{"id": "test-1116", "text": "记住我的生日是 5 月 3 号"}
+{"id": "test-1117", "text": "你都记得我什么"}
+{"id": "test-1118", "text": "forget my old email address"}
+{"id": "test-1119", "text": "记一下：这个项目用 pnpm"}
+{"id": "test-1120", "text": "把那条过时的记忆删了"}
+{"id": "test-1121", "text": "update memory: I prefer tabs over spaces"}
+{"id": "train-1122", "text": "加一个待办：写周报"}
+{"id": "train-1123", "text": "把待办列表列出来"}
+{"id": "train-1124", "text": "把第二个任务标记为完成"}
+{"id": "train-1125", "text": "add a todo: review PR"}
+{"id": "train-1126", "text": "删掉待办里的买菜"}
+{"id": "train-1127", "text": "更新任务状态为进行中"}
+{"id": "train-1128", "text": "看看还有哪些任务没完成"}
+{"id": "train-1129", "text": "create a task to fix login bug"}
+{"id": "test-1130", "text": "待办里加一条：联系客户"}
+{"id": "test-1131", "text": "列出当前任务清单"}
+{"id": "test-1132", "text": "mark the first todo as done"}
+{"id": "test-1133", "text": "把那个任务删掉"}
+{"id": "test-1134", "text": "还有什么待办没做"}
+{"id": "test-1135", "text": "新增任务：更新文档"}
+{"id": "train-1136", "text": "创建一个长期目标：一个月内把测试覆盖率提到 80%"}
+{"id": "train-1137", "text": "看看当前的长期目标进度"}
+{"id": "train-1138", "text": "结束那个长期目标"}
+{"id": "train-1139", "text": "create a long-running goal with a budget of 100 steps"}
+{"id": "train-1140", "text": "设一个目标，持续优化首页性能直到 LCP<2s"}
+{"id": "train-1141", "text": "列出所有长期目标"}
+{"id": "train-1142", "text": "停止当前目标"}
+{"id": "train-1143", "text": "check the status of my goal"}
+{"id": "test-1144", "text": "建一个长期目标：持续修复所有 lint 警告"}
+{"id": "test-1145", "text": "我的长期目标进展如何"}
+{"id": "test-1146", "text": "end the current goal"}
+{"id": "test-1147", "text": "创建目标，自动推进直到所有测试通过"}
+{"id": "test-1148", "text": "取消那个长期目标"}
+{"id": "test-1149", "text": "show my active goals"}
+{"id": "train-1150", "text": "创建一个会话模板"}
+{"id": "train-1151", "text": "列出我的模板"}
+{"id": "train-1152", "text": "用代码审查模板启动新会话"}
+{"id": "train-1153", "text": "save this as a session template"}
+{"id": "train-1154", "text": "把当前工具和项目路径存成模板"}
+{"id": "train-1155", "text": "删除那个旧模板"}
+{"id": "train-1156", "text": "用模板开一个 Claude Code 会话"}
+{"id": "train-1157", "text": "list session templates"}
+{"id": "test-1158", "text": "新建一个前端项目的会话模板"}
+{"id": "test-1159", "text": "有哪些会话模板"}
+{"id": "test-1160", "text": "start a session from my review template"}
+{"id": "test-1161", "text": "把这套配置保存为模板"}
+{"id": "test-1162", "text": "用上次的模板起一个新会话"}
+{"id": "test-1163", "text": "show my templates"}
+{"id": "train-1164", "text": "列出所有编码会话"}
+{"id": "train-1165", "text": "看看那个 codex 会话的输出"}
+{"id": "train-1166", "text": "中断当前会话"}
+{"id": "train-1167", "text": "list coding sessions"}
+{"id": "train-1168", "text": "给会话发送继续指令"}
+{"id": "train-1169", "text": "终止卡住的会话"}
+{"id": "train-1170", "text": "切换到另一个项目"}
+{"id": "train-1171", "text": "show providers of coding tools"}
+{"id": "test-1172", "text": "看下现在有哪些会话在跑"}
+{"id": "test-1173", "text": "把那个卡死的会话停掉"}
+{"id": "test-1174", "text": "send 'continue' to the running session"}
+{"id": "test-1175", "text": "查看会话最近的输出"}
+{"id": "test-1176", "text": "切换当前项目到 maclaw"}
+{"id": "test-1177", "text": "kill the stuck claude code session"}
+{"id": "train-1178", "text": "把这个任务分给子 agent 去做"}
+{"id": "train-1179", "text": "并行执行这三个任务"}
+{"id": "train-1180", "text": "组织几个专家讨论一下这个方案"}
+{"id": "train-1181", "text": "delegate this to a sub-agent"}
+{"id": "train-1182", "text": "开几个子代理分别调研这三个方向"}
+{"id": "train-1183", "text": "让多个 agent 会诊一下这个 bug"}
+{"id": "train-1184", "text": "把调研和编码分别委派出去"}
+{"id": "train-1185", "text": "run these tasks in parallel with sub agents"}
+{"id": "test-1186", "text": "委派一个子 agent 去整理文档"}
+{"id": "test-1187", "text": "同时并行处理这几个文件"}
+{"id": "test-1188", "text": "spin up sub-agents to research each option"}
+{"id": "test-1189", "text": "找几个专家角色一起评审方案"}
+{"id": "test-1190", "text": "把这个任务交给子代理"}
+{"id": "test-1191", "text": "parallelize these three jobs"}
+{"id": "train-1192", "text": "刷新知识库来源"}
+{"id": "train-1193", "text": "禁用那个知识库数据源"}
+{"id": "train-1194", "text": "删除知识库里的旧来源"}
+{"id": "train-1195", "text": "show knowledge base stats"}
+{"id": "train-1196", "text": "跑一下知识库质量维护"}
+{"id": "train-1197", "text": "检查知识库健康状况"}
+{"id": "train-1198", "text": "给知识库条目加标签"}
+{"id": "train-1199", "text": "remove duplicates in the knowledge base"}
+{"id": "test-1200", "text": "知识库里那个来源重新刷新一下"}
+{"id": "test-1201", "text": "停用这个知识源"}
+{"id": "test-1202", "text": "knowledge base health check"}
+{"id": "test-1203", "text": "清理知识库重复条目"}
+{"id": "test-1204", "text": "看看知识库统计信息"}
+{"id": "test-1205", "text": "删除知识库中过期的来源"}
+{"id": "train-1206", "text": "你好"}
+{"id": "train-1207", "text": "谢谢"}
+{"id": "train-1208", "text": "你是谁"}
+{"id": "train-1209", "text": "hello"}
+{"id": "train-1210", "text": "哈哈"}
+{"id": "train-1211", "text": "早上好"}
+{"id": "train-1212", "text": "讲个笑话"}
+{"id": "train-1213", "text": "你能做什么"}
+{"id": "test-1214", "text": "嗨"}
+{"id": "test-1215", "text": "好的谢谢"}
+{"id": "test-1216", "text": "who are you"}
+{"id": "test-1217", "text": "晚安"}
+{"id": "test-1218", "text": "今天心情不错"}
+{"id": "test-1219", "text": "thanks!"}
+{"id": "test-1220", "text": "打开桌面上的 PPT 看一下"}
+{"id": "test-1221", "text": "删除服务器 10.0.0.3 上的 /tmp/a.log"}
+{"id": "test-1222", "text": "把关于我旧公司的记忆删掉"}
+{"id": "test-1223", "text": "删除知识库里关于报销的来源"}
+{"id": "test-1224", "text": "删除每天 9 点的那个定时任务"}
+{"id": "test-1225", "text": "每天 9 点把日报发到群里"}
+{"id": "test-1226", "text": "在浏览器里给这个网页截个图"}
+{"id": "test-1227", "text": "截一下我电脑桌面"}
+{"id": "test-1228", "text": "把我刚上传的附件发给张三"}
+{"id": "test-1229", "text": "把我刚上传的附件发回给我"}
+{"id": "test-1230", "text": "把这段文字读出来"}
+{"id": "test-1231", "text": "把这段文字用语音发到群里"}
+{"id": "test-1232", "text": "把录音文件转成文字"}
+{"id": "test-1233", "text": "帮我搜一下 https 证书怎么配"}
+{"id": "test-1234", "text": "读一下 https://go.dev/doc/effective_go"}
+{"id": "test-1235", "text": "下载 https://go.dev/dl/go1.25.5.src.tar.gz"}
+{"id": "test-1236", "text": "今天上海天气"}
+{"id": "test-1237", "text": "把今天上海天气画成图"}
+{"id": "test-1238", "text": "把今天上海天气生成 PDF"}
+{"id": "test-1239", "text": "把这份报告导出为 PDF"}
+{"id": "test-1240", "text": "基于这份文档做个 PPT"}
+{"id": "test-1241", "text": "读一下这份文档"}
+{"id": "test-1242", "text": "执行 rm -rf build 目录"}
+{"id": "test-1243", "text": "把 build.log 文件删除"}
+{"id": "test-1244", "text": "看看 git 改了什么"}
+{"id": "test-1245", "text": "把改动提交并 push"}
+{"id": "test-1246", "text": "查一下知识库里的报销规定"}
+{"id": "test-1247", "text": "把这份报销规定存到知识库"}
+{"id": "test-1248", "text": "帮我报销这张发票"}
+{"id": "test-1249", "text": "查询 MySQL 里的发票表"}
+{"id": "test-1250", "text": "打开微信"}
+{"id": "test-1251", "text": "打开微信给张三发消息"}
+{"id": "test-1252", "text": "列出编码会话"}
+{"id": "test-1253", "text": "列出会话模板"}
+{"id": "test-1254", "text": "加个待办：周五交周报"}
+{"id": "test-1255", "text": "周五下午提醒我交周报"}
+{"id": "test-1256", "text": "切换模型到 deepseek-v3"}
+{"id": "test-1257", "text": "记住我喜欢 deepseek"}
+{"id": "test-1258", "text": "登录服务器看日志"}
+{"id": "test-1259", "text": "看看本地 app.log 日志"}
+{"id": "test-1260", "text": "修复登录 bug"}
+{"id": "test-1261", "text": "重构登录模块"}
+{"id": "test-1262", "text": "新增登录模块"}
+{"id": "test-1263", "text": "让子 agent 并行修这三个 bug"}

@@ -1,0 +1,930 @@
+{"id": "train-0000", "text": "launch the calculator app", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0001", "text": "open this URL in the default browser", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0002", "text": "open this folder in the file explorer", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0003", "text": "start the application with the system handler", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0004", "text": "在资源管理器里打开这个文件夹", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0005", "text": "帮我启动本地开发工具", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0006", "text": "打开计算器应用", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0007", "text": "用默认浏览器打开这个网址", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-0008", "text": "deliver this uploaded attachment in this chat", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0009", "text": "return the attached report to this conversation", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0010", "text": "send back the file I attached", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0011", "text": "把我刚发的附件回传给我", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0012", "text": "把这个附件发回当前聊天", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0013", "text": "把这份上传的报告发给我", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0014", "text": "deliver this text as speech to the group", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0015", "text": "send a voice bubble with this text", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0016", "text": "send this as a voice message", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0017", "text": "speak this and send it to the chat", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0018", "text": "capture a voice memo", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0019", "text": "open the microphone recorder", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0020", "text": "record this meeting", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0021", "text": "start recording audio", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0022", "text": "帮我录一下这个会议", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0023", "text": "开始录音", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0024", "text": "录制一段语音", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0025", "text": "打开录音功能", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0026", "text": "play this message as speech locally", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0027", "text": "read the summary out loud", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0028", "text": "read this paragraph aloud", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0029", "text": "speak this text on the desktop", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0030", "text": "在桌面上读出这段说明", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0031", "text": "把这段话念给我听", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0032", "text": "朗读这段文字", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0033", "text": "用语音把这段话播放出来", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0034", "text": "convert the recording to text", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0035", "text": "generate a transcript of the meeting audio", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0036", "text": "run speech recognition on this wav file", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0037", "text": "transcribe this audio file", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0038", "text": "把这个音频文件转成文字", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0039", "text": "给这个会议录音生成文字稿", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0040", "text": "识别这个语音文件里说了什么", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0041", "text": "转写一下这段录音", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0072", "text": "debug this crash", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0073", "text": "fix the authentication error", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0074", "text": "fix the loading issue", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0075", "text": "resolve the null pointer exception", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0076", "text": "the app keeps crashing on startup", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0077", "text": "there's a bug in the payment flow", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0078", "text": "troubleshoot the memory leak", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0079", "text": "修复崩溃问题", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0080", "text": "修复登录失败的bug", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0081", "text": "排查报错原因", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0082", "text": "有bug，一直显示加载中", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0083", "text": "程序闪退", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0084", "text": "调试一下这个问题", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0085", "text": "页面白屏了", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0098", "text": "build a game in JavaScript", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0099", "text": "build a web application", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0100", "text": "create a CLI tool", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0101", "text": "create a file upload service", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0102", "text": "develop a REST API", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0103", "text": "implement a chat server", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0104", "text": "write a Python script for data processing", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0105", "text": "写一个爬虫程序", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0106", "text": "写一个自动化脚本", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0107", "text": "创建一个命令行工具", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0108", "text": "实现一个REST API服务", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0109", "text": "帮我开发一个聊天应用", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0110", "text": "开发一个数据可视化面板", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0111", "text": "开发一个贪吃蛇游戏", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0166", "text": "connect to the mysql data source and inspect schema", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0167", "text": "inspect the mysql schema", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0168", "text": "list tables in the database", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0169", "text": "query the sql server catalog", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0170", "text": "show tables in this postgres database", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0171", "text": "列出这个库里的表", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0172", "text": "查看 192.168.1.242 上的 mysql 数据库", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0173", "text": "查看 mysql 库", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0174", "text": "查看 rapidbi 库", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0175", "text": "查看库", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0176", "text": "查看数据库", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0177", "text": "查看表结构", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0178", "text": "delegate this subtask to a specialized agent", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0179", "text": "hand this piece off to a coding sub-agent", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0180", "text": "run these three tasks in parallel", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0181", "text": "start a group discussion among experts about this design", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0182", "text": "并行执行这三个独立的任务", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0183", "text": "把这个任务委派给编码子 agent", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0184", "text": "派一个子 agent 去处理这个子任务", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0185", "text": "组织一次专家讨论评估这个方案", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-0186", "text": "deliver the report to me", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0187", "text": "export the results and send the file", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0188", "text": "send me this file", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0189", "text": "帮我发送这份报告", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0190", "text": "把结果导出为文件发送", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0191", "text": "把这个文件发送给我", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0192", "text": "export current retrieved information as a formatted PDF report", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0193", "text": "export live lookup results as a formatted PDF report", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0194", "text": "export pdf", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0195", "text": "generate a PDF and send it over", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0196", "text": "generate a PDF document", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0197", "text": "make a PDF from these facts", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0198", "text": "render this as a PDF file", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0199", "text": "save fetched public data as a PDF file", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0200", "text": "以PDF格式导出当前已获取的信息", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0201", "text": "将实时查询结果导出为格式化PDF报告", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0202", "text": "将已查到的公开数据保存为PDF文件", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0203", "text": "将已查得的实时信息输出为格式化PDF报告", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0204", "text": "把获取到的公开信息整理成PDF文件", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0205", "text": "把这些内容生成PDF", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0206", "text": "生成pdf报告", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0207", "text": "生成一份PDF文档并发给我", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0208", "text": "open the PDF document on my desktop", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0209", "text": "open the spreadsheet with the system handler", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0210", "text": "open this document with the default app", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0211", "text": "打开桌面上的PDF文件", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0212", "text": "用系统看图软件打开这个PPT", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0213", "text": "用默认程序打开这个文档", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0214", "text": "extract the text from this Word file", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0215", "text": "inspect the spreadsheet I uploaded", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0216", "text": "read the attached document", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0217", "text": "review the contents of the attached presentation", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0218", "text": "summarize this PDF attachment", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0219", "text": "分析附件中的 Excel 表格", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0220", "text": "总结这份 PPT 的内容", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0221", "text": "打开这个Excel文件看看内容", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0222", "text": "提取这份 Word 文档的要点", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0223", "text": "看看这个附件里写了什么", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0224", "text": "读取我刚发的 PDF", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0225", "text": "delete notes.txt", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0226", "text": "delete the markdown file I just created", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0227", "text": "remove this local file", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0228", "text": "删掉这个本地文件", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0229", "text": "删除 notes.md", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0230", "text": "删除刚才的markdown文件", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0231", "text": "把刚才保存的 md 文件删掉", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0232", "text": "download the attachment from this link", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0233", "text": "download this file to my machine", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0234", "text": "fetch this installer and store it locally", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0235", "text": "save the PDF from this URL to disk", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0236", "text": "下载这个 PDF 到工作目录", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0237", "text": "将这个网址的附件保存到磁盘", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0238", "text": "帮我把这个安装包下载下来", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0239", "text": "把这个链接的文件下载到本地", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-0240", "text": "list the files in this directory", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0241", "text": "print the last lines of the local log file", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0242", "text": "read the contents of this file", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0243", "text": "search the project files for this error message", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0244", "text": "show me what is in the README file", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0245", "text": "列出当前目录下的文件", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0246", "text": "在项目里搜索这个函数名出现在哪些文件", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0247", "text": "帮我看一下日志文件的最后几行", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0248", "text": "看看 config.yaml 里写了什么", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0249", "text": "读取一下这个文件的内容", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0250", "text": "append this line to the end of the file", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0251", "text": "create a file called todo.md with this content", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0252", "text": "edit the config file and change the port", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0253", "text": "export this as a markdown file", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0254", "text": "overwrite the old notes file with this", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0255", "text": "save this text to a local file", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0256", "text": "修改 hosts 文件添加一条记录", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0257", "text": "写成 md 文件", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0258", "text": "在这个文件末尾追加一行", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0259", "text": "帮我在桌面创建一个文本文件", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0260", "text": "把刚才的内容保存为 markdown", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0261", "text": "把这串配置写进 .env 文件", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0262", "text": "把这段内容保存到 notes.txt", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0263", "text": "生成markdown", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0264", "text": "check the git status of this repo", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0265", "text": "review the staged changes", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0266", "text": "show me the current diff", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0267", "text": "what files have uncommitted changes", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0268", "text": "帮我看下现在的 diff", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0269", "text": "查看暂存区有什么变更", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0270", "text": "看看当前 git 状态", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0271", "text": "这个仓库有哪些未提交的改动", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0272", "text": "commit the current changes", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0273", "text": "commit these edits with a message", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0274", "text": "git push this branch", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0275", "text": "push my commits to the remote", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0276", "text": "帮我 commit 一下当前的修改", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0277", "text": "把本地提交推送到远程", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0278", "text": "把这些改动提交一下", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0279", "text": "提交代码，说明写修复登录问题", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0280", "text": "create a long-running goal to keep this documentation up to date", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0281", "text": "mark this long-running goal as complete", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0282", "text": "set up an autonomous goal with a token budget", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0283", "text": "show the status of my persistent goal", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0284", "text": "创建一个长期目标：持续监控这个服务的可用性", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0285", "text": "查看当前长期目标的进展", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0286", "text": "终止那个长期目标", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0287", "text": "设一个目标，每天自动整理我的收藏直到整理完", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-0288", "text": "disable a stale knowledge base source", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0289", "text": "refresh this knowledge source", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0290", "text": "run the knowledge quality maintenance plan", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0291", "text": "show knowledge base stats and health", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0292", "text": "删除知识库里的这个来源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0293", "text": "刷新一下知识库里的这个来源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0294", "text": "检查知识库的健康状况和统计", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0295", "text": "禁用这个知识库数据源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0296", "text": "跑一下知识库质量维护计划", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-0297", "text": "find relevant entries in my external brain", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0298", "text": "look up the stored notes about this concept", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0299", "text": "recall what the knowledge base says about this", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0300", "text": "search my knowledge base for this topic", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0301", "text": "从我的本地知识库找相关内容", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0302", "text": "在知识库里查一下这个概念的笔记", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0303", "text": "检索我的外脑中关于这个项目的资料", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0304", "text": "知识库里有没有相关的引用出处", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-0305", "text": "archive this URL into my external brain", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0306", "text": "ingest the selected local document files into the saved corpus", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0307", "text": "save this note into the knowledge base for future retrieval", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0308", "text": "store these documents in the local knowledge base", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0309", "text": "将这段材料录入知识库，后面可以检索引用", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0310", "text": "归档这个网页到知识库供以后查找", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0311", "text": "把用户选择的本地 PDF 导入外脑，作为知识库资料", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0312", "text": "把这个目录里的文档收录到本地知识库", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0313", "text": "Check the latest stock price for Apple.", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0314", "text": "Find the latest news about this company.", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0315", "text": "Retrieve live weather information for an arbitrary location.", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0316", "text": "Show me the current weather forecast for a location.", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0317", "text": "Track this flight status.", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0318", "text": "What's the USD to CNY exchange rate now?", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0319", "text": "What's the weather for a given location today?", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0320", "text": "Who won the game today?", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0321", "text": "查最新股价", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0322", "text": "查航班状态", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0323", "text": "查询今日新闻热点", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0324", "text": "查询任意城市今日天气", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0325", "text": "查询某个城市当前天气", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0326", "text": "查询某城市天气并输出格式化PDF报告", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0327", "text": "查询比特币价格并输出格式化PDF报告", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0328", "text": "美元对人民币汇率", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0329", "text": "获取某地实时天气信息", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0330", "text": "create an infographic from the current stock price", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0331", "text": "draw a stock price trend chart", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0332", "text": "plot the last month of closing prices", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0333", "text": "render a live weather graphic", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0334", "text": "把当前汇率制作成信息图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0335", "text": "把近期股价画成走势图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0336", "text": "生成一张实时天气实况图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0337", "text": "画一张股价折线图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0338", "text": "画出近一月股价趋势图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0339", "text": "clean up dead code", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0340", "text": "improve code readability", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0341", "text": "optimize the database queries", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0342", "text": "reduce technical debt in the codebase", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0343", "text": "refactor the auth module", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0344", "text": "upgrade the dependencies", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0345", "text": "优化性能", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0346", "text": "优化数据库查询速度", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0347", "text": "升级依赖版本", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0348", "text": "改善代码结构", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0349", "text": "清理无用代码", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0350", "text": "重构这个函数", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0351", "text": "forget the note about my old address", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0352", "text": "remember that I prefer dark mode", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0353", "text": "update your memory about this project", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0354", "text": "what do you remember about me", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0355", "text": "你都记住了我的哪些偏好", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0356", "text": "删掉那条关于我地址的记忆", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0357", "text": "把刚才这个决定记到长期记忆里", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0358", "text": "记住我偏好用中文交流", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-0373", "text": "build a slide deck for the meeting", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0374", "text": "create a PowerPoint presentation", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0375", "text": "create a spreadsheet with the analysis results", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0376", "text": "edit the existing slide deck visual style", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0377", "text": "generate an Excel spreadsheet report", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0378", "text": "make a Word document for the proposal", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0379", "text": "make a birthday party slide deck with photos", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0380", "text": "organize the data into an Excel file", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0381", "text": "restyle the current PowerPoint professionally", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0382", "text": "为我家宠物做一个生日纪念PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0383", "text": "创建一个Word文档", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0384", "text": "制作孩子生日派对的演示文稿", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0385", "text": "制作项目汇报PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0386", "text": "对当前编辑的ppt进行风格改进", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0387", "text": "帮我制作一个PPT演示文稿", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0388", "text": "找几张图片生成一个演示文稿", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0389", "text": "把数据整理成Excel表格", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0390", "text": "把这份演示文稿改成大型技术交流会议的专业风格", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0391", "text": "生成一份Excel报表", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0392", "text": "生成一份数据分析的电子表格", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0393", "text": "生成庆祝生日的PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0394", "text": "网上找些照片做成PPT相册", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0395", "text": "create a reminder that messages the team at 9am", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0396", "text": "deliver this report to the group on a schedule", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0397", "text": "schedule a daily push to the lansenger group", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0398", "text": "send the standup to the group every morning", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0399", "text": "创建一个定时任务到点发给张三", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0400", "text": "每周一提醒并发送到微信", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0401", "text": "每天九点把日报推送到蓝信群", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0402", "text": "每天早上发给群里", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-0403", "text": "create a scheduled job that runs every morning", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0404", "text": "delete the weekly backup schedule", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0405", "text": "list all scheduled tasks", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0406", "text": "pause my daily reminder task", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0407", "text": "列出所有定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0408", "text": "创建一个每小时执行一次的定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0409", "text": "暂停昨天的那个定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0410", "text": "每天早上九点提醒我站会", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-0411", "text": "capture the current screen", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0412", "text": "grab the primary monitor", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0413", "text": "screenshot display one", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0414", "text": "take a screen capture and send it to me", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0415", "text": "take a screenshot of my desktop", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0416", "text": "截主屏", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0417", "text": "截主屏幕", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0418", "text": "截取主屏", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0419", "text": "截取当前显示器画面", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0420", "text": "截图", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0421", "text": "截屏", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0422", "text": "给我截一下当前桌面", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0423", "text": "find information about this API online", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0424", "text": "google this error and find a fix", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0425", "text": "look up best practices for Go concurrency", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0426", "text": "look up the latest documentation for React", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0427", "text": "search for solutions to this problem", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0428", "text": "search the web for this error message", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0429", "text": "上网查一下这个API的文档", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0430", "text": "全网搜索这个人的资料", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0431", "text": "帮我在网上查找这个问题的解决方案", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0432", "text": "帮我搜索这个错误信息", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0433", "text": "搜索一下最新的AI论文", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0434", "text": "搜索关于机器学习的资料", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0435", "text": "网上找一下这个库的用法", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0445", "text": "check the local disk usage with df", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0446", "text": "create a folder using the command line", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0447", "text": "execute the script locally", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0448", "text": "run the build command on this computer", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0449", "text": "run this shell command on my machine", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0450", "text": "在本机执行一下这个命令", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0451", "text": "在本机跑一下 npm install", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0452", "text": "帮我运行这个脚本", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0453", "text": "执行 ping 测试看网络通不通", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0454", "text": "用命令行创建一个目录", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0455", "text": "SSH into the GPU server and check usage", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0456", "text": "SSH到生产环境检查状态", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0457", "text": "check the server logs remotely", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0458", "text": "connect to the server via SSH", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0459", "text": "here are the host credentials, upgrade the remote service and keep the running image for rollback", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0460", "text": "log into the production server", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0461", "text": "restart the service on the remote machine", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0462", "text": "run a command on the remote host", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0463", "text": "update the service on that machine using the account I just gave you", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0464", "text": "帮我登录服务器重启服务", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0465", "text": "查看服务器上的GPU占用率", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0466", "text": "用ssh登录查看服务器状态", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0467", "text": "用ssh访问", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0468", "text": "用这台机器的账号密码更新远端服务版本", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0469", "text": "登录服务器查看日志", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0470", "text": "这是服务器地址和账号，升级线上服务并保留当前镜像方便回退", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0471", "text": "远程执行命令查看磁盘空间", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0472", "text": "连接远程服务器", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0473", "text": "add this item to the task list", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0474", "text": "create a task to track the migration work", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0475", "text": "mark this task as completed", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0476", "text": "show my current todo list", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0477", "text": "列出当前所有待办任务", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0478", "text": "帮我建一个待办清单", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0479", "text": "把修复登录问题加到任务列表里", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0480", "text": "把这个任务标记为已完成", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-0489", "text": "extract the main content of this page", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0490", "text": "fetch the content of this URL", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0491", "text": "grab the article text from this link", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0492", "text": "read this web page for me", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0493", "text": "帮我看看这个网页写了什么", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0494", "text": "把这个网址的内容提取出来", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0495", "text": "抓取这个链接的内容", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0496", "text": "读取这个 URL 的正文", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0531", "text": "帮我用 Go 写一个命令行记账工具", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0532", "text": "做一个贪吃蛇小游戏，网页版就行", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0533", "text": "用 Python 实现一个爬虫抓取豆瓣电影 Top250", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0534", "text": "给这个项目加一个用户登录注册功能", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0535", "text": "write a REST API in FastAPI for a todo app", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0536", "text": "从零搭一个 Vue3 + Vite 的后台管理前端", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0537", "text": "实现一个 LRU 缓存，要有单元测试", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0538", "text": "帮我开发一个微信小程序的点餐页面", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0539", "text": "build me a small chrome extension that blocks ads", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0540", "text": "写个脚本批量把 heic 转成 jpg", "split": "train", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0541", "text": "帮我写一个 Rust 版的 markdown 转 html 小工具", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0542", "text": "给后端新增一个导出 CSV 的接口", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0543", "text": "做一个俄罗斯方块游戏，用 pygame", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0544", "text": "implement a websocket chat server in Node.js", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0545", "text": "用 Flutter 开发一个天气 App 的界面", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0546", "text": "写个 shell 脚本每天自动备份数据库到 S3", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-0547", "text": "新建一个 Spring Boot 项目，实现商品管理 CRUD", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "train-0548", "text": "程序一启动就 panic: nil pointer dereference，帮我看看", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0549", "text": "登录接口返回 500，帮我排查一下", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0550", "text": "这个函数在并发下数据错乱，修一下", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0551", "text": "npm run build 报错 Module not found，怎么修", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0552", "text": "fix the segfault when parsing empty input", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0553", "text": "页面点击提交没反应，控制台报 undefined", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0554", "text": "单元测试 TestParse 一直失败，帮我修好", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0555", "text": "内存泄漏越跑越大，定位一下原因", "split": "train", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0556", "text": "App 闪退了，日志里是 IndexOutOfBoundsException，帮我修", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0557", "text": "这个 SQL 查询结果重复了，代码哪里有问题", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0558", "text": "debug why the CI pipeline fails on go test", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0559", "text": "上传大文件时报 413，帮我解决", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0560", "text": "goroutine 死锁了，帮忙找出来修掉", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0561", "text": "Python 脚本报 UnicodeDecodeError，修一下", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-0562", "text": "the login button crashes the app on Android, please fix", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "train-0563", "text": "把这个 2000 行的文件拆分成几个模块", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0564", "text": "重构一下 router.go，消除重复代码", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0565", "text": "把项目依赖升级到最新版本", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0566", "text": "优化这个接口的性能，现在太慢了", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0567", "text": "refactor this class to use dependency injection", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0568", "text": "清理掉项目里没用的代码和注释", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0569", "text": "把回调风格改成 async/await", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0570", "text": "升级 Go 版本到 1.25 并修好兼容问题", "split": "train", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0571", "text": "把这堆 if-else 重构成策略模式", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0572", "text": "给代码做一次性能优化，减少内存分配", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0573", "text": "migrate the codebase from Python 3.8 to 3.12 idioms", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0574", "text": "把重复的工具函数抽到公共包里", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0575", "text": "清理一下过期的依赖和废弃 API", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-0576", "text": "rename variables to be more descriptive across the module", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "train-0577", "text": "登录 10.0.0.12 看一下 nginx 日志", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0578", "text": "ssh 到生产服务器重启一下 redis", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0579", "text": "去 192.168.1.20 上看看磁盘还剩多少", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0580", "text": "check the docker containers running on prod-web-01", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0581", "text": "远程服务器上的 java 进程占用 CPU 太高，看看", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0582", "text": "到跳板机上把 /var/log/app.log 最后 100 行拉出来", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0583", "text": "在 staging 机器上执行 systemctl status mysql", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0584", "text": "连一下那台阿里云 ECS 看看端口 8080 有没有监听", "split": "train", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0585", "text": "去服务器 172.16.3.5 上重启 tomcat", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0586", "text": "ssh root@my-vps 看下内存使用情况", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0587", "text": "remote host db-02 的 mysql 慢查询日志帮我看看", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0588", "text": "把线上那台机器的 nginx 配置 reload 一下", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0589", "text": "check uptime and load average on the build server", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0590", "text": "登录测试服务器看看 kubelet 的状态", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-0591", "text": "上那台服务器把 /tmp 下的大文件清一清", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "train-0620", "text": "截个屏给我看看", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0621", "text": "把当前桌面截图发我", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0622", "text": "截一下第二块显示器的画面", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0623", "text": "take a screenshot of my screen", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0624", "text": "看看我电脑屏幕上现在显示的是什么，截个图", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0625", "text": "截全屏", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0626", "text": "帮我截一张当前屏幕的图片", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0627", "text": "capture the main display", "split": "train", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0628", "text": "截一下屏幕", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0629", "text": "拍一张当前桌面的截图", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0630", "text": "screenshot the desktop please", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0631", "text": "把主显示器截个图发过来", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0632", "text": "截个图看下现在电脑上开了什么", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-0633", "text": "grab an image of my monitor", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "train-0634", "text": "搜一下 Rust 的异步运行时有哪些", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0635", "text": "帮我查一下 transformer 论文原文", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0636", "text": "网上找找 Go 泛型的最佳实践文章", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0637", "text": "search for papers on retrieval augmented generation", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0638", "text": "查一下 PostgreSQL 分区表怎么用", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0639", "text": "找一些关于 RAG 评测方法的资料", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0640", "text": "上网搜索一下 llama.cpp 的量化格式说明", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0641", "text": "look up how to configure nginx rate limiting", "split": "train", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0642", "text": "帮我搜搜 Kubernetes HPA 的原理", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0643", "text": "网上查一下 BERT 和 GPT 的区别", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0644", "text": "search for best practices of OCR post-processing", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0645", "text": "找几篇关于向量数据库选型的博客", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0646", "text": "查一下 Python asyncio 的官方文档", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-0647", "text": "搜索一下 PDF 表格抽取有哪些开源方案", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "train-0663", "text": "今天北京天气怎么样", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0664", "text": "现在美元兑人民币汇率多少", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0665", "text": "茅台今天股价多少", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0666", "text": "what's the bitcoin price right now", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0667", "text": "查一下今天的油价", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0668", "text": "最新的 NBA 比分", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0669", "text": "上海明天会下雨吗", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0670", "text": "今天有什么科技新闻", "split": "train", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0671", "text": "深圳现在气温多少度", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0672", "text": "查下今天黄金价格", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0673", "text": "what's the weather in Tokyo today", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0674", "text": "苹果公司最新股价是多少", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0675", "text": "今天欧元汇率多少", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0676", "text": "最近有什么 AI 大新闻", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-0677", "text": "杭州这周末天气预报", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "train-0678", "text": "把今天的天气做成一张图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0679", "text": "画一下特斯拉最近一个月的股价走势图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0680", "text": "把最新汇率做成信息图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0681", "text": "plot bitcoin price trend for the past week", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0682", "text": "给我一张实时空气质量信息图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0683", "text": "画出茅台近三个月的 K 线图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0684", "text": "把本周气温变化画成折线图", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0685", "text": "create a chart of today's gold price", "split": "train", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0686", "text": "画一张英伟达近半年股价走势图", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0687", "text": "把北京今天的天气生成一张卡片图片", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0688", "text": "make an infographic of current exchange rates", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0689", "text": "把比特币最近价格画成折线图", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0690", "text": "生成一张上证指数今日行情图", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-0691", "text": "plot the 30-day trend of Apple stock", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "train-0705", "text": "把 report.pdf 发到 zhang@example.com", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0706", "text": "把这个文件发给王经理", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0707", "text": "把刚才生成的表格发到项目群里", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0708", "text": "send the slides to bob@corp.com", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0709", "text": "把这个文件拷贝到 D:\\backup 目录", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0710", "text": "把合同发到法务那个会话", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0711", "text": "把总结文档发送给张三的微信", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0712", "text": "forward this file to the design channel", "split": "train", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0713", "text": "把 data.xlsx 发给李四", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0714", "text": "把周报发到 team@company.com 邮箱", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0715", "text": "send the generated pdf to alice", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0716", "text": "把这份文件转发到另一个群", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0717", "text": "把这个压缩包传到共享目录 /mnt/share", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-0718", "text": "把截图发给运维群", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "train-0719", "text": "把上面的内容导出成 PDF", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0720", "text": "生成一份 PDF 报告", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0721", "text": "把查到的数据做成 PDF", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0722", "text": "export this as a pdf", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0723", "text": "把这段内容排版成 PDF 文件", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0724", "text": "把今天的天气信息生成 PDF", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0725", "text": "生成个 pdf 给我", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0726", "text": "把会议纪要输出为 PDF", "split": "train", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0727", "text": "把这些结果整理成 PDF 发我", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0728", "text": "导出 PDF", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0729", "text": "render the summary above into a PDF file", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0730", "text": "把搜到的资料生成一份 pdf", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0731", "text": "把这份清单转成 PDF 文档", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-0732", "text": "make a pdf of these notes", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "train-0733", "text": "帮我看看这份合同里有哪些风险条款", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0734", "text": "读一下这个 PDF 讲了什么", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0735", "text": "这个 Excel 里销售额最高的是哪个月", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0736", "text": "summarize the attached document", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0737", "text": "这份 PPT 的主要内容是什么", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0738", "text": "提取一下这份发票里的金额", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0739", "text": "这个 Word 文档里提到了哪些人", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0740", "text": "what does this pdf say about pricing", "split": "train", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0741", "text": "看一下我发的这个 PDF 的结论", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0742", "text": "这份表格里有多少行数据", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0743", "text": "read the attached contract and list obligations", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0744", "text": "帮我提取这份简历里的工作经历", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0745", "text": "这个 pptx 一共几页，讲了什么", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-0746", "text": "附件里的报表利润是多少", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "train-0747", "text": "打开桌面上的 report.pdf", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0748", "text": "用 Word 打开 合同.docx", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0749", "text": "打开 D 盘那个 Excel 文件", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0750", "text": "open the quarterly.pptx on my desktop", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0751", "text": "把下载目录里的说明书 PDF 打开", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0752", "text": "打开刚才生成的 PDF", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0753", "text": "用默认程序打开这个 xlsx", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0754", "text": "open 简历.docx", "split": "train", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0755", "text": "打开桌面上的方案.pptx", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0756", "text": "帮我打开 Downloads 里的 invoice.pdf", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0757", "text": "open the budget spreadsheet with excel", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0758", "text": "用系统默认程序打开 readme.pdf", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0759", "text": "打开刚导出的那个 Word 文档", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-0760", "text": "把 ~/Documents/plan.xlsx 打开", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "train-0761", "text": "把我刚上传的文件再发给我", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0762", "text": "把这个附件回传到当前聊天", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0763", "text": "把我发你的那个 PDF 原样发回来", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0764", "text": "send me back the attachment", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0765", "text": "把这份附件在这里再发一次", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0766", "text": "return the uploaded spreadsheet to me", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0767", "text": "把刚才那个附件发回给我", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0768", "text": "re-send the file I uploaded", "split": "train", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0769", "text": "把我上传的那份合同发回来", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0770", "text": "把刚才的附件再传给我一下", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0771", "text": "send the attached image back here", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0772", "text": "把这个上传的 Excel 回传给我", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0773", "text": "把我给你的文件原样发我", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-0774", "text": "give me back the attached pdf in this chat", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "train-0789", "text": "查一下 MySQL 里 orders 表有多少行", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0790", "text": "连接 PostgreSQL 看看有哪些 schema", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0791", "text": "列出数据库里所有的表", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0792", "text": "show tables in the sales database", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0793", "text": "查询 users 表最近注册的 10 个用户", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0794", "text": "看看 SQL Server 里 customer 表的结构", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0795", "text": "统计一下订单表每个月的销售额", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0796", "text": "run select count(*) from logs", "split": "train", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0797", "text": "看看 pg 里 public schema 下有哪些表", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0798", "text": "查下数据库 orders 表昨天的订单数", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0799", "text": "describe the products table in mysql", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0800", "text": "连接 Access 数据库看看有哪些表", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0801", "text": "从 sales 库里查出销售额前十的商品", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-0802", "text": "query the inventory table for items out of stock", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "train-0803", "text": "帮我做一份年终总结 PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0804", "text": "基于这份文档做个演示文稿", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0805", "text": "设计一套产品发布会的幻灯片", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0806", "text": "make a slide deck about our Q3 results", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0807", "text": "把这个 PPT 的风格改得更高级一点", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0808", "text": "做一个 10 页的公司介绍 PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0809", "text": "生成培训课件 PPT", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "train-0810", "text": "create a presentation on AI trends", "split": "train", "gold": ["office"], "intent": "office"}
+{"id": "test-0811", "text": "做一份项目汇报的 PPT", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-0812", "text": "帮我把这份报告做成幻灯片", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-0813", "text": "design a pitch deck for my startup", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-0814", "text": "把当前这个 PPT 配色优化一下", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-0815", "text": "制作一个关于碳中和的演示文稿", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-0816", "text": "生成一套新员工入职培训的 slides", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "train-0844", "text": "把这段内容存进知识库", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0845", "text": "把这个网址收录到知识库", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0846", "text": "把 docs 目录导入知识库", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0847", "text": "save this article to the knowledge base", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0848", "text": "把这几个 PDF 导入知识库", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0849", "text": "把这篇文章加到知识库里以后查", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0850", "text": "导入这个知识包", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0851", "text": "add this url to my knowledge base", "split": "train", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0852", "text": "把这份说明文档录入知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0853", "text": "把这个链接保存到知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0854", "text": "import the folder ~/notes into the knowledge base", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0855", "text": "把刚才那段总结存到知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0856", "text": "把这些文件加入知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-0857", "text": "收录这个网页到知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "train-0858", "text": "看一下 config.yaml 的内容", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0859", "text": "列出当前目录下的文件", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0860", "text": "搜一下项目里哪里用了 TODO", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0861", "text": "show me the contents of main.go", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0862", "text": "读一下 ~/notes/todo.txt", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0863", "text": "找出所有 .log 文件", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0864", "text": "看看 src 目录下有哪些文件", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0865", "text": "grep for 'password' in the repo", "split": "train", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0866", "text": "打印一下 README.md 内容", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0867", "text": "看下 logs 目录里都有什么", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0868", "text": "find all files named *.proto in this project", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0869", "text": "读取 /etc/hosts 文件", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0870", "text": "在代码里搜索 InitRouter 的定义", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-0871", "text": "看看 package.json 里有哪些依赖", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "train-0872", "text": "把这段内容保存到 notes.md", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0873", "text": "新建一个 todo.txt 写入今天的任务", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0874", "text": "在 config.yaml 里把端口改成 9090", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0875", "text": "append this line to log.txt", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0876", "text": "把刚才的总结写进 summary.md", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0877", "text": "修改 README 第一段", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0878", "text": "把这些数据保存成 data.csv", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0879", "text": "write this json to output.json", "split": "train", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0880", "text": "把上面的回答保存到 answer.md", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0881", "text": "在 .env 里加一行 DEBUG=true", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0882", "text": "create a file hello.txt with 'hi'", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0883", "text": "把这段代码写到 utils.py", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0884", "text": "把会议要点追加到 meeting.md 末尾", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "test-0885", "text": "把 config.json 里的 timeout 改成 30", "split": "test", "gold": ["write_file", "edit_file", "edit_lines"], "intent": "file_write"}
+{"id": "train-0886", "text": "删掉 temp.txt", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0887", "text": "把刚才生成的 md 文件删除", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0888", "text": "删除 output.json", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0889", "text": "delete the file draft.md", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0890", "text": "把 notes.txt 删了", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0891", "text": "remove old_report.pdf from the workspace", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0892", "text": "删除那个临时文件", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0893", "text": "把 build.log 删掉", "split": "train", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0894", "text": "把 summary.md 删了", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0895", "text": "删除刚刚保存的那个文件", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0896", "text": "delete test_output.csv", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0897", "text": "把桌面上的 a.txt 删掉", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0898", "text": "remove the file I just wrote", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-0899", "text": "删除 backup.json", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "train-0900", "text": "执行一下 ls -la", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0901", "text": "运行 npm install", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0902", "text": "跑一下 make build", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0903", "text": "run python main.py", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0904", "text": "执行 docker ps", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0905", "text": "在本机运行 go test ./...", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0906", "text": "帮我执行 pip install requests", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0907", "text": "run the script deploy.sh", "split": "train", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0908", "text": "执行 df -h 看看", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0909", "text": "运行一下 npm run dev", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0910", "text": "run `cargo build --release`", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0911", "text": "本机执行 brew update", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0912", "text": "跑一下 ./start.sh", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-0913", "text": "执行 ping baidu.com", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "train-0914", "text": "看看 git status", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0915", "text": "有哪些未提交的修改", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0916", "text": "看一下最近改动的 diff", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0917", "text": "show me the git diff", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0918", "text": "当前分支是什么，有啥改动", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0919", "text": "列出改过的文件", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0920", "text": "看下工作区状态", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0921", "text": "what changed since last commit", "split": "train", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0922", "text": "git diff 看一下", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0923", "text": "看看我改了哪些文件还没提交", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0924", "text": "show uncommitted changes", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0925", "text": "当前仓库状态怎么样", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0926", "text": "看下暂存区有什么", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-0927", "text": "diff of main.go please", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "train-0928", "text": "提交一下代码", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0929", "text": "把改动 commit 了", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0930", "text": "push 到远程", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0931", "text": "commit these changes with message 'fix bug'", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0932", "text": "提交并推送", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0933", "text": "git push origin main", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0934", "text": "把这些修改提交到仓库", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0935", "text": "commit and push", "split": "train", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0936", "text": "帮我 commit 一下", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0937", "text": "推送到 GitHub", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0938", "text": "commit with message 'update docs'", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0939", "text": "把代码提交上去", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0940", "text": "把当前改动推到远程分支", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-0941", "text": "git commit 一下然后 push", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "train-0942", "text": "开始录音", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0943", "text": "帮我录一下这次会议", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0944", "text": "打开麦克风录音", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0945", "text": "start recording audio", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0946", "text": "录制接下来的讨论", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0947", "text": "开个录音", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0948", "text": "record the meeting", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0949", "text": "用麦克风录一段音频", "split": "train", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "test-0950", "text": "录音", "split": "test", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "test-0951", "text": "帮我把接下来的会议录下来", "split": "test", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "test-0952", "text": "start a voice recording", "split": "test", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "test-0953", "text": "录一段我说的话", "split": "test", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "test-0954", "text": "begin recording the discussion", "split": "test", "gold": ["record_audio"], "intent": "audio_record"}
+{"id": "train-0955", "text": "把这个录音转成文字", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0956", "text": "识别一下 meeting.mp3 里说了什么", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0957", "text": "把会议录音整理成纪要", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0958", "text": "transcribe this audio file", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0959", "text": "把这段语音转写出来", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0960", "text": "这个 wav 文件说了啥", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0961", "text": "语音识别一下这个文件", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0962", "text": "transcribe interview.m4a", "split": "train", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0963", "text": "把这个音频转写成文字稿", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0964", "text": "识别 voice.ogg 的内容", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0965", "text": "transcribe the recording I uploaded", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0966", "text": "把会议录音转成文字", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0967", "text": "这段语音说的什么", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-0968", "text": "speech to text for call.mp3", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "train-0969", "text": "把这段话读出来", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0970", "text": "用语音朗读这篇文章", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0971", "text": "把这段文字合成语音播放", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0972", "text": "read this text aloud", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0973", "text": "朗读一下上面的回复", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0974", "text": "TTS 播放这句话", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0975", "text": "用中文念一下这段", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0976", "text": "speak this paragraph", "split": "train", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-0977", "text": "把这段念给我听", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-0978", "text": "朗读一下这首诗", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-0979", "text": "用语音播放一下这段话", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-0980", "text": "把回复读出来", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-0981", "text": "text to speech this sentence", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "train-0982", "text": "把这段话转成语音发到群里", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0983", "text": "发一条语音消息给他", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0984", "text": "用语音把这个通知发出去", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0985", "text": "send this as a voice note", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0986", "text": "把这段文字合成语音发到当前群", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0987", "text": "send a voice message saying hello", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0988", "text": "发个语音给大家", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0989", "text": "speak this and send it to the group", "split": "train", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0990", "text": "把这句话用语音发到群里", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0991", "text": "发一条语音说我晚点到", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0992", "text": "send this text as voice to the chat", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0993", "text": "用语音消息把结果发给我", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0994", "text": "发个语音通知", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-0995", "text": "deliver this as a voice bubble", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "train-0996", "text": "读一下 https://example.com/article 这篇文章", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0997", "text": "抓取 https://news.ycombinator.com 首页内容", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0998", "text": "看看这个链接讲了什么 https://go.dev/blog", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-0999", "text": "fetch https://arxiv.org/abs/2401.00001", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-1000", "text": "总结一下 https://zhuanlan.zhihu.com/p/12345", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-1001", "text": "打开这个网址读正文 https://www.ruanyifeng.com/blog/", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-1002", "text": "get the content of https://docs.python.org/3/", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-1003", "text": "这个页面写了啥 http://blog.example.cn/post/1", "split": "train", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1004", "text": "帮我读一下 https://github.com/cactus-compute/needle 的内容", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1005", "text": "抓取 https://www.qq.com 页面正文", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1006", "text": "fetch and summarize https://openai.com/blog", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1007", "text": "看看 https://pkg.go.dev/net/http 写了什么", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1008", "text": "总结 https://mp.weixin.qq.com/s/abcdef 这篇", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1009", "text": "read https://example.org/changelog", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "train-1024", "text": "在知识库里查一下报销流程", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1025", "text": "知识库里有没有关于 OCR 的资料", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1026", "text": "从知识库检索部署文档", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1027", "text": "search the knowledge base for onboarding", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1028", "text": "知识库里怎么说的 API 限流", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1029", "text": "查一下我存的笔记里关于 Go 泛型的内容", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1030", "text": "根据知识库回答：年假怎么算", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1031", "text": "find docs about SSO in my knowledge base", "split": "train", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1032", "text": "知识库里关于发票的规定是什么", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1033", "text": "从知识库找一下产品价格表", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1034", "text": "what does my knowledge base say about vpn setup", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1035", "text": "检索知识库里的会议纪要", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1036", "text": "知识库里有没有 PDF 翻译相关文档", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1037", "text": "根据我保存的资料回答这个问题", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "train-1038", "text": "打开 VS Code", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1039", "text": "启动微信", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1040", "text": "打开 https://www.baidu.com", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1041", "text": "open Spotify", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1042", "text": "打开下载文件夹", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1043", "text": "启动终端", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1044", "text": "帮我打开网易云音乐", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1045", "text": "open the folder ~/projects", "split": "train", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1046", "text": "打开 Chrome", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1047", "text": "启动钉钉", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1048", "text": "open https://github.com in my browser", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1049", "text": "打开桌面文件夹", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1050", "text": "运行一下计算器", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1051", "text": "open Finder", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "train-1052", "text": "把 https://example.com/a.pdf 下载下来", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1053", "text": "下载这个安装包 https://dl.google.com/go1.25.linux-amd64.tar.gz", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1054", "text": "download https://arxiv.org/pdf/2401.00001.pdf", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1055", "text": "把这个链接的图片保存到本地", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1056", "text": "下载 https://x.com/data.csv 到桌面", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1057", "text": "把这个文件下载到 Downloads", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1058", "text": "save https://site.com/report.xlsx locally", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1059", "text": "下载这个模型文件到本地", "split": "train", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1060", "text": "下载 https://example.org/manual.pdf", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1061", "text": "把这个压缩包下载到本机 https://a.com/b.zip", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1062", "text": "download the dataset from https://data.gov/x.csv", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1063", "text": "保存这个链接里的视频到本地", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1064", "text": "把 https://cdn.x.com/logo.png 下载下来", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1065", "text": "fetch this installer to disk: https://get.app/setup.exe", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "train-1066", "text": "每天早上 9 点提醒我喝水", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1067", "text": "创建一个每周一的定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1068", "text": "列出所有定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1069", "text": "pause the daily backup schedule", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1070", "text": "删除那个每天备份的定时任务", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1071", "text": "把提醒改到下午三点", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1072", "text": "每小时检查一次磁盘空间", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1073", "text": "set a reminder for 6pm", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1074", "text": "明天早上八点提醒我开会", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1075", "text": "看看我有哪些定时任务", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1076", "text": "delete the weekly report schedule", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1077", "text": "暂停每晚的同步任务", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1078", "text": "每天凌晨两点自动跑一次清理脚本", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1079", "text": "恢复之前暂停的定时任务", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "train-1080", "text": "每天早上 9 点把天气发到群里", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1081", "text": "每周五下午把周报发给团队群", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1082", "text": "每天定时把销售数据推送到微信", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1083", "text": "every morning send the news summary to the team chat", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1084", "text": "每小时把服务器状态发到运维群", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1085", "text": "定时把日报发给张三", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1086", "text": "每天晚上 8 点把汇率推送到蓝信", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1087", "text": "schedule a daily message to the group at 10am", "split": "train", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1088", "text": "每天早上把今日新闻推送到群里", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1089", "text": "每周一把上周数据汇总发给老板", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1090", "text": "send the build status to the dev channel every hour", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1091", "text": "每天下班前把待办提醒发到群", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1092", "text": "定时每晚把监控截图发给我微信", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1093", "text": "每月 1 号把账单汇总发到财务群", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "train-1108", "text": "记住我喜欢用 Go", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1109", "text": "以后都用中文回复我，记下来", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1110", "text": "忘掉我之前说的那个偏好", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1111", "text": "remember that my project uses PostgreSQL", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1112", "text": "看看你记得关于我的哪些事", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1113", "text": "更新记忆：我换到上海工作了", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1114", "text": "删除关于旧项目的记忆", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1115", "text": "list what you remember about me", "split": "train", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1116", "text": "记住我的生日是 5 月 3 号", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1117", "text": "你都记得我什么", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1118", "text": "forget my old email address", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1119", "text": "记一下：这个项目用 pnpm", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1120", "text": "把那条过时的记忆删了", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1121", "text": "update memory: I prefer tabs over spaces", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "train-1122", "text": "加一个待办：写周报", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1123", "text": "把待办列表列出来", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1124", "text": "把第二个任务标记为完成", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1125", "text": "add a todo: review PR", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1126", "text": "删掉待办里的买菜", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1127", "text": "更新任务状态为进行中", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1128", "text": "看看还有哪些任务没完成", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1129", "text": "create a task to fix login bug", "split": "train", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1130", "text": "待办里加一条：联系客户", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1131", "text": "列出当前任务清单", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1132", "text": "mark the first todo as done", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1133", "text": "把那个任务删掉", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1134", "text": "还有什么待办没做", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1135", "text": "新增任务：更新文档", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "train-1136", "text": "创建一个长期目标：一个月内把测试覆盖率提到 80%", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1137", "text": "看看当前的长期目标进度", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1138", "text": "结束那个长期目标", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1139", "text": "create a long-running goal with a budget of 100 steps", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1140", "text": "设一个目标，持续优化首页性能直到 LCP<2s", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1141", "text": "列出所有长期目标", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1142", "text": "停止当前目标", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1143", "text": "check the status of my goal", "split": "train", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1144", "text": "建一个长期目标：持续修复所有 lint 警告", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1145", "text": "我的长期目标进展如何", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1146", "text": "end the current goal", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1147", "text": "创建目标，自动推进直到所有测试通过", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1148", "text": "取消那个长期目标", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "test-1149", "text": "show my active goals", "split": "test", "gold": ["goal"], "intent": "goal_manage"}
+{"id": "train-1178", "text": "把这个任务分给子 agent 去做", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1179", "text": "并行执行这三个任务", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1180", "text": "组织几个专家讨论一下这个方案", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1181", "text": "delegate this to a sub-agent", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1182", "text": "开几个子代理分别调研这三个方向", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1183", "text": "让多个 agent 会诊一下这个 bug", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1184", "text": "把调研和编码分别委派出去", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1185", "text": "run these tasks in parallel with sub agents", "split": "train", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1186", "text": "委派一个子 agent 去整理文档", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1187", "text": "同时并行处理这几个文件", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1188", "text": "spin up sub-agents to research each option", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1189", "text": "找几个专家角色一起评审方案", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1190", "text": "把这个任务交给子代理", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "test-1191", "text": "parallelize these three jobs", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}
+{"id": "train-1192", "text": "刷新知识库来源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1193", "text": "禁用那个知识库数据源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1194", "text": "删除知识库里的旧来源", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1195", "text": "show knowledge base stats", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1196", "text": "跑一下知识库质量维护", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1197", "text": "检查知识库健康状况", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1198", "text": "给知识库条目加标签", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "train-1199", "text": "remove duplicates in the knowledge base", "split": "train", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1200", "text": "知识库里那个来源重新刷新一下", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1201", "text": "停用这个知识源", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1202", "text": "knowledge base health check", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1203", "text": "清理知识库重复条目", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1204", "text": "看看知识库统计信息", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1205", "text": "删除知识库中过期的来源", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1220", "text": "打开桌面上的 PPT 看一下", "split": "test", "gold": ["open"], "intent": "document_open"}
+{"id": "test-1221", "text": "删除服务器 10.0.0.3 上的 /tmp/a.log", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-1222", "text": "把关于我旧公司的记忆删掉", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1223", "text": "删除知识库里关于报销的来源", "split": "test", "gold": ["knowledge_export"], "intent": "knowledge_admin"}
+{"id": "test-1224", "text": "删除每天 9 点的那个定时任务", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1225", "text": "每天 9 点把日报发到群里", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_dispatch"}
+{"id": "test-1227", "text": "截一下我电脑桌面", "split": "test", "gold": ["screenshot"], "intent": "screenshot"}
+{"id": "test-1228", "text": "把我刚上传的附件发给张三", "split": "test", "gold": ["send_file", "send_to_im", "im_message"], "intent": "document_delivery"}
+{"id": "test-1229", "text": "把我刚上传的附件发回给我", "split": "test", "gold": ["send_file"], "intent": "attachment_delivery"}
+{"id": "test-1230", "text": "把这段文字读出来", "split": "test", "gold": ["tts"], "intent": "audio_synthesize"}
+{"id": "test-1231", "text": "把这段文字用语音发到群里", "split": "test", "gold": ["tts_render", "send_to_im"], "intent": "audio_deliver"}
+{"id": "test-1232", "text": "把录音文件转成文字", "split": "test", "gold": ["asr"], "intent": "audio_transcribe"}
+{"id": "test-1233", "text": "帮我搜一下 https 证书怎么配", "split": "test", "gold": ["web_search"], "intent": "search"}
+{"id": "test-1234", "text": "读一下 https://go.dev/doc/effective_go", "split": "test", "gold": ["web_fetch"], "intent": "web_fetch"}
+{"id": "test-1235", "text": "下载 https://go.dev/dl/go1.25.5.src.tar.gz", "split": "test", "gold": ["download_file"], "intent": "file_download"}
+{"id": "test-1236", "text": "今天上海天气", "split": "test", "gold": ["web_search", "web_fetch"], "intent": "live_data"}
+{"id": "test-1237", "text": "把今天上海天气画成图", "split": "test", "gold": ["web_search"], "intent": "live_data_visual"}
+{"id": "test-1238", "text": "把今天上海天气生成 PDF", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-1239", "text": "把这份报告导出为 PDF", "split": "test", "gold": ["generate_pdf"], "intent": "document_generate"}
+{"id": "test-1240", "text": "基于这份文档做个 PPT", "split": "test", "gold": ["office"], "intent": "office"}
+{"id": "test-1241", "text": "读一下这份文档", "split": "test", "gold": ["read_document", "read_excel", "read_pptx", "read_file", "FileRead"], "intent": "document_read"}
+{"id": "test-1242", "text": "执行 rm -rf build 目录", "split": "test", "gold": ["bash"], "intent": "shell_command"}
+{"id": "test-1243", "text": "把 build.log 文件删除", "split": "test", "gold": ["bash"], "intent": "file_delete"}
+{"id": "test-1244", "text": "看看 git 改了什么", "split": "test", "gold": ["bash"], "intent": "git_inspect"}
+{"id": "test-1245", "text": "把改动提交并 push", "split": "test", "gold": ["bash"], "intent": "git_mutate"}
+{"id": "test-1246", "text": "查一下知识库里的报销规定", "split": "test", "gold": ["knowledge_search", "knowledge_context_pack"], "intent": "knowledge_read"}
+{"id": "test-1247", "text": "把这份报销规定存到知识库", "split": "test", "gold": ["knowledge_save_text", "knowledge_save_url", "knowledge_import_files", "knowledge_import_directory", "knowledge_import_package", "knowledge_import_share"], "intent": "knowledge_write"}
+{"id": "test-1249", "text": "查询 MySQL 里的发票表", "split": "test", "gold": ["database", "database_query"], "intent": "database"}
+{"id": "test-1250", "text": "打开微信", "split": "test", "gold": ["open"], "intent": "app_launch"}
+{"id": "test-1254", "text": "加个待办：周五交周报", "split": "test", "gold": ["task"], "intent": "task_track"}
+{"id": "test-1255", "text": "周五下午提醒我交周报", "split": "test", "gold": ["manage_schedule"], "intent": "schedule_manage"}
+{"id": "test-1257", "text": "记住我喜欢 deepseek", "split": "test", "gold": ["memory"], "intent": "memory_manage"}
+{"id": "test-1258", "text": "登录服务器看日志", "split": "test", "gold": ["ssh"], "intent": "ssh"}
+{"id": "test-1259", "text": "看看本地 app.log 日志", "split": "test", "gold": ["read_file", "list_directory", "Glob", "ripgrep", "FileRead"], "intent": "file_read"}
+{"id": "test-1260", "text": "修复登录 bug", "split": "test", "gold": ["edit_file", "read_file", "bash", "ripgrep"], "intent": "bug_fix"}
+{"id": "test-1261", "text": "重构登录模块", "split": "test", "gold": ["edit_file", "read_file", "ripgrep"], "intent": "maintenance"}
+{"id": "test-1262", "text": "新增登录模块", "split": "test", "gold": ["write_file", "edit_file", "bash"], "intent": "coding"}
+{"id": "test-1263", "text": "让子 agent 并行修这三个 bug", "split": "test", "gold": ["delegate_task"], "intent": "delegate_task"}

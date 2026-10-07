@@ -1,0 +1,150 @@
+{"id": "indep-kimi-0000", "text": "刚才传给你的那个季度报告.pdf，帮我发回到这个聊天里吧，我手机上找不到原文件了"}
+{"id": "indep-kimi-0001", "text": "把我上传的那份合同草稿直接回传到当前对话，谢谢"}
+{"id": "indep-kimi-0003", "text": "帮我把附件里的 meeting_notes.md 发回这个 channel，我在 laptop 上同步一下"}
+{"id": "indep-kimi-0004", "text": "刚才那个 release_checklist_v3.docx，直接 send 回来就行，不用打开"}
+{"id": "indep-kimi-0005", "text": "把我传的 data_export.csv push 回这个聊天哈，顺便确认下是不是最新的那个版本"}
+{"id": "indep-kimi-0006", "text": "Could you send the budget_proposal.pptx I attached earlier back into this thread? My download folder got wiped."}
+{"id": "indep-kimi-0007", "text": "if its not too much trouble, would you mind dropping the attached logo_final.png back here? i just need to grab it from telegram on my phone"}
+{"id": "indep-kimi-0008", "text": "帮我把刚才那段会议总结用语音发到项目组群里，语速放慢一点，用男声。"}
+{"id": "indep-kimi-0009", "text": "刚才我妈留言问我晚饭回不回去吃，你直接回她一条语音：回，七点左右到家，不用等我先吃。"}
+{"id": "indep-kimi-0010", "text": "用语音告诉大家明早的例会取消了。"}
+{"id": "indep-kimi-0011", "text": "把今天的 standup 纪要转成 voice message 发到当前这个群里，记得开头说句 good morning team"}
+{"id": "indep-kimi-0012", "text": "语音播报给张伟：server-03 的磁盘已经清出来了，让他可以重启 service。要发出去不是本地念。"}
+{"id": "indep-kimi-0013", "text": "帮wo用yuyin回一句 shoudaole xiexie 发到群li，刚cai那个通知。"}
+{"id": "indep-kimi-0014", "text": "Send a voice note to this chat reading out the deployment checklist from ~/docs/deploy_checklist.md, intro it with \"alright team, final go-no-go\"."}
+{"id": "indep-kimi-0015", "text": "Yo just speak this back to the group for me: \"build is green, merge window closes at 6pm sharp, don't sit on your PRs\" — do it in a chill voice, nothing robotic."}
+{"id": "indep-kimi-0016", "text": "帮我把微信打开，我手机没电了要用电脑回消息"}
+{"id": "indep-kimi-0017", "text": "桌面上那个「项目资料」文件夹帮我打开一下"}
+{"id": "indep-kimi-0018", "text": "我电脑刚重装完，浏览器还没设默认，你帮我把 https://taobao.com 直接用系统默认浏览器开起来就行，顺便看看能不能顺便把夸克网盘的客户端也启动了，我懒得去开始菜单里翻"}
+{"id": "indep-kimi-0019", "text": "launch VS Code, 我刚装好的"}
+{"id": "indep-kimi-0020", "text": "帮我用默认程序打开这个链接 https://jira.company.com/browse/OPS-3421，我要看下 ticket 状态"}
+{"id": "indep-kimi-0021", "text": "启动下 D:\\tools\\cmder\\Cmder.exe，然后顺便帮我打开 C:\\Users\\kai\\Downloads 这个目录，我要找刚下的 installer"}
+{"id": "indep-kimi-0022", "text": "Could you pull up my Downloads folder for me? I just saved something there and don't feel like digging through Finder right now"}
+{"id": "indep-kimi-0023", "text": "open https://calndr.link/team-standup in whatever the default browser is, meeting starts in 2 min"}
+{"id": "indep-kimi-0024", "text": "你好，我眼睛有点累不想看屏幕了，帮我把桌面上那份「季度总结_v3.md」读出来给我听一下吧，语速正常就好"}
+{"id": "indep-kimi-0025", "text": "把这段话用语音念出来：各位同事，明早九点半例会改到三楼会议室"}
+{"id": "indep-kimi-0026", "text": "刚才生成的那个通知稿，用女声读一遍我听听顺不顺，感觉有地方读着怪怪的"}
+{"id": "indep-kimi-0027", "text": "帮我把 ~/Documents/report_draft.txt 用 TTS 读出来，voice 用系统默认的就行，读完跟我说一声"}
+{"id": "indep-kimi-0028", "text": "念一下这个：Hello world 测试一下 audio 输出是不是好的，speaker 好像没声音"}
+{"id": "indep-kimi-0029", "text": "把 clipboard 里那段英文摘要 synthesize 成语音播一下，速度调快点 x1.5"}
+{"id": "indep-kimi-0030", "text": "Hey, I've been staring at this changelog for an hour. Can you just read RELEASE_NOTES.md out loud on my machine so I can listen while I make coffee?"}
+{"id": "indep-kimi-0031", "text": "Speak this aloud in the terminal: 'Build finished, all tests passed.'"}
+{"id": "indep-kimi-0032", "text": "刚开完评审会，录在 ~/RECORD/20240521_评审.m4a 里了，帮我转成文字稿，顺便按发言人分段一下"}
+{"id": "indep-kimi-0033", "text": "有一段40分钟的英文播客音频 download/tim_show_ep812.mp3，我想要一份带时间戳的中文会议纪要"}
+{"id": "indep-kimi-0034", "text": "语音转成字: D:\\访谈\\受访者03.wav 谢了"}
+{"id": "indep-kimi-0035", "text": "帮我 transcribe 一下 meeting_20240613.mp3 这个文件，最好 export 成带 speaker label 的 txt"}
+{"id": "indep-kimi-0036", "text": "昨晚的 customer call 我存成了 call_wangli_0618.aac 在桌面，里面客户提的需求点多，麻烦你做个 transcription 然后列成 bullet points 发我邮箱"}
+{"id": "indep-kimi-0037", "text": "woc 那段 lecture recording (bio101_week9.mp3) 光听太费时间了，能 STT 成文本吗，这样我 grep 关键词就行"}
+{"id": "indep-kimi-0038", "text": "Hi, I have a 90-minute webinar recording at ~/Videos/q2_allhands.mp4 — could you extract the audio and transcribe it into a clean markdown doc with speaker sections?"}
+{"id": "indep-kimi-0039", "text": "Our researcher finished interviewing five participants last week and the files are sitting in /data/interviews/ as .flac files. Our IRB consent covers text analysis only, so could you transcribe all five into separate text files before we hand them to the analysis team?"}
+{"id": "indep-kimi-0040", "text": "帮我看下上周有没有人动过我账号，会话记录里有没有可疑的操作？"}
+{"id": "indep-kimi-0041", "text": "我印象不深了……三月初的时候我好像让马老师你改过一个数据库连接配置，麻烦翻一下咱那天的聊天记录，把当时的参数发我。"}
+{"id": "indep-kimi-0042", "text": "事情是这样：昨天凌晨三点多监测系统报了一次磁盘91%的告警，之后自己又恢复了。我不想去服务器上翻syslog，你先在本地把这一个月的健康巡检记录调出来，看看CPU、内存、磁盘的趋势，帮我判断这是不是偶发。"}
+{"id": "indep-kimi-0043", "text": "查一下 agent 的 audit log，昨天 14:00 之后有没有人修改过 ~/projects/pay-gateway/.env 的什么配置"}
+{"id": "indep-kimi-0044", "text": "搜历史sessions，关键词 \"rootpassword\" 或 \"k3s token\"，看啥时候提过"}
+{"id": "indep-kimi-0045", "text": "我是个审计岗新来的实习生，不太熟这套系统。能不能帮我：1）导出上季度所有涉及 prod-03 的操作审计记录；2）再跑一遍整体 health check，顺便把异常项标出来？先别改任何东西。"}
+{"id": "indep-kimi-0046", "text": "pull up the full audit trail for my account since Jan 1 — logins, file ops, everything"}
+{"id": "indep-kimi-0047", "text": "Hey, before we renew the security compliance report I need two things: first search all past conversations where we discussed the Stripe API key rotation, then run a system health diagnostic on the workspace and summarize any red flags"}
+{"id": "indep-kimi-0048", "text": "救命，我刚刚把订单服务重启之后一直起不来，logs 里全是 NullPointerException，支付相关的，麻烦帮我看看 deploy/logs/order-service.log 最后那几百行到底哪出问题了"}
+{"id": "indep-kimi-0049", "text": "昨天升级了 requests 库以后，爬虫跑到一半就卡死不动了，也不报错就是不往下走，你帮我排查下 ~/projects/crawler/fetch.py 是不是哪里阻塞了"}
+{"id": "indep-kimi-0050", "text": "我们前端页面在用户连续点了两次提交按钮之后会生成重复订单，这个问题挺久了，方便的话帮我在 src/pages/checkout.vue 里加个防护吧"}
+{"id": "indep-kimi-0051", "text": "pytest 挂了，test_user_login 一直 assert 失败，跑下 tests/ 看看到底哪错了顺手修掉"}
+{"id": "indep-kimi-0053", "text": "奇怪死了，merge 完 master 之后 App.tsx 直接白屏，console 报 Cannot read properties of undefined，飙了啊，我中午没吃饭饿死了你快点帮我搞定它"}
+{"id": "indep-kimi-0054", "text": "My FastAPI endpoint /api/upload returns 500 whenever the file is larger than 5MB, but works fine for small ones. Traceback shows something about request body reading. Can you dig into main.py and figure out what's breaking?"}
+{"id": "indep-kimi-0056", "text": "帮我录一下音，下午跟产品设计那边对需求我想留个底。"}
+{"id": "indep-kimi-0058", "text": "我们部门每周五的复盘会老是忘记重点，今天开始我想全程录下来，你先帮我把录音打开，等会我说停再停。"}
+{"id": "indep-kimi-0059", "text": "帮我开个录音 session，等下要跟 client 开 standup 全部录下来"}
+{"id": "indep-kimi-0060", "text": "现在帮我 record 一下，待会儿 debug 会议的讨论我想存成 audio"}
+{"id": "indep-kimi-0061", "text": "先别急着转文字啊，我这个是要现录的——打开 recording 界面，我和 Tom 的讨论马上开始"}
+{"id": "indep-kimi-0062", "text": "I need to capture this brainstorming session with the marketing team at 3pm — can you pull up the recorder so I don't miss anything?"}
+{"id": "indep-kimi-0063", "text": "Start recording my mic now, I'll let you know when to stop. Actually wait — first make sure the input is the external mic, not the laptop one."}
+{"id": "indep-kimi-0064", "text": "上次出差的高铁票和酒店发票都在桌面的报销单文件夹里，帮我把这张出差报销单填完提交了吧，金额大概是三千二。"}
+{"id": "indep-kimi-0065", "text": "查一下我上周提的请假审批走到哪一步了。"}
+{"id": "indep-kimi-0066", "text": "张经理那边催了好几次了，说十月份那笔招待费的报账还没影儿，你帮我看看是不是还卡在草稿里没送出去，要是没提交就赶紧补上。"}
+{"id": "indep-kimi-0067", "text": "帮我新建一张 PO，供应商是 Shenzhen Huiya Electronics，买 20 台 ThinkPad X1，单价按上次 contract 里的 8900，走 Q4 预算。"}
+{"id": "indep-kimi-0068", "text": "那个 invoice 编号 INV-2024-1187 客户说付错了要多开一份，先帮我 pull 出来看下原始明细，再确认下能不能作废重开。"}
+{"id": "indep-kimi-0069", "text": "HR 系统里我上个 sprint 攒的 OT 调休好像一直 no approve，帮我 check 下状态顺便看看 leave balance 还剩几天？"}
+{"id": "indep-kimi-0070", "text": "Draft a purchase request for 3 standing desks for the new hires starting Nov 4, and leave it in my approval queue so I can review it before submitting."}
+{"id": "indep-kimi-0071", "text": "Pull up our unfinished contract entries from last month, validate the Acme Corp one against the attached pricing sheet, and stash the approved version back in the contracts workspace."}
+{"id": "indep-kimi-0072", "text": "帮我打开淘宝后台那个店铺管理页面，把今天新到的5个商品标题和库存填进去，我信息放桌面的 goods.txt 里了"}
+{"id": "indep-kimi-0074", "text": "这个网页拉到最下面还有内容吗？帮我翻到底，把整个页面截成一张长图保存到 D盘 的截图文件夹"}
+{"id": "indep-kimi-0075", "text": "帮我把这个表单自动填一下，姓名、邮箱、电话都在 contacts.csv 里，填完先别点 submit，让我确认一下"}
+{"id": "indep-kimi-0076", "text": "刚才那个登录流程挺烦的，又开始每次都要点三个确认框……能不能帮我录一遍我从 login 到 dashboard 的操作，下次直接回放就行"}
+{"id": "indep-kimi-0077", "text": "打开 jira 上 PROJ-1024 这个 ticket，把 status 改成 In Progress，comment 里写 '已开始在 dev 环境复现'"}
+{"id": "indep-kimi-0078", "text": "Can you open our staging site, click through the checkout flow with a test card, and screenshot any error that pops up?"}
+{"id": "indep-kimi-0080", "text": "帮我把微信窗口点开，然后给我截图看看桌面右下角有没有弹出消息提醒，昨天那个群好像一直在闪"}
+{"id": "indep-kimi-0081", "text": "打开系统设置，把显示缩放从150%调回125%，字太大了看着难受"}
+{"id": "indep-kimi-0082", "text": "我妈刚才不知道点了啥，桌面上全是看不懂的弹窗，你帮我看看屏幕现在啥情况，把那些广告窗口一个个关掉，注意别点错进了奇怪页面"}
+{"id": "indep-kimi-0083", "text": "麻烦先截图看下当前 screen 状态，然后打开 Discord，找到 #dev-updates 频道，往上滚到我昨晚发的那条，帮我 reply 一下"}
+{"id": "indep-kimi-0084", "text": "截图 + 点开 Notion 窗口，在左侧 sidebar 里点进「Product Roadmap」页面"}
+{"id": "indep-kimi-0085", "text": "我的 VS Code 卡死了，点哪里都没反应……你帮我看下屏幕是不是弹了什么 dialog 被窗 口挡住了，能点掉就点掉，实在不行再 kill 掉重启"}
+{"id": "indep-kimi-0089", "text": "嗯那你把刚才那个没跑完的脚本继续跑下去吧"}
+{"id": "indep-kimi-0090", "text": "继叙，刚网断了"}
+{"id": "indep-kimi-0093", "text": "ok go on，把剩下的 test case 补完"}
+{"id": "indep-kimi-0096", "text": "今天几号来着？周几也跟我说下，我要填报销单。"}
+{"id": "indep-kimi-0098", "text": "麻烦看下本地时间，顺便帮我确认下这周还剩几天到周末。我人刚从旧金山出差回来，倒时差倒得迷迷糊糊的，会议邀请都不敢乱点，怕约错日子。"}
+{"id": "indep-kimi-0099", "text": "现在local time多少？我crontab里那个job好像跑早了，对一下。"}
+{"id": "indep-kimi-0100", "text": "今天是几月几号，weekday是啥？我在写CHANGELOG.md，release日期要用yyyy-mm-dd格式，别搞错了"}
+{"id": "indep-kimi-0101", "text": "刚ssh到dev-server上，date打出来是UTC，我本地现在到底几时？帮我换算下，九点standup开始还有多久"}
+{"id": "indep-kimi-0102", "text": "what time is it rn? need to know if i should still join the 3pm sync"}
+{"id": "indep-kimi-0103", "text": "Could you check the current date on this machine and rename the backup folder on my Desktop to backup_2025MMDD using today's date?"}
+{"id": "indep-kimi-0104", "text": "你现在用的模型感觉回答质量下降了，帮我换一家吧，我用 API key 的那种服务商，别再用默认那个了"}
+{"id": "indep-kimi-0106", "text": "背景是这样：最近做项目经常让你跑很长的多文件重构，但你每次跑到一半就停了，提示说轮数用完了，很影响效率。能不能把单次任务的最大推理轮数提高到50？另外如果超过这个轮数，希望你先问我要不要继续，而不是直接中断。"}
+{"id": "indep-kimi-0107", "text": "switch to claude-sonnet-4.5, 还有把 reasoning effort 调成 high，API key 在 ~/.maclaw/keys 下面的 anthropic.txt 里"}
+{"id": "indep-kimi-0108", "text": "看下你当前哪个 provider 在生效啊，我记得上次切到 OpenRouter 了但总觉得还是走的官方 openapi，顺便把 fallback model 设成 gpt-4o 吧"}
+{"id": "indep-kimi-0110", "text": "Show me my current MaClaw settings — which model is active, what the max turn limit is, and whether temperature is overridden anywhere."}
+{"id": "indep-kimi-0112", "text": "帮我从零写一个小游戏吧，就是那种贪吃蛇，用 Python + pygame 做，要求有计分、加速和撞墙死亡，写完直接在本机跑起来我看看效果。"}
+{"id": "indep-kimi-0113", "text": "最近我们财务这边每周都要手工把二十几个 Excel 汇总成一张表，太费时间了。你帮我写个脚本，读取 D:\\财务\\周报 下面所有 xlsx，按部门和日期汇总，输出一个新的合并表，顺便把重复行去掉。以后我每周双击就能跑。"}
+{"id": "indep-kimi-0114", "text": "我有点想学编程……不知道能不能先从简单的东西开始，比如你帮我搭个本地能跑的记账小工具？不需要很复杂，能录入、能查就行，界面什么的你看着来。"}
+{"id": "indep-kimi-0115", "text": "帮我用 Flask 写个 REST API，连接 /home/dev/app/data.db 这个 SQLite，要支持 CRUD，端口 5000，写完用 curl 测一下 POST /users 能不能通。"}
+{"id": "indep-kimi-0116", "text": "写个 tampermonkey 脚本，bilibili 视频页自动屏蔽弹幕按钮旁边的推荐栏，selector 你自己 browser 里看下。"}
+{"id": "indep-kimi-0118", "text": "Build me a small CLI tool in Go that watches a folder and auto-commits any changes to a local git repo every 5 minutes. Include a README with install steps."}
+{"id": "indep-kimi-0119", "text": "I've been manually resizing hundreds of product photos for our Shopify store and it's killing me. Can you write a Python script that batch converts everything in ./raw_images to 1200x1200 webp, keeps the aspect ratio with white padding, and dumps them into ./output? Bonus if it shows a progress bar."}
+{"id": "indep-kimi-0121", "text": "查表里那批订单数据，orders 表结构和最近 20 条记录"}
+{"id": "indep-kimi-0122", "text": "上次你连过的那个 postgres 貌似档有张 user_info 表，帮我看看它的字段，顺便数数行數"}
+{"id": "indep-kimi-0124", "text": "昨天我 save 过一个 favorite 查询，好像是查 slow_query 那张表 top 10 的，帮我 list 出来然后 run 一下看一眼"}
+{"id": "indep-kimi-0126", "text": "Can you pull up the structure of the customers table on our SQL Server at sql-prod-01.internal? I need to know which columns are nullable before the migration."}
+{"id": "indep-kimi-0128", "text": "帮我把昨天整理好的那份季度复盘报告（在 ~/Documents/q3_review.docx）发到蓝信的产品运营群里，今天上午群里要用"}
+{"id": "indep-kimi-0129", "text": "把 /tmp/invoice_2024_11.pdf 发送给财务部的王芳，蓝信私聊就行，不用到我这来确认"}
+{"id": "indep-kimi-0130", "text": "麻烦你把桌面那个会议纪要终稿送到研发大群去，别发错了啊，是上回发 FinCore 复盘那个群"}
+{"id": "indep-kimi-0131", "text": "Send the final proposal at ~/work/client_proposal_v3.pdf to my WeChat so I can forward it on my phone"}
+{"id": "indep-kimi-0132", "text": "I've been editing the onboarding guide all week on this desktop (it's at C:\\Users\\liang\\Docs\\onboarding_v2.docx) and our new hire starts Monday in the Shanghai office. Could you get it over to her via the lansenger channel? Her name is Zhao Yi — she's in the HR onboarding group I think."}
+{"id": "indep-kimi-0133", "text": "把 build 完的 release-notes-2.4.1.md（在 /home/ci/artifacts/ 下）send 到 telegram 的 dev-updates 群，发完回我一句确认"}
+{"id": "indep-kimi-0134", "text": "先 resolve 一下蓝信里叫“周末值班”的群，确认目标以后把 ./logs/crash_1129.log send_file 过去，失败就直接报错别转去广播"}
+{"id": "indep-kimi-0136", "text": "这个调研量太大了，你拆成三份同时派子任务去查吧：一个看竞品定价，一个整理用户访谈纪要，一个爬最近的行业报告，最后汇总成一页纸给我。"}
+{"id": "indep-kimi-0137", "text": "并行开三个，跑完叫我。"}
+{"id": "indep-kimi-0138", "text": "那个方案我心里没底，能不能让几个不同角色的代理一起过一遍——一个站在安全角度，一个站在成本角度，一个站在用户体验角度，互相挑挑毛病再给我结论？"}
+{"id": "indep-kimi-0139", "text": "帮我把 review 分给两个 sub-agent 同时跑：一个看 src/auth/ 下的逻辑漏洞，一个看 src/api/ 的错误处理，两边的 findings 汇总成 review.md"}
+{"id": "indep-kimi-0140", "text": "这个巨长的 log 文件你 fork 几个 worker 并行分析吧，每个负责一个时间段，找出 ERROR pattern 然后 merge 结果"}
+{"id": "indep-kimi-0141", "text": "下次 sprint planing 之前，帮我组织一场多 agent 讨论：一个当 PM，一个当 tech lead，一个当 QA，针对重构 legacy billing 模块的可行性 debate 一下，输出 pros/cons"}
+{"id": "indep-kimi-0142", "text": "I need translations for these 40 product strings into 8 languages — spawn one worker per language and run them all in parallel, dump results into i18n/ as separate JSON files."}
+{"id": "indep-kimi-0143", "text": "Our release goes out Friday and QA is way behind. Can you delegate the test matrix to a bunch of agents at once — one on Chrome, one on Safari, one on mobile viewport — each running through checkout_test_plan.md? Have them file bugs as they go and send me a combined pass/fail report by 5pm."}
+{"id": "indep-kimi-0144", "text": "桌面上那个会议纪要.txt 帮我排一下版导出成PDF吧 标题加粗 弄个页眉页脚就行"}
+{"id": "indep-kimi-0145", "text": "把这段话做成pdf: 编号HT-2024-081 甲方杭州云启科技 乙方李明 服务费捌万元整 落款今天日期"}
+{"id": "indep-kimi-0146", "text": "我上周整理的客户拜访记录都在 ~/notes/visits/ 下面三个txt,合并起来转成一份pdf,按日期分节,放桌面就好,顺便把文件名改成 拜访汇总_202406.pdf"}
+{"id": "indep-kimi-0147", "text": "把刚才统计出来的服务器巡检结果导成 PDF,文件名用 check_report_0523.pdf,表格别截断,landscape 排版,谢谢"}
+{"id": "indep-kimi-0148", "text": "prd_v2.md 里那些需求点先别管内容对不对,直接 render 成 PDF 丢到 /tmp 下,我待会儿要 attach 到邮件里"}
+{"id": "indep-kimi-0149", "text": "背景是这样:下午三点要跟 vendor 开会,我把上次通话的记录已经贴在前面对话里了,现在要打印出来人手一份。麻烦排得正式一点,加个封面写 'Q2 Vendor Sync',导出 PDF 到 Downloads,顺便确认下页数别超过两页"}
+{"id": "indep-kimi-0150", "text": "Could you take the summary of interview feedback we just put together and turn it into a clean PDF? Maybe times new roman, decent margins, saved as feedback_panel.pdf on my desktop."}
+{"id": "indep-kimi-0151", "text": "Export the invoice data above to PDF, filename INV-2024-118.pdf, right-align the totals column."}
+{"id": "indep-kimi-0152", "text": "帮我把桌面上那份《2024年度财务审计报告.pdf》打开，我要核对几个数字。"}
+{"id": "indep-kimi-0153", "text": "刚刚客户发来的合同我下载到下载文件夹了，叫 采购合同终版.docx，现在手头没闲着，你有空的话直接帮我打开看一下排版有没有问题。"}
+{"id": "indep-kimi-0154", "text": "今天例会要用上周三小李给我的那个汇报PPT，我记得存在 D:\\项目资料\\周报 下面，文件名好像带'季度汇报'，麻烦找到后用系统默认的程序打开，五分钟后会议开始，顺便把全公司那份组织架构图.xlsx也开一下，可能要用到。"}
+{"id": "indep-kimi-0155", "text": "打开 ~/Downloads/maclaw-setup-guide.pdf"}
+{"id": "indep-kimi-0156", "text": "用默认程序把 Q3_Report_Final.pptx 打开一下，我想提前过一遍slide"}
+{"id": "indep-kimi-0158", "text": "Open the invoice INV-2024-0918.xlsx on my desktop, please."}
+{"id": "indep-kimi-0159", "text": "Hey, I just finished downloading the landlord's lease agreement (lease_agreement_2025.pdf, it's in Downloads). Can you pull it up for me? I want to read through the renewal terms before I sign anything tonight."}
+{"id": "indep-kimi-0160", "text": "我把上季度的体检报告PDF发你了，帮我看看里面标红的几项指标分别是啥意思，需不需要复查"}
+{"id": "indep-kimi-0161", "text": "总结这份合同，重点看违约条款"}
+{"id": "indep-kimi-0162", "text": "研报太长了看不动，你能不能帮我把这份文件里关与2024年的数据挑出来列个清单，谢谢"}
+{"id": "indep-kimi-0163", "text": "附件是那个 vendor 给的 SOW_final_v3.pdf，帮我check一下 payment terms 和 timeline，看看跟上次邮件里说的对不对得上"}
+{"id": "indep-kimi-0164", "text": "看下这个 README.md，告诉我 quickstart 部分怎么跑，dependencies 要装哪些"}
+{"id": "indep-kimi-0165", "text": "上周老板让我对接一个新项目，对方甩过来一份八十多页的《智慧园区需求规格说明书.docx》，我周末实在啃不动了。你先通读一遍我上传的这份文档，然后帮我整理出：1) 核心功能模块有哪些；2) 有没有提到和现有OA系统的对接要求；3) 交付时间节点。周一例会前给我就行"}
+{"id": "indep-kimi-0166", "text": "I just dropped three candidate resumes into this chat. Could you read them and tell me which one has the strongest backend experience, and roughly how many years each person has with Kubernetes? No rush"}
+{"id": "indep-kimi-0167", "text": "There's a file called q3_board_deck_notes.pdf attached — from it, pull every mention of churn rate, then give me a two-sentence summary of the overall revenue outlook, and finally list any open questions the author flagged"}
+{"id": "indep-kimi-0168", "text": "桌面上那个 周报初稿v3.md 不要了，帮我删掉吧，已经定稿发出去过了"}
+{"id": "indep-kimi-0169", "text": "把 ~/Downloads/2023-old-backup.sql 删了"}
+{"id": "indep-kimi-0170", "text": "之前整理照片的时候在 图片/重复 里导出了一堆 jianyi 结果，有个 duplicates_report.txt 我看着没用，帮忙清晰掉，腾点空间"}
+{"id": "indep-kimi-0171", "text": "刚才你帮我生成的那个 summary.md 内容不对，我重新写了个 final 版本的，麻烦把 workspace 下那个旧的 summary.md 给 remove 掉，别留两份搞混了"}
+{"id": "indep-kimi-0172", "text": "项目根目录下有个 .env.backup，是我之前 debug 的时候随手拷的，里面有旧的 API key，留着有风险，帮我 rm 掉，顺便确认一下 git status 里没有它的痕迹"}
+{"id": "indep-kimi-0173", "text": "tmp 文件夹里那个 cache_dump_0412.json 好像没啥用了？delete 一下吧"}

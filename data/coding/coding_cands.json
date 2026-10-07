@@ -1,0 +1,226 @@
+[
+ {
+  "name": "jest",
+  "description": "JavaScript 测试框架，支持单元测试、集成测试和快照测试，广泛用于 React、Node.js 等项目"
+ },
+ {
+  "name": "pytest",
+  "description": "Python 最流行的测试框架，支持参数化测试、fixture、异步测试等高级功能"
+ },
+ {
+  "name": "pytest-cov",
+  "description": "pytest 插件，用于生成测试覆盖率报告（HTML/coverage.py 格式）"
+ },
+ {
+  "name": "eslint",
+  "description": "JavaScript/TypeScript 代码静态分析工具，支持自定义规则和格式化"
+ },
+ {
+  "name": "prettier",
+  "description": "代码格式化工具，支持多种语言（JS/TS、Python、JSON 等），与 ESLint 无冲突"
+ },
+ {
+  "name": "black",
+  "description": "Python 代码自动格式化工具，严格遵循 PEP 8 标准，无需配置"
+ },
+ {
+  "name": "rubocop",
+  "description": "Ruby 代码静态分析工具，检查代码风格和潜在问题，集成 Git Hook 方便"
+ },
+ {
+  "name": "husky",
+  "description": "Git 钩子（hook）管理工具，结合 lint-staged 仅检查提交的文件，提高效率"
+ },
+ {
+  "name": "lint-staged",
+  "description": "仅对 Git 暂存区（staged）的文件运行 linter/formatter，避免全局扫描开销"
+ },
+ {
+  "name": "commitlint",
+  "description": "强制执行 Git 提交消息规范（如 Conventional Commits），结合 Husky 使用"
+ },
+ {
+  "name": "gh-actions",
+  "description": "GitHub Actions 工具，自动化构建、测试、部署等 CI/CD 流程，支持 YAML 脚本"
+ },
+ {
+  "name": "circleci",
+  "description": "云端 CI/CD 平台，支持多语言、并行测试、缓存依赖等高级功能"
+ },
+ {
+  "name": "gitlab-ci",
+  "description": "GitLab 内置的 CI/CD 管道工具，支持自动化测试、部署和监控"
+ },
+ {
+  "name": "docker-compose",
+  "description": "定义和运行多容器 Docker 应用的工具，简化本地开发环境配置"
+ },
+ {
+  "name": "kustomize",
+  "description": "Kubernetes 资源定制化工具，支持合并、覆盖和环境变量化部署配置"
+ },
+ {
+  "name": "helm",
+  "description": "Kubernetes 包管理器，用于打包、配置和部署应用（Chart）"
+ },
+ {
+  "name": "flyway",
+  "description": "数据库迁移工具，支持 SQL 脚本版本控制，适用于 PostgreSQL、MySQL 等"
+ },
+ {
+  "name": "alembic",
+  "description": "Python/SQLAlchemy 数据库迁移工具，生成迁移脚本并管理版本"
+ },
+ {
+  "name": "aws-cdk",
+  "description": "使用程序化方式定义 AWS 云资源（如 EC2、S3、Lambda），支持多种语言（TypeScript/Python/Java)"
+ },
+ {
+  "name": "terraform",
+  "description": "基于声明式配置的云资源管理工具，支持 AWS、GCP、Azure 等多云"
+ },
+ {
+  "name": "vite",
+  "description": "前端构建工具，基于 ES Modules，支持快速 HMR（热更新）和零配置"
+ },
+ {
+  "name": "webpack",
+  "description": "前端模块打包器，支持代码分割、优化和多种加载器（如 babel-loader）"
+ },
+ {
+  "name": "react-native-cli",
+  "description": "React Native CLI 工具，用于创建、构建和调试跨平台移动应用"
+ },
+ {
+  "name": "flutter",
+  "description": "Google 的跨平台移动框架，支持 iOS/Android，集成 Dart 语言和热重载"
+ },
+ {
+  "name": "jupyter-notebook",
+  "description": "交互式数据分析和可视化工具，支持 Python/R/JavaScript 等语言"
+ },
+ {
+  "name": "pandas-profiling",
+  "description": "Python 库，自动生成数据集的统计分析报告（如缺失值、分布、相关性等）"
+ },
+ {
+  "name": "mkdocs",
+  "description": "基于 Markdown 的静态文档生成工具，支持主题、插件和快速部署"
+ },
+ {
+  "name": "sphinx",
+  "description": "Python 官方文档生成工具，支持自动化 API 文档（如 NumPy、Django）"
+ },
+ {
+  "name": "semgrep",
+  "description": "静态代码安全扫描工具，支持 YAML 规则定义（如 OWASP Top 10 检测）"
+ },
+ {
+  "name": "sonarqube",
+  "description": "代码质量分析平台，支持多语言、安全漏洞扫描和代码覆盖率分析"
+ },
+ {
+  "name": "pprof",
+  "description": "Go 语言的性能分析工具，支持 CPU、内存、goroutine 等分析"
+ },
+ {
+  "name": "postman",
+  "description": "API 测试和文档工具，支持集成测试、环境切换和自动化脚本"
+ },
+ {
+  "name": "resty",
+  "description": "Python HTTP API 客户端库，支持异步请求、断言和 Mock 服务器"
+ },
+ {
+  "name": "i18next",
+  "description": "前端国际化（i18n）库，支持多语言切换、动态加载和格式化"
+ },
+ {
+  "name": "loguru",
+  "description": "Python 日志库，支持结构化日志、异步、多处理器和彩色输出"
+ },
+ {
+  "name": "npm-publish",
+  "description": "将 Node.js 包发布到 npm 注册中心，支持版本管理（如 semantic-release）"
+ },
+ {
+  "name": "pypi-publish",
+  "description": "将 Python 包打包并发布到 PyPI，支持 wheel/sdist 和依赖管理"
+ },
+ {
+  "name": "excel-export",
+  "description": "将数据（如 Pandas DataFrame）导出为 Excel/CSV 文件，支持格式化和样式"
+ },
+ {
+  "name": "pillow",
+  "description": "Python 图像处理库，支持裁剪、旋转、滤镜和格式转换（如 PNG/JPEG）"
+ },
+ {
+  "name": "smtplib",
+  "description": "Python 内置邮件库，支持发送 HTML/纯文本邮件，结合 MIME 实现复杂模板"
+ },
+ {
+  "name": "notion-api",
+  "description": "Notion API 工具，用于同步数据到 Notion 数据库或创建页面（需 API Key）"
+ },
+ {
+  "name": "airflow",
+  "description": "开源工作流调度器，用于定时任务、数据管道和 DAG（有向无环图）管理"
+ },
+ {
+  "name": "pytest-xdist",
+  "description": "pytest 插件，支持并行测试执行，显著缩短测试周期"
+ },
+ {
+  "name": "black-jupyter",
+  "description": "为 Jupyter Notebook 自动格式化 Python 代码，结合 Black 工具"
+ },
+ {
+  "name": "docker-desktop",
+  "description": "本地 Docker 开发环境，支持快速容器化应用和集成 Kubernetes"
+ },
+ {
+  "name": "k9s",
+  "description": "终端式 Kubernetes 集群管理工具，支持快捷键、图形化查看和编辑 YAML"
+ },
+ {
+  "name": "sqlfluff",
+  "description": "SQL 代码格式化和静态分析工具，支持多种数据库方言（PostgreSQL、BigQuery 等）"
+ },
+ {
+  "name": "tailwindcss",
+  "description": "前端 CSS 框架，支持快速原子化样式，结合 PostCSS 使用"
+ },
+ {
+  "name": "swagger-ui",
+  "description": "API 文档生成工具，支持 OpenAPI 规范，生成交互式文档界面"
+ },
+ {
+  "name": "fastlane",
+  "description": "移动应用自动化工具，支持 iOS/Android 的构建、测试和发布"
+ },
+ {
+  "name": "jupyterlab",
+  "description": "Jupyter 的现代化替代品，支持插件、多语言核心和并行计算"
+ },
+ {
+  "name": "datadog",
+  "description": "云端监控和日志分析平台，支持应用性能监控（APM）、日志收集和警报"
+ },
+ {
+  "name": "sentry",
+  "description": "错误跟踪和监控平台，支持前端/后端异常捕获、性能监控和自动化修复"
+ },
+ {
+  "name": "graphql-codegen",
+  "description": "GraphQL 代码生成工具，从 Schema 生成 TypeScript/Java 客户端代码"
+ },
+ {
+  "name": "esbuild",
+  "description": "极快的前端打包工具，支持 ES6+、CSS、图片优化和服务器端渲染（SSR）"
+ },
+ {
+  "name": "vite-plugin-svgr",
+  "description": "Vite 插件，用于在前端项目中集成 SVG 组件，支持动态导入和优化"
+ }
+]

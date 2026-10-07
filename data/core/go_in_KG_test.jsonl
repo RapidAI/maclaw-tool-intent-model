@@ -1,0 +1,405 @@
+{"id": "indep-gemini-0000", "text": "刚才传给你的那个会议纪要，你现在直接在这个窗口发回给我吧，我刚才本地手快给删了。"}
+{"id": "indep-gemini-0001", "text": "MaClaw，我刚才给你发了一个‘2024部门预算表.xlsx’。我刚才确认了一下里面的公式没问题，你现在把这个原文件在对话里发给我一次，我待会要转发到工作群组里去。"}
+{"id": "indep-gemini-0002", "text": "帮我把刚才那个word发回来，刚才bengdile没存上。"}
+{"id": "indep-gemini-0003", "text": "MaClaw, 把附件里的 config.json 再发给我一遍。"}
+{"id": "indep-gemini-0004", "text": "我发现刚才传给你的 main.py 逻辑没问题，你直接把这文档 return 给我吧，我省得去翻本地文件夹了。"}
+{"id": "indep-gemini-0006", "text": "I've uploaded the 'Product_Specs_Final.pdf' to our chat session. Now that I've reviewed the metadata, could you please send the original file back to me through this channel?"}
+{"id": "indep-gemini-0007", "text": "Resend the attached image."}
+{"id": "indep-gemini-0009", "text": "最近桌面太乱了，找个东西费半天劲，你直接帮我把‘下载’文件夹开一下吧。"}
+{"id": "indep-gemini-0010", "text": "这屋里太安静了，没点背景音乐没效率，把那个酷狗音乐开一下。"}
+{"id": "indep-gemini-0011", "text": "帮我启动一下 iterm2。"}
+{"id": "indep-gemini-0012", "text": "帮我把 Postman qidong 一下，刚才崩掉了。"}
+{"id": "indep-gemini-0013", "text": "准备干活了，帮我把 VS Code 还有 Chrome 里的 Trello 看板都打开。"}
+{"id": "indep-gemini-0014", "text": "Launch Activity Monitor."}
+{"id": "indep-gemini-0015", "text": "I need to review the project assets for the upcoming launch. Can you open the folder at C:\\Users\\Admin\\Documents\\Project_Alpha\\Assets?"}
+{"id": "indep-gemini-0016", "text": "给大伙发段语音，说我临时有个会，下午的周报评审推迟一小时。"}
+{"id": "indep-gemini-0017", "text": "发语音：客户已确认。"}
+{"id": "indep-gemini-0018", "text": "给小陈发个yuyin，说wo dao dichezhan le，让他接我一下。"}
+{"id": "indep-gemini-0019", "text": "刚才在看那个 data visualization 的 demo，感觉 color palette 还要再调一下。MaClaw，你帮我给 Design Team 发个语音 message，具体说下那几个 chart 的配色要符合品牌规范。"}
+{"id": "indep-gemini-0020", "text": "我刚才想到了一个 optimize 性能的思路，你能不能帮我传个口信给 Team Lead？用语音说，这样比较清楚，内容是关于 database query 优化的。"}
+{"id": "indep-gemini-0021", "text": "先帮我 check 下明天的 schedule，然后发个语音给林经理，告诉他我明天下午有空去参加那个 offline seminar。"}
+{"id": "indep-gemini-0022", "text": "Voice message to Kevin: Check your email."}
+{"id": "indep-gemini-0023", "text": "Hey MaClaw, send a quick voice clip to the sync group and let them know that the server migration is 90% complete and we should be back online soon."}
+{"id": "indep-gemini-0024", "text": "MaClaw，帮我把那个周一例会的录音文件转成文字，就是桌面上的那个'2023-10-23_meeting.mp3'。"}
+{"id": "indep-gemini-0025", "text": "mc，bwy (帮我用) 语音识别转一下 downloads 里的那个录音，名字叫 shengyin_001.wav，等下我要看。"}
+{"id": "indep-gemini-0026", "text": "刚才在外面跟客户对需求，录了一个多小时的音，文件我已经同步到电脑里的 'Recordings' 文件夹了，叫 'Project_X_Discussion.m4a'。你帮我把里面的对话全部识别出来，我需要一份完整的文字稿存进笔记里。"}
+{"id": "indep-gemini-0027", "text": "MaClaw, 对 /mnt/e/AudioData/session_v02.wav 执行 transcribe 操作。"}
+{"id": "indep-gemini-0028", "text": "那个... 我刚才把 podcast 的 raw audio 丢到桌面了，你能不能帮我看看里面都在讲什么？最好是能逐字逐句转写出来。"}
+{"id": "indep-gemini-0030", "text": "MaClaw, could you turn that zoom_recording.mp4 audio track into a text transcript for me?"}
+{"id": "indep-gemini-0031", "text": "I recorded my piano teacher's feedback during the lesson today, but there's a lot of talking in between the music segments. The file is 'Lesson_Notes.aac' in the Music folder. Can you extract the speech and give me a text file of what she said?"}
+{"id": "indep-gemini-0032", "text": "老麦，帮我把桌上那个《2024年度总结》文档念一下，我得盯着锅里的菜，没法看屏幕。"}
+{"id": "indep-gemini-0035", "text": "用 local speaker 播一下桌面 demo.txt 里的那段 prompt。"}
+{"id": "indep-gemini-0036", "text": "帮我 synthesize 一下这段文字：‘The quick brown fox jumps over the lazy dog’，我想测试下系统音量。"}
+{"id": "indep-gemini-0037", "text": "我在写 report，没空看屏幕，你把刚才 Outlook 里收到那封邮件的 body 念出来，我想听听老板又提了啥新要求。"}
+{"id": "indep-gemini-0038", "text": "Read the clipboard content out loud at 1.25x speed, please."}
+{"id": "indep-gemini-0040", "text": "MaClaw，帮我把接下来的例会内容录下来，我得先去接个快递。"}
+{"id": "indep-gemini-0041", "text": "luyin, jiu xianzai."}
+{"id": "indep-gemini-0042", "text": "我现在要开始练习我的毕业论文答辩了，你帮我开启录音模式，我要回听一下哪些地方讲得不够顺，顺便帮我计时。"}
+{"id": "indep-gemini-0043", "text": "帮我打开 record 界面，我要录一段 demo 的配音。"}
+{"id": "indep-gemini-0044", "text": "我想录一下这段 piano 旋律，帮我把 mic 打开开始录制。"}
+{"id": "indep-gemini-0046", "text": "I'm about to start the interview with the candidate, can you get the recording tool ready and start capturing the audio?"}
+{"id": "indep-gemini-0047", "text": "New audio capture, now."}
+{"id": "indep-gemini-0049", "text": "帮我dakai京东，搜一下‘人体工学椅’，把综合排名第一的那个商品详情页截个屏发我。"}
+{"id": "indep-gemini-0051", "text": "去 Gmail 帮我 login，查一下有没有来自 AWS 的 verification code。"}
+{"id": "indep-gemini-0052", "text": "帮我打开 company portal，进入到 HR 系统，把我的 time sheet 填了，project name 选 'Internal Tooling'，每天填 8 小时。"}
+{"id": "indep-gemini-0053", "text": "我最近在调研 AI agent，你帮我上 Twitter 搜一下 #AIagent 这个 hashtag，把最近一个小时内所有带有 link 的 tweet 整理出来，把那些 link 都存到我的 desktop 文件夹下的 links.txt 里。"}
+{"id": "indep-gemini-0054", "text": "Can you go to the local weather site and grab a screenshot of the 7-day forecast for Seattle? I need to see if it's going to rain during the weekend."}
+{"id": "indep-gemini-0055", "text": "Navigate to the login page of my bank, fill in the username 'test_user_01', then wait for me to input the MFA. Once logged in, download the PDF statement for October."}
+{"id": "indep-gemini-0056", "text": "小爪，我上周三提交的那个去上海出差的差旅报销怎么还没动静啊？帮我看看主管审批到哪一步了。"}
+{"id": "indep-gemini-0057", "text": "是这样，我们和盛世科贸的年度框架协议已经走完内部法务审核了。现在合同原件我已经扫描放在桌面了，文件叫《2024框架协议_Scan.pdf》，你帮我发起个正式的合同录入申请，关联到采购部的年度预算里，顺便抄送给老王。"}
+{"id": "indep-gemini-0058", "text": "ma claw，我下周二要请个年假，去医院看下牙齿， bang wo ti jiao yi xia nian jia sheng qing。"}
+{"id": "indep-gemini-0061", "text": "最近研发部反映服务器内存不太够用了，我已经把选好的硬件规格写在 desktop 的 'Purchase_List.xlsx' 了。你按照上面的条目去 MIS 走个采购申请流程，别忘了选急件处理。"}
+{"id": "indep-gemini-0062", "text": "Hey MaClaw, how much budget do I have left for the Q3 marketing campaign? I need to file an expense report for the social media ads we ran last month."}
+{"id": "indep-gemini-0063", "text": "The projector in Conference Room 4B is broken again. I've already checked the inventory and we have a spare one in the warehouse. Please open a maintenance ticket for the broken one and create an internal transfer request to move the spare unit (Serial No: PRJ-9921) to 4B."}
+{"id": "indep-gemini-0064", "text": "MaClaw，我那个脚本跑着跑着就卡死了，也没报错，你帮我看看是不是死循环了？文件在桌面的 script.py。"}
+{"id": "indep-gemini-0065", "text": "昨晚我更新了系统补丁，今天打开那个财务报表生成器就一直闪退。我记得报错日志是在 C:\\Logs\\app.log 里的，你能不能帮我查查到底是哪个库冲突了，顺便修一下？这周五得交表。"}
+{"id": "indep-gemini-0066", "text": "那个处理excel的py脚本，zui hou yi hang报错IndexError，快帮我gai下。"}
+{"id": "indep-gemini-0068", "text": "我写的这个 React component 在渲染 list 的时候老是报 key prop 的 warning，虽然没 crash 但是控制台看着好烦，帮我 fix 一下。"}
+{"id": "indep-gemini-0069", "text": "帮我 trace 一下 data_loader.py。本来应该 output 100 条数据的，结果现在只出了 20 条，逻辑肯定在哪断了。"}
+{"id": "indep-gemini-0070", "text": "debug project/auth.js:32 TypeError: cannot read property 'id' of undefined"}
+{"id": "indep-gemini-0071", "text": "I've been trying to deploy the microservice to the staging env, but the container keeps restarting with an OOMKilled error. Can you analyze the memory usage in main.go and optimize the heap allocation to prevent this crash?"}
+{"id": "indep-gemini-0072", "text": "帮我把桌面上那个一直弹出来的提示框关了，每次开机都有，烦死了。"}
+{"id": "indep-gemini-0073", "text": "MaClaw，帮我点开kongzhi mianban，找下那个‘电源选项’，改成从不休眠。"}
+{"id": "indep-gemini-0074", "text": "现在屏幕太亮了，帮我调低点，顺便静音，我要午休一会。"}
+{"id": "indep-gemini-0075", "text": "我这边要准备录制一个 tutorial 视频。MaClaw，帮我把桌面清理一下，隐藏掉 taskbar，然后打开 OBS Studio 确认一下 preview 画面是不是已经选好我的主屏幕了。"}
+{"id": "indep-gemini-0076", "text": "把当前的 VLC 窗口 move 到第二个 screen 然后 full screen 播放。"}
+{"id": "indep-gemini-0077", "text": "帮我打开网易云音乐，点击左侧的‘我喜欢的音乐’，随便选一首歌 play，然后把桌面歌词打开。"}
+{"id": "indep-gemini-0078", "text": "Can you toggle the system theme to Dark Mode? My eyes are starting to hurt from all this white light."}
+{"id": "indep-gemini-0079", "text": "Open the 'Old Inventory Tool' on the desktop, click the 'Query' button, and take a screenshot of the result window for me since I can't select the text in it."}
+{"id": "indep-gemini-0080", "text": "MaClaw，帮我写个 Python 脚本，把我下载文件夹里那些超过一个月没动过的文件都移到另外一个叫 'Archive' 的文件夹里去，最好能按文件后缀分类归档。"}
+{"id": "indep-gemini-0083", "text": "在我的 current directory 下面初始化一个 FastAPI 项目，加一个 POST 接口接收图片，然后调用 OCR 逻辑把文字转存到 .docx 里。最后写个测试用例跑一下看通没通。"}
+{"id": "indep-gemini-0086", "text": "I need to collect some pricing data from the target URLs in 'competitors.txt'. Can you write a Scrapy spider that extracts product names and prices into a CSV file? Once done, read the CSV to ensure no fields are null."}
+{"id": "indep-gemini-0087", "text": "Create a simple Tic-Tac-Toe game in Python using the pygame module. Add a 'Reset' button and a scoreboard. When finished, run it on the desktop so I can test the gameplay logic."}
+{"id": "indep-gemini-0088", "text": "行，就按你刚才说的方案把这几个 Excel 表格合并了。"}
+{"id": "indep-gemini-0089", "text": "接着跑。"}
+{"id": "indep-gemini-0090", "text": "jx搞。"}
+{"id": "indep-gemini-0092", "text": "这个逻辑是对的，你直接 start 剩下的流程就行。"}
+{"id": "indep-gemini-0094", "text": "Carry on."}
+{"id": "indep-gemini-0095", "text": "I've checked the environment variables on the remote server. Everything is set up now. Please resume the deployment process we started earlier."}
+{"id": "indep-gemini-0096", "text": "MaClaw，帮我翻下上周三下午咱俩聊那个关于自研数据库迁移的记录，我记得当时你给过一个方案，我现在翻不到了。"}
+{"id": "indep-gemini-0097", "text": "最近公司在做信息安全审计，我需要核对一下。请问昨天下午 2 点到 4 点之间，你是否通过我的账户执行过任何删除文件的操作？如果有的话，请把那段 session 的操作日志调出来给我看一眼。"}
+{"id": "indep-gemini-0098", "text": "帮我查下上次和你说过那个 bug 修复的 lishijilu，记得是关于前端渲染那块的。"}
+{"id": "indep-gemini-0099", "text": "MaClaw，查下现在的 system health 情况，看下后台服务的资源占用高不高。"}
+{"id": "indep-gemini-0100", "text": "帮我检索下上个月我让你跑的那个 benchmark 脚本的所有 history 记录，然后确认下那次执行是否报过 memory leak 的错误。"}
+{"id": "indep-gemini-0101", "text": "我想知道最近有没有谁通过这个 agent 动过我的 server 配置文件，帮我 check 一下审计日志里的敏感操作记录。"}
+{"id": "indep-gemini-0102", "text": "I am preparing a security report for the compliance department. Could you please provide a summary of all SSH sessions initiated by the agent over the last 48 hours, including the target IPs and the commands executed?"}
+{"id": "indep-gemini-0103", "text": "Display the audit log for all file access events in the workspace directory during the last session."}
+{"id": "indep-gemini-0104", "text": "MaClaw，现在几点了？我得算一下还要多久出门去接小孩。"}
+{"id": "indep-gemini-0105", "text": "帮我看看金条几号了，今儿个星期几呀？"}
+{"id": "indep-gemini-0106", "text": "写代码写得昏天黑地的，MaClaw 你看下现在过下班点了吗？"}
+{"id": "indep-gemini-0107", "text": "MaClaw, 报一下 current local time."}
+{"id": "indep-gemini-0108", "text": "我刚刚在排查 server 上的 log 文件，总觉得日志里的 time offset 不太对，你帮我 check 一下系统现在的 exact time 和 timezone。"}
+{"id": "indep-gemini-0111", "text": "I'm setting up a global sync meeting for the dev team and I'm a bit confused about the daylight saving shift. Could you show me the current local time here compared to UTC?"}
+{"id": "indep-gemini-0112", "text": "MaClaw，帮我看看我那个本地 MySQL 里现在都有哪些表，找找有没有个叫 order_info 的。"}
+{"id": "indep-gemini-0113", "text": "查一下 pg 里的 user 表的 jiegou，我忘了字段名了。"}
+{"id": "indep-gemini-0114", "text": "最近在维护公司的老项目，客户反馈去年的财务数据对不上。我记得当时是存在 SQL Server 里的财务库，你帮我连上去查一下 2023 年 12 月份所有的支出明细，看看总量是多少。"}
+{"id": "indep-gemini-0115", "text": "先 list 一下现有的 connections，如果那个 prod_db 还在的话，帮我 query 一下最近十分钟的 slow logs。"}
+{"id": "indep-gemini-0116", "text": "把 desktop 上的 report.xlsx 当成数据源，read 一下 'Sales' sheet 的前 50 行。"}
+{"id": "indep-gemini-0117", "text": "帮我看一下 PostgreSQL 里的 public schema 下面有没有 inventory 相关的 table，顺便 inspect 一下它的主键是什么。"}
+{"id": "indep-gemini-0118", "text": "I'm trying to figure out why the user 'jason_99' can't log in. Can you check the accounts table in our MySQL server and see if his status is set to active?"}
+{"id": "indep-gemini-0119", "text": "We just migrated some data from the staging environment to the production SQL Server. Could you help me compare the row counts between 'staging.users' and 'production.users' to make sure everything was moved correctly?"}
+{"id": "indep-gemini-0120", "text": "我现在要准备下周的 Q3 财报演示，内容挺杂的。你帮我起三个子任务并行跑一下：一个去查同行业那几家公司的公开财报数据，一个帮我把现有的 Excel 表格转成精美的图表，最后一个负责起草演示文稿的框架。最后你汇总给我。"}
+{"id": "indep-gemini-0121", "text": "感觉这个架构设计还是不够稳，你能不能开个“专家会诊”？找一个专门搞分布式系统的 agent 和一个搞网络安全的老哥一起讨论下我刚才发你的这个方案，看看有没有什么漏洞。"}
+{"id": "indep-gemini-0122", "text": "ni bang wo kai ji ge zi agent tong shi pa yi xia zhe ge wang zhan de shu ju, yao kuai, xian zai zhe ge tai man le."}
+{"id": "indep-gemini-0123", "text": "帮我分派下：让一个 worker 盯着 `~/logs/deploy.log` 的输出，一旦匹配到 ERROR 字段就弹窗提醒，你这边继续跟我调整 `main.go` 里的业务逻辑。"}
+{"id": "indep-gemini-0124", "text": "开启并行模式：`worker_1` 运行 `data_clean.py`，`worker_2` 去拉取最新的 Git commit 记录并生成一份简单的 report。"}
+{"id": "indep-gemini-0125", "text": "针对这个 AI 辅助编程的调研需求，你分派一个子 agent 去搜最近三个月 Github 上 Star 增长最快的项目，另一个 agent 负责写个脚本抓下开发者社区对这些项目的评价，最后汇总成一份对比报告。"}
+{"id": "indep-gemini-0126", "text": "I want to see a debate between a Senior Architect and a DevOps engineer regarding this cloud migration strategy. Let them argue about costs versus scalability for our specific infra, then give me the conclusion."}
+{"id": "indep-gemini-0127", "text": "This video rendering is going to take forever on a single thread. Can you spin up four sub-instances to process the `raw_clips/` directory in parallel? I'd like to have all the proxies ready by 4 PM."}
+{"id": "indep-gemini-0128", "text": "小爪，感觉你最近思考得不够深，老是点到为止。把单次任务的推理轮数上限调高一点吧，我后面要处理的逻辑比较复杂。"}
+{"id": "indep-gemini-0130", "text": "在哪看你现在用的啥模型啊？我想康康配置，是不是默认换成那个最新的 o1-preview 了？"}
+{"id": "indep-gemini-0131", "text": "把当前的 LLM provider 换成 DeepSeek，API Key 我刚才已经 export 到系统环境变量里了，你直接去读。"}
+{"id": "indep-gemini-0132", "text": "先帮我 check 一下当前的 memory 占用，如果上下文太长的话把 context length 的 limit 调小一点，最近响应稍微有点慢。"}
+{"id": "indep-gemini-0133", "text": "帮我改下内部 config，一般的 shell 命令用 GPT-4o-mini 就行，只有涉及到复杂 coding 的时候再 switch 到 Pro 模式，帮我省点 token。"}
+{"id": "indep-gemini-0134", "text": "Show current system configuration and the active model provider details."}
+{"id": "indep-gemini-0136", "text": "小爪，把桌面上那个‘2024Q3汇报.pptx’点开。"}
+{"id": "indep-gemini-0137", "text": "帮我把刚刚下载文件夹里那个最新的PDF发票合同打开一下呗，我要看一眼公章。"}
+{"id": "indep-gemini-0138", "text": "麦爪，帮我dakai一下D盘底下的‘jsh_v2_修改版.docx’"}
+{"id": "indep-gemini-0139", "text": "刚才开会的时候老板说要确认一下去年的 budget 情况。我记得我保存在 Documents/Finance/2023_budget_final.xlsx 里面了，你帮我把这个 excel 表格直接用系统默认软件打开吧，我需要核对几条数据。"}
+{"id": "indep-gemini-0140", "text": "那个 instruction_manual.pdf 好像在我的 Downloads 目录下，能不能让它在我的屏幕上弹出来？我想自己手动改点东西。"}
+{"id": "indep-gemini-0141", "text": "在我的桌面上找一个名字里带 PRD 的 Word 文档，找到之后直接帮我 launch 起来，我要开始写 spec 了。"}
+{"id": "indep-gemini-0142", "text": "Hey MaClaw, can you open up the 'annual_report_2023.pdf' in my Documents folder? I need to review the charts."}
+{"id": "indep-gemini-0143", "text": "Open `~/Desktop/user_list.csv`."}
+{"id": "indep-gemini-0144", "text": "小爪，帮我把桌面上的那个‘2024Q3销售汇报.pptx’发到微信的‘华东销售二组’群里，谢啦！"}
+{"id": "indep-gemini-0145", "text": "刚刚和王总开完会，确定了下半年的技术路线。我整理好的会议纪要已经存在 D:\\Meeting_Notes\\20231108_tech.docx 了。你帮我把这个文档发送到部门的共享服务器路径 \\\\192.168.1.100\\shared\\tech_notes 里面归档吧，然后顺便发一份给 hr_dept@company.com。"}
+{"id": "indep-gemini-0146", "text": "帮我把 `D:/backup/shujubao.zip` 发到 蓝xun 的 '技术支持群'，急，等着用。"}
+{"id": "indep-gemini-0147", "text": "send_file /var/log/nginx/access.log to telegram group 'Ops_Alerts'"}
+{"id": "indep-gemini-0148", "text": "帮我把 C:\\Projects\\demo_code 这个文件夹打包成 demo_code.zip，然后用 weixin 发送给李总（WeChat ID: li_manager）。"}
+{"id": "indep-gemini-0149", "text": "MaClaw，能不能帮我把刚刚导出的 `annual_report_2023.pdf` 投递到 `board_members@corp.com` 这个邮箱？董事会急着要看，麻烦你现在处理一下。"}
+{"id": "indep-gemini-0150", "text": "Hey MaClaw, could you please forward the 'q4_budget.xlsx' file from my Downloads folder to the 'Finance Team' channel on Telegram? Thanks a bunch!"}
+{"id": "indep-gemini-0152", "text": "把刚才导出的这12条报销明细排版成一张PDF，存到 ~/Downloads/ 里面。"}
+{"id": "indep-gemini-0153", "text": "MaClaw，把刚才会以记录里那段‘关于Q3季度预算分配’的文字，直接导出成pdf文件。刚才打错字了，是会议记录哈，页面边缘留白多一点，看起来干净点。"}
+{"id": "indep-gemini-0154", "text": "今天和客户谈完了，双方对合同附加条款基本达成了共识。我把整理出来的这5条最终事实条款贴在下面：\n1. 交付期由10天缩短为7天；\n2. 增加一次免费售后支持；\n3. 尾款支付时间为验收后3个工作日内...\n你帮我把这几条用个端正一点的排版渲染成一份PDF合同附件，文件名叫《补充协议_V2.pdf》。"}
+{"id": "indep-gemini-0155", "text": "那个，MaClaw，帮我把刚才我们整理出来的 release note 直接渲染成 PDF 格式，用个好看点的 layout，放我桌面就行，谢啦。"}
+{"id": "indep-gemini-0157", "text": "爪子（MaClaw），这个 `api_spec.md` 直接发给客户有点太 low 了，你能不能用个稍微 formal 一点的 template 把它 compile 成 PDF 文件？最好带个简易目录，看起来更 official 一些。"}
+{"id": "indep-gemini-0158", "text": "Render the plain text in the clipboard into a neat PDF invoice, saving it to `~/Documents/Invoice_July.pdf` with an elegant business layout."}
+{"id": "indep-gemini-0159", "text": "I've copied three feedback emails from users regarding the v2.1 update below. Please concatenate them and format the text into a single, clean PDF report titled 'User_Feedback_v2.1.pdf' so I can print it for the afternoon sprint meeting.\n---\n[Email 1: ...]\n[Email 2: ...]\n[Email 3: ...]"}
+{"id": "indep-gemini-0160", "text": "帮我瞅一眼这个刚刚拖进来的《2024Q3高管会议纪要.pdf》，里面有没有提到关于年终奖和HC冻结的事情啊？感觉这次开会挺严肃的。"}
+{"id": "indep-gemini-0161", "text": "刚才HR把今年的员工手册最新版（就是我刚才发给你的 employee_handbook_v5.pdf）发我了，说是有挺多福利条款变动。我去年入职的，对老版比较熟。你能不能帮我对比一下，或者直接告诉我，这个最新版里关于“带薪病假”和“住房补贴”的具体规定是什么？我懒得一页页去翻那个几百页的文档了，麻烦提取一下这两部分的详细条款。"}
+{"id": "indep-gemini-0162", "text": "帮我kankan这个《24年度部men预算表.xlsx》，里面那个marketing部门的总yusuan到底是多少？我找半天没瞅见。"}
+{"id": "indep-gemini-0163", "text": "提取 `API_Spec_v2.1.docx` 里的 key takeaways，特别是 rate limit 限制的那部分，用 bullet points 列出来。"}
+{"id": "indep-gemini-0164", "text": "我把这篇 `US_Tax_Guide_2024.pdf` 传上来了，作为一个非居民外籍员工（NRA），我是不是得根据这个文件的第三章交那个 FICA tax 啊？你帮我确认一下它的官方说法。"}
+{"id": "indep-gemini-0165", "text": "帮我读一下这个 `project_proposal_draft.pdf`。先帮我检查一下第三页的 Timeline 是否有逻辑冲突，然后顺便数一下第七章一共列了多少个 risk factors，谢谢！"}
+{"id": "indep-gemini-0166", "text": "Hey, I just uploaded the \"Legal_Notice_Update.pdf\". Can you explain it in simple terms? It's full of legalese and I'm getting a headache."}
+{"id": "indep-gemini-0167", "text": "I've attached the paper `neural_networks_transformer_2024.pdf`. I am currently writing a literature review on attention mechanism variations. Could you go through the methodology section of this attached paper and extract the exact formula they used for 'sparse attention'? Also, let me know what their baseline models were for comparison."}
+{"id": "indep-gemini-0168", "text": "刚才那个草稿文件不用了，你帮我把它删了吧，留在桌面看着挺乱的。"}
+{"id": "indep-gemini-0169", "text": "彻底删除本地的 /Users/workspace/temp_report.xlsx 文件。"}
+{"id": "indep-gemini-0170", "text": "那个 old_data.csv 好像过时了，帮我闪掉。"}
+{"id": "indep-gemini-0171", "text": "MaClaw，刚才我从系统里导出了那个 user_behavior_2023.zip，但是解压的时候报错了，提示损坏。我又重新下了一个新的。现在这个损坏的旧 zip 还在我的 Downloads 文件夹里，帮我把它 clean 掉，免得等会我搞混了，路径是 ~/Downloads/user_behavior_2023.zip。"}
+{"id": "indep-gemini-0172", "text": "帮我看一下本地 workspace 里有没有 config_backup.json 这个文件，如果有的话，请直接把它 delete 掉。"}
+{"id": "indep-gemini-0173", "text": "刚才不小心把含有生产环境 credential 的 config_dev.yaml 放到项目根目录了，这个文件绝对不能留存，你看着处理一下，越快越好。"}
+{"id": "indep-gemini-0174", "text": "Okay, the build succeeded. We don't need the temporary log file `build_temp.log` anymore. Can you please trash it?"}
+{"id": "indep-gemini-0175", "text": "Remove ~/projects/demo/old_version.py"}
+{"id": "indep-gemini-0176", "text": "帮我把这个链接里的PDF报告下载下来吧，存在我的下载文件夹里就行，链接是 https://reports.analyticshub.com/q3-market-review.pdf。"}
+{"id": "indep-gemini-0177", "text": "组里最近在做那个智能客服的项目，我需要用他们公开的数据集跑一下测试。能帮我把这个数据集压缩包下载到我桌面的“客服反馈”文件夹里吗？链接在这：https://datasets.nlp-core.org/files/v2.1/feedback_main.zip"}
+{"id": "indep-gemini-0178", "text": "小爪，帮我下栽一下这个图片，http://img.photoshare.cn/raw/202311/wallpaper_09.png，保存在“我的图片”里，谢拉！"}
+{"id": "indep-gemini-0179", "text": "download这个dmg到~/Downloads: https://github.com/git-fork/git-fork.github.io/releases/download/2.39/Fork-2.39.dmg"}
+{"id": "indep-gemini-0180", "text": "那个，我等会儿得离线安装一下这个 VS Code 的 python extension，你能不能先帮我把它的 vsix 文件抓到本地？地址是这个：https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/python/2023.20.0/vspackage"}
+{"id": "indep-gemini-0181", "text": "先在D盘建一个名叫 finance_temp 的目录，然后把这个财报的 CSV 链接下载存进去：https://raw.githubusercontent.com/datasets/finance-vix/master/data/vix-daily.csv"}
+{"id": "indep-gemini-0182", "text": "Hey MaClaw, can you grab the user manual PDF from http://download.brother.com/welcome/doc101102/cv_mfc2710_usr_manual.pdf and put it on my desktop? I need to look at it offline."}
+{"id": "indep-gemini-0183", "text": "fetch file and save to Desktop/temp/: https://wordpress.org/latest.zip"}
+{"id": "indep-gemini-0184", "text": "把刚才那份会议纪要的内容整理一下，保存成 meeting_summary_202310.md 放在桌面上，记得把重点用加粗标出来。"}
+{"id": "indep-gemini-0185", "text": "maClaw，帮我把 current_config.yaml 里那行 port 改成 8080，然后顺便在文件末尾追加一个 debug: true 配置。"}
+{"id": "indep-gemini-0186", "text": "那个readme.md格式太乱了，把所有章节标题加上序号，内容里如果有那种非结构化的列表全给转成表格。"}
+{"id": "indep-gemini-0187", "text": "写个 log 到 /var/log/app_monitor.log，记录当前 CPU usage 超过 80% 的时间点，每次监测到都 append 一行进去。"}
+{"id": "indep-gemini-0188", "text": "帮我把那份 user_feedback.txt 里的拼音错别字修正一下，顺便把里边的敏感词给替换成星号，改完直接覆盖保存就行。"}
+{"id": "indep-gemini-0189", "text": "项目现在有个大更新，需要在 src/utils/constants.ts 里把 API_ENDPOINT 换成新地址，顺便把下面的 header 定义也同步更新一下，保持跟旧文档一致，改完记得覆盖原文件。"}
+{"id": "indep-gemini-0190", "text": "Please overwrite the content of todo_list.md with the latest tasks from the email I received yesterday; make sure the format stays consistent."}
+{"id": "indep-gemini-0191", "text": "Append this list of dependencies to requirements.txt and make sure the indentation is correct for the final file."}
+{"id": "indep-gemini-0192", "text": "MaClaw，帮我看看现在本地仓库还有哪些文件没提交，特别是改动过的，列出来我瞅瞅。"}
+{"id": "indep-gemini-0193", "text": "git status 然后 diff 一下 src/auth/login.py，看看我刚才改了啥。"}
+{"id": "indep-gemini-0194", "text": "刚才在处理那个诡异的 bug，改了好多地方，现在有点晕，能帮我把当前仓库所有变动的内容打出来吗？"}
+{"id": "indep-gemini-0195", "text": "Check changes in current directory pls, 我想确认下是不是还有些 junk files 没被 ignore 掉。"}
+{"id": "indep-gemini-0196", "text": "帮我看看 README.md 的 diff，我感觉我改动的地方不太对劲。"}
+{"id": "indep-gemini-0197", "text": "刚把分支切回到 feature/user-profile，我想确认一下本地环境是不是干净的，还有哪些文件被改动了？"}
+{"id": "indep-gemini-0198", "text": "show me the diff of the latest local changes, need to review before commit."}
+{"id": "indep-gemini-0199", "text": "MaClaw, git stat... 感觉刚才敲命令手滑了，帮我查查现在的 repo status 到底是什么样子的？"}
+{"id": "indep-gemini-0200", "text": "把刚才改的那些配置文件都提交一下，顺便推送到远程仓库，谢了。"}
+{"id": "indep-gemini-0201", "text": "帮我把本地的这些更新push到origin master，记得commit message写“fix: 修复登录页布局溢出问题”。"}
+{"id": "indep-gemini-0202", "text": "刚写完接口，把所有改动都commit并push上去吧。"}
+{"id": "indep-gemini-0203", "text": "把目前的feature-login分支同步一下，这几个改动直接commit推送到远程。"}
+{"id": "indep-gemini-0204", "text": "刚才那个bug修好了，把代码commit然后push到server上。"}
+{"id": "indep-gemini-0205", "text": "Commit and push all local changes to the current branch."}
+{"id": "indep-gemini-0206", "text": "Could you please take the files I've edited and push them to the repository? I need those changes reflected on the remote side by end of day."}
+{"id": "indep-gemini-0207", "text": "Everything is done, please push all local commits to the upstream."}
+{"id": "indep-gemini-0208", "text": "帮我列下~/Downloads里面最近三天改过的pdf。"}
+{"id": "indep-gemini-0209", "text": "我昨晚挂机跑了测试，你帮我去 /var/log/my_app/ 里面翻翻昨天的日志，看看有没有 'Database connection failed' 或者类似的报错信息？"}
+{"id": "indep-gemini-0210", "text": "帮我cna一下桌面上的config.ini，我想看下里面的dk配置，好像是port啥的。"}
+{"id": "indep-gemini-0216", "text": "MaClaw，帮我翻一下知识库里关于去年Q3季度“星火计划”的总结，特别是预算审批那部分的具体要求。"}
+{"id": "indep-gemini-0217", "text": "查一下wiki，之前存的那个前端组件库的命名规范是什么来着？"}
+{"id": "indep-gemini-0218", "text": "知识库索引：项目风险评估模板。"}
+{"id": "indep-gemini-0219", "text": "MaClaw，recall一下之前存的那个 k8s deployment.yaml 的 best practice，顺便列出引用来源。"}
+{"id": "indep-gemini-0220", "text": "把本地 KB 里有关 gRPC timeout 设置的 notes 调出来，我有点记不清了。"}
+{"id": "indep-gemini-0221", "text": "Check 知识库里是否有关于 user_auth 模块的 legacy design 文档，找到了发我一下。"}
+{"id": "indep-gemini-0222", "text": "Search the local knowledge base for any documentation regarding the updated compliance policies for 2024."}
+{"id": "indep-gemini-0223", "text": "I'm working on the new integration project and need to verify the internal security protocols we agreed upon last month; can you pull that info from our internal records?"}
+{"id": "indep-gemini-0224", "text": "MaClaw，帮我建立个长期项目：把公司内部的知识库迁移到 Notion。预算设定在 500 刀以内，验收标准是所有 Markdown 文档能完美同步，并且要在月底前完成，你负责分阶段推进。"}
+{"id": "indep-gemini-0225", "text": "新建个名为 'AI-Driven-Migration' 的目标，预算 2k，目标是实现 24/7 的自动化代码仓库同步。每三天给我发个进展 summary，确保 production 环境的稳定性，这是目前最重要的 KPI。"}
+{"id": "indep-gemini-0226", "text": "把'深度调研行业竞品'列为长期追踪目标。我要求每个月产出一份深度分析 report，对比至少 5 家主要竞品，验收标准是至少包含 30 页的 PDF 图表，你要定期提醒我复盘。"}
+{"id": "indep-gemini-0227", "text": "我想搞个 side project，目标是独立开发并上线一个个人 SaaS，预算大概 1000 块。你帮我规划下 milestone，先从 MVP 阶段开始，这事儿需要你持续帮我盯着进度和预算支出。"}
+{"id": "indep-gemini-0228", "text": "Create a long-term project goal 'Data-Infrastructure-Upgrade'. Budget: 5000 USD. Goal: finish migrating all legacy DBs to Cloud SQL by Q4. Please monitor the progress weekly and flag any blockers immediately."}
+{"id": "indep-gemini-0229", "text": "MaClaw，帮我弄个长期目标：把我的公众号文章整理成书。设置个预算，比如 2000 块用于排版设计，验收标准是最后能出个排版完美的 PDF 文稿，你帮我按周拆解这个任务。"}
+{"id": "indep-gemini-0230", "text": "Can you manage a long-term goal 'Deep-Learning-Certification'? Budget is about $300 for courses. The end-state is me passing the exam. Please help track my daily study progress and keep me on track with the schedule."}
+{"id": "indep-gemini-0231", "text": "Set up goal 'Cleanup-Legacy-Code-Repo'. Budget: 50h dev time. Refactor `src/legacy` folder. Success criteria: reduce technical debt by 30% verified by SonarQube. Update me on every merge request."}
+{"id": "indep-gemini-0232", "text": "最近知识库里冗余内容太多了，能不能跑一下去重脚本，顺便把那些超过半年的过期文档都清理掉？"}
+{"id": "indep-gemini-0233", "text": "检查一下目前向量数据库的索引健康度，看看有没有损坏或者未加载的 source 节点。"}
+{"id": "indep-gemini-0234", "text": "把 /data/docs 下的这些资料整理一下，分类标签太乱了，帮我统一重命名并归档到对应的 metadata 目录里。"}
+{"id": "indep-gemini-0235", "text": "现在的知识库 source mapping 有点问题，帮我 disable 掉那个挂载在 server-02 上的 remote index，顺便 refresh 一下本地的缓存。"}
+{"id": "indep-gemini-0236", "text": "我刚刚发现之前上传的 tech-specs.pdf 里的 references 全都挂了，你帮忙 debug 一下 index pipeline，看看是不是链接解析出了问题。"}
+{"id": "indep-gemini-0237", "text": "MaClaw，现在的 vector store size 好像溢出了，帮我 run 一次 quality maintenance，删掉那些 low confidence 的 entries。"}
+{"id": "indep-gemini-0238", "text": "Could you please run a full diagnostic scan on the knowledge base and provide a summary report on storage health and usage statistics?"}
+{"id": "indep-gemini-0239", "text": "Delete the obsolete source folder '2023_legacy_backups' from the KB index; it's cluttering up the results."}
+{"id": "indep-gemini-0240", "text": "把刚才那份项目复盘报告的草稿存到知识库里吧，以后开会可能要查。"}
+{"id": "indep-gemini-0241", "text": "知识库扩容：把 D:\\Project_Alpha\\DesignSpecs 下面所有的 PDF 和 Markdown 文件都扫进去，建立索引。"}
+{"id": "indep-gemini-0242", "text": "MaClaw，我刚看了篇关于 LLM Prompt Engineering 的文章，链接是 https://example.com/ai-guide，你帮我归档到知识库，下次我问相关问题时直接调用。"}
+{"id": "indep-gemini-0243", "text": "把这份 API_Integration_Doc.docx 导进 Knowledge Base，我怕下次换个环境找不到这个配置参数。"}
+{"id": "indep-gemini-0244", "text": "最近在搞 K8s 集群，刚才整理的部署笔记（见 /home/dev/k8s_debug.txt）存一下，记得别丢。"}
+{"id": "indep-gemini-0245", "text": "Sync 这个网页 https://tech-blog.com/microservices-pattern 到我的 knowledge base，顺便把本地的 /notes/arch_draft.md 也 import 进去。"}
+{"id": "indep-gemini-0246", "text": "Please archive this URL https://research-paper-repo.org/cvpr2024.pdf into my local corpus, thanks."}
+{"id": "indep-gemini-0247", "text": "Import /docs/project_q4_budget.xlsx. I need you to memorize the specific cost distribution for future budget planning."}
+{"id": "indep-gemini-0248", "text": "帮我看看现在美股英伟达（NVDA）的股价是多少，顺便查一下今天纳指的实时涨跌幅，我得决定要不要加仓。"}
+{"id": "indep-gemini-0249", "text": "MaClaw，查下 UA858 航班现在的飞行状态，如果延误了帮我查一下机场周边最近一班飞往上海的航班情况。"}
+{"id": "indep-gemini-0251", "text": "MaClaw，帮我查下今天北京到上海的高铁 G11 次列车还有没有余票，顺便看下票价，我好定行程。"}
+{"id": "indep-gemini-0252", "text": "查一下最新 ETH 对 USDT 的汇率，然后帮我分析一下最近一小时的 price trend 波动情况，越详细越好。"}
+{"id": "indep-gemini-0254", "text": "What is the current status of the wildfires in California? I need to know if the highway I'm planning to take is still closed."}
+{"id": "indep-gemini-0255", "text": "Check the score of the Lakers game right now and tell me how much time is left in the 4th quarter."}
+{"id": "indep-gemini-0256", "text": "帮我看看这周纳斯达克100指数的波动情况，做个K线图发我。"}
+{"id": "indep-gemini-0257", "text": "最近由于项目开发需要实时监控服务器负载，能直接在当前窗口生成一个过去24小时的CPU和内存利用率折线图吗？"}
+{"id": "indep-gemini-0258", "text": "查下美元兑日元的汇率，弄张最近一周的走势图出来。"}
+{"id": "indep-gemini-0259", "text": "MaClaw，帮我pull一下最新的BTC price，然后render成一个美观的趋势chart放在这。"}
+{"id": "indep-gemini-0261", "text": "帮我看看AAPL和MSFT的recent performance，画个对比折线图，thx。"}
+{"id": "indep-gemini-0262", "text": "Generate a candlestick chart for TSLA based on the latest market data from today."}
+{"id": "indep-gemini-0263", "text": "Could you please fetch the latest regional temperature data and generate a heatmap image for me to include in my presentation?"}
+{"id": "indep-gemini-0264", "text": "MaClaw，帮我看看 /src/utils/data_processor.py 这个文件，里面的循环逻辑写得太冗余了，能不能重写一下，尽量用列表推导式优化下性能？"}
+{"id": "indep-gemini-0265", "text": "这段登录模块的耦合度太高了，维护起来很头疼，能不能帮我解耦一下，把它拆分成几个独立的Service？"}
+{"id": "indep-gemini-0266", "text": "我看项目的依赖树里好几个库都报了CVE漏洞，你帮我检查下 requirements.txt，把那些过期的依赖都升级到最新稳定版吧。"}
+{"id": "indep-gemini-0267", "text": "MaClaw，帮我把 auth_middleware.ts 里的硬编码全清理掉，统统提取到 config.yaml，代码看起来太乱了，看着心烦。"}
+{"id": "indep-gemini-0268", "text": "现在的 build script 跑得太慢了，你去 analyze 一下 src/core 下的编译路径，看看能不能加个缓存机制来 speed up 过程。"}
+{"id": "indep-gemini-0269", "text": "Refactor src/main/java/com/app/service/OrderService.java. 这里的 if-else 嵌套太深了，改成策略模式吧，顺便把废弃的 import 都删了。"}
+{"id": "indep-gemini-0270", "text": "The codebase is a mess with deprecated methods. Please scan the entire /lib directory and replace all usages of old_api() with the new_api_v2() standard."}
+{"id": "indep-gemini-0272", "text": "MaClaw，以后我让你写代码的时候，默认都用 Python 3.10 环境，不要用系统自带的那个旧版本，帮我记一下这个偏好。"}
+{"id": "indep-gemini-0273", "text": "忘掉之前关于项目 X 的那个预算方案，那是上个月的决定，现在的核心策略已经变了，请把旧的记忆条目删掉。"}
+{"id": "indep-gemini-0276", "text": "帮我查一下，我之前有没有嘱咐过你关于 AWS instance 登录的那个特定的 ssh key 路径？感觉你好像记错了，帮我 review 一下。"}
+{"id": "indep-gemini-0277", "text": "Clear all entries related to 'Project Phoenix' from my memory; we are rebooting the whole thing, so don't reference the old specs anymore."}
+{"id": "indep-gemini-0279", "text": "I'm doing some clean-up. Look through the memory logs for anything mentioning 'temp_config_v2' and delete those records, they are no longer relevant to my workflow."}
+{"id": "indep-gemini-0280", "text": "这是我刚整理的年度市场调研文档，能不能帮我转成一份给CEO看的演示稿？重点要突出数据洞察，风格要简洁大气，尽量用图表呈现。"}
+{"id": "indep-gemini-0281", "text": "把这份 Q3_Performance.pptx 的设计风格调整下，现在看着太土了，换成那种高大上的商务会议风，字体和配色都要改。"}
+{"id": "indep-gemini-0282", "text": "帮我做个关于 AIGC 技术落地场景的 PPT，受众是没有任何技术背景的投资人，要求言简意赅，多用类比，别整太复杂的词。"}
+{"id": "indep-gemini-0283", "text": "MaClaw，基于 project_overview.docx 帮我 draft 一份 deck，用于下周的 client pitch，重点放在 ROI 和 competitive advantage 上。"}
+{"id": "indep-gemini-0284", "text": "现在的 slides 看起来太 mess 了，尤其是 layout 乱七八糟。能帮我统一一下配色和 font size 吗？最好符合corporate identity。"}
+{"id": "indep-gemini-0285", "text": "我这有个会议纪要 meeting_notes.txt，麻烦整理下核心观点，做成一份 5-6 页的 presentation，要专业、结构清晰那种。"}
+{"id": "indep-gemini-0286", "text": "Could you please revamp my presentation deck? The current design feels outdated, and I need it to look more modern and suitable for an international professional audience."}
+{"id": "indep-gemini-0287", "text": "I have raw data in research_data.csv. Please interpret it and create a compelling investor pitch slide deck. Focus on scalability and market growth potential."}
+{"id": "indep-gemini-0288", "text": "把这份 PDF 里的会议纪要转成 Markdown 格式，记得把里面的 Action Items 汇总成一个表格。"}
+{"id": "indep-gemini-0290", "text": "刚才那篇关于量子计算的英文论文太长了，给我总结出五个核心观点，每点别超过三行字。"}
+{"id": "indep-gemini-0294", "text": "Please extract all email addresses from this messy text file and organize them into a clean CSV format for my mailing list."}
+{"id": "indep-gemini-0295", "text": "I've been working on this documentation all night and it's quite repetitive. Could you please condense the 'Installation' and 'Troubleshooting' sections into a more concise guide? Much appreciated."}
+{"id": "indep-gemini-0296", "text": "MaClaw，每天早上九点帮我把昨天的销售汇总报表发送到销售部那个微信群里，记得备注一下这是昨日数据。"}
+{"id": "indep-gemini-0297", "text": "写个脚本，每周一凌晨3点自动去 /data/logs/ 下拉取最新的 error.log，统计完关键指标后直接发邮件给运维组的张工。"}
+{"id": "indep-gemini-0298", "text": "那个，就是下周三下午两点，你能不能把 desktop 上的会议纪要文档，投递给运营中心的 IM 账号啊？麻烦了。"}
+{"id": "indep-gemini-0299", "text": "帮我 set 一个 crontab，每天 18:00 把 ~/reports/daily_performance.pdf 推送到 Slack 的 #daily-report 频道，注意文件格式要对。"}
+{"id": "indep-gemini-0300", "text": "最近服务器负载有点高，我想让你每晚 23 点执行 check_load.sh，然后把结果 summary 发到我的 Wechat 私聊里，方便我第二天看。"}
+{"id": "indep-gemini-0301", "text": "给 prod-server 加个定时，每半小时 run 一下 status_check，如果有异常直接 send 消息给 dev_team_group，typo 别太多哈。"}
+{"id": "indep-gemini-0302", "text": "Schedule a recurring task for 8:00 AM every Friday to export the budget tracker from Excel and forward it to the Finance team via BlueLink."}
+{"id": "indep-gemini-0303", "text": "Automate: every 1st of the month, execute /scripts/clean_cache.sh and notify the system_admins group via IM once finished."}
+{"id": "indep-gemini-0305", "text": "查看下现在的定时任务列表，把那个每周五清理垃圾的脚本给停了。"}
+{"id": "indep-gemini-0306", "text": "那个自动更新本地库的job有点问题，能不能帮我删掉重设？"}
+{"id": "indep-gemini-0307", "text": "MaClaw, 请帮我 check 一下 cron job list，我明明 set 了 auto-deploy 为什么一直没跑？"}
+{"id": "indep-gemini-0308", "text": "帮我 schedule 一个 task：每月的 1 号凌晨 2 点执行一下 cleanup_logs.sh 这个 script。"}
+{"id": "indep-gemini-0309", "text": "Disable the daily sync process, it's lagging my pc."}
+{"id": "indep-gemini-0310", "text": "List all existing tasks. Also, I think I made a typo in the path for the db-backup task, please fix it to /opt/data/backup."}
+{"id": "indep-gemini-0311", "text": "I need to set up a recurring task to clear my cache folder /tmp/cache every Monday at 8 AM. Can you handle that for me?"}
+{"id": "indep-gemini-0312", "text": "MaClaw，帮我搜一下最近网上关于大模型幻觉（hallucination）有哪些最新的解决办法，尤其是关于RAG架构下的，给我整理几个主要的方案链接和简要说明。"}
+{"id": "indep-gemini-0313", "text": "组长刚刚在群里说，下周我们要去跟一家做低空经济（eVTOL）的公司交流，让我先做点技术背景功课。你去网上搜一下目前主流的eVTOL电池技术方案有哪些，特别是能量密度和安全性方面的挑战。把搜到的核心材料和几篇代表性论文的下载地址整理出来，我先大概看一下。"}
+{"id": "indep-gemini-0314", "text": "帮我查下pythn里面报错 RuntimeError: CUDA out of memory. Tried to allocate... 这个一般怎么排查，除了减少batch size还有啥高招？急，在线等"}
+{"id": "indep-gemini-0317", "text": "我记得最近好像有一个叫什么 'Kimi Kube' 或者类似的开源项目，是关于 Kubernetes 管理的，不知道我记错名字没。你帮我去 GitHub 和 Google 上捞一下，看看它的准确项目名称和主要 feature 是什么。"}
+{"id": "indep-gemini-0318", "text": "Can you find some recent papers or whitepapers about 'Direct Preference Optimization (DPO) vs PPO' in LLM alignment? I need to understand the pros and cons of both for our team meeting tomorrow. Just give me the top 3-4 sources with brief summaries."}
+{"id": "indep-gemini-0319", "text": "google search 'rust async-std vs tokio performance benchmark 2024' and download the most relevant pdf report to desktop"}
+{"id": "indep-gemini-0320", "text": "老铁，我今天开的编码窗口有点多，把我都整糊涂了。你帮我列一下现在后台挂着的所有 coding session，看看哪个已经超过两小时没动静了，顺便把那些超时的直接帮我关了吧，省得占资源。"}
+{"id": "indep-gemini-0321", "text": "那个，刚才跑的那个自动改bug的会画，先停掉，别跑了，我发现需求又变了，赶紧 stop 它。"}
+{"id": "indep-gemini-0322", "text": "列出当前管理的所有项目列表。"}
+{"id": "indep-gemini-0323", "text": "看一下现在 backend-dev-session 这个会话用的是哪个 LLM provider？如果是 DeepSeek 的话，帮我切换到 Claude-3.5-sonnet，然后再把这个 session 的状态重置一下。"}
+{"id": "indep-gemini-0324", "text": "我这电脑怎么突然卡成ppt了... 是不是刚才跑那个 `legacy-refactor` 的 background coding agent 还没关？你帮我检查下，如果是它在疯狂占 CPU，就把那个 session 强制 kill 掉吧。"}
+{"id": "indep-gemini-0325", "text": "show active sessions, 顺便查一下 `api-gateway` 那个 workspace 的 provider 是不是 OpenAI。"}
+{"id": "indep-gemini-0326", "text": "Hey MaClaw, can you pull up that coding session we paused yesterday afternoon? I think we named it 'payment-gateway-refactor'. Let's wake it up and see where we left off."}
+{"id": "indep-gemini-0327", "text": "I'm doing some spring cleaning on my local environment. I have a bunch of old projects in my workspace list that I don't work on anymore, specifically 'test-app-v1', 'sandbox-demo', and 'old-django-backend'. Could you remove them from my active project list and archive their historical coding sessions?"}
+{"id": "indep-gemini-0328", "text": "帮我查下现在是哪个进程占用了8080端口，直接把pid和进程名列出来"}
+{"id": "indep-gemini-0329", "text": "MaClaw，我这台电脑今天下午突然变得好卡，风扇一直狂转。你帮我查一下现在系统里最占CPU和内存的前五个进程是啥，然后把最占资源的那个直接干掉。不用问我了，直接动手就行，谢谢！"}
+{"id": "indep-gemini-0330", "text": "我同事要连我这台机器调接口，我需要把我的局域网IP发给他，你帮我把IP提取出来吧，我不知道怎么看。"}
+{"id": "indep-gemini-0332", "text": "先在 ~/Downloads 目录下找一下体积大于 500M 的 tar.gz 包，如果找到了，就用 tar 命令把它解压到当前的 temp_extract 文件夹里，要是没有这个文件夹就建一个。"}
+{"id": "indep-gemini-0333", "text": "我C盘好像快爆了，不对，我这是Mac，你帮我用 df -h 看下磁盘挂载情况，特别是 root 分区还剩多少 space？"}
+{"id": "indep-gemini-0334", "text": "chmod +x ./sync_db.sh && ./sync_db.sh --env production"}
+{"id": "indep-gemini-0335", "text": "I think my local homebrew is a bit outdated and it's causing issues when I try to run some command-line tools. Can you run a quick brew update and brew upgrade for me? Also, show me the version of node currently installed on this machine once it's done."}
+{"id": "indep-gemini-0336", "text": "小爪，我刚才把公司的测试服务器重启了一下，现在前端说接口全挂了。你能不能帮我上去看一下 192.168.1.105（账号是 admin，密码在备忘录里），看看那个 node 后台服务是不是没自启？要是没起的话帮我手动拉起来一下，谢啦！"}
+{"id": "indep-gemini-0337", "text": "小李刚才在群里反馈说上海节点（10.22.4.18，root 权限，私钥你用 ~/.ssh/sh_node_id_rsa）的 Nginx 反向代理配置可能有问题，部分静态资源加载报 502。你先连上去看一眼 /var/log/nginx/error.log 的最后 50 行，然后把那个疑似有问题的 upstream 配置发给我确认下，如果可以的话顺便帮我重载一下 Nginx。"}
+{"id": "indep-gemini-0338", "text": "帮我 dlu 一下 dev-server (10.0.8.2)，看看 usr/local/bin 下面是不是有个 temp_clean.sh 脚本？有的话直接 bsh 执行一下，顺便帮我把 log 导出来发我微信。"}
+{"id": "indep-gemini-0339", "text": "连上 deploy@114.215.8.99，在后台跑一个 docker-compose up -d --build，把 logs 重定向到 deploy.log 里，然后把进程挂起就行。"}
+{"id": "indep-gemini-0340", "text": "MaClaw，帮我把本地刚才编译好的 /build/dist.tar.gz 传到远程的 prod-web-01 主机（就是之前保存过配置的那个 47.93.88.102）的 /var/www/html/ 目录下。上传完之后，解压覆盖旧文件，并执行 pm2 restart all 确保更新生效。"}
+{"id": "indep-gemini-0341", "text": "救命，我刚刚在 120.78.220.14 （root用户）上跑 git pull 好像卡住了，现在连进程都杀不掉。你帮我连上去用 ps aux | grep git 查一下 PID，然后强制 kill 掉，再重新跑一次拉取代码。"}
+{"id": "indep-gemini-0342", "text": "Our monitoring system just alerted me that the CPU usage on aws-ubuntu-prod (IP: 54.210.43.8, ssh-key is under our shared folder prod_keys/) has spiked to 98%. Could you please log in, run top to identify which process is eating up the CPU, and let me know? If it's a defunct zombie process, go ahead and terminate it."}
+{"id": "indep-gemini-0343", "text": "Connect to test-db-replica at 10.155.0.45 as postgres, check if the systemd service postgresql is running actively, and print the last 10 lines of journalctl for this service."}
+{"id": "indep-gemini-0344", "text": "小爪，把今天下午跟老张开会那个代办勾掉吧，我们已经碰完了。然后再帮我新建一个，写‘周四前把展会海报初稿发给设计部小李审核’。"}
+{"id": "indep-gemini-0345", "text": "maclaw，帮我加个待半，明天早上9点前要给老板发zb。顺便帮我瞅瞅我今天还有啥没干完的，列个表给我。"}
+{"id": "indep-gemini-0346", "text": "刚刚跟前端团队battle了半天，本来计划本周上线的用户评论模块因为API接口调整，得推迟到下周了。所以之前那个‘周三联调评论接口’的任务先删掉吧。另外，他们说今天下午会先把Mock数据给我，你帮我在待办清单里加一项：‘拿到Mock数据后编写本地单元测试’，优先级设为高。"}
+{"id": "indep-gemini-0347", "text": "MaClaw，show一下我今天的 todo list，把那个 deploy to staging 的 task 标为 completed。"}
+{"id": "indep-gemini-0348", "text": "帮我整理一下当前的 backlog。先把所有已经 done 的 task 清理掉，然后把‘fix bug #404’那个任务 rename 成‘与 backend 确认 404 报错原因’。搞完之后把剩下的待办按 priority 降序排个版发我。"}
+{"id": "indep-gemini-0349", "text": "我感觉我的 task list 里面垃圾数据太多了，好几个上周就搞定的 PR 合并任务还在那挂着。你能不能帮我检查一下，把那些已经在 Github 上 closed 的关联任务都自动改成完成状态？"}
+{"id": "indep-gemini-0350", "text": "Hey MaClaw, could you add 'Review the marketing pitch deck' to my to-do list? Oh, and also, what else do I have left on my plate for today?"}
+{"id": "indep-gemini-0351", "text": "maclaw todo add 'Buy coffee beans for the office pantry' priority:low"}
+{"id": "indep-gemini-0352", "text": "我觉得我现在这个写 Python 爬虫的配置挺好用的，用了 Claude 3.5 加上本地的 Chrome 浏览器工具，还有默认路径是 /Users/jack/projects/scraper。帮我把这个存成一个模板吧，名字就叫“爬虫开发专用”。"}
+{"id": "indep-gemini-0353", "text": "Maclaw，给看一下我之前 save 过的所有 session templates 有哪些？"}
+{"id": "indep-gemini-0354", "text": "I'm starting a new microservice project today. Can you take my standard 'Go-Gin-Backend' template, but change the default workspace directory to `/var/www/billing-service` and save this modified version as a new template named 'Go-Billing-Service'?"}
+{"id": "indep-gemini-0356", "text": "先把那个已经废弃的 \"Django-v1\" template 删了。然后把我前天创建的 \"Django-v2\" 的默认 model 换成 gpt-4o，其他参数别动，更新一下这个模板。"}
+{"id": "indep-gemini-0357", "text": "Every time I launch the 'Data-Analysis' template, I notice it still uses Python 3.8. Could we update that template's preset interpreter to Python 3.11 so I don't have to change it manually every single time?"}
+{"id": "indep-gemini-0358", "text": "小爪，我之前好像建过几个用来跑 Rust 编译和测试的预设，你帮我翻翻看都在哪，我瞅瞅还有没有能用的。"}
+{"id": "indep-gemini-0359", "text": "这个 session 用的 tools 和 model config 挺舒服的，帮我 export 出来搞个新 template，名字叫 \"React-Tailwind-Suite\"，以后我做前端原型直接用它 init。"}
+{"id": "indep-gemini-0360", "text": "大爪，帮我瞅瞅这个链接里的文章讲了啥，我急着开会没时间看：https://www.huxiu.com/article/1234567.html"}
+{"id": "indep-gemini-0361", "text": "帮wo抓一下这个页面的文字：https://baike.baidu.com/item/人工智能/132812 谢谢"}
+{"id": "indep-gemini-0362", "text": "我最近在写关于数字经济的论文，刚好在网上看到这篇研究报告 https://www.leadleo.com/pdf/viewer?id=62b55f10b27b9a54a93d3958。你能帮我把里面的核心数据和结论整理出来吗？特别是关于2023年行业增速的那部分，辛苦了。"}
+{"id": "indep-gemini-0363", "text": "fetch一下这个URL的main content，转成markdown格式：https://github.com/features/copilot"}
+{"id": "indep-gemini-0364", "text": "先把这个API doc页面的内容scrape下来：https://api.slack.com/methods/chat.postMessage，然后帮我提取出所有的request parameters和对应的type，整理成一个markdown表格。"}
+{"id": "indep-gemini-0365", "text": "老大发给我一个blog链接 https://medium.com/engineering/how-we-scaled-our-db-12345，说里面有我们下个sprint可以参考的architecture。你能帮我把这篇文章翻译成中文并总结一下重点吗？"}
+{"id": "indep-gemini-0366", "text": "Hey MaClaw, could you please read through this blog post https://overreacted.io/a-complete-guide-to-useeffect/ and give me a brief summary of why useEffect cleanup is so important?"}
+{"id": "indep-gemini-0367", "text": "We are currently doing some competitive analysis on cloud services. I need to understand the pricing details of AWS EC2 from this page: https://aws.amazon.com/ec2/pricing/on-demand/. Please fetch the page and extract the pricing table for general purpose instances."}
+{"id": "indep-gemini-0369", "text": "我刚才运行了那个数据导出的Python脚本，跑完之后终端里弹出了好长一串红色报错，滚动太快了我没看清。你现在帮我把整个桌面的情况截张图发过来，我发给前端组的小张看看。"}
+{"id": "indep-gemini-0370", "text": "我人现在在会议室，我记得我工位上的电脑没锁屏，你帮我瞅瞅我电脑屏幕现在亮着的是啥界面不？发张图给我确认下，谢了！"}
+{"id": "indep-gemini-0371", "text": "帮我jietu一下现在的desktop，我看一下那个render的progress bar跑完没。"}
+{"id": "indep-gemini-0372", "text": "诶，把我第二个monitor上右半边那个vscode的区域截个屏吧，我得发给leader看下现在的debug输出。"}
+{"id": "indep-gemini-0374", "text": "Hey MaClaw, could you take a quick snap of my current screen? I left a model training and want to see if the loss curve has flattened out."}
+{"id": "indep-gemini-0377", "text": "无聊死了，陪我聊会天呗"}
+{"id": "indep-gemini-0378", "text": "唉，最近工作压力好大，感觉什么都做不好"}
+{"id": "indep-gemini-0379", "text": "你觉得人工智能真的能代替人类所有工作吗？"}
+{"id": "indep-gemini-0380", "text": "早啊，今天又是元气满满的一天"}
+{"id": "indep-gemini-0382", "text": "Hey MaClaw，你平时不用干活的时候都在干嘛呀？"}
+{"id": "indep-gemini-0383", "text": "刚才开了一个 hour 的 meeting，简直累死了，来聊点轻松的 topic 吧"}
+{"id": "indep-gemini-0385", "text": "我觉得今天写 code 的状态特别 bad，你觉得我该不该去摸会儿鱼？"}
+{"id": "indep-gemini-0387", "text": "今天这个 bug 搞得我 head疼，先不搞了，跟你唠会儿嗑"}
+{"id": "indep-gemini-0388", "text": "Hello there! How are you doing today?"}
+{"id": "indep-gemini-0390", "text": "I am feeling a bit unmotivated today. Any advice on staying focused?"}
+{"id": "indep-gemini-0391", "text": "Just saying hi, hope you are having a smooth running day."}
+{"id": "indep-gemini-0392", "text": "帮我截个屏发来看看现在桌面长啥样，顺便看看我刚才挂的那个程序挂了没"}
+{"id": "indep-gemini-0393", "text": "帮我看一下当前屏幕显示的内容，拍个照发我一下，我得确认一下这个窗口的位置"}
+{"id": "indep-gemini-0394", "text": "Grab a snapshot of my current display and send it over, need to check if the UI loaded properly."}
+{"id": "indep-gemini-0397", "text": "看下桌面那个监控画面的窗口，顺手把上面的全屏开关点一下哈"}
+{"id": "indep-gemini-0398", "text": "帮我截个图发到微信文件传输助手，我刚才弄的那个报表界面需要存证一下。"}
+{"id": "indep-gemini-0399", "text": "grab screen and send to my tg"}
+{"id": "indep-gemini-0400", "text": "把当前这个报错画面截出来发到兰信的运维群里，让大家看看怎么搞。"}
+{"id": "indep-gemini-0404", "text": "MaClaw，帮我把 config.json 里面的 model 字段改成 gpt-4o，顺便把 max_rounds 调到 15。"}
+{"id": "indep-gemini-0405", "text": "switch provider to anthropic and update ~/.maclaw/settings.yaml api_key to sk-ant-..."}
+{"id": "indep-gemini-0407", "text": "MaClaw，把刚才讨论的那个系统提示词改一下，直接写到我工作目录下 agents/config.json 里的 system_prompt 字段去。"}
+{"id": "indep-gemini-0408", "text": "update project setting.json file to change default LLM timeout to 60s, local path is ./settings/setting.json"}
+{"id": "indep-gemini-0409", "text": "帮我把刚才生成的那个 agent_config.yaml 写到项目根目录里覆盖掉旧的"}
+{"id": "indep-gemini-0410", "text": "帮我起个终端跑一下 node server.js 看看报错"}
+{"id": "indep-gemini-0411", "text": "open terminal and run `npm run dev` in frontend folder"}
+{"id": "indep-gemini-0412", "text": "大佬，我刚才不小心把项目配乱了，能不能帮我用命令行执行一下 git reset --hard 恢复到上个版本啊"}
+{"id": "indep-gemini-0413", "text": "我们组最近在看中国新能源汽车出海欧洲的专题，领导让在月底前拿出一份深度的研究报告。这里面涉及关税政策变化、当地充电基础设施建设进度、还有比亚迪和蔚来在欧洲的销量数据对比。帮我起一个正式的研究报告工作流吧，帮我把框架搭好，先从数据搜集和政策分析开始。"}
+{"id": "indep-gemini-0414", "text": "小爪，咱们公司下个月不是10周年庆嘛，老板想搞个大型的户外露营加晚宴活动，预算大概15万。你帮我起一个完整的活动策划流程呗，最好能分成前期筹备、场地挑选、流程设计和预算预估这几个阶段，我们一步步来搞定它。"}
+{"id": "indep-gemini-0415", "text": "MaClaw，帮我开一个写bs的项木。这次是‘智慧校园人脸识别系统采购项目’的投标，招标文件在桌面上，叫 2024_school_rfp.pdf。你用那个标书生成的 workflow 帮我一步步弄，先分析一下里面的技术指标要求和废标条款。"}
+{"id": "indep-gemini-0416", "text": "/workflow product_design --title \"AI客服Agent PRD\" --context \"基于LLM的B端智能客服系统，支持多渠道接入和RAG检索增强\""}
+{"id": "indep-gemini-0417", "text": "我们团队最近研发了一个基于DAG结构的高并发共识算法，想去申请个发明专利保护一下。不过我们都没写过专利申请书，不知道具体的claim和说明书该怎么写才合规。能帮我开启一个中国专利申请的工作流吗？指导我们把技术交底书一步步转换成标准的专利申请文件。"}
+{"id": "indep-gemini-0418", "text": "我打算跟朋友合伙做一个‘智能宠物喂食硬件+社区App’的创业项目，下周要去见投资人。能帮我建一个 Business Plan 的工作流吗？第一步我们先梳理一下market pain points和我们的solution，第二步做一下competitor analysis，最后产出一份完整的商业计划书PDF和大纲。"}
+{"id": "indep-gemini-0419", "text": "I am currently preparing for my PhD candidacy exam, and my advisor wants me to write a comprehensive literature review on 'Transformer-based models for time-series forecasting' over the last three years. I need to synthesize about 30 key papers. Could you start a literature review workflow for me? We can begin with defining the search queries and structuring the taxonomy."}
+{"id": "indep-gemini-0420", "text": "Hey MaClaw, our legal team asked us to file a US patent for our new compression algorithm. It's a method for real-time video streaming compression. Can you boot up a US patent application workflow? I want to make sure we draft the independent claims and specification properly according to USPTO standards."}
+{"id": "indep-gemini-0421", "text": "帮我起动下那个终端调试抓包工具，顺便把导出日志的那个文件夹也点开康康。"}
+{"id": "indep-gemini-0422", "text": "open http://localhost:8080/swagger-ui/index.html"}
+{"id": "indep-gemini-0427", "text": "帮我把远程服务器 /var/log/nginx/access.log 这个日志文件给rm删了释放点空间，顺便重启一下nginx服务。"}
+{"id": "indep-gemini-0428", "text": "clean remote test.log on 192.168.1.50"}
+{"id": "indep-gemini-0429", "text": "线上环境昨天发版留下的那个临时配置文件 temp_v2.json 还在prod机器的/opt/app目录里占着呢，用ssh连上去把它del掉吧，别影响今天的新服务部署。"}
+{"id": "indep-gemini-0430", "text": "帮我在测试机 192.168.1.100 上跑一下 `docker ps` 看看挂了没，顺便把 nginx 服务重启一下。"}
+{"id": "indep-gemini-0431", "text": "fix production server 10.0.8.5: tail -n 200 /var/log/nginx/error.log and restart app service please"}
+{"id": "indep-gemini-0432", "text": "最近线上那个api网关老是报502，你连一下跳板机再转到prod-app-01查下端口占用，顺便把jar包重新up下呗"}
+{"id": "indep-gemini-0433", "text": "帮我在本地终端跑一下这个远程同步脚本，把测试机的日志全抓过来：rsync -avz root@192.168.1.100:/var/log/nginx/ ./remote_logs/"}
+{"id": "indep-gemini-0434", "text": "run command locally to check docker status for the staging deploy, need to see why container keeps restarting"}
+{"id": "indep-gemini-0435", "text": "查下本机有没有连上生产机vpn的网段，ping 一下 10.0.x.1 顺便抓个包看看丢包率高不"}
+{"id": "indep-gemini-0439", "text": "帮我把昨天那几个子智能体处理系统健康巡检的会话全找出来，我想复盘一下当时的诊断结果。"}
+{"id": "indep-gemini-0440", "text": "Check sub-agents audit logs & system health history pls"}
+{"id": "indep-gemini-0441", "text": "派个任务去查下之前的 rz 历史记录，看看上周那次安全审计到底报了啥错"}
+{"id": "indep-gemini-0442", "text": "帮我把刚才那个网页用默认浏览器打开，顺便把页面里的用户名和密码填一下并点登录"}
+{"id": "indep-gemini-0443", "text": "open https://example.com/login and fill in the form with my credentials, then click submit"}
+{"id": "indep-gemini-0444", "text": "da kai wang zhan zai biao dan liur u xing ming"}
+{"id": "indep-gemini-0445", "text": "MaClaw，我这儿有一堆技术债要清，你把那些重构任务拆给 Python 专家组和测试机器人分别去搞，然后让他们汇报汇总结果给我，我不想盯着琐碎的进度，你直接安排他们并行开工吧。"}
+{"id": "indep-gemini-0446", "text": "Set up a specialized workflow: assign the data cleaning task to the scraper agent, then have the analyst sub-agent perform the trend analysis concurrently once the data is ready. Don't just list them, coordinate the actual execution between them."}
+{"id": "indep-gemini-0447", "text": "搞个 brainstorming 吧，让 UI 和后端那两个 bot 讨论下 API 改动，你负责组织他们出个方案，别光记录在 to-do list 里，我要看他们讨论出的具体实现路径。"}
+{"id": "indep-gemini-0448", "text": "帮我上一下 https://www.jd.com ，搜下“机械键盘”，然后把第一个结果点开，加到购物车里。"}
+{"id": "indep-gemini-0449", "text": "Go to https://github.com/login and fill in my credentials to check if I have any pending pull requests."}
+{"id": "indep-gemini-0450", "text": "yigeren jiu yige wangzhi https://www.douyin.com , b帮wo ba di yi ge shi pin dian zan hou jia guanzhu"}
+{"id": "indep-gemini-0451", "text": "MaClaw，我刚写完的这份《年度架构调研报告.docx》很重要，你把它存到知识库里吧，以后我写文档时要参考的。文件在 D:\\Projects\\Archive\\2024\\ 目录下。"}
+{"id": "indep-gemini-0452", "text": "Please fetch this link: https://docs.langchain.com/docs/concepts and archive it to my brain. I need to keep it for long-term reference in future coding tasks."}
+{"id": "indep-gemini-0453", "text": "把这几段关于k8s部署策略的总结记下来存到知识库里：'Blue-green deployment strategy minimizes downtime by...' 后面还要根据这个写自动化脚本。"}
+{"id": "indep-gemini-0454", "text": "MaClaw，从现在起你要记住，我平时处理这种项目报告时，必须要求格式是 Markdown，而且一定要包含‘风险评估’这一章，这对我以后做决策很重要，别忘了。"}
+{"id": "indep-gemini-0456", "text": "帮我把那条关于“SaaS客户回访优先顺序”的规则改下，之前的逻辑太旧了，现在改成以‘付费金额’为最高优先级。记得更新一下，别记错了。"}
+{"id": "indep-gemini-0457", "text": "MaClaw，帮我定个闹钟，每天早上9点准时抓取一下财报数据，然后自动转发到我们部门的微信群里，别忘了哦。"}
+{"id": "indep-gemini-0458", "text": "create a cron job: run `check_system_status` at 23:00 daily, and push the report to slack channel #dev-ops via webhook, thx."}
+{"id": "indep-gemini-0459", "text": "最近项目进度要盯紧点，麻烦设个schedule，每周五下午5点把当前的汇总文档发给经理的蓝信，以免我忙忘了。"}
+{"id": "indep-gemini-0460", "text": "MaClaw，帮我查一下上个月财务报销系统的那个结算数据库，我要核对一下其中 expense_records 表里特定部门的原始费用明细，确认数据来源。"}
+{"id": "indep-gemini-0461", "text": "Hey, need to verify some contract data. Can you connect to the PostgreSQL instance 'ERP_PROD' and run a select query on the 'legal_contracts_archive' table to see if the status column matches our latest audit log?"}
+{"id": "indep-gemini-0462", "text": "链接一下crm_db库，导出一下这批client_assets表里的存量资产明细到csv给我，报销单那块我待会自己再弄。"}
+{"id": "indep-gemini-0463", "text": "刚把那个 login 模块的 bug 修好了，diff 看了一下改动没问题，你帮我直接同步到远程仓库吧。"}
+{"id": "indep-gemini-0464", "text": "Check the status and confirm everything is good, then just commit and push it to main. No need to show me the diff again."}
+{"id": "indep-gemini-0465", "text": "刚改完配置，看看git status没啥毛病，直接commit然后push上去好了，这波改动就这。"}
+{"id": "indep-gemini-0466", "text": "MaClaw，刚才生成的那个测试脚本test_script.py我不需要了，麻烦清理一下，别留着占位置。"}
+{"id": "indep-gemini-0467", "text": "The draft project file 'plan_v1.md' is obsolete. Please perform an rm operation on it so I don't see it in my workspace anymore."}
+{"id": "indep-gemini-0468", "text": "把刚生成的那个data_dump.csv干掉吧，yijing没用了，别让它继续占用本地空间。"}
+{"id": "indep-gemini-0469", "text": "MaClaw，把刚才那份会议纪要文档发到我蓝信的项目群里，别直接发聊天窗口了，那边没人看。"}
+{"id": "indep-gemini-0470", "text": "Send the current project spec.pdf to my team on TG; use the im_message tool, not the attachment view."}
+{"id": "indep-gemini-0471", "text": "我刚传的那个 report.docx，能不能帮我搞一下转发？直接send给微信上的那个“甲方对接人”即可，不用回传到这儿。"}

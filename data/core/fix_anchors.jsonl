@@ -1,0 +1,110 @@
+{"id": "fix-0000", "text": "在我这台电脑上看看哪个进程占着 3000 端口", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0001", "text": "本机跑一下 lsof -i :5432 看看谁在监听", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0002", "text": "我本地 terminal 里执行 docker ps，把容器列表给我", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0003", "text": "用 curl 从我这台机器请求一下 https://api.example.com/health 看看返回码", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0004", "text": "在本机 ping 一下公司网关 10.0.0.1 看延迟", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0005", "text": "本地跑 traceroute 到 github.com 看在哪一跳卡住", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0006", "text": "run `du -sh ~/Downloads/*` on this mac and tell me what is taking space", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0007", "text": "execute ./build.sh in my local project folder", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0008", "text": "on my laptop, run kubectl get pods against the staging context", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0009", "text": "帮我在本机终端执行 scp 把服务器上的 log 拉到我本地 Downloads（命令在本地跑）", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0010", "text": "本地执行一下 brew upgrade", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0011", "text": "我的 mac 上 top 看下 cpu 谁最高", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0012", "text": "zai benji pao yixia npm run test 看看挂没挂", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0013", "text": "my disk is almost full, run df -h locally and summarize", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0014", "text": "先 cd 到 ~/work/api，再执行 make lint，最后把输出贴给我", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0015", "text": "在这台机器上用 nslookup 查一下 example.com 解析到哪个 IP", "intent": "shell_command", "split": "train", "src": "fix"}
+{"id": "fix-0016", "text": "ssh 到 192.168.1.20 上看一下 nginx 的 error log", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0017", "text": "登录生产服务器 prod-01，重启一下 api 服务", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0018", "text": "连上那台云主机，在远端执行 df -h", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0019", "text": "log into the staging box as deploy and tail the app log there", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0020", "text": "去远程机器 10.1.2.3 上把 docker 容器 web 重启一下", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0021", "text": "帮我上服务器看看 mysql 进程还在不在（远端）", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0022", "text": "connect to my VPS and check which process is listening on 443 over there", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0023", "text": "在跳板机后面那台 db 主机上跑一下 free -m", "intent": "ssh", "split": "train", "src": "fix"}
+{"id": "fix-0024", "text": "截个屏给我看看现在桌面", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0025", "text": "把我第二块显示器截一张图", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0026", "text": "grab a screenshot of my whole screen right now", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0027", "text": "帮我截一下当前屏幕，看看那个报错弹窗", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0028", "text": "jie ge ping 发我", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0029", "text": "take a picture of what is on my monitor at the moment", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0030", "text": "屏幕右上角那块区域截个图", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0031", "text": "我现在屏幕上是什么样子？截图看看", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0032", "text": "capture the screen and send it to me here", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0033", "text": "先别操作，单纯截一张屏幕图", "intent": "screenshot", "split": "train", "src": "fix"}
+{"id": "fix-0034", "text": "帮我在桌面上那个软件里点一下\"导出\"按钮", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0035", "text": "用鼠标把这个窗口拖到右边屏幕", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0036", "text": "在打开的微信窗口里输入\"收到\"并回车", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0037", "text": "click the OK button on the dialog that is open on my desktop", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0038", "text": "在 Photoshop 里帮我点菜单\"图像-调整大小\"", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0039", "text": "把这个应用窗口最小化，然后切到 Finder", "intent": "computer_use", "split": "train", "src": "fix"}
+{"id": "fix-0040", "text": "哈哈今天好累啊", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0041", "text": "你吃饭了吗", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0042", "text": "谢谢你啊，辛苦了", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0043", "text": "good morning! how are you doing", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0044", "text": "讲个笑话听听", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0045", "text": "今天心情不太好，随便聊聊", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0046", "text": "你觉得周末去爬山还是看电影好", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0047", "text": "lol that was funny", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0048", "text": "晚安", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0049", "text": "你是男生还是女生", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0050", "text": "刚才那个回答挺好的，赞一个", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0051", "text": "我今天写了一天 bug 好崩溃，吐槽一下", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0052", "text": "thanks, that is all for now", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0053", "text": "最近天气真冷", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0054", "text": "嗯嗯好的", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0055", "text": "周五了终于要放假了 hhh", "intent": "unknown", "split": "train", "src": "fix"}
+{"id": "fix-0056", "text": "把桌面上的 合同.pdf 打开给我看", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0057", "text": "用 Word 打开 ~/Documents/周报.docx", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0058", "text": "open budget.xlsx with the default app", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0059", "text": "打开下载文件夹里那个 PPT，我要自己翻", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0060", "text": "帮我把这份 PDF 用系统预览打开", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0061", "text": "just open the report file on my desktop, I will read it myself", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0062", "text": "打开 D 盘那个 方案v2.docx", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0063", "text": "把昨天那份 Excel 打开就行，不用帮我读", "intent": "document_open", "split": "train", "src": "fix"}
+{"id": "fix-0064", "text": "帮我读一下我刚发的 PDF，总结三点", "intent": "document_read", "split": "train", "src": "fix"}
+{"id": "fix-0065", "text": "这个 Word 附件里第二章讲了什么", "intent": "document_read", "split": "train", "src": "fix"}
+{"id": "fix-0066", "text": "read the attached contract and list the payment terms", "intent": "document_read", "split": "train", "src": "fix"}
+{"id": "fix-0067", "text": "看看这份表格里哪几行数据异常", "intent": "document_read", "split": "train", "src": "fix"}
+{"id": "fix-0068", "text": "打开计算器", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0069", "text": "帮我启动 VS Code", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0070", "text": "open Spotify", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0071", "text": "启动一下微信", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0072", "text": "打开这个文件夹 ~/Projects", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0073", "text": "launch the terminal app", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0074", "text": "把 https://example.com 用默认浏览器打开就行", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0075", "text": "开一下钉钉", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0076", "text": "start Slack for me", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0077", "text": "打开系统设置", "intent": "app_launch", "split": "train", "src": "fix"}
+{"id": "fix-0078", "text": "查一下 mysql 里 orders 表最近 10 条", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0079", "text": "连上 postgres 看看 public schema 下有哪些表", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0080", "text": "在 rapidbi 库里跑一句 select count(*) from users", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0081", "text": "show me the columns of the invoices table in our SQL Server", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0082", "text": "把 Excel 数据源里 Sales sheet 当表预览一下", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0083", "text": "看看 finance 库里报销记录表的结构", "intent": "database", "split": "train", "src": "fix"}
+{"id": "fix-0084", "text": "帮我提交一张差旅报销单", "intent": "business_data", "split": "train", "src": "fix"}
+{"id": "fix-0085", "text": "继续填我昨天没填完的采购申请", "intent": "business_data", "split": "train", "src": "fix"}
+{"id": "fix-0086", "text": "发起一个请假申请，下周一到周三", "intent": "business_data", "split": "train", "src": "fix"}
+{"id": "fix-0087", "text": "approve the pending expense report from Li", "intent": "business_data", "split": "train", "src": "fix"}
+{"id": "fix-0088", "text": "把这段话用语音发到群里", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0089", "text": "用语音消息告诉张三我晚点到", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0090", "text": "send a voice note to the team saying the build is green", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0091", "text": "把这条通知念出来并以语音发给大家", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0092", "text": "直接发条语音到当前会话：会议改到三点", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0093", "text": "把今天的总结转成语音消息发群", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0094", "text": "speak this and send as audio to the chat now", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0095", "text": "生成一段语音发给客户群，内容是放假通知", "intent": "audio_deliver", "split": "train", "src": "fix"}
+{"id": "fix-0096", "text": "把这篇文章收进知识库，以后能搜到", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0097", "text": "这个网页链接帮我存到外脑里", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0098", "text": "把 ~/notes 目录下的 md 全部导入本地知识库", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0099", "text": "save this PDF into the knowledge base for future retrieval", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0100", "text": "这段会议纪要入库，以后查得到", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0101", "text": "把这个 URL 的内容抓下来存进知识库", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0102", "text": "add these three docs to my knowledge base", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0103", "text": "把我选的这些文件录入外脑", "intent": "knowledge_write", "split": "train", "src": "fix"}
+{"id": "fix-0104", "text": "记住我喜欢用 tab 缩进", "intent": "memory_manage", "split": "train", "src": "fix"}
+{"id": "fix-0105", "text": "你还记得我说过我的服务器用户名吗？查一下记忆", "intent": "memory_manage", "split": "train", "src": "fix"}
+{"id": "fix-0106", "text": "把我住址那条记忆删掉", "intent": "memory_manage", "split": "train", "src": "fix"}
+{"id": "fix-0107", "text": "remember that I prefer short answers", "intent": "memory_manage", "split": "train", "src": "fix"}
+{"id": "fix-0108", "text": "更新一下记忆：我现在负责前端", "intent": "memory_manage", "split": "train", "src": "fix"}
+{"id": "fix-0109", "text": "你都记了我哪些偏好，列出来", "intent": "memory_manage", "split": "train", "src": "fix"}

@@ -1,0 +1,1264 @@
+{"text": "launch the calculator app", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0000", "lang": "en"}
+{"text": "open this URL in the default browser", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0001", "lang": "en"}
+{"text": "open this folder in the file explorer", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0002", "lang": "en"}
+{"text": "start the application with the system handler", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0003", "lang": "en"}
+{"text": "在资源管理器里打开这个文件夹", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0004", "lang": "zh"}
+{"text": "帮我启动本地开发工具", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0005", "lang": "zh"}
+{"text": "打开计算器应用", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0006", "lang": "zh"}
+{"text": "用默认浏览器打开这个网址", "intent": "app_launch", "split": "train", "src": "anchor", "id": "train-0007", "lang": "zh"}
+{"text": "deliver this uploaded attachment in this chat", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0008", "lang": "en"}
+{"text": "return the attached report to this conversation", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0009", "lang": "en"}
+{"text": "send back the file I attached", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0010", "lang": "en"}
+{"text": "把我刚发的附件回传给我", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0011", "lang": "zh"}
+{"text": "把这个附件发回当前聊天", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0012", "lang": "zh"}
+{"text": "把这份上传的报告发给我", "intent": "attachment_delivery", "split": "train", "src": "anchor", "id": "train-0013", "lang": "zh"}
+{"text": "deliver this text as speech to the group", "intent": "audio_deliver", "split": "train", "src": "anchor", "id": "train-0014", "lang": "en"}
+{"text": "send a voice bubble with this text", "intent": "audio_deliver", "split": "train", "src": "anchor", "id": "train-0015", "lang": "en"}
+{"text": "send this as a voice message", "intent": "audio_deliver", "split": "train", "src": "anchor", "id": "train-0016", "lang": "en"}
+{"text": "speak this and send it to the chat", "intent": "audio_deliver", "split": "train", "src": "anchor", "id": "train-0017", "lang": "en"}
+{"text": "capture a voice memo", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0018", "lang": "en"}
+{"text": "open the microphone recorder", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0019", "lang": "en"}
+{"text": "record this meeting", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0020", "lang": "en"}
+{"text": "start recording audio", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0021", "lang": "en"}
+{"text": "帮我录一下这个会议", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0022", "lang": "zh"}
+{"text": "开始录音", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0023", "lang": "zh"}
+{"text": "录制一段语音", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0024", "lang": "zh"}
+{"text": "打开录音功能", "intent": "audio_record", "split": "train", "src": "anchor", "id": "train-0025", "lang": "zh"}
+{"text": "play this message as speech locally", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0026", "lang": "en"}
+{"text": "read the summary out loud", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0027", "lang": "en"}
+{"text": "read this paragraph aloud", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0028", "lang": "en"}
+{"text": "speak this text on the desktop", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0029", "lang": "en"}
+{"text": "在桌面上读出这段说明", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0030", "lang": "zh"}
+{"text": "把这段话念给我听", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0031", "lang": "zh"}
+{"text": "朗读这段文字", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0032", "lang": "zh"}
+{"text": "用语音把这段话播放出来", "intent": "audio_synthesize", "split": "train", "src": "anchor", "id": "train-0033", "lang": "zh"}
+{"text": "convert the recording to text", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0034", "lang": "en"}
+{"text": "generate a transcript of the meeting audio", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0035", "lang": "en"}
+{"text": "run speech recognition on this wav file", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0036", "lang": "en"}
+{"text": "transcribe this audio file", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0037", "lang": "en"}
+{"text": "把这个音频文件转成文字", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0038", "lang": "zh"}
+{"text": "给这个会议录音生成文字稿", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0039", "lang": "zh"}
+{"text": "识别这个语音文件里说了什么", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0040", "lang": "zh"}
+{"text": "转写一下这段录音", "intent": "audio_transcribe", "split": "train", "src": "anchor", "id": "train-0041", "lang": "zh"}
+{"text": "check the project health status", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0042", "lang": "en"}
+{"text": "find when this tool was called before", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0043", "lang": "en"}
+{"text": "search my past conversation history", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0044", "lang": "en"}
+{"text": "show the audit log for today", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0045", "lang": "en"}
+{"text": "搜索我们之前的对话记录", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0046", "lang": "zh"}
+{"text": "查一下最近的安全审计日志", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0047", "lang": "zh"}
+{"text": "检查这个项目能否正常编译", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0048", "lang": "zh"}
+{"text": "看看有没有高风险的工具调用记录", "intent": "audit_read", "split": "train", "src": "anchor", "id": "train-0049", "lang": "zh"}
+{"text": "automate the browser to fill in the form", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0050", "lang": "en"}
+{"text": "automate web testing with browser tools", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0051", "lang": "en"}
+{"text": "click the submit button on the web page", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0052", "lang": "en"}
+{"text": "log into a website and publish a post", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0053", "lang": "en"}
+{"text": "open Chrome and click Buy", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0054", "lang": "en"}
+{"text": "open Zhihu in a browser and publish a pin", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0055", "lang": "en"}
+{"text": "open the browser and navigate to this URL", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0056", "lang": "en"}
+{"text": "record browser actions for this workflow", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0057", "lang": "en"}
+{"text": "sign in to a social website and submit content", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0058", "lang": "en"}
+{"text": "take a screenshot of this page in Chrome", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0059", "lang": "en"}
+{"text": "use playwright to test the login flow", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0060", "lang": "en"}
+{"text": "在Chrome中打开这个页面并截图", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0061", "lang": "mix"}
+{"text": "在网页上发帖并验证发布结果", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0062", "lang": "zh"}
+{"text": "帮我在网页上点击购买按钮", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0063", "lang": "zh"}
+{"text": "录制浏览器操作步骤", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0064", "lang": "zh"}
+{"text": "打开 Chrome 点购买", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0065", "lang": "mix"}
+{"text": "打开浏览器访问这个网站", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0066", "lang": "zh"}
+{"text": "打开网页登录账号然后发布内容", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0067", "lang": "zh"}
+{"text": "用playwright测试登录流程", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0068", "lang": "mix"}
+{"text": "用浏览器自动化填写表单", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0069", "lang": "zh"}
+{"text": "登录知乎并发表一条想法", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0070", "lang": "zh"}
+{"text": "自动化浏览器测试这个功能", "intent": "browser", "split": "train", "src": "anchor", "id": "train-0071", "lang": "zh"}
+{"text": "debug this crash", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0072", "lang": "en"}
+{"text": "fix the authentication error", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0073", "lang": "en"}
+{"text": "fix the loading issue", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0074", "lang": "en"}
+{"text": "resolve the null pointer exception", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0075", "lang": "en"}
+{"text": "the app keeps crashing on startup", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0076", "lang": "en"}
+{"text": "there's a bug in the payment flow", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0077", "lang": "en"}
+{"text": "troubleshoot the memory leak", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0078", "lang": "en"}
+{"text": "修复崩溃问题", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0079", "lang": "zh"}
+{"text": "修复登录失败的bug", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0080", "lang": "mix"}
+{"text": "排查报错原因", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0081", "lang": "zh"}
+{"text": "有bug，一直显示加载中", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0082", "lang": "mix"}
+{"text": "程序闪退", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0083", "lang": "zh"}
+{"text": "调试一下这个问题", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0084", "lang": "zh"}
+{"text": "页面白屏了", "intent": "bug_fix", "split": "train", "src": "anchor", "id": "train-0085", "lang": "zh"}
+{"text": "collect required fields for an enterprise business object", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0086", "lang": "en"}
+{"text": "continue the unfinished expense reimbursement entry", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0087", "lang": "en"}
+{"text": "create a purchase request and send it for approval", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0088", "lang": "en"}
+{"text": "fill in a leave request form", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0089", "lang": "en"}
+{"text": "open my pending business transaction form", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0090", "lang": "en"}
+{"text": "query the local transaction workspace", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0091", "lang": "en"}
+{"text": "record structured business data for an invoice", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0092", "lang": "en"}
+{"text": "resume the saved approval transaction", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0093", "lang": "en"}
+{"text": "store this contract record in the business system", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0094", "lang": "en"}
+{"text": "submit a travel reimbursement with invoices", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0095", "lang": "en"}
+{"text": "validate this business form before committing it", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0096", "lang": "en"}
+{"text": "write structured MIS data from an agent-generated form", "intent": "business_data", "split": "train", "src": "anchor", "id": "train-0097", "lang": "en"}
+{"text": "build a game in JavaScript", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0098", "lang": "en"}
+{"text": "build a web application", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0099", "lang": "en"}
+{"text": "create a CLI tool", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0100", "lang": "en"}
+{"text": "create a file upload service", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0101", "lang": "en"}
+{"text": "develop a REST API", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0102", "lang": "en"}
+{"text": "implement a chat server", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0103", "lang": "en"}
+{"text": "write a Python script for data processing", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0104", "lang": "en"}
+{"text": "写一个爬虫程序", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0105", "lang": "zh"}
+{"text": "写一个自动化脚本", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0106", "lang": "zh"}
+{"text": "创建一个命令行工具", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0107", "lang": "zh"}
+{"text": "实现一个REST API服务", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0108", "lang": "mix"}
+{"text": "帮我开发一个聊天应用", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0109", "lang": "zh"}
+{"text": "开发一个数据可视化面板", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0110", "lang": "zh"}
+{"text": "开发一个贪吃蛇游戏", "intent": "coding", "split": "train", "src": "anchor", "id": "train-0111", "lang": "zh"}
+{"text": "click the OK button on the dialog", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0112", "lang": "en"}
+{"text": "control the mouse and keyboard in a desktop app", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0113", "lang": "en"}
+{"text": "drag a file into a folder on the desktop", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0114", "lang": "en"}
+{"text": "look at what is on the screen", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0115", "lang": "en"}
+{"text": "open the Word app and type a document", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0116", "lang": "en"}
+{"text": "open the calculator app and click buttons", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0117", "lang": "en"}
+{"text": "operate the desktop GUI application", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0118", "lang": "en"}
+{"text": "type into the notepad window", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0119", "lang": "en"}
+{"text": "在应用窗口里输入文字", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0120", "lang": "zh"}
+{"text": "在桌面上把文件拖进文件夹", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0121", "lang": "zh"}
+{"text": "帮我在电脑上打开Excel程序", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0122", "lang": "mix"}
+{"text": "打开word程序写一份简历", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0123", "lang": "mix"}
+{"text": "打开电脑上的软件并操作界面", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0124", "lang": "zh"}
+{"text": "打开记事本程序输入一段文字", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0125", "lang": "zh"}
+{"text": "把当前窗口最小化", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0126", "lang": "zh"}
+{"text": "控制鼠标点击屏幕上的图标", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0127", "lang": "zh"}
+{"text": "操作桌面软件完成设置", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0128", "lang": "zh"}
+{"text": "点击窗口上的确定按钮", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0129", "lang": "zh"}
+{"text": "用键盘在桌面应用里按快捷键", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0130", "lang": "zh"}
+{"text": "看看屏幕上现在显示了什么", "intent": "computer_use", "split": "train", "src": "anchor", "id": "train-0131", "lang": "zh"}
+{"text": "correct my user profile preferences", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0132", "lang": "en"}
+{"text": "raise the max iteration limit", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0133", "lang": "en"}
+{"text": "show the current configuration", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0134", "lang": "en"}
+{"text": "switch to a different LLM provider", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0135", "lang": "en"}
+{"text": "你现在用的什么模型", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0136", "lang": "zh"}
+{"text": "修改一下配置里的主题设置", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0137", "lang": "zh"}
+{"text": "修正一下你的用户画像里我的偏好", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0138", "lang": "zh"}
+{"text": "把当前的 LLM 服务商切换成智谱", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0139", "lang": "mix"}
+{"text": "把最大推理轮数调到 50", "intent": "config_manage", "split": "train", "src": "anchor", "id": "train-0140", "lang": "zh"}
+{"text": "continue", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0141", "lang": "en"}
+{"text": "go ahead", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0142", "lang": "en"}
+{"text": "let's go", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0143", "lang": "en"}
+{"text": "start working", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0144", "lang": "en"}
+{"text": "switch to full agent", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0145", "lang": "en"}
+{"text": "switch to full agent mode", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0146", "lang": "en"}
+{"text": "切换到完整agent模式", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0147", "lang": "mix"}
+{"text": "切换到完整模式", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0148", "lang": "zh"}
+{"text": "动手", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0149", "lang": "zh"}
+{"text": "开始吧", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0150", "lang": "zh"}
+{"text": "开工", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0151", "lang": "zh"}
+{"text": "开干", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0152", "lang": "zh"}
+{"text": "搞起来", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0153", "lang": "zh"}
+{"text": "用完整能力再做一次", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0154", "lang": "zh"}
+{"text": "继续", "intent": "continuation", "split": "train", "src": "anchor", "id": "train-0155", "lang": "zh"}
+{"text": "Show current date and time.", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0156", "lang": "en"}
+{"text": "Tell me the current local time.", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0157", "lang": "en"}
+{"text": "What day of the week is today?", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0158", "lang": "en"}
+{"text": "What is today's date?", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0159", "lang": "en"}
+{"text": "What time is it now?", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0160", "lang": "en"}
+{"text": "current time and date", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0161", "lang": "en"}
+{"text": "今天周几", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0162", "lang": "zh"}
+{"text": "今天是几号", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0163", "lang": "zh"}
+{"text": "当前日期时间", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0164", "lang": "zh"}
+{"text": "现在几点", "intent": "current_time", "split": "train", "src": "anchor", "id": "train-0165", "lang": "zh"}
+{"text": "connect to the mysql data source and inspect schema", "intent": "database", "split": "train", "src": "anchor", "id": "train-0166", "lang": "en"}
+{"text": "inspect the mysql schema", "intent": "database", "split": "train", "src": "anchor", "id": "train-0167", "lang": "en"}
+{"text": "list tables in the database", "intent": "database", "split": "train", "src": "anchor", "id": "train-0168", "lang": "en"}
+{"text": "query the sql server catalog", "intent": "database", "split": "train", "src": "anchor", "id": "train-0169", "lang": "en"}
+{"text": "show tables in this postgres database", "intent": "database", "split": "train", "src": "anchor", "id": "train-0170", "lang": "en"}
+{"text": "列出这个库里的表", "intent": "database", "split": "train", "src": "anchor", "id": "train-0171", "lang": "zh"}
+{"text": "查看 192.168.1.242 上的 mysql 数据库", "intent": "database", "split": "train", "src": "anchor", "id": "train-0172", "lang": "mix"}
+{"text": "查看 mysql 库", "intent": "database", "split": "train", "src": "anchor", "id": "train-0173", "lang": "mix"}
+{"text": "查看 rapidbi 库", "intent": "database", "split": "train", "src": "anchor", "id": "train-0174", "lang": "mix"}
+{"text": "查看库", "intent": "database", "split": "train", "src": "anchor", "id": "train-0175", "lang": "zh"}
+{"text": "查看数据库", "intent": "database", "split": "train", "src": "anchor", "id": "train-0176", "lang": "zh"}
+{"text": "查看表结构", "intent": "database", "split": "train", "src": "anchor", "id": "train-0177", "lang": "zh"}
+{"text": "delegate this subtask to a specialized agent", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0178", "lang": "en"}
+{"text": "hand this piece off to a coding sub-agent", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0179", "lang": "en"}
+{"text": "run these three tasks in parallel", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0180", "lang": "en"}
+{"text": "start a group discussion among experts about this design", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0181", "lang": "en"}
+{"text": "并行执行这三个独立的任务", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0182", "lang": "zh"}
+{"text": "把这个任务委派给编码子 agent", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0183", "lang": "mix"}
+{"text": "派一个子 agent 去处理这个子任务", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0184", "lang": "mix"}
+{"text": "组织一次专家讨论评估这个方案", "intent": "delegate_task", "split": "train", "src": "anchor", "id": "train-0185", "lang": "zh"}
+{"text": "deliver the report to me", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0186", "lang": "en"}
+{"text": "export the results and send the file", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0187", "lang": "en"}
+{"text": "send me this file", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0188", "lang": "en"}
+{"text": "帮我发送这份报告", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0189", "lang": "zh"}
+{"text": "把结果导出为文件发送", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0190", "lang": "zh"}
+{"text": "把这个文件发送给我", "intent": "document_delivery", "split": "train", "src": "anchor", "id": "train-0191", "lang": "zh"}
+{"text": "export current retrieved information as a formatted PDF report", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0192", "lang": "en"}
+{"text": "export live lookup results as a formatted PDF report", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0193", "lang": "en"}
+{"text": "export pdf", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0194", "lang": "en"}
+{"text": "generate a PDF and send it over", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0195", "lang": "en"}
+{"text": "generate a PDF document", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0196", "lang": "en"}
+{"text": "make a PDF from these facts", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0197", "lang": "en"}
+{"text": "render this as a PDF file", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0198", "lang": "en"}
+{"text": "save fetched public data as a PDF file", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0199", "lang": "en"}
+{"text": "以PDF格式导出当前已获取的信息", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0200", "lang": "mix"}
+{"text": "将实时查询结果导出为格式化PDF报告", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0201", "lang": "mix"}
+{"text": "将已查到的公开数据保存为PDF文件", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0202", "lang": "mix"}
+{"text": "将已查得的实时信息输出为格式化PDF报告", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0203", "lang": "mix"}
+{"text": "把获取到的公开信息整理成PDF文件", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0204", "lang": "mix"}
+{"text": "把这些内容生成PDF", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0205", "lang": "mix"}
+{"text": "生成pdf报告", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0206", "lang": "mix"}
+{"text": "生成一份PDF文档并发给我", "intent": "document_generate", "split": "train", "src": "anchor", "id": "train-0207", "lang": "mix"}
+{"text": "open the PDF document on my desktop", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0208", "lang": "en"}
+{"text": "open the spreadsheet with the system handler", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0209", "lang": "en"}
+{"text": "open this document with the default app", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0210", "lang": "en"}
+{"text": "打开桌面上的PDF文件", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0211", "lang": "mix"}
+{"text": "用系统看图软件打开这个PPT", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0212", "lang": "mix"}
+{"text": "用默认程序打开这个文档", "intent": "document_open", "split": "train", "src": "anchor", "id": "train-0213", "lang": "zh"}
+{"text": "extract the text from this Word file", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0214", "lang": "en"}
+{"text": "inspect the spreadsheet I uploaded", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0215", "lang": "en"}
+{"text": "read the attached document", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0216", "lang": "en"}
+{"text": "review the contents of the attached presentation", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0217", "lang": "en"}
+{"text": "summarize this PDF attachment", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0218", "lang": "en"}
+{"text": "分析附件中的 Excel 表格", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0219", "lang": "mix"}
+{"text": "总结这份 PPT 的内容", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0220", "lang": "mix"}
+{"text": "打开这个Excel文件看看内容", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0221", "lang": "mix"}
+{"text": "提取这份 Word 文档的要点", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0222", "lang": "mix"}
+{"text": "看看这个附件里写了什么", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0223", "lang": "zh"}
+{"text": "读取我刚发的 PDF", "intent": "document_read", "split": "train", "src": "anchor", "id": "train-0224", "lang": "mix"}
+{"text": "delete notes.txt", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0225", "lang": "en"}
+{"text": "delete the markdown file I just created", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0226", "lang": "en"}
+{"text": "remove this local file", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0227", "lang": "en"}
+{"text": "删掉这个本地文件", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0228", "lang": "zh"}
+{"text": "删除 notes.md", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0229", "lang": "mix"}
+{"text": "删除刚才的markdown文件", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0230", "lang": "mix"}
+{"text": "把刚才保存的 md 文件删掉", "intent": "file_delete", "split": "train", "src": "anchor", "id": "train-0231", "lang": "zh"}
+{"text": "download the attachment from this link", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0232", "lang": "en"}
+{"text": "download this file to my machine", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0233", "lang": "en"}
+{"text": "fetch this installer and store it locally", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0234", "lang": "en"}
+{"text": "save the PDF from this URL to disk", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0235", "lang": "en"}
+{"text": "下载这个 PDF 到工作目录", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0236", "lang": "mix"}
+{"text": "将这个网址的附件保存到磁盘", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0237", "lang": "zh"}
+{"text": "帮我把这个安装包下载下来", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0238", "lang": "zh"}
+{"text": "把这个链接的文件下载到本地", "intent": "file_download", "split": "train", "src": "anchor", "id": "train-0239", "lang": "zh"}
+{"text": "list the files in this directory", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0240", "lang": "en"}
+{"text": "print the last lines of the local log file", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0241", "lang": "en"}
+{"text": "read the contents of this file", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0242", "lang": "en"}
+{"text": "search the project files for this error message", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0243", "lang": "en"}
+{"text": "show me what is in the README file", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0244", "lang": "en"}
+{"text": "列出当前目录下的文件", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0245", "lang": "zh"}
+{"text": "在项目里搜索这个函数名出现在哪些文件", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0246", "lang": "zh"}
+{"text": "帮我看一下日志文件的最后几行", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0247", "lang": "zh"}
+{"text": "看看 config.yaml 里写了什么", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0248", "lang": "mix"}
+{"text": "读取一下这个文件的内容", "intent": "file_read", "split": "train", "src": "anchor", "id": "train-0249", "lang": "zh"}
+{"text": "append this line to the end of the file", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0250", "lang": "en"}
+{"text": "create a file called todo.md with this content", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0251", "lang": "en"}
+{"text": "edit the config file and change the port", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0252", "lang": "en"}
+{"text": "export this as a markdown file", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0253", "lang": "en"}
+{"text": "overwrite the old notes file with this", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0254", "lang": "en"}
+{"text": "save this text to a local file", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0255", "lang": "en"}
+{"text": "修改 hosts 文件添加一条记录", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0256", "lang": "mix"}
+{"text": "写成 md 文件", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0257", "lang": "zh"}
+{"text": "在这个文件末尾追加一行", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0258", "lang": "zh"}
+{"text": "帮我在桌面创建一个文本文件", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0259", "lang": "zh"}
+{"text": "把刚才的内容保存为 markdown", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0260", "lang": "mix"}
+{"text": "把这串配置写进 .env 文件", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0261", "lang": "mix"}
+{"text": "把这段内容保存到 notes.txt", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0262", "lang": "mix"}
+{"text": "生成markdown", "intent": "file_write", "split": "train", "src": "anchor", "id": "train-0263", "lang": "mix"}
+{"text": "check the git status of this repo", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0264", "lang": "en"}
+{"text": "review the staged changes", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0265", "lang": "en"}
+{"text": "show me the current diff", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0266", "lang": "en"}
+{"text": "what files have uncommitted changes", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0267", "lang": "en"}
+{"text": "帮我看下现在的 diff", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0268", "lang": "mix"}
+{"text": "查看暂存区有什么变更", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0269", "lang": "zh"}
+{"text": "看看当前 git 状态", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0270", "lang": "mix"}
+{"text": "这个仓库有哪些未提交的改动", "intent": "git_inspect", "split": "train", "src": "anchor", "id": "train-0271", "lang": "zh"}
+{"text": "commit the current changes", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0272", "lang": "en"}
+{"text": "commit these edits with a message", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0273", "lang": "en"}
+{"text": "git push this branch", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0274", "lang": "en"}
+{"text": "push my commits to the remote", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0275", "lang": "en"}
+{"text": "帮我 commit 一下当前的修改", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0276", "lang": "mix"}
+{"text": "把本地提交推送到远程", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0277", "lang": "zh"}
+{"text": "把这些改动提交一下", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0278", "lang": "zh"}
+{"text": "提交代码，说明写修复登录问题", "intent": "git_mutate", "split": "train", "src": "anchor", "id": "train-0279", "lang": "zh"}
+{"text": "create a long-running goal to keep this documentation up to date", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0280", "lang": "en"}
+{"text": "mark this long-running goal as complete", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0281", "lang": "en"}
+{"text": "set up an autonomous goal with a token budget", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0282", "lang": "en"}
+{"text": "show the status of my persistent goal", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0283", "lang": "en"}
+{"text": "创建一个长期目标：持续监控这个服务的可用性", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0284", "lang": "zh"}
+{"text": "查看当前长期目标的进展", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0285", "lang": "zh"}
+{"text": "终止那个长期目标", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0286", "lang": "zh"}
+{"text": "设一个目标，每天自动整理我的收藏直到整理完", "intent": "goal_manage", "split": "train", "src": "anchor", "id": "train-0287", "lang": "zh"}
+{"text": "disable a stale knowledge base source", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0288", "lang": "en"}
+{"text": "refresh this knowledge source", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0289", "lang": "en"}
+{"text": "run the knowledge quality maintenance plan", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0290", "lang": "en"}
+{"text": "show knowledge base stats and health", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0291", "lang": "en"}
+{"text": "删除知识库里的这个来源", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0292", "lang": "zh"}
+{"text": "刷新一下知识库里的这个来源", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0293", "lang": "zh"}
+{"text": "检查知识库的健康状况和统计", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0294", "lang": "zh"}
+{"text": "禁用这个知识库数据源", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0295", "lang": "zh"}
+{"text": "跑一下知识库质量维护计划", "intent": "knowledge_admin", "split": "train", "src": "anchor", "id": "train-0296", "lang": "zh"}
+{"text": "find relevant entries in my external brain", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0297", "lang": "en"}
+{"text": "look up the stored notes about this concept", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0298", "lang": "en"}
+{"text": "recall what the knowledge base says about this", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0299", "lang": "en"}
+{"text": "search my knowledge base for this topic", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0300", "lang": "en"}
+{"text": "从我的本地知识库找相关内容", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0301", "lang": "zh"}
+{"text": "在知识库里查一下这个概念的笔记", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0302", "lang": "zh"}
+{"text": "检索我的外脑中关于这个项目的资料", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0303", "lang": "zh"}
+{"text": "知识库里有没有相关的引用出处", "intent": "knowledge_read", "split": "train", "src": "anchor", "id": "train-0304", "lang": "zh"}
+{"text": "archive this URL into my external brain", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0305", "lang": "en"}
+{"text": "ingest the selected local document files into the saved corpus", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0306", "lang": "en"}
+{"text": "save this note into the knowledge base for future retrieval", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0307", "lang": "en"}
+{"text": "store these documents in the local knowledge base", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0308", "lang": "en"}
+{"text": "将这段材料录入知识库，后面可以检索引用", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0309", "lang": "zh"}
+{"text": "归档这个网页到知识库供以后查找", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0310", "lang": "zh"}
+{"text": "把用户选择的本地 PDF 导入外脑，作为知识库资料", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0311", "lang": "mix"}
+{"text": "把这个目录里的文档收录到本地知识库", "intent": "knowledge_write", "split": "train", "src": "anchor", "id": "train-0312", "lang": "zh"}
+{"text": "Check the latest stock price for Apple.", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0313", "lang": "en"}
+{"text": "Find the latest news about this company.", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0314", "lang": "en"}
+{"text": "Retrieve live weather information for an arbitrary location.", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0315", "lang": "en"}
+{"text": "Show me the current weather forecast for a location.", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0316", "lang": "en"}
+{"text": "Track this flight status.", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0317", "lang": "en"}
+{"text": "What's the USD to CNY exchange rate now?", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0318", "lang": "en"}
+{"text": "What's the weather for a given location today?", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0319", "lang": "en"}
+{"text": "Who won the game today?", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0320", "lang": "en"}
+{"text": "查最新股价", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0321", "lang": "zh"}
+{"text": "查航班状态", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0322", "lang": "zh"}
+{"text": "查询今日新闻热点", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0323", "lang": "zh"}
+{"text": "查询任意城市今日天气", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0324", "lang": "zh"}
+{"text": "查询某个城市当前天气", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0325", "lang": "zh"}
+{"text": "查询某城市天气并输出格式化PDF报告", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0326", "lang": "mix"}
+{"text": "查询比特币价格并输出格式化PDF报告", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0327", "lang": "mix"}
+{"text": "美元对人民币汇率", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0328", "lang": "zh"}
+{"text": "获取某地实时天气信息", "intent": "live_data", "split": "train", "src": "anchor", "id": "train-0329", "lang": "zh"}
+{"text": "create an infographic from the current stock price", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0330", "lang": "en"}
+{"text": "draw a stock price trend chart", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0331", "lang": "en"}
+{"text": "plot the last month of closing prices", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0332", "lang": "en"}
+{"text": "render a live weather graphic", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0333", "lang": "en"}
+{"text": "把当前汇率制作成信息图", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0334", "lang": "zh"}
+{"text": "把近期股价画成走势图", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0335", "lang": "zh"}
+{"text": "生成一张实时天气实况图", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0336", "lang": "zh"}
+{"text": "画一张股价折线图", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0337", "lang": "zh"}
+{"text": "画出近一月股价趋势图", "intent": "live_data_visual", "split": "train", "src": "anchor", "id": "train-0338", "lang": "zh"}
+{"text": "clean up dead code", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0339", "lang": "en"}
+{"text": "improve code readability", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0340", "lang": "en"}
+{"text": "optimize the database queries", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0341", "lang": "en"}
+{"text": "reduce technical debt in the codebase", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0342", "lang": "en"}
+{"text": "refactor the auth module", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0343", "lang": "en"}
+{"text": "upgrade the dependencies", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0344", "lang": "en"}
+{"text": "优化性能", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0345", "lang": "zh"}
+{"text": "优化数据库查询速度", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0346", "lang": "zh"}
+{"text": "升级依赖版本", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0347", "lang": "zh"}
+{"text": "改善代码结构", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0348", "lang": "zh"}
+{"text": "清理无用代码", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0349", "lang": "zh"}
+{"text": "重构这个函数", "intent": "maintenance", "split": "train", "src": "anchor", "id": "train-0350", "lang": "zh"}
+{"text": "forget the note about my old address", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0351", "lang": "en"}
+{"text": "remember that I prefer dark mode", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0352", "lang": "en"}
+{"text": "update your memory about this project", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0353", "lang": "en"}
+{"text": "what do you remember about me", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0354", "lang": "en"}
+{"text": "你都记住了我的哪些偏好", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0355", "lang": "zh"}
+{"text": "删掉那条关于我地址的记忆", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0356", "lang": "zh"}
+{"text": "把刚才这个决定记到长期记忆里", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0357", "lang": "zh"}
+{"text": "记住我偏好用中文交流", "intent": "memory_manage", "split": "train", "src": "anchor", "id": "train-0358", "lang": "zh"}
+{"text": "draft a project proposal document", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0359", "lang": "en"}
+{"text": "extract weights from the DLC model and convert to ONNX", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0360", "lang": "en"}
+{"text": "help me write a report", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0361", "lang": "en"}
+{"text": "organize meeting notes into a concise summary", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0362", "lang": "en"}
+{"text": "organize these notes", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0363", "lang": "en"}
+{"text": "summarize this article", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0364", "lang": "en"}
+{"text": "translate this document", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0365", "lang": "en"}
+{"text": "帮我把数据从MySQL迁移到PostgreSQL", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0366", "lang": "mix"}
+{"text": "帮我整理资料", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0367", "lang": "zh"}
+{"text": "总结这篇文章", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0368", "lang": "zh"}
+{"text": "把这段话翻译成英文", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0369", "lang": "zh"}
+{"text": "提取模型权重并转换为ONNX格式", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0370", "lang": "mix"}
+{"text": "整理会议纪要", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0371", "lang": "zh"}
+{"text": "翻译文档", "intent": "non_coding", "split": "train", "src": "anchor", "id": "train-0372", "lang": "zh"}
+{"text": "build a slide deck for the meeting", "intent": "office", "split": "train", "src": "anchor", "id": "train-0373", "lang": "en"}
+{"text": "create a PowerPoint presentation", "intent": "office", "split": "train", "src": "anchor", "id": "train-0374", "lang": "en"}
+{"text": "create a spreadsheet with the analysis results", "intent": "office", "split": "train", "src": "anchor", "id": "train-0375", "lang": "en"}
+{"text": "edit the existing slide deck visual style", "intent": "office", "split": "train", "src": "anchor", "id": "train-0376", "lang": "en"}
+{"text": "generate an Excel spreadsheet report", "intent": "office", "split": "train", "src": "anchor", "id": "train-0377", "lang": "en"}
+{"text": "make a Word document for the proposal", "intent": "office", "split": "train", "src": "anchor", "id": "train-0378", "lang": "en"}
+{"text": "make a birthday party slide deck with photos", "intent": "office", "split": "train", "src": "anchor", "id": "train-0379", "lang": "en"}
+{"text": "organize the data into an Excel file", "intent": "office", "split": "train", "src": "anchor", "id": "train-0380", "lang": "en"}
+{"text": "restyle the current PowerPoint professionally", "intent": "office", "split": "train", "src": "anchor", "id": "train-0381", "lang": "en"}
+{"text": "为我家宠物做一个生日纪念PPT", "intent": "office", "split": "train", "src": "anchor", "id": "train-0382", "lang": "mix"}
+{"text": "创建一个Word文档", "intent": "office", "split": "train", "src": "anchor", "id": "train-0383", "lang": "mix"}
+{"text": "制作孩子生日派对的演示文稿", "intent": "office", "split": "train", "src": "anchor", "id": "train-0384", "lang": "zh"}
+{"text": "制作项目汇报PPT", "intent": "office", "split": "train", "src": "anchor", "id": "train-0385", "lang": "mix"}
+{"text": "对当前编辑的ppt进行风格改进", "intent": "office", "split": "train", "src": "anchor", "id": "train-0386", "lang": "mix"}
+{"text": "帮我制作一个PPT演示文稿", "intent": "office", "split": "train", "src": "anchor", "id": "train-0387", "lang": "mix"}
+{"text": "找几张图片生成一个演示文稿", "intent": "office", "split": "train", "src": "anchor", "id": "train-0388", "lang": "zh"}
+{"text": "把数据整理成Excel表格", "intent": "office", "split": "train", "src": "anchor", "id": "train-0389", "lang": "mix"}
+{"text": "把这份演示文稿改成大型技术交流会议的专业风格", "intent": "office", "split": "train", "src": "anchor", "id": "train-0390", "lang": "zh"}
+{"text": "生成一份Excel报表", "intent": "office", "split": "train", "src": "anchor", "id": "train-0391", "lang": "mix"}
+{"text": "生成一份数据分析的电子表格", "intent": "office", "split": "train", "src": "anchor", "id": "train-0392", "lang": "zh"}
+{"text": "生成庆祝生日的PPT", "intent": "office", "split": "train", "src": "anchor", "id": "train-0393", "lang": "mix"}
+{"text": "网上找些照片做成PPT相册", "intent": "office", "split": "train", "src": "anchor", "id": "train-0394", "lang": "mix"}
+{"text": "create a reminder that messages the team at 9am", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0395", "lang": "en"}
+{"text": "deliver this report to the group on a schedule", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0396", "lang": "en"}
+{"text": "schedule a daily push to the lansenger group", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0397", "lang": "en"}
+{"text": "send the standup to the group every morning", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0398", "lang": "en"}
+{"text": "创建一个定时任务到点发给张三", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0399", "lang": "zh"}
+{"text": "每周一提醒并发送到微信", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0400", "lang": "zh"}
+{"text": "每天九点把日报推送到蓝信群", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0401", "lang": "zh"}
+{"text": "每天早上发给群里", "intent": "schedule_dispatch", "split": "train", "src": "anchor", "id": "train-0402", "lang": "zh"}
+{"text": "create a scheduled job that runs every morning", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0403", "lang": "en"}
+{"text": "delete the weekly backup schedule", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0404", "lang": "en"}
+{"text": "list all scheduled tasks", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0405", "lang": "en"}
+{"text": "pause my daily reminder task", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0406", "lang": "en"}
+{"text": "列出所有定时任务", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0407", "lang": "zh"}
+{"text": "创建一个每小时执行一次的定时任务", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0408", "lang": "zh"}
+{"text": "暂停昨天的那个定时任务", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0409", "lang": "zh"}
+{"text": "每天早上九点提醒我站会", "intent": "schedule_manage", "split": "train", "src": "anchor", "id": "train-0410", "lang": "zh"}
+{"text": "capture the current screen", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0411", "lang": "en"}
+{"text": "grab the primary monitor", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0412", "lang": "en"}
+{"text": "screenshot display one", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0413", "lang": "en"}
+{"text": "take a screen capture and send it to me", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0414", "lang": "en"}
+{"text": "take a screenshot of my desktop", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0415", "lang": "en"}
+{"text": "截主屏", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0416", "lang": "zh"}
+{"text": "截主屏幕", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0417", "lang": "zh"}
+{"text": "截取主屏", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0418", "lang": "zh"}
+{"text": "截取当前显示器画面", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0419", "lang": "zh"}
+{"text": "截图", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0420", "lang": "zh"}
+{"text": "截屏", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0421", "lang": "zh"}
+{"text": "给我截一下当前桌面", "intent": "screenshot", "split": "train", "src": "anchor", "id": "train-0422", "lang": "zh"}
+{"text": "find information about this API online", "intent": "search", "split": "train", "src": "anchor", "id": "train-0423", "lang": "en"}
+{"text": "google this error and find a fix", "intent": "search", "split": "train", "src": "anchor", "id": "train-0424", "lang": "en"}
+{"text": "look up best practices for Go concurrency", "intent": "search", "split": "train", "src": "anchor", "id": "train-0425", "lang": "en"}
+{"text": "look up the latest documentation for React", "intent": "search", "split": "train", "src": "anchor", "id": "train-0426", "lang": "en"}
+{"text": "search for solutions to this problem", "intent": "search", "split": "train", "src": "anchor", "id": "train-0427", "lang": "en"}
+{"text": "search the web for this error message", "intent": "search", "split": "train", "src": "anchor", "id": "train-0428", "lang": "en"}
+{"text": "上网查一下这个API的文档", "intent": "search", "split": "train", "src": "anchor", "id": "train-0429", "lang": "mix"}
+{"text": "全网搜索这个人的资料", "intent": "search", "split": "train", "src": "anchor", "id": "train-0430", "lang": "zh"}
+{"text": "帮我在网上查找这个问题的解决方案", "intent": "search", "split": "train", "src": "anchor", "id": "train-0431", "lang": "zh"}
+{"text": "帮我搜索这个错误信息", "intent": "search", "split": "train", "src": "anchor", "id": "train-0432", "lang": "zh"}
+{"text": "搜索一下最新的AI论文", "intent": "search", "split": "train", "src": "anchor", "id": "train-0433", "lang": "zh"}
+{"text": "搜索关于机器学习的资料", "intent": "search", "split": "train", "src": "anchor", "id": "train-0434", "lang": "zh"}
+{"text": "网上找一下这个库的用法", "intent": "search", "split": "train", "src": "anchor", "id": "train-0435", "lang": "zh"}
+{"text": "interrupt the stuck coding session", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0436", "lang": "en"}
+{"text": "list my running coding sessions", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0437", "lang": "en"}
+{"text": "show the recent output of that session", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0438", "lang": "en"}
+{"text": "which providers does this coding tool have", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0439", "lang": "en"}
+{"text": "中断正在运行的会话", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0440", "lang": "zh"}
+{"text": "切换当前项目", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0441", "lang": "zh"}
+{"text": "列出当前所有编码会话", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0442", "lang": "zh"}
+{"text": "看看那个会话最近的输出", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0443", "lang": "zh"}
+{"text": "给会话发一条输入让它继续", "intent": "session_manage", "split": "train", "src": "anchor", "id": "train-0444", "lang": "zh"}
+{"text": "check the local disk usage with df", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0445", "lang": "en"}
+{"text": "create a folder using the command line", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0446", "lang": "en"}
+{"text": "execute the script locally", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0447", "lang": "en"}
+{"text": "run the build command on this computer", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0448", "lang": "en"}
+{"text": "run this shell command on my machine", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0449", "lang": "en"}
+{"text": "在本机执行一下这个命令", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0450", "lang": "zh"}
+{"text": "在本机跑一下 npm install", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0451", "lang": "mix"}
+{"text": "帮我运行这个脚本", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0452", "lang": "zh"}
+{"text": "执行 ping 测试看网络通不通", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0453", "lang": "mix"}
+{"text": "用命令行创建一个目录", "intent": "shell_command", "split": "train", "src": "anchor", "id": "train-0454", "lang": "zh"}
+{"text": "SSH into the GPU server and check usage", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0455", "lang": "en"}
+{"text": "SSH到生产环境检查状态", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0456", "lang": "mix"}
+{"text": "check the server logs remotely", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0457", "lang": "en"}
+{"text": "connect to the server via SSH", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0458", "lang": "en"}
+{"text": "here are the host credentials, upgrade the remote service and keep the running image for rollback", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0459", "lang": "en"}
+{"text": "log into the production server", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0460", "lang": "en"}
+{"text": "restart the service on the remote machine", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0461", "lang": "en"}
+{"text": "run a command on the remote host", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0462", "lang": "en"}
+{"text": "update the service on that machine using the account I just gave you", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0463", "lang": "en"}
+{"text": "帮我登录服务器重启服务", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0464", "lang": "zh"}
+{"text": "查看服务器上的GPU占用率", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0465", "lang": "mix"}
+{"text": "用ssh登录查看服务器状态", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0466", "lang": "mix"}
+{"text": "用ssh访问", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0467", "lang": "mix"}
+{"text": "用这台机器的账号密码更新远端服务版本", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0468", "lang": "zh"}
+{"text": "登录服务器查看日志", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0469", "lang": "zh"}
+{"text": "这是服务器地址和账号，升级线上服务并保留当前镜像方便回退", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0470", "lang": "zh"}
+{"text": "远程执行命令查看磁盘空间", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0471", "lang": "zh"}
+{"text": "连接远程服务器", "intent": "ssh", "split": "train", "src": "anchor", "id": "train-0472", "lang": "zh"}
+{"text": "add this item to the task list", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0473", "lang": "en"}
+{"text": "create a task to track the migration work", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0474", "lang": "en"}
+{"text": "mark this task as completed", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0475", "lang": "en"}
+{"text": "show my current todo list", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0476", "lang": "en"}
+{"text": "列出当前所有待办任务", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0477", "lang": "zh"}
+{"text": "帮我建一个待办清单", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0478", "lang": "zh"}
+{"text": "把修复登录问题加到任务列表里", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0479", "lang": "zh"}
+{"text": "把这个任务标记为已完成", "intent": "task_track", "split": "train", "src": "anchor", "id": "train-0480", "lang": "zh"}
+{"text": "create a session template for code review", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0481", "lang": "en"}
+{"text": "launch a session from the template", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0482", "lang": "en"}
+{"text": "list my session templates", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0483", "lang": "en"}
+{"text": "save this setup as a reusable template", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0484", "lang": "en"}
+{"text": "列出所有会话模板", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0485", "lang": "zh"}
+{"text": "创建一个用 codex 的会话模板", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0486", "lang": "mix"}
+{"text": "把这套配置保存成模板", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0487", "lang": "zh"}
+{"text": "用之前那个模板启动一个新会话", "intent": "template_manage", "split": "train", "src": "anchor", "id": "train-0488", "lang": "zh"}
+{"text": "extract the main content of this page", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0489", "lang": "en"}
+{"text": "fetch the content of this URL", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0490", "lang": "en"}
+{"text": "grab the article text from this link", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0491", "lang": "en"}
+{"text": "read this web page for me", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0492", "lang": "en"}
+{"text": "帮我看看这个网页写了什么", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0493", "lang": "zh"}
+{"text": "把这个网址的内容提取出来", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0494", "lang": "zh"}
+{"text": "抓取这个链接的内容", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0495", "lang": "zh"}
+{"text": "读取这个 URL 的正文", "intent": "web_fetch", "split": "train", "src": "anchor", "id": "train-0496", "lang": "mix"}
+{"text": "conduct due diligence on this company", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0497", "lang": "en"}
+{"text": "design a testing strategy", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0498", "lang": "en"}
+{"text": "do a competitive analysis", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0499", "lang": "en"}
+{"text": "draft USPTO patent claims based on this disclosure", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0500", "lang": "en"}
+{"text": "draft a patent application from disclosure", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0501", "lang": "en"}
+{"text": "file a US patent application", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0502", "lang": "en"}
+{"text": "plan an event for product launch", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0503", "lang": "en"}
+{"text": "review this contract for risks", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0504", "lang": "en"}
+{"text": "write a business plan", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0505", "lang": "en"}
+{"text": "write a literature review paper", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0506", "lang": "en"}
+{"text": "做一个创新方案", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0507", "lang": "zh"}
+{"text": "做一份竞品分析", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0508", "lang": "zh"}
+{"text": "写一份商业计划书", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0509", "lang": "zh"}
+{"text": "写一份基金申请书", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0510", "lang": "zh"}
+{"text": "写一份测试方案", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0511", "lang": "zh"}
+{"text": "分析一下这个专利的侵权风险", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0512", "lang": "zh"}
+{"text": "审查一下这个合同", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0513", "lang": "zh"}
+{"text": "对照招标文件审查投标文件并给出修改建议", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0514", "lang": "zh"}
+{"text": "对这家公司做个尽职调查", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0515", "lang": "zh"}
+{"text": "帮我做一个项目立项方案", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0516", "lang": "zh"}
+{"text": "帮我做一份产品设计文档", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0517", "lang": "zh"}
+{"text": "帮我写一份专利申请书", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0518", "lang": "zh"}
+{"text": "帮我写一份研究报告", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0519", "lang": "zh"}
+{"text": "帮我写一篇文献综述", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0520", "lang": "zh"}
+{"text": "帮我写一篇论文", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0521", "lang": "zh"}
+{"text": "帮我准备一份实用新型专利申请文件", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0522", "lang": "zh"}
+{"text": "帮我分析这个招标文件准备投标", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0523", "lang": "zh"}
+{"text": "帮我整理外观设计专利申请图片和简要说明", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0524", "lang": "zh"}
+{"text": "帮我申请美国专利", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0525", "lang": "zh"}
+{"text": "根据交底书撰写发明专利", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0526", "lang": "zh"}
+{"text": "检查一下我们的数据合规情况", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0527", "lang": "zh"}
+{"text": "检查一下我们的标书是否符合招标要求", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0528", "lang": "zh"}
+{"text": "策划一个发布会活动", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0529", "lang": "zh"}
+{"text": "设计一个实验方案", "intent": "workflow_task", "split": "train", "src": "anchor", "id": "train-0530", "lang": "zh"}
+{"text": "帮我用 Go 写一个命令行记账工具", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0531", "lang": "zh"}
+{"text": "做一个贪吃蛇小游戏，网页版就行", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0532", "lang": "zh"}
+{"text": "用 Python 实现一个爬虫抓取豆瓣电影 Top250", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0533", "lang": "mix"}
+{"text": "给这个项目加一个用户登录注册功能", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0534", "lang": "zh"}
+{"text": "write a REST API in FastAPI for a todo app", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0535", "lang": "en"}
+{"text": "从零搭一个 Vue3 + Vite 的后台管理前端", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0536", "lang": "mix"}
+{"text": "实现一个 LRU 缓存，要有单元测试", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0537", "lang": "mix"}
+{"text": "帮我开发一个微信小程序的点餐页面", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0538", "lang": "zh"}
+{"text": "build me a small chrome extension that blocks ads", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0539", "lang": "en"}
+{"text": "写个脚本批量把 heic 转成 jpg", "intent": "coding", "split": "train", "src": "synthetic", "id": "train-0540", "lang": "mix"}
+{"text": "帮我写一个 Rust 版的 markdown 转 html 小工具", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0541", "lang": "mix"}
+{"text": "给后端新增一个导出 CSV 的接口", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0542", "lang": "mix"}
+{"text": "做一个俄罗斯方块游戏，用 pygame", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0543", "lang": "mix"}
+{"text": "implement a websocket chat server in Node.js", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0544", "lang": "en"}
+{"text": "用 Flutter 开发一个天气 App 的界面", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0545", "lang": "mix"}
+{"text": "写个 shell 脚本每天自动备份数据库到 S3", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0546", "lang": "mix"}
+{"text": "新建一个 Spring Boot 项目，实现商品管理 CRUD", "intent": "coding", "split": "test", "src": "heldout", "id": "test-0547", "lang": "mix"}
+{"text": "程序一启动就 panic: nil pointer dereference，帮我看看", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0548", "lang": "mix"}
+{"text": "登录接口返回 500，帮我排查一下", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0549", "lang": "zh"}
+{"text": "这个函数在并发下数据错乱，修一下", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0550", "lang": "zh"}
+{"text": "npm run build 报错 Module not found，怎么修", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0551", "lang": "mix"}
+{"text": "fix the segfault when parsing empty input", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0552", "lang": "en"}
+{"text": "页面点击提交没反应，控制台报 undefined", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0553", "lang": "mix"}
+{"text": "单元测试 TestParse 一直失败，帮我修好", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0554", "lang": "mix"}
+{"text": "内存泄漏越跑越大，定位一下原因", "intent": "bug_fix", "split": "train", "src": "synthetic", "id": "train-0555", "lang": "zh"}
+{"text": "App 闪退了，日志里是 IndexOutOfBoundsException，帮我修", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0556", "lang": "mix"}
+{"text": "这个 SQL 查询结果重复了，代码哪里有问题", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0557", "lang": "mix"}
+{"text": "debug why the CI pipeline fails on go test", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0558", "lang": "en"}
+{"text": "上传大文件时报 413，帮我解决", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0559", "lang": "zh"}
+{"text": "goroutine 死锁了，帮忙找出来修掉", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0560", "lang": "mix"}
+{"text": "Python 脚本报 UnicodeDecodeError，修一下", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0561", "lang": "mix"}
+{"text": "the login button crashes the app on Android, please fix", "intent": "bug_fix", "split": "test", "src": "heldout", "id": "test-0562", "lang": "en"}
+{"text": "把这个 2000 行的文件拆分成几个模块", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0563", "lang": "zh"}
+{"text": "重构一下 router.go，消除重复代码", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0564", "lang": "mix"}
+{"text": "把项目依赖升级到最新版本", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0565", "lang": "zh"}
+{"text": "优化这个接口的性能，现在太慢了", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0566", "lang": "zh"}
+{"text": "refactor this class to use dependency injection", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0567", "lang": "en"}
+{"text": "清理掉项目里没用的代码和注释", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0568", "lang": "zh"}
+{"text": "把回调风格改成 async/await", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0569", "lang": "mix"}
+{"text": "升级 Go 版本到 1.25 并修好兼容问题", "intent": "maintenance", "split": "train", "src": "synthetic", "id": "train-0570", "lang": "zh"}
+{"text": "把这堆 if-else 重构成策略模式", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0571", "lang": "mix"}
+{"text": "给代码做一次性能优化，减少内存分配", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0572", "lang": "zh"}
+{"text": "migrate the codebase from Python 3.8 to 3.12 idioms", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0573", "lang": "en"}
+{"text": "把重复的工具函数抽到公共包里", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0574", "lang": "zh"}
+{"text": "清理一下过期的依赖和废弃 API", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0575", "lang": "mix"}
+{"text": "rename variables to be more descriptive across the module", "intent": "maintenance", "split": "test", "src": "heldout", "id": "test-0576", "lang": "en"}
+{"text": "登录 10.0.0.12 看一下 nginx 日志", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0577", "lang": "mix"}
+{"text": "ssh 到生产服务器重启一下 redis", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0578", "lang": "mix"}
+{"text": "去 192.168.1.20 上看看磁盘还剩多少", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0579", "lang": "zh"}
+{"text": "check the docker containers running on prod-web-01", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0580", "lang": "en"}
+{"text": "远程服务器上的 java 进程占用 CPU 太高，看看", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0581", "lang": "mix"}
+{"text": "到跳板机上把 /var/log/app.log 最后 100 行拉出来", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0582", "lang": "mix"}
+{"text": "在 staging 机器上执行 systemctl status mysql", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0583", "lang": "mix"}
+{"text": "连一下那台阿里云 ECS 看看端口 8080 有没有监听", "intent": "ssh", "split": "train", "src": "synthetic", "id": "train-0584", "lang": "mix"}
+{"text": "去服务器 172.16.3.5 上重启 tomcat", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0585", "lang": "mix"}
+{"text": "ssh root@my-vps 看下内存使用情况", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0586", "lang": "mix"}
+{"text": "remote host db-02 的 mysql 慢查询日志帮我看看", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0587", "lang": "mix"}
+{"text": "把线上那台机器的 nginx 配置 reload 一下", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0588", "lang": "mix"}
+{"text": "check uptime and load average on the build server", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0589", "lang": "en"}
+{"text": "登录测试服务器看看 kubelet 的状态", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0590", "lang": "mix"}
+{"text": "上那台服务器把 /tmp 下的大文件清一清", "intent": "ssh", "split": "test", "src": "heldout", "id": "test-0591", "lang": "mix"}
+{"text": "打开浏览器登录我的 GitHub 然后点 star", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0592", "lang": "mix"}
+{"text": "用浏览器帮我填写这个报名表单", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0593", "lang": "zh"}
+{"text": "自动化点一下京东的签到按钮", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0594", "lang": "zh"}
+{"text": "录制一下我在网页上的操作流程以后回放", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0595", "lang": "zh"}
+{"text": "open the website in a browser and click the login button", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0596", "lang": "en"}
+{"text": "在浏览器里打开淘宝搜索机械键盘并截图", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0597", "lang": "zh"}
+{"text": "帮我在网页上一页页翻，把每页的标题记下来", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0598", "lang": "zh"}
+{"text": "用浏览器自动提交这个工单表单", "intent": "browser", "split": "train", "src": "synthetic", "id": "train-0599", "lang": "zh"}
+{"text": "打开浏览器进入公司 OA 帮我点审批通过", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0600", "lang": "zh"}
+{"text": "在 Chrome 里打开 B 站搜索 Go 教程", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0601", "lang": "mix"}
+{"text": "fill out the signup form on that site using the browser", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0602", "lang": "en"}
+{"text": "用浏览器模拟登录然后下载对账单页面", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0603", "lang": "zh"}
+{"text": "在网页上自动点击下一页直到最后一页", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0604", "lang": "zh"}
+{"text": "回放上次录制的浏览器操作", "intent": "browser", "split": "test", "src": "heldout", "id": "test-0605", "lang": "zh"}
+{"text": "打开本机的微信，给文件传输助手发个消息", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0606", "lang": "zh"}
+{"text": "帮我在桌面上点开 Excel 软件", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0607", "lang": "mix"}
+{"text": "操作一下电脑上的 Photoshop 新建一个画布", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0608", "lang": "mix"}
+{"text": "click the Start menu and open Settings", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0609", "lang": "en"}
+{"text": "在记事本里输入一段文字", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0610", "lang": "zh"}
+{"text": "帮我把桌面上那个窗口最大化", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0611", "lang": "zh"}
+{"text": "用键盘快捷键关掉当前这个应用窗口", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0612", "lang": "zh"}
+{"text": "打开系统设置把屏幕亮度调高", "intent": "computer_use", "split": "train", "src": "synthetic", "id": "train-0613", "lang": "zh"}
+{"text": "打开电脑上的网易云音乐播放日推", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0614", "lang": "zh"}
+{"text": "在 Word 软件界面里点一下保存按钮", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0615", "lang": "mix"}
+{"text": "use the mouse to drag that window to the second monitor", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0616", "lang": "en"}
+{"text": "帮我在本机的钉钉客户端里点开最新消息", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0617", "lang": "zh"}
+{"text": "打开计算器算一下 123*456，用界面操作", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0618", "lang": "zh"}
+{"text": "在桌面应用里滚动到底部看看", "intent": "computer_use", "split": "test", "src": "heldout", "id": "test-0619", "lang": "zh"}
+{"text": "截个屏给我看看", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0620", "lang": "zh"}
+{"text": "把当前桌面截图发我", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0621", "lang": "zh"}
+{"text": "截一下第二块显示器的画面", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0622", "lang": "zh"}
+{"text": "take a screenshot of my screen", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0623", "lang": "en"}
+{"text": "看看我电脑屏幕上现在显示的是什么，截个图", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0624", "lang": "zh"}
+{"text": "截全屏", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0625", "lang": "zh"}
+{"text": "帮我截一张当前屏幕的图片", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0626", "lang": "zh"}
+{"text": "capture the main display", "intent": "screenshot", "split": "train", "src": "synthetic", "id": "train-0627", "lang": "en"}
+{"text": "截一下屏幕", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0628", "lang": "zh"}
+{"text": "拍一张当前桌面的截图", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0629", "lang": "zh"}
+{"text": "screenshot the desktop please", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0630", "lang": "en"}
+{"text": "把主显示器截个图发过来", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0631", "lang": "zh"}
+{"text": "截个图看下现在电脑上开了什么", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0632", "lang": "zh"}
+{"text": "grab an image of my monitor", "intent": "screenshot", "split": "test", "src": "heldout", "id": "test-0633", "lang": "en"}
+{"text": "搜一下 Rust 的异步运行时有哪些", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0634", "lang": "mix"}
+{"text": "帮我查一下 transformer 论文原文", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0635", "lang": "mix"}
+{"text": "网上找找 Go 泛型的最佳实践文章", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0636", "lang": "zh"}
+{"text": "search for papers on retrieval augmented generation", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0637", "lang": "en"}
+{"text": "查一下 PostgreSQL 分区表怎么用", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0638", "lang": "mix"}
+{"text": "找一些关于 RAG 评测方法的资料", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0639", "lang": "mix"}
+{"text": "上网搜索一下 llama.cpp 的量化格式说明", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0640", "lang": "mix"}
+{"text": "look up how to configure nginx rate limiting", "intent": "search", "split": "train", "src": "synthetic", "id": "train-0641", "lang": "en"}
+{"text": "帮我搜搜 Kubernetes HPA 的原理", "intent": "search", "split": "test", "src": "heldout", "id": "test-0642", "lang": "mix"}
+{"text": "网上查一下 BERT 和 GPT 的区别", "intent": "search", "split": "test", "src": "heldout", "id": "test-0643", "lang": "mix"}
+{"text": "search for best practices of OCR post-processing", "intent": "search", "split": "test", "src": "heldout", "id": "test-0644", "lang": "en"}
+{"text": "找几篇关于向量数据库选型的博客", "intent": "search", "split": "test", "src": "heldout", "id": "test-0645", "lang": "zh"}
+{"text": "查一下 Python asyncio 的官方文档", "intent": "search", "split": "test", "src": "heldout", "id": "test-0646", "lang": "mix"}
+{"text": "搜索一下 PDF 表格抽取有哪些开源方案", "intent": "search", "split": "test", "src": "heldout", "id": "test-0647", "lang": "mix"}
+{"text": "把这段中文翻译成日语", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0648", "lang": "zh"}
+{"text": "帮我总结一下这篇文章的要点", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0649", "lang": "zh"}
+{"text": "把会议记录整理成要点列表", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0650", "lang": "zh"}
+{"text": "写一封请假邮件", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0651", "lang": "zh"}
+{"text": "translate this paragraph into Chinese", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0652", "lang": "en"}
+{"text": "帮我润色一下这段自我介绍", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0653", "lang": "zh"}
+{"text": "把模型转换成 GGUF 格式", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0654", "lang": "mix"}
+{"text": "写一段产品宣传文案", "intent": "non_coding", "split": "train", "src": "synthetic", "id": "train-0655", "lang": "zh"}
+{"text": "帮我把这段英文翻成中文", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0656", "lang": "zh"}
+{"text": "总结一下上面这段对话", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0657", "lang": "zh"}
+{"text": "给这份需求写个摘要", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0658", "lang": "zh"}
+{"text": "polish my cover letter", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0659", "lang": "en"}
+{"text": "帮我写一首关于秋天的诗", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0660", "lang": "zh"}
+{"text": "把这个 PyTorch 模型导出成 ONNX", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0661", "lang": "mix"}
+{"text": "整理一下这些笔记，按主题分类", "intent": "non_coding", "split": "test", "src": "heldout", "id": "test-0662", "lang": "zh"}
+{"text": "今天北京天气怎么样", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0663", "lang": "zh"}
+{"text": "现在美元兑人民币汇率多少", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0664", "lang": "zh"}
+{"text": "茅台今天股价多少", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0665", "lang": "zh"}
+{"text": "what's the bitcoin price right now", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0666", "lang": "en"}
+{"text": "查一下今天的油价", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0667", "lang": "zh"}
+{"text": "最新的 NBA 比分", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0668", "lang": "mix"}
+{"text": "上海明天会下雨吗", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0669", "lang": "zh"}
+{"text": "今天有什么科技新闻", "intent": "live_data", "split": "train", "src": "synthetic", "id": "train-0670", "lang": "zh"}
+{"text": "深圳现在气温多少度", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0671", "lang": "zh"}
+{"text": "查下今天黄金价格", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0672", "lang": "zh"}
+{"text": "what's the weather in Tokyo today", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0673", "lang": "en"}
+{"text": "苹果公司最新股价是多少", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0674", "lang": "zh"}
+{"text": "今天欧元汇率多少", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0675", "lang": "zh"}
+{"text": "最近有什么 AI 大新闻", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0676", "lang": "zh"}
+{"text": "杭州这周末天气预报", "intent": "live_data", "split": "test", "src": "heldout", "id": "test-0677", "lang": "zh"}
+{"text": "把今天的天气做成一张图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0678", "lang": "zh"}
+{"text": "画一下特斯拉最近一个月的股价走势图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0679", "lang": "zh"}
+{"text": "把最新汇率做成信息图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0680", "lang": "zh"}
+{"text": "plot bitcoin price trend for the past week", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0681", "lang": "en"}
+{"text": "给我一张实时空气质量信息图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0682", "lang": "zh"}
+{"text": "画出茅台近三个月的 K 线图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0683", "lang": "zh"}
+{"text": "把本周气温变化画成折线图", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0684", "lang": "zh"}
+{"text": "create a chart of today's gold price", "intent": "live_data_visual", "split": "train", "src": "synthetic", "id": "train-0685", "lang": "en"}
+{"text": "画一张英伟达近半年股价走势图", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0686", "lang": "zh"}
+{"text": "把北京今天的天气生成一张卡片图片", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0687", "lang": "zh"}
+{"text": "make an infographic of current exchange rates", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0688", "lang": "en"}
+{"text": "把比特币最近价格画成折线图", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0689", "lang": "zh"}
+{"text": "生成一张上证指数今日行情图", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0690", "lang": "zh"}
+{"text": "plot the 30-day trend of Apple stock", "intent": "live_data_visual", "split": "test", "src": "heldout", "id": "test-0691", "lang": "en"}
+{"text": "现在几点了", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0692", "lang": "zh"}
+{"text": "今天几号", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0693", "lang": "zh"}
+{"text": "今天星期几", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0694", "lang": "zh"}
+{"text": "what time is it now", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0695", "lang": "en"}
+{"text": "今天是农历几月几号", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0696", "lang": "zh"}
+{"text": "现在是几月份", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0697", "lang": "zh"}
+{"text": "距离今天是第几周", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0698", "lang": "zh"}
+{"text": "what's today's date", "intent": "current_time", "split": "train", "src": "synthetic", "id": "train-0699", "lang": "en"}
+{"text": "今天是周几", "intent": "current_time", "split": "test", "src": "heldout", "id": "test-0700", "lang": "zh"}
+{"text": "what day is it today", "intent": "current_time", "split": "test", "src": "heldout", "id": "test-0701", "lang": "en"}
+{"text": "今天日期是多少", "intent": "current_time", "split": "test", "src": "heldout", "id": "test-0702", "lang": "zh"}
+{"text": "现在北京时间几点了", "intent": "current_time", "split": "test", "src": "heldout", "id": "test-0703", "lang": "zh"}
+{"text": "今年是哪一年", "intent": "current_time", "split": "test", "src": "heldout", "id": "test-0704", "lang": "zh"}
+{"text": "把 report.pdf 发到 zhang@example.com", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0705", "lang": "mix"}
+{"text": "把这个文件发给王经理", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0706", "lang": "zh"}
+{"text": "把刚才生成的表格发到项目群里", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0707", "lang": "zh"}
+{"text": "send the slides to bob@corp.com", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0708", "lang": "en"}
+{"text": "把这个文件拷贝到 D:\\backup 目录", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0709", "lang": "mix"}
+{"text": "把合同发到法务那个会话", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0710", "lang": "zh"}
+{"text": "把总结文档发送给张三的微信", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0711", "lang": "zh"}
+{"text": "forward this file to the design channel", "intent": "document_delivery", "split": "train", "src": "synthetic", "id": "train-0712", "lang": "en"}
+{"text": "把 data.xlsx 发给李四", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0713", "lang": "mix"}
+{"text": "把周报发到 team@company.com 邮箱", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0714", "lang": "mix"}
+{"text": "send the generated pdf to alice", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0715", "lang": "en"}
+{"text": "把这份文件转发到另一个群", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0716", "lang": "zh"}
+{"text": "把这个压缩包传到共享目录 /mnt/share", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0717", "lang": "mix"}
+{"text": "把截图发给运维群", "intent": "document_delivery", "split": "test", "src": "heldout", "id": "test-0718", "lang": "zh"}
+{"text": "把上面的内容导出成 PDF", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0719", "lang": "mix"}
+{"text": "生成一份 PDF 报告", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0720", "lang": "mix"}
+{"text": "把查到的数据做成 PDF", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0721", "lang": "mix"}
+{"text": "export this as a pdf", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0722", "lang": "en"}
+{"text": "把这段内容排版成 PDF 文件", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0723", "lang": "mix"}
+{"text": "把今天的天气信息生成 PDF", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0724", "lang": "mix"}
+{"text": "生成个 pdf 给我", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0725", "lang": "mix"}
+{"text": "把会议纪要输出为 PDF", "intent": "document_generate", "split": "train", "src": "synthetic", "id": "train-0726", "lang": "mix"}
+{"text": "把这些结果整理成 PDF 发我", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0727", "lang": "mix"}
+{"text": "导出 PDF", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0728", "lang": "mix"}
+{"text": "render the summary above into a PDF file", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0729", "lang": "en"}
+{"text": "把搜到的资料生成一份 pdf", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0730", "lang": "mix"}
+{"text": "把这份清单转成 PDF 文档", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0731", "lang": "mix"}
+{"text": "make a pdf of these notes", "intent": "document_generate", "split": "test", "src": "heldout", "id": "test-0732", "lang": "en"}
+{"text": "帮我看看这份合同里有哪些风险条款", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0733", "lang": "zh"}
+{"text": "读一下这个 PDF 讲了什么", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0734", "lang": "mix"}
+{"text": "这个 Excel 里销售额最高的是哪个月", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0735", "lang": "mix"}
+{"text": "summarize the attached document", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0736", "lang": "en"}
+{"text": "这份 PPT 的主要内容是什么", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0737", "lang": "mix"}
+{"text": "提取一下这份发票里的金额", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0738", "lang": "zh"}
+{"text": "这个 Word 文档里提到了哪些人", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0739", "lang": "mix"}
+{"text": "what does this pdf say about pricing", "intent": "document_read", "split": "train", "src": "synthetic", "id": "train-0740", "lang": "en"}
+{"text": "看一下我发的这个 PDF 的结论", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0741", "lang": "mix"}
+{"text": "这份表格里有多少行数据", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0742", "lang": "zh"}
+{"text": "read the attached contract and list obligations", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0743", "lang": "en"}
+{"text": "帮我提取这份简历里的工作经历", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0744", "lang": "zh"}
+{"text": "这个 pptx 一共几页，讲了什么", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0745", "lang": "mix"}
+{"text": "附件里的报表利润是多少", "intent": "document_read", "split": "test", "src": "heldout", "id": "test-0746", "lang": "zh"}
+{"text": "打开桌面上的 report.pdf", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0747", "lang": "mix"}
+{"text": "用 Word 打开 合同.docx", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0748", "lang": "mix"}
+{"text": "打开 D 盘那个 Excel 文件", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0749", "lang": "mix"}
+{"text": "open the quarterly.pptx on my desktop", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0750", "lang": "en"}
+{"text": "把下载目录里的说明书 PDF 打开", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0751", "lang": "mix"}
+{"text": "打开刚才生成的 PDF", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0752", "lang": "mix"}
+{"text": "用默认程序打开这个 xlsx", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0753", "lang": "mix"}
+{"text": "open 简历.docx", "intent": "document_open", "split": "train", "src": "synthetic", "id": "train-0754", "lang": "mix"}
+{"text": "打开桌面上的方案.pptx", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0755", "lang": "mix"}
+{"text": "帮我打开 Downloads 里的 invoice.pdf", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0756", "lang": "mix"}
+{"text": "open the budget spreadsheet with excel", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0757", "lang": "en"}
+{"text": "用系统默认程序打开 readme.pdf", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0758", "lang": "mix"}
+{"text": "打开刚导出的那个 Word 文档", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0759", "lang": "mix"}
+{"text": "把 ~/Documents/plan.xlsx 打开", "intent": "document_open", "split": "test", "src": "heldout", "id": "test-0760", "lang": "mix"}
+{"text": "把我刚上传的文件再发给我", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0761", "lang": "zh"}
+{"text": "把这个附件回传到当前聊天", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0762", "lang": "zh"}
+{"text": "把我发你的那个 PDF 原样发回来", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0763", "lang": "mix"}
+{"text": "send me back the attachment", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0764", "lang": "en"}
+{"text": "把这份附件在这里再发一次", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0765", "lang": "zh"}
+{"text": "return the uploaded spreadsheet to me", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0766", "lang": "en"}
+{"text": "把刚才那个附件发回给我", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0767", "lang": "zh"}
+{"text": "re-send the file I uploaded", "intent": "attachment_delivery", "split": "train", "src": "synthetic", "id": "train-0768", "lang": "en"}
+{"text": "把我上传的那份合同发回来", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0769", "lang": "zh"}
+{"text": "把刚才的附件再传给我一下", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0770", "lang": "zh"}
+{"text": "send the attached image back here", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0771", "lang": "en"}
+{"text": "把这个上传的 Excel 回传给我", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0772", "lang": "mix"}
+{"text": "把我给你的文件原样发我", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0773", "lang": "zh"}
+{"text": "give me back the attached pdf in this chat", "intent": "attachment_delivery", "split": "test", "src": "heldout", "id": "test-0774", "lang": "en"}
+{"text": "我要报销上周出差的费用", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0775", "lang": "zh"}
+{"text": "提交一个采购申请", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0776", "lang": "zh"}
+{"text": "继续填写我没完成的报销单", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0777", "lang": "zh"}
+{"text": "create a leave request for next Monday", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0778", "lang": "en"}
+{"text": "录入一张发票到系统里", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0779", "lang": "zh"}
+{"text": "帮我发起一个合同审批", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0780", "lang": "zh"}
+{"text": "查一下我待审批的单据", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0781", "lang": "zh"}
+{"text": "submit a travel reimbursement", "intent": "business_data", "split": "train", "src": "synthetic", "id": "train-0782", "lang": "en"}
+{"text": "帮我填一张差旅报销单", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0783", "lang": "zh"}
+{"text": "提交请假申请，周五请一天", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0784", "lang": "zh"}
+{"text": "record this invoice in the business system", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0785", "lang": "en"}
+{"text": "继续我上次保存的采购单", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0786", "lang": "zh"}
+{"text": "查询客户 ABC 的合同记录", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0787", "lang": "mix"}
+{"text": "审批一下这个费用单", "intent": "business_data", "split": "test", "src": "heldout", "id": "test-0788", "lang": "zh"}
+{"text": "查一下 MySQL 里 orders 表有多少行", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0789", "lang": "mix"}
+{"text": "连接 PostgreSQL 看看有哪些 schema", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0790", "lang": "mix"}
+{"text": "列出数据库里所有的表", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0791", "lang": "zh"}
+{"text": "show tables in the sales database", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0792", "lang": "en"}
+{"text": "查询 users 表最近注册的 10 个用户", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0793", "lang": "mix"}
+{"text": "看看 SQL Server 里 customer 表的结构", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0794", "lang": "mix"}
+{"text": "统计一下订单表每个月的销售额", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0795", "lang": "zh"}
+{"text": "run select count(*) from logs", "intent": "database", "split": "train", "src": "synthetic", "id": "train-0796", "lang": "en"}
+{"text": "看看 pg 里 public schema 下有哪些表", "intent": "database", "split": "test", "src": "heldout", "id": "test-0797", "lang": "mix"}
+{"text": "查下数据库 orders 表昨天的订单数", "intent": "database", "split": "test", "src": "heldout", "id": "test-0798", "lang": "mix"}
+{"text": "describe the products table in mysql", "intent": "database", "split": "test", "src": "heldout", "id": "test-0799", "lang": "en"}
+{"text": "连接 Access 数据库看看有哪些表", "intent": "database", "split": "test", "src": "heldout", "id": "test-0800", "lang": "mix"}
+{"text": "从 sales 库里查出销售额前十的商品", "intent": "database", "split": "test", "src": "heldout", "id": "test-0801", "lang": "mix"}
+{"text": "query the inventory table for items out of stock", "intent": "database", "split": "test", "src": "heldout", "id": "test-0802", "lang": "en"}
+{"text": "帮我做一份年终总结 PPT", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0803", "lang": "mix"}
+{"text": "基于这份文档做个演示文稿", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0804", "lang": "zh"}
+{"text": "设计一套产品发布会的幻灯片", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0805", "lang": "zh"}
+{"text": "make a slide deck about our Q3 results", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0806", "lang": "en"}
+{"text": "把这个 PPT 的风格改得更高级一点", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0807", "lang": "mix"}
+{"text": "做一个 10 页的公司介绍 PPT", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0808", "lang": "mix"}
+{"text": "生成培训课件 PPT", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0809", "lang": "mix"}
+{"text": "create a presentation on AI trends", "intent": "office", "split": "train", "src": "synthetic", "id": "train-0810", "lang": "en"}
+{"text": "做一份项目汇报的 PPT", "intent": "office", "split": "test", "src": "heldout", "id": "test-0811", "lang": "mix"}
+{"text": "帮我把这份报告做成幻灯片", "intent": "office", "split": "test", "src": "heldout", "id": "test-0812", "lang": "zh"}
+{"text": "design a pitch deck for my startup", "intent": "office", "split": "test", "src": "heldout", "id": "test-0813", "lang": "en"}
+{"text": "把当前这个 PPT 配色优化一下", "intent": "office", "split": "test", "src": "heldout", "id": "test-0814", "lang": "mix"}
+{"text": "制作一个关于碳中和的演示文稿", "intent": "office", "split": "test", "src": "heldout", "id": "test-0815", "lang": "zh"}
+{"text": "生成一套新员工入职培训的 slides", "intent": "office", "split": "test", "src": "heldout", "id": "test-0816", "lang": "mix"}
+{"text": "帮我写一份商业计划书", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0817", "lang": "zh"}
+{"text": "做一份产品需求文档 PRD", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0818", "lang": "mix"}
+{"text": "写一篇关于大模型的研究报告", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0819", "lang": "zh"}
+{"text": "帮我写一份投标书", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0820", "lang": "zh"}
+{"text": "策划一场公司年会活动", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0821", "lang": "zh"}
+{"text": "帮我写个专利申请", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0822", "lang": "zh"}
+{"text": "write a business plan for a coffee shop", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0823", "lang": "en"}
+{"text": "做一份竞品分析报告", "intent": "workflow_task", "split": "train", "src": "synthetic", "id": "train-0824", "lang": "zh"}
+{"text": "帮我出一份新产品的 PRD", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0825", "lang": "mix"}
+{"text": "写一份市场调研报告", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0826", "lang": "zh"}
+{"text": "帮我准备一份项目投标文件", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0827", "lang": "zh"}
+{"text": "draft a research paper on OCR methods", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0828", "lang": "en"}
+{"text": "策划一个线下技术沙龙活动方案", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0829", "lang": "zh"}
+{"text": "写一份融资商业计划", "intent": "workflow_task", "split": "test", "src": "heldout", "id": "test-0830", "lang": "zh"}
+{"text": "继续", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0831", "lang": "zh"}
+{"text": "接着来", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0832", "lang": "zh"}
+{"text": "开始吧", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0833", "lang": "zh"}
+{"text": "go on", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0834", "lang": "en"}
+{"text": "好的开始", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0835", "lang": "zh"}
+{"text": "接着干", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0836", "lang": "zh"}
+{"text": "go ahead", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0837", "lang": "en"}
+{"text": "继续执行", "intent": "continuation", "split": "train", "src": "synthetic", "id": "train-0838", "lang": "zh"}
+{"text": "继续吧", "intent": "continuation", "split": "test", "src": "heldout", "id": "test-0839", "lang": "zh"}
+{"text": "开搞", "intent": "continuation", "split": "test", "src": "heldout", "id": "test-0840", "lang": "zh"}
+{"text": "proceed", "intent": "continuation", "split": "test", "src": "heldout", "id": "test-0841", "lang": "en"}
+{"text": "接着做", "intent": "continuation", "split": "test", "src": "heldout", "id": "test-0842", "lang": "zh"}
+{"text": "好，开始", "intent": "continuation", "split": "test", "src": "heldout", "id": "test-0843", "lang": "zh"}
+{"text": "把这段内容存进知识库", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0844", "lang": "zh"}
+{"text": "把这个网址收录到知识库", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0845", "lang": "zh"}
+{"text": "把 docs 目录导入知识库", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0846", "lang": "mix"}
+{"text": "save this article to the knowledge base", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0847", "lang": "en"}
+{"text": "把这几个 PDF 导入知识库", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0848", "lang": "mix"}
+{"text": "把这篇文章加到知识库里以后查", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0849", "lang": "zh"}
+{"text": "导入这个知识包", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0850", "lang": "zh"}
+{"text": "add this url to my knowledge base", "intent": "knowledge_write", "split": "train", "src": "synthetic", "id": "train-0851", "lang": "en"}
+{"text": "把这份说明文档录入知识库", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0852", "lang": "zh"}
+{"text": "把这个链接保存到知识库", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0853", "lang": "zh"}
+{"text": "import the folder ~/notes into the knowledge base", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0854", "lang": "en"}
+{"text": "把刚才那段总结存到知识库", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0855", "lang": "zh"}
+{"text": "把这些文件加入知识库", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0856", "lang": "zh"}
+{"text": "收录这个网页到知识库", "intent": "knowledge_write", "split": "test", "src": "heldout", "id": "test-0857", "lang": "zh"}
+{"text": "看一下 config.yaml 的内容", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0858", "lang": "mix"}
+{"text": "列出当前目录下的文件", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0859", "lang": "zh"}
+{"text": "搜一下项目里哪里用了 TODO", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0860", "lang": "mix"}
+{"text": "show me the contents of main.go", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0861", "lang": "en"}
+{"text": "读一下 ~/notes/todo.txt", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0862", "lang": "mix"}
+{"text": "找出所有 .log 文件", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0863", "lang": "mix"}
+{"text": "看看 src 目录下有哪些文件", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0864", "lang": "mix"}
+{"text": "grep for 'password' in the repo", "intent": "file_read", "split": "train", "src": "synthetic", "id": "train-0865", "lang": "en"}
+{"text": "打印一下 README.md 内容", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0866", "lang": "mix"}
+{"text": "看下 logs 目录里都有什么", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0867", "lang": "mix"}
+{"text": "find all files named *.proto in this project", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0868", "lang": "en"}
+{"text": "读取 /etc/hosts 文件", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0869", "lang": "mix"}
+{"text": "在代码里搜索 InitRouter 的定义", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0870", "lang": "mix"}
+{"text": "看看 package.json 里有哪些依赖", "intent": "file_read", "split": "test", "src": "heldout", "id": "test-0871", "lang": "mix"}
+{"text": "把这段内容保存到 notes.md", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0872", "lang": "mix"}
+{"text": "新建一个 todo.txt 写入今天的任务", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0873", "lang": "mix"}
+{"text": "在 config.yaml 里把端口改成 9090", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0874", "lang": "mix"}
+{"text": "append this line to log.txt", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0875", "lang": "en"}
+{"text": "把刚才的总结写进 summary.md", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0876", "lang": "mix"}
+{"text": "修改 README 第一段", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0877", "lang": "mix"}
+{"text": "把这些数据保存成 data.csv", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0878", "lang": "mix"}
+{"text": "write this json to output.json", "intent": "file_write", "split": "train", "src": "synthetic", "id": "train-0879", "lang": "en"}
+{"text": "把上面的回答保存到 answer.md", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0880", "lang": "mix"}
+{"text": "在 .env 里加一行 DEBUG=true", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0881", "lang": "mix"}
+{"text": "create a file hello.txt with 'hi'", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0882", "lang": "en"}
+{"text": "把这段代码写到 utils.py", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0883", "lang": "mix"}
+{"text": "把会议要点追加到 meeting.md 末尾", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0884", "lang": "mix"}
+{"text": "把 config.json 里的 timeout 改成 30", "intent": "file_write", "split": "test", "src": "heldout", "id": "test-0885", "lang": "mix"}
+{"text": "删掉 temp.txt", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0886", "lang": "mix"}
+{"text": "把刚才生成的 md 文件删除", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0887", "lang": "zh"}
+{"text": "删除 output.json", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0888", "lang": "mix"}
+{"text": "delete the file draft.md", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0889", "lang": "en"}
+{"text": "把 notes.txt 删了", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0890", "lang": "mix"}
+{"text": "remove old_report.pdf from the workspace", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0891", "lang": "en"}
+{"text": "删除那个临时文件", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0892", "lang": "zh"}
+{"text": "把 build.log 删掉", "intent": "file_delete", "split": "train", "src": "synthetic", "id": "train-0893", "lang": "mix"}
+{"text": "把 summary.md 删了", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0894", "lang": "mix"}
+{"text": "删除刚刚保存的那个文件", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0895", "lang": "zh"}
+{"text": "delete test_output.csv", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0896", "lang": "en"}
+{"text": "把桌面上的 a.txt 删掉", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0897", "lang": "mix"}
+{"text": "remove the file I just wrote", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0898", "lang": "en"}
+{"text": "删除 backup.json", "intent": "file_delete", "split": "test", "src": "heldout", "id": "test-0899", "lang": "mix"}
+{"text": "执行一下 ls -la", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0900", "lang": "zh"}
+{"text": "运行 npm install", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0901", "lang": "mix"}
+{"text": "跑一下 make build", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0902", "lang": "mix"}
+{"text": "run python main.py", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0903", "lang": "en"}
+{"text": "执行 docker ps", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0904", "lang": "mix"}
+{"text": "在本机运行 go test ./...", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0905", "lang": "mix"}
+{"text": "帮我执行 pip install requests", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0906", "lang": "mix"}
+{"text": "run the script deploy.sh", "intent": "shell_command", "split": "train", "src": "synthetic", "id": "train-0907", "lang": "en"}
+{"text": "执行 df -h 看看", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0908", "lang": "zh"}
+{"text": "运行一下 npm run dev", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0909", "lang": "mix"}
+{"text": "run `cargo build --release`", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0910", "lang": "en"}
+{"text": "本机执行 brew update", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0911", "lang": "mix"}
+{"text": "跑一下 ./start.sh", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0912", "lang": "mix"}
+{"text": "执行 ping baidu.com", "intent": "shell_command", "split": "test", "src": "heldout", "id": "test-0913", "lang": "mix"}
+{"text": "看看 git status", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0914", "lang": "mix"}
+{"text": "有哪些未提交的修改", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0915", "lang": "zh"}
+{"text": "看一下最近改动的 diff", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0916", "lang": "mix"}
+{"text": "show me the git diff", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0917", "lang": "en"}
+{"text": "当前分支是什么，有啥改动", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0918", "lang": "zh"}
+{"text": "列出改过的文件", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0919", "lang": "zh"}
+{"text": "看下工作区状态", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0920", "lang": "zh"}
+{"text": "what changed since last commit", "intent": "git_inspect", "split": "train", "src": "synthetic", "id": "train-0921", "lang": "en"}
+{"text": "git diff 看一下", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0922", "lang": "mix"}
+{"text": "看看我改了哪些文件还没提交", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0923", "lang": "zh"}
+{"text": "show uncommitted changes", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0924", "lang": "en"}
+{"text": "当前仓库状态怎么样", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0925", "lang": "zh"}
+{"text": "看下暂存区有什么", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0926", "lang": "zh"}
+{"text": "diff of main.go please", "intent": "git_inspect", "split": "test", "src": "heldout", "id": "test-0927", "lang": "en"}
+{"text": "提交一下代码", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0928", "lang": "zh"}
+{"text": "把改动 commit 了", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0929", "lang": "mix"}
+{"text": "push 到远程", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0930", "lang": "mix"}
+{"text": "commit these changes with message 'fix bug'", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0931", "lang": "en"}
+{"text": "提交并推送", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0932", "lang": "zh"}
+{"text": "git push origin main", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0933", "lang": "en"}
+{"text": "把这些修改提交到仓库", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0934", "lang": "zh"}
+{"text": "commit and push", "intent": "git_mutate", "split": "train", "src": "synthetic", "id": "train-0935", "lang": "en"}
+{"text": "帮我 commit 一下", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0936", "lang": "mix"}
+{"text": "推送到 GitHub", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0937", "lang": "mix"}
+{"text": "commit with message 'update docs'", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0938", "lang": "en"}
+{"text": "把代码提交上去", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0939", "lang": "zh"}
+{"text": "把当前改动推到远程分支", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0940", "lang": "zh"}
+{"text": "git commit 一下然后 push", "intent": "git_mutate", "split": "test", "src": "heldout", "id": "test-0941", "lang": "mix"}
+{"text": "开始录音", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0942", "lang": "zh"}
+{"text": "帮我录一下这次会议", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0943", "lang": "zh"}
+{"text": "打开麦克风录音", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0944", "lang": "zh"}
+{"text": "start recording audio", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0945", "lang": "en"}
+{"text": "录制接下来的讨论", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0946", "lang": "zh"}
+{"text": "开个录音", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0947", "lang": "zh"}
+{"text": "record the meeting", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0948", "lang": "en"}
+{"text": "用麦克风录一段音频", "intent": "audio_record", "split": "train", "src": "synthetic", "id": "train-0949", "lang": "zh"}
+{"text": "录音", "intent": "audio_record", "split": "test", "src": "heldout", "id": "test-0950", "lang": "zh"}
+{"text": "帮我把接下来的会议录下来", "intent": "audio_record", "split": "test", "src": "heldout", "id": "test-0951", "lang": "zh"}
+{"text": "start a voice recording", "intent": "audio_record", "split": "test", "src": "heldout", "id": "test-0952", "lang": "en"}
+{"text": "录一段我说的话", "intent": "audio_record", "split": "test", "src": "heldout", "id": "test-0953", "lang": "zh"}
+{"text": "begin recording the discussion", "intent": "audio_record", "split": "test", "src": "heldout", "id": "test-0954", "lang": "en"}
+{"text": "把这个录音转成文字", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0955", "lang": "zh"}
+{"text": "识别一下 meeting.mp3 里说了什么", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0956", "lang": "mix"}
+{"text": "把会议录音整理成纪要", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0957", "lang": "zh"}
+{"text": "transcribe this audio file", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0958", "lang": "en"}
+{"text": "把这段语音转写出来", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0959", "lang": "zh"}
+{"text": "这个 wav 文件说了啥", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0960", "lang": "mix"}
+{"text": "语音识别一下这个文件", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0961", "lang": "zh"}
+{"text": "transcribe interview.m4a", "intent": "audio_transcribe", "split": "train", "src": "synthetic", "id": "train-0962", "lang": "en"}
+{"text": "把这个音频转写成文字稿", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0963", "lang": "zh"}
+{"text": "识别 voice.ogg 的内容", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0964", "lang": "mix"}
+{"text": "transcribe the recording I uploaded", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0965", "lang": "en"}
+{"text": "把会议录音转成文字", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0966", "lang": "zh"}
+{"text": "这段语音说的什么", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0967", "lang": "zh"}
+{"text": "speech to text for call.mp3", "intent": "audio_transcribe", "split": "test", "src": "heldout", "id": "test-0968", "lang": "en"}
+{"text": "把这段话读出来", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0969", "lang": "zh"}
+{"text": "用语音朗读这篇文章", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0970", "lang": "zh"}
+{"text": "把这段文字合成语音播放", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0971", "lang": "zh"}
+{"text": "read this text aloud", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0972", "lang": "en"}
+{"text": "朗读一下上面的回复", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0973", "lang": "zh"}
+{"text": "TTS 播放这句话", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0974", "lang": "mix"}
+{"text": "用中文念一下这段", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0975", "lang": "zh"}
+{"text": "speak this paragraph", "intent": "audio_synthesize", "split": "train", "src": "synthetic", "id": "train-0976", "lang": "en"}
+{"text": "把这段念给我听", "intent": "audio_synthesize", "split": "test", "src": "heldout", "id": "test-0977", "lang": "zh"}
+{"text": "朗读一下这首诗", "intent": "audio_synthesize", "split": "test", "src": "heldout", "id": "test-0978", "lang": "zh"}
+{"text": "用语音播放一下这段话", "intent": "audio_synthesize", "split": "test", "src": "heldout", "id": "test-0979", "lang": "zh"}
+{"text": "把回复读出来", "intent": "audio_synthesize", "split": "test", "src": "heldout", "id": "test-0980", "lang": "zh"}
+{"text": "text to speech this sentence", "intent": "audio_synthesize", "split": "test", "src": "heldout", "id": "test-0981", "lang": "en"}
+{"text": "把这段话转成语音发到群里", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0982", "lang": "zh"}
+{"text": "发一条语音消息给他", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0983", "lang": "zh"}
+{"text": "用语音把这个通知发出去", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0984", "lang": "zh"}
+{"text": "send this as a voice note", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0985", "lang": "en"}
+{"text": "把这段文字合成语音发到当前群", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0986", "lang": "zh"}
+{"text": "send a voice message saying hello", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0987", "lang": "en"}
+{"text": "发个语音给大家", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0988", "lang": "zh"}
+{"text": "speak this and send it to the group", "intent": "audio_deliver", "split": "train", "src": "synthetic", "id": "train-0989", "lang": "en"}
+{"text": "把这句话用语音发到群里", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0990", "lang": "zh"}
+{"text": "发一条语音说我晚点到", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0991", "lang": "zh"}
+{"text": "send this text as voice to the chat", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0992", "lang": "en"}
+{"text": "用语音消息把结果发给我", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0993", "lang": "zh"}
+{"text": "发个语音通知", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0994", "lang": "zh"}
+{"text": "deliver this as a voice bubble", "intent": "audio_deliver", "split": "test", "src": "heldout", "id": "test-0995", "lang": "en"}
+{"text": "读一下 https://example.com/article 这篇文章", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-0996", "lang": "mix"}
+{"text": "抓取 https://news.ycombinator.com 首页内容", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-0997", "lang": "mix"}
+{"text": "看看这个链接讲了什么 https://go.dev/blog", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-0998", "lang": "mix"}
+{"text": "fetch https://arxiv.org/abs/2401.00001", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-0999", "lang": "en"}
+{"text": "总结一下 https://zhuanlan.zhihu.com/p/12345", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-1000", "lang": "mix"}
+{"text": "打开这个网址读正文 https://www.ruanyifeng.com/blog/", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-1001", "lang": "mix"}
+{"text": "get the content of https://docs.python.org/3/", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-1002", "lang": "en"}
+{"text": "这个页面写了啥 http://blog.example.cn/post/1", "intent": "web_fetch", "split": "train", "src": "synthetic", "id": "train-1003", "lang": "mix"}
+{"text": "帮我读一下 https://github.com/cactus-compute/needle 的内容", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1004", "lang": "mix"}
+{"text": "抓取 https://www.qq.com 页面正文", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1005", "lang": "mix"}
+{"text": "fetch and summarize https://openai.com/blog", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1006", "lang": "en"}
+{"text": "看看 https://pkg.go.dev/net/http 写了什么", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1007", "lang": "mix"}
+{"text": "总结 https://mp.weixin.qq.com/s/abcdef 这篇", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1008", "lang": "mix"}
+{"text": "read https://example.org/changelog", "intent": "web_fetch", "split": "test", "src": "heldout", "id": "test-1009", "lang": "en"}
+{"text": "查一下今天的审计日志", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1010", "lang": "zh"}
+{"text": "搜一下我们之前聊过的关于 OCR 的对话", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1011", "lang": "mix"}
+{"text": "看看最近有没有危险的工具调用", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1012", "lang": "zh"}
+{"text": "show the security audit log", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1013", "lang": "en"}
+{"text": "检查一下项目健康状态", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1014", "lang": "zh"}
+{"text": "查历史会话里提到 redis 的记录", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1015", "lang": "mix"}
+{"text": "看看昨天执行过哪些命令的审计记录", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1016", "lang": "zh"}
+{"text": "search my chat history for 'invoice'", "intent": "audit_read", "split": "train", "src": "synthetic", "id": "train-1017", "lang": "en"}
+{"text": "看下最近一周的安全审计记录", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1018", "lang": "zh"}
+{"text": "我们以前讨论过部署方案吗，查一下历史", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1019", "lang": "zh"}
+{"text": "show recent risky tool calls", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1020", "lang": "en"}
+{"text": "检查系统健康状况", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1021", "lang": "zh"}
+{"text": "搜历史对话里关于报销的内容", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1022", "lang": "zh"}
+{"text": "audit log for yesterday", "intent": "audit_read", "split": "test", "src": "heldout", "id": "test-1023", "lang": "en"}
+{"text": "在知识库里查一下报销流程", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1024", "lang": "zh"}
+{"text": "知识库里有没有关于 OCR 的资料", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1025", "lang": "mix"}
+{"text": "从知识库检索部署文档", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1026", "lang": "zh"}
+{"text": "search the knowledge base for onboarding", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1027", "lang": "en"}
+{"text": "知识库里怎么说的 API 限流", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1028", "lang": "mix"}
+{"text": "查一下我存的笔记里关于 Go 泛型的内容", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1029", "lang": "zh"}
+{"text": "根据知识库回答：年假怎么算", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1030", "lang": "zh"}
+{"text": "find docs about SSO in my knowledge base", "intent": "knowledge_read", "split": "train", "src": "synthetic", "id": "train-1031", "lang": "en"}
+{"text": "知识库里关于发票的规定是什么", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1032", "lang": "zh"}
+{"text": "从知识库找一下产品价格表", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1033", "lang": "zh"}
+{"text": "what does my knowledge base say about vpn setup", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1034", "lang": "en"}
+{"text": "检索知识库里的会议纪要", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1035", "lang": "zh"}
+{"text": "知识库里有没有 PDF 翻译相关文档", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1036", "lang": "mix"}
+{"text": "根据我保存的资料回答这个问题", "intent": "knowledge_read", "split": "test", "src": "heldout", "id": "test-1037", "lang": "zh"}
+{"text": "打开 VS Code", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1038", "lang": "mix"}
+{"text": "启动微信", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1039", "lang": "zh"}
+{"text": "打开 https://www.baidu.com", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1040", "lang": "mix"}
+{"text": "open Spotify", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1041", "lang": "en"}
+{"text": "打开下载文件夹", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1042", "lang": "zh"}
+{"text": "启动终端", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1043", "lang": "zh"}
+{"text": "帮我打开网易云音乐", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1044", "lang": "zh"}
+{"text": "open the folder ~/projects", "intent": "app_launch", "split": "train", "src": "synthetic", "id": "train-1045", "lang": "en"}
+{"text": "打开 Chrome", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1046", "lang": "mix"}
+{"text": "启动钉钉", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1047", "lang": "zh"}
+{"text": "open https://github.com in my browser", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1048", "lang": "en"}
+{"text": "打开桌面文件夹", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1049", "lang": "zh"}
+{"text": "运行一下计算器", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1050", "lang": "zh"}
+{"text": "open Finder", "intent": "app_launch", "split": "test", "src": "heldout", "id": "test-1051", "lang": "en"}
+{"text": "把 https://example.com/a.pdf 下载下来", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1052", "lang": "mix"}
+{"text": "下载这个安装包 https://dl.google.com/go1.25.linux-amd64.tar.gz", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1053", "lang": "mix"}
+{"text": "download https://arxiv.org/pdf/2401.00001.pdf", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1054", "lang": "en"}
+{"text": "把这个链接的图片保存到本地", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1055", "lang": "zh"}
+{"text": "下载 https://x.com/data.csv 到桌面", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1056", "lang": "mix"}
+{"text": "把这个文件下载到 Downloads", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1057", "lang": "mix"}
+{"text": "save https://site.com/report.xlsx locally", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1058", "lang": "en"}
+{"text": "下载这个模型文件到本地", "intent": "file_download", "split": "train", "src": "synthetic", "id": "train-1059", "lang": "zh"}
+{"text": "下载 https://example.org/manual.pdf", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1060", "lang": "mix"}
+{"text": "把这个压缩包下载到本机 https://a.com/b.zip", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1061", "lang": "mix"}
+{"text": "download the dataset from https://data.gov/x.csv", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1062", "lang": "en"}
+{"text": "保存这个链接里的视频到本地", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1063", "lang": "zh"}
+{"text": "把 https://cdn.x.com/logo.png 下载下来", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1064", "lang": "mix"}
+{"text": "fetch this installer to disk: https://get.app/setup.exe", "intent": "file_download", "split": "test", "src": "heldout", "id": "test-1065", "lang": "en"}
+{"text": "每天早上 9 点提醒我喝水", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1066", "lang": "zh"}
+{"text": "创建一个每周一的定时任务", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1067", "lang": "zh"}
+{"text": "列出所有定时任务", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1068", "lang": "zh"}
+{"text": "pause the daily backup schedule", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1069", "lang": "en"}
+{"text": "删除那个每天备份的定时任务", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1070", "lang": "zh"}
+{"text": "把提醒改到下午三点", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1071", "lang": "zh"}
+{"text": "每小时检查一次磁盘空间", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1072", "lang": "zh"}
+{"text": "set a reminder for 6pm", "intent": "schedule_manage", "split": "train", "src": "synthetic", "id": "train-1073", "lang": "en"}
+{"text": "明天早上八点提醒我开会", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1074", "lang": "zh"}
+{"text": "看看我有哪些定时任务", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1075", "lang": "zh"}
+{"text": "delete the weekly report schedule", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1076", "lang": "en"}
+{"text": "暂停每晚的同步任务", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1077", "lang": "zh"}
+{"text": "每天凌晨两点自动跑一次清理脚本", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1078", "lang": "zh"}
+{"text": "恢复之前暂停的定时任务", "intent": "schedule_manage", "split": "test", "src": "heldout", "id": "test-1079", "lang": "zh"}
+{"text": "每天早上 9 点把天气发到群里", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1080", "lang": "zh"}
+{"text": "每周五下午把周报发给团队群", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1081", "lang": "zh"}
+{"text": "每天定时把销售数据推送到微信", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1082", "lang": "zh"}
+{"text": "every morning send the news summary to the team chat", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1083", "lang": "en"}
+{"text": "每小时把服务器状态发到运维群", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1084", "lang": "zh"}
+{"text": "定时把日报发给张三", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1085", "lang": "zh"}
+{"text": "每天晚上 8 点把汇率推送到蓝信", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1086", "lang": "zh"}
+{"text": "schedule a daily message to the group at 10am", "intent": "schedule_dispatch", "split": "train", "src": "synthetic", "id": "train-1087", "lang": "en"}
+{"text": "每天早上把今日新闻推送到群里", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1088", "lang": "zh"}
+{"text": "每周一把上周数据汇总发给老板", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1089", "lang": "zh"}
+{"text": "send the build status to the dev channel every hour", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1090", "lang": "en"}
+{"text": "每天下班前把待办提醒发到群", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1091", "lang": "zh"}
+{"text": "定时每晚把监控截图发给我微信", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1092", "lang": "zh"}
+{"text": "每月 1 号把账单汇总发到财务群", "intent": "schedule_dispatch", "split": "test", "src": "heldout", "id": "test-1093", "lang": "zh"}
+{"text": "把模型切换成 deepseek", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1094", "lang": "mix"}
+{"text": "看看你现在用的是哪个 LLM", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1095", "lang": "mix"}
+{"text": "把最大推理轮数改成 50", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1096", "lang": "zh"}
+{"text": "switch your model to gpt-4o", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1097", "lang": "en"}
+{"text": "修改一下你的配置", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1098", "lang": "zh"}
+{"text": "换一个模型服务商", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1099", "lang": "zh"}
+{"text": "更新一下我的用户画像，我是后端工程师", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1100", "lang": "zh"}
+{"text": "show your current configuration", "intent": "config_manage", "split": "train", "src": "synthetic", "id": "train-1101", "lang": "en"}
+{"text": "切换到 qwen 模型", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1102", "lang": "mix"}
+{"text": "你现在用的哪个模型提供商", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1103", "lang": "zh"}
+{"text": "set max iterations to 30", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1104", "lang": "en"}
+{"text": "把你的配置改一下，温度调低", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1105", "lang": "zh"}
+{"text": "修正一下我的画像，我不写前端", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1106", "lang": "zh"}
+{"text": "change your llm provider to openrouter", "intent": "config_manage", "split": "test", "src": "heldout", "id": "test-1107", "lang": "en"}
+{"text": "记住我喜欢用 Go", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1108", "lang": "zh"}
+{"text": "以后都用中文回复我，记下来", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1109", "lang": "zh"}
+{"text": "忘掉我之前说的那个偏好", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1110", "lang": "zh"}
+{"text": "remember that my project uses PostgreSQL", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1111", "lang": "en"}
+{"text": "看看你记得关于我的哪些事", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1112", "lang": "zh"}
+{"text": "更新记忆：我换到上海工作了", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1113", "lang": "zh"}
+{"text": "删除关于旧项目的记忆", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1114", "lang": "zh"}
+{"text": "list what you remember about me", "intent": "memory_manage", "split": "train", "src": "synthetic", "id": "train-1115", "lang": "en"}
+{"text": "记住我的生日是 5 月 3 号", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1116", "lang": "zh"}
+{"text": "你都记得我什么", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1117", "lang": "zh"}
+{"text": "forget my old email address", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1118", "lang": "en"}
+{"text": "记一下：这个项目用 pnpm", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1119", "lang": "mix"}
+{"text": "把那条过时的记忆删了", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1120", "lang": "zh"}
+{"text": "update memory: I prefer tabs over spaces", "intent": "memory_manage", "split": "test", "src": "heldout", "id": "test-1121", "lang": "en"}
+{"text": "加一个待办：写周报", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1122", "lang": "zh"}
+{"text": "把待办列表列出来", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1123", "lang": "zh"}
+{"text": "把第二个任务标记为完成", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1124", "lang": "zh"}
+{"text": "add a todo: review PR", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1125", "lang": "en"}
+{"text": "删掉待办里的买菜", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1126", "lang": "zh"}
+{"text": "更新任务状态为进行中", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1127", "lang": "zh"}
+{"text": "看看还有哪些任务没完成", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1128", "lang": "zh"}
+{"text": "create a task to fix login bug", "intent": "task_track", "split": "train", "src": "synthetic", "id": "train-1129", "lang": "en"}
+{"text": "待办里加一条：联系客户", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1130", "lang": "zh"}
+{"text": "列出当前任务清单", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1131", "lang": "zh"}
+{"text": "mark the first todo as done", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1132", "lang": "en"}
+{"text": "把那个任务删掉", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1133", "lang": "zh"}
+{"text": "还有什么待办没做", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1134", "lang": "zh"}
+{"text": "新增任务：更新文档", "intent": "task_track", "split": "test", "src": "heldout", "id": "test-1135", "lang": "zh"}
+{"text": "创建一个长期目标：一个月内把测试覆盖率提到 80%", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1136", "lang": "zh"}
+{"text": "看看当前的长期目标进度", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1137", "lang": "zh"}
+{"text": "结束那个长期目标", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1138", "lang": "zh"}
+{"text": "create a long-running goal with a budget of 100 steps", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1139", "lang": "en"}
+{"text": "设一个目标，持续优化首页性能直到 LCP<2s", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1140", "lang": "mix"}
+{"text": "列出所有长期目标", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1141", "lang": "zh"}
+{"text": "停止当前目标", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1142", "lang": "zh"}
+{"text": "check the status of my goal", "intent": "goal_manage", "split": "train", "src": "synthetic", "id": "train-1143", "lang": "en"}
+{"text": "建一个长期目标：持续修复所有 lint 警告", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1144", "lang": "mix"}
+{"text": "我的长期目标进展如何", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1145", "lang": "zh"}
+{"text": "end the current goal", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1146", "lang": "en"}
+{"text": "创建目标，自动推进直到所有测试通过", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1147", "lang": "zh"}
+{"text": "取消那个长期目标", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1148", "lang": "zh"}
+{"text": "show my active goals", "intent": "goal_manage", "split": "test", "src": "heldout", "id": "test-1149", "lang": "en"}
+{"text": "创建一个会话模板", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1150", "lang": "zh"}
+{"text": "列出我的模板", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1151", "lang": "zh"}
+{"text": "用代码审查模板启动新会话", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1152", "lang": "zh"}
+{"text": "save this as a session template", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1153", "lang": "en"}
+{"text": "把当前工具和项目路径存成模板", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1154", "lang": "zh"}
+{"text": "删除那个旧模板", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1155", "lang": "zh"}
+{"text": "用模板开一个 Claude Code 会话", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1156", "lang": "mix"}
+{"text": "list session templates", "intent": "template_manage", "split": "train", "src": "synthetic", "id": "train-1157", "lang": "en"}
+{"text": "新建一个前端项目的会话模板", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1158", "lang": "zh"}
+{"text": "有哪些会话模板", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1159", "lang": "zh"}
+{"text": "start a session from my review template", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1160", "lang": "en"}
+{"text": "把这套配置保存为模板", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1161", "lang": "zh"}
+{"text": "用上次的模板起一个新会话", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1162", "lang": "zh"}
+{"text": "show my templates", "intent": "template_manage", "split": "test", "src": "heldout", "id": "test-1163", "lang": "en"}
+{"text": "列出所有编码会话", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1164", "lang": "zh"}
+{"text": "看看那个 codex 会话的输出", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1165", "lang": "mix"}
+{"text": "中断当前会话", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1166", "lang": "zh"}
+{"text": "list coding sessions", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1167", "lang": "en"}
+{"text": "给会话发送继续指令", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1168", "lang": "zh"}
+{"text": "终止卡住的会话", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1169", "lang": "zh"}
+{"text": "切换到另一个项目", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1170", "lang": "zh"}
+{"text": "show providers of coding tools", "intent": "session_manage", "split": "train", "src": "synthetic", "id": "train-1171", "lang": "en"}
+{"text": "看下现在有哪些会话在跑", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1172", "lang": "zh"}
+{"text": "把那个卡死的会话停掉", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1173", "lang": "zh"}
+{"text": "send 'continue' to the running session", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1174", "lang": "en"}
+{"text": "查看会话最近的输出", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1175", "lang": "zh"}
+{"text": "切换当前项目到 maclaw", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1176", "lang": "mix"}
+{"text": "kill the stuck claude code session", "intent": "session_manage", "split": "test", "src": "heldout", "id": "test-1177", "lang": "en"}
+{"text": "把这个任务分给子 agent 去做", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1178", "lang": "mix"}
+{"text": "并行执行这三个任务", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1179", "lang": "zh"}
+{"text": "组织几个专家讨论一下这个方案", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1180", "lang": "zh"}
+{"text": "delegate this to a sub-agent", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1181", "lang": "en"}
+{"text": "开几个子代理分别调研这三个方向", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1182", "lang": "zh"}
+{"text": "让多个 agent 会诊一下这个 bug", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1183", "lang": "mix"}
+{"text": "把调研和编码分别委派出去", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1184", "lang": "zh"}
+{"text": "run these tasks in parallel with sub agents", "intent": "delegate_task", "split": "train", "src": "synthetic", "id": "train-1185", "lang": "en"}
+{"text": "委派一个子 agent 去整理文档", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1186", "lang": "mix"}
+{"text": "同时并行处理这几个文件", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1187", "lang": "zh"}
+{"text": "spin up sub-agents to research each option", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1188", "lang": "en"}
+{"text": "找几个专家角色一起评审方案", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1189", "lang": "zh"}
+{"text": "把这个任务交给子代理", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1190", "lang": "zh"}
+{"text": "parallelize these three jobs", "intent": "delegate_task", "split": "test", "src": "heldout", "id": "test-1191", "lang": "en"}
+{"text": "刷新知识库来源", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1192", "lang": "zh"}
+{"text": "禁用那个知识库数据源", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1193", "lang": "zh"}
+{"text": "删除知识库里的旧来源", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1194", "lang": "zh"}
+{"text": "show knowledge base stats", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1195", "lang": "en"}
+{"text": "跑一下知识库质量维护", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1196", "lang": "zh"}
+{"text": "检查知识库健康状况", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1197", "lang": "zh"}
+{"text": "给知识库条目加标签", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1198", "lang": "zh"}
+{"text": "remove duplicates in the knowledge base", "intent": "knowledge_admin", "split": "train", "src": "synthetic", "id": "train-1199", "lang": "en"}
+{"text": "知识库里那个来源重新刷新一下", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1200", "lang": "zh"}
+{"text": "停用这个知识源", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1201", "lang": "zh"}
+{"text": "knowledge base health check", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1202", "lang": "en"}
+{"text": "清理知识库重复条目", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1203", "lang": "zh"}
+{"text": "看看知识库统计信息", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1204", "lang": "zh"}
+{"text": "删除知识库中过期的来源", "intent": "knowledge_admin", "split": "test", "src": "heldout", "id": "test-1205", "lang": "zh"}
+{"text": "你好", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1206", "lang": "zh"}
+{"text": "谢谢", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1207", "lang": "zh"}
+{"text": "你是谁", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1208", "lang": "zh"}
+{"text": "hello", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1209", "lang": "en"}
+{"text": "哈哈", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1210", "lang": "zh"}
+{"text": "早上好", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1211", "lang": "zh"}
+{"text": "讲个笑话", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1212", "lang": "zh"}
+{"text": "你能做什么", "intent": "unknown", "split": "train", "src": "synthetic", "id": "train-1213", "lang": "zh"}
+{"text": "嗨", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1214", "lang": "zh"}
+{"text": "好的谢谢", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1215", "lang": "zh"}
+{"text": "who are you", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1216", "lang": "en"}
+{"text": "晚安", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1217", "lang": "zh"}
+{"text": "今天心情不错", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1218", "lang": "zh"}
+{"text": "thanks!", "intent": "unknown", "split": "test", "src": "heldout", "id": "test-1219", "lang": "en"}
+{"text": "打开桌面上的 PPT 看一下", "intent": "document_open", "split": "test", "src": "hard", "id": "test-1220", "lang": "mix"}
+{"text": "删除服务器 10.0.0.3 上的 /tmp/a.log", "intent": "ssh", "split": "test", "src": "hard", "id": "test-1221", "lang": "mix"}
+{"text": "把关于我旧公司的记忆删掉", "intent": "memory_manage", "split": "test", "src": "hard", "id": "test-1222", "lang": "zh"}
+{"text": "删除知识库里关于报销的来源", "intent": "knowledge_admin", "split": "test", "src": "hard", "id": "test-1223", "lang": "zh"}
+{"text": "删除每天 9 点的那个定时任务", "intent": "schedule_manage", "split": "test", "src": "hard", "id": "test-1224", "lang": "zh"}
+{"text": "每天 9 点把日报发到群里", "intent": "schedule_dispatch", "split": "test", "src": "hard", "id": "test-1225", "lang": "zh"}
+{"text": "在浏览器里给这个网页截个图", "intent": "browser", "split": "test", "src": "hard", "id": "test-1226", "lang": "zh"}
+{"text": "截一下我电脑桌面", "intent": "screenshot", "split": "test", "src": "hard", "id": "test-1227", "lang": "zh"}
+{"text": "把我刚上传的附件发给张三", "intent": "document_delivery", "split": "test", "src": "hard", "id": "test-1228", "lang": "zh"}
+{"text": "把我刚上传的附件发回给我", "intent": "attachment_delivery", "split": "test", "src": "hard", "id": "test-1229", "lang": "zh"}
+{"text": "把这段文字读出来", "intent": "audio_synthesize", "split": "test", "src": "hard", "id": "test-1230", "lang": "zh"}
+{"text": "把这段文字用语音发到群里", "intent": "audio_deliver", "split": "test", "src": "hard", "id": "test-1231", "lang": "zh"}
+{"text": "把录音文件转成文字", "intent": "audio_transcribe", "split": "test", "src": "hard", "id": "test-1232", "lang": "zh"}
+{"text": "帮我搜一下 https 证书怎么配", "intent": "search", "split": "test", "src": "hard", "id": "test-1233", "lang": "mix"}
+{"text": "读一下 https://go.dev/doc/effective_go", "intent": "web_fetch", "split": "test", "src": "hard", "id": "test-1234", "lang": "mix"}
+{"text": "下载 https://go.dev/dl/go1.25.5.src.tar.gz", "intent": "file_download", "split": "test", "src": "hard", "id": "test-1235", "lang": "mix"}
+{"text": "今天上海天气", "intent": "live_data", "split": "test", "src": "hard", "id": "test-1236", "lang": "zh"}
+{"text": "把今天上海天气画成图", "intent": "live_data_visual", "split": "test", "src": "hard", "id": "test-1237", "lang": "zh"}
+{"text": "把今天上海天气生成 PDF", "intent": "document_generate", "split": "test", "src": "hard", "id": "test-1238", "lang": "mix"}
+{"text": "把这份报告导出为 PDF", "intent": "document_generate", "split": "test", "src": "hard", "id": "test-1239", "lang": "mix"}
+{"text": "基于这份文档做个 PPT", "intent": "office", "split": "test", "src": "hard", "id": "test-1240", "lang": "mix"}
+{"text": "读一下这份文档", "intent": "document_read", "split": "test", "src": "hard", "id": "test-1241", "lang": "zh"}
+{"text": "执行 rm -rf build 目录", "intent": "shell_command", "split": "test", "src": "hard", "id": "test-1242", "lang": "mix"}
+{"text": "把 build.log 文件删除", "intent": "file_delete", "split": "test", "src": "hard", "id": "test-1243", "lang": "mix"}
+{"text": "看看 git 改了什么", "intent": "git_inspect", "split": "test", "src": "hard", "id": "test-1244", "lang": "mix"}
+{"text": "把改动提交并 push", "intent": "git_mutate", "split": "test", "src": "hard", "id": "test-1245", "lang": "mix"}
+{"text": "查一下知识库里的报销规定", "intent": "knowledge_read", "split": "test", "src": "hard", "id": "test-1246", "lang": "zh"}
+{"text": "把这份报销规定存到知识库", "intent": "knowledge_write", "split": "test", "src": "hard", "id": "test-1247", "lang": "zh"}
+{"text": "帮我报销这张发票", "intent": "business_data", "split": "test", "src": "hard", "id": "test-1248", "lang": "zh"}
+{"text": "查询 MySQL 里的发票表", "intent": "database", "split": "test", "src": "hard", "id": "test-1249", "lang": "mix"}
+{"text": "打开微信", "intent": "app_launch", "split": "test", "src": "hard", "id": "test-1250", "lang": "zh"}
+{"text": "打开微信给张三发消息", "intent": "computer_use", "split": "test", "src": "hard", "id": "test-1251", "lang": "zh"}
+{"text": "列出编码会话", "intent": "session_manage", "split": "test", "src": "hard", "id": "test-1252", "lang": "zh"}
+{"text": "列出会话模板", "intent": "template_manage", "split": "test", "src": "hard", "id": "test-1253", "lang": "zh"}
+{"text": "加个待办：周五交周报", "intent": "task_track", "split": "test", "src": "hard", "id": "test-1254", "lang": "zh"}
+{"text": "周五下午提醒我交周报", "intent": "schedule_manage", "split": "test", "src": "hard", "id": "test-1255", "lang": "zh"}
+{"text": "切换模型到 deepseek-v3", "intent": "config_manage", "split": "test", "src": "hard", "id": "test-1256", "lang": "mix"}
+{"text": "记住我喜欢 deepseek", "intent": "memory_manage", "split": "test", "src": "hard", "id": "test-1257", "lang": "mix"}
+{"text": "登录服务器看日志", "intent": "ssh", "split": "test", "src": "hard", "id": "test-1258", "lang": "zh"}
+{"text": "看看本地 app.log 日志", "intent": "file_read", "split": "test", "src": "hard", "id": "test-1259", "lang": "mix"}
+{"text": "修复登录 bug", "intent": "bug_fix", "split": "test", "src": "hard", "id": "test-1260", "lang": "mix"}
+{"text": "重构登录模块", "intent": "maintenance", "split": "test", "src": "hard", "id": "test-1261", "lang": "zh"}
+{"text": "新增登录模块", "intent": "coding", "split": "test", "src": "hard", "id": "test-1262", "lang": "zh"}
+{"text": "让子 agent 并行修这三个 bug", "intent": "delegate_task", "split": "test", "src": "hard", "id": "test-1263", "lang": "mix"}

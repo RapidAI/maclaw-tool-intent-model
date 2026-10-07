@@ -1,0 +1,339 @@
+{"id": "test-0541", "text": "帮我写一个 Rust 版的 markdown 转 html 小工具"}
+{"id": "test-0542", "text": "给后端新增一个导出 CSV 的接口"}
+{"id": "test-0543", "text": "做一个俄罗斯方块游戏，用 pygame"}
+{"id": "test-0544", "text": "implement a websocket chat server in Node.js"}
+{"id": "test-0545", "text": "用 Flutter 开发一个天气 App 的界面"}
+{"id": "test-0546", "text": "写个 shell 脚本每天自动备份数据库到 S3"}
+{"id": "test-0547", "text": "新建一个 Spring Boot 项目，实现商品管理 CRUD"}
+{"id": "test-0556", "text": "App 闪退了，日志里是 IndexOutOfBoundsException，帮我修"}
+{"id": "test-0557", "text": "这个 SQL 查询结果重复了，代码哪里有问题"}
+{"id": "test-0558", "text": "debug why the CI pipeline fails on go test"}
+{"id": "test-0559", "text": "上传大文件时报 413，帮我解决"}
+{"id": "test-0560", "text": "goroutine 死锁了，帮忙找出来修掉"}
+{"id": "test-0561", "text": "Python 脚本报 UnicodeDecodeError，修一下"}
+{"id": "test-0562", "text": "the login button crashes the app on Android, please fix"}
+{"id": "test-0571", "text": "把这堆 if-else 重构成策略模式"}
+{"id": "test-0572", "text": "给代码做一次性能优化，减少内存分配"}
+{"id": "test-0573", "text": "migrate the codebase from Python 3.8 to 3.12 idioms"}
+{"id": "test-0574", "text": "把重复的工具函数抽到公共包里"}
+{"id": "test-0575", "text": "清理一下过期的依赖和废弃 API"}
+{"id": "test-0576", "text": "rename variables to be more descriptive across the module"}
+{"id": "test-0585", "text": "去服务器 172.16.3.5 上重启 tomcat"}
+{"id": "test-0586", "text": "ssh root@my-vps 看下内存使用情况"}
+{"id": "test-0587", "text": "remote host db-02 的 mysql 慢查询日志帮我看看"}
+{"id": "test-0588", "text": "把线上那台机器的 nginx 配置 reload 一下"}
+{"id": "test-0589", "text": "check uptime and load average on the build server"}
+{"id": "test-0590", "text": "登录测试服务器看看 kubelet 的状态"}
+{"id": "test-0591", "text": "上那台服务器把 /tmp 下的大文件清一清"}
+{"id": "test-0600", "text": "打开浏览器进入公司 OA 帮我点审批通过"}
+{"id": "test-0601", "text": "在 Chrome 里打开 B 站搜索 Go 教程"}
+{"id": "test-0602", "text": "fill out the signup form on that site using the browser"}
+{"id": "test-0603", "text": "用浏览器模拟登录然后下载对账单页面"}
+{"id": "test-0604", "text": "在网页上自动点击下一页直到最后一页"}
+{"id": "test-0605", "text": "回放上次录制的浏览器操作"}
+{"id": "test-0614", "text": "打开电脑上的网易云音乐播放日推"}
+{"id": "test-0615", "text": "在 Word 软件界面里点一下保存按钮"}
+{"id": "test-0616", "text": "use the mouse to drag that window to the second monitor"}
+{"id": "test-0617", "text": "帮我在本机的钉钉客户端里点开最新消息"}
+{"id": "test-0618", "text": "打开计算器算一下 123*456，用界面操作"}
+{"id": "test-0619", "text": "在桌面应用里滚动到底部看看"}
+{"id": "test-0628", "text": "截一下屏幕"}
+{"id": "test-0629", "text": "拍一张当前桌面的截图"}
+{"id": "test-0630", "text": "screenshot the desktop please"}
+{"id": "test-0631", "text": "把主显示器截个图发过来"}
+{"id": "test-0632", "text": "截个图看下现在电脑上开了什么"}
+{"id": "test-0633", "text": "grab an image of my monitor"}
+{"id": "test-0642", "text": "帮我搜搜 Kubernetes HPA 的原理"}
+{"id": "test-0643", "text": "网上查一下 BERT 和 GPT 的区别"}
+{"id": "test-0644", "text": "search for best practices of OCR post-processing"}
+{"id": "test-0645", "text": "找几篇关于向量数据库选型的博客"}
+{"id": "test-0646", "text": "查一下 Python asyncio 的官方文档"}
+{"id": "test-0647", "text": "搜索一下 PDF 表格抽取有哪些开源方案"}
+{"id": "test-0656", "text": "帮我把这段英文翻成中文"}
+{"id": "test-0657", "text": "总结一下上面这段对话"}
+{"id": "test-0658", "text": "给这份需求写个摘要"}
+{"id": "test-0659", "text": "polish my cover letter"}
+{"id": "test-0660", "text": "帮我写一首关于秋天的诗"}
+{"id": "test-0661", "text": "把这个 PyTorch 模型导出成 ONNX"}
+{"id": "test-0662", "text": "整理一下这些笔记，按主题分类"}
+{"id": "test-0671", "text": "深圳现在气温多少度"}
+{"id": "test-0672", "text": "查下今天黄金价格"}
+{"id": "test-0673", "text": "what's the weather in Tokyo today"}
+{"id": "test-0674", "text": "苹果公司最新股价是多少"}
+{"id": "test-0675", "text": "今天欧元汇率多少"}
+{"id": "test-0676", "text": "最近有什么 AI 大新闻"}
+{"id": "test-0677", "text": "杭州这周末天气预报"}
+{"id": "test-0686", "text": "画一张英伟达近半年股价走势图"}
+{"id": "test-0687", "text": "把北京今天的天气生成一张卡片图片"}
+{"id": "test-0688", "text": "make an infographic of current exchange rates"}
+{"id": "test-0689", "text": "把比特币最近价格画成折线图"}
+{"id": "test-0690", "text": "生成一张上证指数今日行情图"}
+{"id": "test-0691", "text": "plot the 30-day trend of Apple stock"}
+{"id": "test-0700", "text": "今天是周几"}
+{"id": "test-0701", "text": "what day is it today"}
+{"id": "test-0702", "text": "今天日期是多少"}
+{"id": "test-0703", "text": "现在北京时间几点了"}
+{"id": "test-0704", "text": "今年是哪一年"}
+{"id": "test-0713", "text": "把 data.xlsx 发给李四"}
+{"id": "test-0714", "text": "把周报发到 team@company.com 邮箱"}
+{"id": "test-0715", "text": "send the generated pdf to alice"}
+{"id": "test-0716", "text": "把这份文件转发到另一个群"}
+{"id": "test-0717", "text": "把这个压缩包传到共享目录 /mnt/share"}
+{"id": "test-0718", "text": "把截图发给运维群"}
+{"id": "test-0727", "text": "把这些结果整理成 PDF 发我"}
+{"id": "test-0728", "text": "导出 PDF"}
+{"id": "test-0729", "text": "render the summary above into a PDF file"}
+{"id": "test-0730", "text": "把搜到的资料生成一份 pdf"}
+{"id": "test-0731", "text": "把这份清单转成 PDF 文档"}
+{"id": "test-0732", "text": "make a pdf of these notes"}
+{"id": "test-0741", "text": "看一下我发的这个 PDF 的结论"}
+{"id": "test-0742", "text": "这份表格里有多少行数据"}
+{"id": "test-0743", "text": "read the attached contract and list obligations"}
+{"id": "test-0744", "text": "帮我提取这份简历里的工作经历"}
+{"id": "test-0745", "text": "这个 pptx 一共几页，讲了什么"}
+{"id": "test-0746", "text": "附件里的报表利润是多少"}
+{"id": "test-0755", "text": "打开桌面上的方案.pptx"}
+{"id": "test-0756", "text": "帮我打开 Downloads 里的 invoice.pdf"}
+{"id": "test-0757", "text": "open the budget spreadsheet with excel"}
+{"id": "test-0758", "text": "用系统默认程序打开 readme.pdf"}
+{"id": "test-0759", "text": "打开刚导出的那个 Word 文档"}
+{"id": "test-0760", "text": "把 ~/Documents/plan.xlsx 打开"}
+{"id": "test-0769", "text": "把我上传的那份合同发回来"}
+{"id": "test-0770", "text": "把刚才的附件再传给我一下"}
+{"id": "test-0771", "text": "send the attached image back here"}
+{"id": "test-0772", "text": "把这个上传的 Excel 回传给我"}
+{"id": "test-0773", "text": "把我给你的文件原样发我"}
+{"id": "test-0774", "text": "give me back the attached pdf in this chat"}
+{"id": "test-0783", "text": "帮我填一张差旅报销单"}
+{"id": "test-0784", "text": "提交请假申请，周五请一天"}
+{"id": "test-0785", "text": "record this invoice in the business system"}
+{"id": "test-0786", "text": "继续我上次保存的采购单"}
+{"id": "test-0787", "text": "查询客户 ABC 的合同记录"}
+{"id": "test-0788", "text": "审批一下这个费用单"}
+{"id": "test-0797", "text": "看看 pg 里 public schema 下有哪些表"}
+{"id": "test-0798", "text": "查下数据库 orders 表昨天的订单数"}
+{"id": "test-0799", "text": "describe the products table in mysql"}
+{"id": "test-0800", "text": "连接 Access 数据库看看有哪些表"}
+{"id": "test-0801", "text": "从 sales 库里查出销售额前十的商品"}
+{"id": "test-0802", "text": "query the inventory table for items out of stock"}
+{"id": "test-0811", "text": "做一份项目汇报的 PPT"}
+{"id": "test-0812", "text": "帮我把这份报告做成幻灯片"}
+{"id": "test-0813", "text": "design a pitch deck for my startup"}
+{"id": "test-0814", "text": "把当前这个 PPT 配色优化一下"}
+{"id": "test-0815", "text": "制作一个关于碳中和的演示文稿"}
+{"id": "test-0816", "text": "生成一套新员工入职培训的 slides"}
+{"id": "test-0825", "text": "帮我出一份新产品的 PRD"}
+{"id": "test-0826", "text": "写一份市场调研报告"}
+{"id": "test-0827", "text": "帮我准备一份项目投标文件"}
+{"id": "test-0828", "text": "draft a research paper on OCR methods"}
+{"id": "test-0829", "text": "策划一个线下技术沙龙活动方案"}
+{"id": "test-0830", "text": "写一份融资商业计划"}
+{"id": "test-0839", "text": "继续吧"}
+{"id": "test-0840", "text": "开搞"}
+{"id": "test-0841", "text": "proceed"}
+{"id": "test-0842", "text": "接着做"}
+{"id": "test-0843", "text": "好，开始"}
+{"id": "test-0852", "text": "把这份说明文档录入知识库"}
+{"id": "test-0853", "text": "把这个链接保存到知识库"}
+{"id": "test-0854", "text": "import the folder ~/notes into the knowledge base"}
+{"id": "test-0855", "text": "把刚才那段总结存到知识库"}
+{"id": "test-0856", "text": "把这些文件加入知识库"}
+{"id": "test-0857", "text": "收录这个网页到知识库"}
+{"id": "test-0866", "text": "打印一下 README.md 内容"}
+{"id": "test-0867", "text": "看下 logs 目录里都有什么"}
+{"id": "test-0868", "text": "find all files named *.proto in this project"}
+{"id": "test-0869", "text": "读取 /etc/hosts 文件"}
+{"id": "test-0870", "text": "在代码里搜索 InitRouter 的定义"}
+{"id": "test-0871", "text": "看看 package.json 里有哪些依赖"}
+{"id": "test-0880", "text": "把上面的回答保存到 answer.md"}
+{"id": "test-0881", "text": "在 .env 里加一行 DEBUG=true"}
+{"id": "test-0882", "text": "create a file hello.txt with 'hi'"}
+{"id": "test-0883", "text": "把这段代码写到 utils.py"}
+{"id": "test-0884", "text": "把会议要点追加到 meeting.md 末尾"}
+{"id": "test-0885", "text": "把 config.json 里的 timeout 改成 30"}
+{"id": "test-0894", "text": "把 summary.md 删了"}
+{"id": "test-0895", "text": "删除刚刚保存的那个文件"}
+{"id": "test-0896", "text": "delete test_output.csv"}
+{"id": "test-0897", "text": "把桌面上的 a.txt 删掉"}
+{"id": "test-0898", "text": "remove the file I just wrote"}
+{"id": "test-0899", "text": "删除 backup.json"}
+{"id": "test-0908", "text": "执行 df -h 看看"}
+{"id": "test-0909", "text": "运行一下 npm run dev"}
+{"id": "test-0910", "text": "run `cargo build --release`"}
+{"id": "test-0911", "text": "本机执行 brew update"}
+{"id": "test-0912", "text": "跑一下 ./start.sh"}
+{"id": "test-0913", "text": "执行 ping baidu.com"}
+{"id": "test-0922", "text": "git diff 看一下"}
+{"id": "test-0923", "text": "看看我改了哪些文件还没提交"}
+{"id": "test-0924", "text": "show uncommitted changes"}
+{"id": "test-0925", "text": "当前仓库状态怎么样"}
+{"id": "test-0926", "text": "看下暂存区有什么"}
+{"id": "test-0927", "text": "diff of main.go please"}
+{"id": "test-0936", "text": "帮我 commit 一下"}
+{"id": "test-0937", "text": "推送到 GitHub"}
+{"id": "test-0938", "text": "commit with message 'update docs'"}
+{"id": "test-0939", "text": "把代码提交上去"}
+{"id": "test-0940", "text": "把当前改动推到远程分支"}
+{"id": "test-0941", "text": "git commit 一下然后 push"}
+{"id": "test-0950", "text": "录音"}
+{"id": "test-0951", "text": "帮我把接下来的会议录下来"}
+{"id": "test-0952", "text": "start a voice recording"}
+{"id": "test-0953", "text": "录一段我说的话"}
+{"id": "test-0954", "text": "begin recording the discussion"}
+{"id": "test-0963", "text": "把这个音频转写成文字稿"}
+{"id": "test-0964", "text": "识别 voice.ogg 的内容"}
+{"id": "test-0965", "text": "transcribe the recording I uploaded"}
+{"id": "test-0966", "text": "把会议录音转成文字"}
+{"id": "test-0967", "text": "这段语音说的什么"}
+{"id": "test-0968", "text": "speech to text for call.mp3"}
+{"id": "test-0977", "text": "把这段念给我听"}
+{"id": "test-0978", "text": "朗读一下这首诗"}
+{"id": "test-0979", "text": "用语音播放一下这段话"}
+{"id": "test-0980", "text": "把回复读出来"}
+{"id": "test-0981", "text": "text to speech this sentence"}
+{"id": "test-0990", "text": "把这句话用语音发到群里"}
+{"id": "test-0991", "text": "发一条语音说我晚点到"}
+{"id": "test-0992", "text": "send this text as voice to the chat"}
+{"id": "test-0993", "text": "用语音消息把结果发给我"}
+{"id": "test-0994", "text": "发个语音通知"}
+{"id": "test-0995", "text": "deliver this as a voice bubble"}
+{"id": "test-1004", "text": "帮我读一下 https://github.com/cactus-compute/needle 的内容"}
+{"id": "test-1005", "text": "抓取 https://www.qq.com 页面正文"}
+{"id": "test-1006", "text": "fetch and summarize https://openai.com/blog"}
+{"id": "test-1007", "text": "看看 https://pkg.go.dev/net/http 写了什么"}
+{"id": "test-1008", "text": "总结 https://mp.weixin.qq.com/s/abcdef 这篇"}
+{"id": "test-1009", "text": "read https://example.org/changelog"}
+{"id": "test-1018", "text": "看下最近一周的安全审计记录"}
+{"id": "test-1019", "text": "我们以前讨论过部署方案吗，查一下历史"}
+{"id": "test-1020", "text": "show recent risky tool calls"}
+{"id": "test-1021", "text": "检查系统健康状况"}
+{"id": "test-1022", "text": "搜历史对话里关于报销的内容"}
+{"id": "test-1023", "text": "audit log for yesterday"}
+{"id": "test-1032", "text": "知识库里关于发票的规定是什么"}
+{"id": "test-1033", "text": "从知识库找一下产品价格表"}
+{"id": "test-1034", "text": "what does my knowledge base say about vpn setup"}
+{"id": "test-1035", "text": "检索知识库里的会议纪要"}
+{"id": "test-1036", "text": "知识库里有没有 PDF 翻译相关文档"}
+{"id": "test-1037", "text": "根据我保存的资料回答这个问题"}
+{"id": "test-1046", "text": "打开 Chrome"}
+{"id": "test-1047", "text": "启动钉钉"}
+{"id": "test-1048", "text": "open https://github.com in my browser"}
+{"id": "test-1049", "text": "打开桌面文件夹"}
+{"id": "test-1050", "text": "运行一下计算器"}
+{"id": "test-1051", "text": "open Finder"}
+{"id": "test-1060", "text": "下载 https://example.org/manual.pdf"}
+{"id": "test-1061", "text": "把这个压缩包下载到本机 https://a.com/b.zip"}
+{"id": "test-1062", "text": "download the dataset from https://data.gov/x.csv"}
+{"id": "test-1063", "text": "保存这个链接里的视频到本地"}
+{"id": "test-1064", "text": "把 https://cdn.x.com/logo.png 下载下来"}
+{"id": "test-1065", "text": "fetch this installer to disk: https://get.app/setup.exe"}
+{"id": "test-1074", "text": "明天早上八点提醒我开会"}
+{"id": "test-1075", "text": "看看我有哪些定时任务"}
+{"id": "test-1076", "text": "delete the weekly report schedule"}
+{"id": "test-1077", "text": "暂停每晚的同步任务"}
+{"id": "test-1078", "text": "每天凌晨两点自动跑一次清理脚本"}
+{"id": "test-1079", "text": "恢复之前暂停的定时任务"}
+{"id": "test-1088", "text": "每天早上把今日新闻推送到群里"}
+{"id": "test-1089", "text": "每周一把上周数据汇总发给老板"}
+{"id": "test-1090", "text": "send the build status to the dev channel every hour"}
+{"id": "test-1091", "text": "每天下班前把待办提醒发到群"}
+{"id": "test-1092", "text": "定时每晚把监控截图发给我微信"}
+{"id": "test-1093", "text": "每月 1 号把账单汇总发到财务群"}
+{"id": "test-1102", "text": "切换到 qwen 模型"}
+{"id": "test-1103", "text": "你现在用的哪个模型提供商"}
+{"id": "test-1104", "text": "set max iterations to 30"}
+{"id": "test-1105", "text": "把你的配置改一下，温度调低"}
+{"id": "test-1106", "text": "修正一下我的画像，我不写前端"}
+{"id": "test-1107", "text": "change your llm provider to openrouter"}
+{"id": "test-1116", "text": "记住我的生日是 5 月 3 号"}
+{"id": "test-1117", "text": "你都记得我什么"}
+{"id": "test-1118", "text": "forget my old email address"}
+{"id": "test-1119", "text": "记一下：这个项目用 pnpm"}
+{"id": "test-1120", "text": "把那条过时的记忆删了"}
+{"id": "test-1121", "text": "update memory: I prefer tabs over spaces"}
+{"id": "test-1130", "text": "待办里加一条：联系客户"}
+{"id": "test-1131", "text": "列出当前任务清单"}
+{"id": "test-1132", "text": "mark the first todo as done"}
+{"id": "test-1133", "text": "把那个任务删掉"}
+{"id": "test-1134", "text": "还有什么待办没做"}
+{"id": "test-1135", "text": "新增任务：更新文档"}
+{"id": "test-1144", "text": "建一个长期目标：持续修复所有 lint 警告"}
+{"id": "test-1145", "text": "我的长期目标进展如何"}
+{"id": "test-1146", "text": "end the current goal"}
+{"id": "test-1147", "text": "创建目标，自动推进直到所有测试通过"}
+{"id": "test-1148", "text": "取消那个长期目标"}
+{"id": "test-1149", "text": "show my active goals"}
+{"id": "test-1158", "text": "新建一个前端项目的会话模板"}
+{"id": "test-1159", "text": "有哪些会话模板"}
+{"id": "test-1160", "text": "start a session from my review template"}
+{"id": "test-1161", "text": "把这套配置保存为模板"}
+{"id": "test-1162", "text": "用上次的模板起一个新会话"}
+{"id": "test-1163", "text": "show my templates"}
+{"id": "test-1172", "text": "看下现在有哪些会话在跑"}
+{"id": "test-1173", "text": "把那个卡死的会话停掉"}
+{"id": "test-1174", "text": "send 'continue' to the running session"}
+{"id": "test-1175", "text": "查看会话最近的输出"}
+{"id": "test-1176", "text": "切换当前项目到 maclaw"}
+{"id": "test-1177", "text": "kill the stuck claude code session"}
+{"id": "test-1186", "text": "委派一个子 agent 去整理文档"}
+{"id": "test-1187", "text": "同时并行处理这几个文件"}
+{"id": "test-1188", "text": "spin up sub-agents to research each option"}
+{"id": "test-1189", "text": "找几个专家角色一起评审方案"}
+{"id": "test-1190", "text": "把这个任务交给子代理"}
+{"id": "test-1191", "text": "parallelize these three jobs"}
+{"id": "test-1200", "text": "知识库里那个来源重新刷新一下"}
+{"id": "test-1201", "text": "停用这个知识源"}
+{"id": "test-1202", "text": "knowledge base health check"}
+{"id": "test-1203", "text": "清理知识库重复条目"}
+{"id": "test-1204", "text": "看看知识库统计信息"}
+{"id": "test-1205", "text": "删除知识库中过期的来源"}
+{"id": "test-1214", "text": "嗨"}
+{"id": "test-1215", "text": "好的谢谢"}
+{"id": "test-1216", "text": "who are you"}
+{"id": "test-1217", "text": "晚安"}
+{"id": "test-1218", "text": "今天心情不错"}
+{"id": "test-1219", "text": "thanks!"}
+{"id": "test-1220", "text": "打开桌面上的 PPT 看一下"}
+{"id": "test-1221", "text": "删除服务器 10.0.0.3 上的 /tmp/a.log"}
+{"id": "test-1222", "text": "把关于我旧公司的记忆删掉"}
+{"id": "test-1223", "text": "删除知识库里关于报销的来源"}
+{"id": "test-1224", "text": "删除每天 9 点的那个定时任务"}
+{"id": "test-1225", "text": "每天 9 点把日报发到群里"}
+{"id": "test-1226", "text": "在浏览器里给这个网页截个图"}
+{"id": "test-1227", "text": "截一下我电脑桌面"}
+{"id": "test-1228", "text": "把我刚上传的附件发给张三"}
+{"id": "test-1229", "text": "把我刚上传的附件发回给我"}
+{"id": "test-1230", "text": "把这段文字读出来"}
+{"id": "test-1231", "text": "把这段文字用语音发到群里"}
+{"id": "test-1232", "text": "把录音文件转成文字"}
+{"id": "test-1233", "text": "帮我搜一下 https 证书怎么配"}
+{"id": "test-1234", "text": "读一下 https://go.dev/doc/effective_go"}
+{"id": "test-1235", "text": "下载 https://go.dev/dl/go1.25.5.src.tar.gz"}
+{"id": "test-1236", "text": "今天上海天气"}
+{"id": "test-1237", "text": "把今天上海天气画成图"}
+{"id": "test-1238", "text": "把今天上海天气生成 PDF"}
+{"id": "test-1239", "text": "把这份报告导出为 PDF"}
+{"id": "test-1240", "text": "基于这份文档做个 PPT"}
+{"id": "test-1241", "text": "读一下这份文档"}
+{"id": "test-1242", "text": "执行 rm -rf build 目录"}
+{"id": "test-1243", "text": "把 build.log 文件删除"}
+{"id": "test-1244", "text": "看看 git 改了什么"}
+{"id": "test-1245", "text": "把改动提交并 push"}
+{"id": "test-1246", "text": "查一下知识库里的报销规定"}
+{"id": "test-1247", "text": "把这份报销规定存到知识库"}
+{"id": "test-1248", "text": "帮我报销这张发票"}
+{"id": "test-1249", "text": "查询 MySQL 里的发票表"}
+{"id": "test-1250", "text": "打开微信"}
+{"id": "test-1251", "text": "打开微信给张三发消息"}
+{"id": "test-1252", "text": "列出编码会话"}
+{"id": "test-1253", "text": "列出会话模板"}
+{"id": "test-1254", "text": "加个待办：周五交周报"}
+{"id": "test-1255", "text": "周五下午提醒我交周报"}
+{"id": "test-1256", "text": "切换模型到 deepseek-v3"}
+{"id": "test-1257", "text": "记住我喜欢 deepseek"}
+{"id": "test-1258", "text": "登录服务器看日志"}
+{"id": "test-1259", "text": "看看本地 app.log 日志"}
+{"id": "test-1260", "text": "修复登录 bug"}
+{"id": "test-1261", "text": "重构登录模块"}
+{"id": "test-1262", "text": "新增登录模块"}
+{"id": "test-1263", "text": "让子 agent 并行修这三个 bug"}
